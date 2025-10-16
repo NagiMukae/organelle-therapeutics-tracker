@@ -1,0 +1,40 @@
+title: "Organelle Therapeutics Tracker"
+description: "オルガネラ標的医薬（作用機序・治験・承認）を追うブログ"
+url: ""      # 例: https://<your-username>.github.io
+baseurl: ""  # 例: /organelle-therapeutics  （ユーザー/プロジェクトによって調整）
+
+remote_theme: "mmistakes/minimal-mistakes"
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-sitemap
+
+locale: ja-JP
+minimal_mistakes_skin: "default"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+author:
+  name: "Your Name"
+  bio: "Cell biologist writing about organelle-targeted therapeutics."
+  location: "Nagoya, Japan"
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: "single"
+      author_profile: true
+      toc: true
+      toc_sticky: true
+      read_time: true
+      share: true
+
+paginate: 7
+paginate_path: "/page:num/"

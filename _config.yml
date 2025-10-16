@@ -1,7 +1,7 @@
-title: "Organelle Therapeutics Tracker"
-description: "オルガネラ標的医薬（作用機序・治験・承認）を追うブログ"
-url: ""      # 例: https://<your-username>.github.io
-baseurl: ""  # 例: /organelle-therapeutics  （ユーザー/プロジェクトによって調整）
+title: "Organelle Therapeutics Watch"
+description: "オルガネラ標的医薬（作用機序・治験・承認）専門ブログ"
+url: https://nagimukae.github.io      # 例: https://<your-username>.github.io
+baseurl: /organelle-therapeutics-watch  # 例: /organelle-therapeutics  （ユーザー/プロジェクトによって調整）
 
 remote_theme: "mmistakes/minimal-mistakes"
 

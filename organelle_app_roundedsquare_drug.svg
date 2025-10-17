@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="256"
+   height="256"
+   viewBox="0 0 256 256"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="organelle_app_roundedsquare_drug.svg"
+   inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.3700408"
+     inkscape:cx="167.51326"
+     inkscape:cy="133.93762"
+     inkscape:window-width="1352"
+     inkscape:window-height="816"
+     inkscape:window-x="0"
+     inkscape:window-y="62"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg4" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="swatch5"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#fcfcfc;stop-opacity:1;"
+         offset="0"
+         id="stop5" />
+    </linearGradient>
+    <style
+       id="style1"><![CDATA[
+      .line { fill: none; stroke: currentColor; stroke-width: 12px; stroke-linecap: round; stroke-linejoin: round; }
+      .thin { fill: none; stroke: currentColor; stroke-width: 8.399999999999999px; stroke-linecap: round; stroke-linejoin: round; }
+      .badge { fill: #117A65; stroke: currentColor; stroke-width: 9.600000000000001px; stroke-linecap: round; stroke-linejoin: round; }
+    ]]></style>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch5"
+       id="linearGradient5"
+       x1="-4.8000002"
+       y1="36"
+       x2="76.800003"
+       y2="36"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#swatch5"
+       id="linearGradient11"
+       gradientUnits="userSpaceOnUse"
+       x1="-4.8000002"
+       y1="36"
+       x2="76.800003"
+       y2="36" />
+  </defs>
+  <rect
+     x="0"
+     y="0"
+     width="256"
+     height="256"
+     rx="56"
+     ry="56"
+     fill="#117A65"
+     id="rect1"
+     style="fill:#0a493c;fill-opacity:1" />
+  <!-- Cell blob silhouette -->
+  <path
+     class="line"
+     d="M 26.387037,57.560784 C 4.9755211,82.507905 31.135176,194.82704 90.047129,215.94681 140.79816,239.46567 215.62172,195.08944 234.52546,149.29801 251.85385,107.32253 233.15338,66.969177 203.1639,48.658421 182.25349,35.891095 154.70569,30.396589 129.38861,30.598446 93.899066,30.881409 49.02832,31.180828 26.387037,57.560784 Z"
+     id="path1"
+     sodipodi:nodetypes="scssas"
+     style="stroke:#ffffff;stroke-width:8.8;stroke-dasharray:none;stroke-opacity:1" />
+  <!-- Nucleus -->
+  <ellipse
+     class="line"
+     cx="103.20229"
+     cy="100.6369"
+     rx="45.15041"
+     ry="41.172531"
+     id="ellipse1"
+     style="stroke:#ffffff;stroke-width:11.9505;stroke-dasharray:none;stroke-opacity:1" />
+  <ellipse
+     class="line"
+     cx="51.543526"
+     cy="65.193344"
+     rx="6.660481"
+     ry="6.6249108"
+     id="ellipse1-8-4"
+     style="fill:#fdfffe;fill-opacity:1;stroke:#ffffff;stroke-width:1.81255;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+  <ellipse
+     class="line"
+     cx="215.19032"
+     cy="102.29662"
+     rx="8.3144646"
+     ry="8.9480944"
+     id="ellipse1-8-4-8"
+     style="fill:#fdfffe;fill-opacity:1;stroke:#ffffff;stroke-width:2.833;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+  <ellipse
+     class="line"
+     cx="41.574608"
+     cy="98.018028"
+     rx="5.385962"
+     ry="5.6675057"
+     id="ellipse1-8-4-6"
+     style="fill:#fdfffe;fill-opacity:1;stroke:#ffffff;stroke-width:1.50756;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+  <ellipse
+     class="line"
+     cx="31.712229"
+     cy="195.60559"
+     rx="13.208097"
+     ry="25.107918"
+     id="ellipse1-5"
+     style="fill:none;stroke:#ffffff;stroke-width:7.92333;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     transform="matrix(0.27506346,-0.96142607,0.85354361,0.5210214,0,0)" />
+  <!-- One mitochondrion (bean) -->
+  <!-- ER hint (two thin curves) -->
+  <path
+     class="thin"
+     d="m 44.5752,124.37959 c 10.799072,16.20253 20.879353,22.72578 38.461333,30.20664 13.706634,4.0252 42.870297,3.70734 61.214857,-8.68222"
+     id="path3"
+     sodipodi:nodetypes="ccc"
+     style="stroke:#ffffff;stroke-width:8.8;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     class="thin"
+     d="m 159.28667,140.18476 c 9.18142,-2.22034 11.07596,-4.44656 14.87145,-10.3374 4.85537,-8.14623 5.55266,-15.66777 2.19137,-22.26773"
+     id="path3-8"
+     sodipodi:nodetypes="ccc"
+     style="fill:none;stroke:#ffffff;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     class="thin"
+     d="m 172.49838,147.27434 c 9.18142,-2.22034 11.07596,-4.44656 14.87145,-10.3374 4.85537,-8.14623 5.55266,-15.66777 2.19137,-22.26773"
+     id="path3-8-5"
+     sodipodi:nodetypes="ccc"
+     style="fill:none;stroke:#ffffff;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     class="thin"
+     d="m 185.67672,153.85394 c 9.18142,-2.22034 11.07596,-4.44656 14.87145,-10.3374 4.85537,-8.14623 5.55266,-15.66777 2.19137,-22.26773"
+     id="path3-8-6"
+     sodipodi:nodetypes="ccc"
+     style="fill:none;stroke:#ffffff;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     class="thin"
+     d="m 57.940328,166.38825 c 7.902377,10.08542 45.633212,19.29836 71.807672,9.8957"
+     id="path4"
+     sodipodi:nodetypes="cc"
+     style="stroke:#ffffff;stroke-width:8.8;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     class="thin"
+     d="m 81.463823,198.11654 c 9.515867,7.73739 41.244047,6.94909 54.963137,-2.31521"
+     id="path4-6"
+     sodipodi:nodetypes="cc"
+     style="fill:none;stroke:#ffffff;stroke-width:8.05348;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     class="thin"
+     d="m 75.572581,154.13359 c -1.170886,6.47951 -4.43711,19.20827 -7.364316,18.02822"
+     id="path4-2"
+     sodipodi:nodetypes="cc"
+     style="fill:none;stroke:#ffffff;stroke-width:7.2591;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     class="thin"
+     d="m 104.22447,160.39174 c 1.08028,12.26825 1.67321,20.49467 -1.254,19.31462"
+     id="path4-2-0"
+     sodipodi:nodetypes="cc"
+     style="fill:none;stroke:#ffffff;stroke-width:7.2591;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     class="thin"
+     d="m 174.68814,58.163586 c -4.5054,6.55781 -5.16597,6.921521 -7.47533,9.852444"
+     id="path4-2-0-3"
+     sodipodi:nodetypes="cc"
+     style="fill:none;stroke:#ffffff;stroke-width:4.60125;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     class="thin"
+     d="m 192.06524,69.775834 c -4.5054,6.55781 -5.16597,6.921521 -7.47533,9.852444"
+     id="path4-2-0-3-6"
+     sodipodi:nodetypes="cc"
+     style="fill:none;stroke:#ffffff;stroke-width:4.60125;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     class="thin"
+     d="m 178.62673,71.312487 c -4.75692,6.377712 -8.00779,10.600043 -8.8637,8.822061"
+     id="path4-2-0-3-5"
+     sodipodi:nodetypes="cc"
+     style="fill:none;stroke:#ffffff;stroke-width:4.60125;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     class="thin"
+     d="m 115.22485,184.22475 c 2.29272,6.08023 3.07702,17.63283 -0.21562,18.31229"
+     id="path4-2-0-5"
+     sodipodi:nodetypes="cc"
+     style="fill:none;stroke:#ffffff;stroke-width:7.47515;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+  <g
+     transform="matrix(1.2579272,0,0,1.3436051,146.01176,158.48899)"
+     id="g4-1"
+     style="stroke-width:6.92275;stroke-dasharray:none">
+    <rect
+       class="badge"
+       x="0"
+       y="16"
+       width="72"
+       height="40"
+       rx="20"
+       ry="20"
+       id="rect4-8"
+       style="fill:#117a65;fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient11);stroke-width:6.92275;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+  <rect
+     style="fill:#bbf6ea;fill-opacity:1;fill-rule:evenodd;stroke:#fcfcfc;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+     id="rect11"
+     width="46.749771"
+     height="47.427288"
+     x="187.93306"
+     y="182.10301"
+     ry="10.058934" />
+  <!-- Pill badge -->
+  <g
+     transform="matrix(1.2579272,0,0,1.3436051,145.9372,158.55983)"
+     id="g4"
+     style="fill:none;stroke-width:6.92275;stroke-dasharray:none">
+    <rect
+       class="badge"
+       x="0"
+       y="16"
+       width="72"
+       height="40"
+       rx="20"
+       ry="20"
+       id="rect4"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient5);stroke-width:6.92275;stroke-dasharray:none;stroke-opacity:1" />
+    <line
+       class="badge"
+       x1="36"
+       y1="18"
+       x2="36"
+       y2="54"
+       id="line4"
+       style="fill:none;stroke:#fcfcfc;stroke-width:6.92275;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+</svg>

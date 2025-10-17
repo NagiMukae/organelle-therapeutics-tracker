@@ -1,0 +1,13 @@
+/* avatar の見た目を調整 */
+.author__avatar img {
+  width: 80px;   /* お好みで 64–96px */
+  height: 80px;
+  border-radius: 16px; /* 0 で角丸なし / 16pxでやわらかい角 */
+}
+
+/* 名前の前に「管理人：」を付ける（表示だけ変える） */
+.author__name::before {
+  content: "管理人：";
+  font-weight: 600;
+  margin-right: .25em;
+}

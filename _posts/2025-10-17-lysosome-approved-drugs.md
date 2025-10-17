@@ -9,37 +9,38 @@ toc_label: "目次"
 last_modified_at: 2025-10-17
 ---
 
-> **更新方針**：新承認・適応拡大があれば追記します。一次情報としてFDA/EMAのラベルやEPARを必ずリンク。
+> **更新方針**：新承認・適応拡大があれば追記します。一次情報としてFDA/EMAのラベルやEPARをリンクしています。
 
 ### 承認済みリソソーム標的薬
 （以下の表は最終更新日時点の要約です。個別症例への適用可否は各国の承認条件・保険償還・年齢制限等をご確認ください。）
 
 {% raw %}
-疾患/適応	一般名［ブランド名］	作用形式	会社	初回承認（地域）	投与	メモ
-Gaucher病1型	イミグルセラーゼ［Cerezyme］	ERT	Sanofi Genzyme	1994（米）	点滴	初の標準ERT。現在も中核。  
-Gaucher病1型	ベラグルセラーゼα［VPRIV］	ERT	Shire→Takeda	2010（米）	点滴	2010年FDA承認。Cerezyme代替。  
-Gaucher病1型	タリグルセラーゼα［Elelyso］	ERT	Protalix/Pfizer	2012（米）	点滴	植物細胞由来。  
-Gaucher病1型	エリグルスタット［Cerdelga］	SRT	Sanofi Genzyme	2014（米）	経口	GCS阻害の経口薬。CYP2D6表現型で用量調整。  
-Gaucher病1型（ERT不適）	ミグルスタット［Zavesca］	SRT	Actelion→Janssen	2003（米）	経口	代替療法。EUではNPCにも適応（下段）。  
-Fabry病	アガルシダーゼβ［Fabrazyme］	ERT	Sanofi Genzyme	2003（米）	点滴	主要ERT。  
-Fabry病（EU）	アガルシダーゼα［Replagal］	ERT	Takeda	2001（EU）	点滴	EU承認、米国は未承認。  
-Fabry病	ミガラスタット［Galafold］	薬理シャペロン	Amicus	2018（米）	経口	変異“amenable”例が対象。  
-Fabry病	ペグニガルシダーゼα［Elfabrio］	ERT	Protalix/Chiesi	2023（米）	点滴	近年承認の新規ERT。  
-Pompe病	アルグルコシダーゼα［Myozyme/Lumizyme］	ERT	Sanofi Genzyme	2006（Myozyme 米）/2010（Lumizyme 米）	点滴	乳児/遅発型で広く使用。  
-Pompe病（遅発型）	アバルグルコシダーゼα［Nexviazyme］	ERT	Sanofi	2021（米）	点滴	LOPD適応。  
-Pompe病（成人）	シパグルコシダーゼα＋ミグルスタット［Pombiliti+Opfolda］	強化ERT＋シャペロン	Amicus	2023（米/EU）	点滴＋経口	2剤併用の新機序。  
-MPS I	ラロニダーゼ［Aldurazyme］	ERT	BioMarin/Genzyme	2003（米）	点滴	MPS Iの標準治療。  
-MPS II（ハンター）	イドルスルファーゼ［Elaprase］	ERT	Takeda	2006（米）	点滴	週1回投与。  
-MPS IVA（モルキオA）	エロスルファーゼα［Vimizim］	ERT	BioMarin	2014（米）	点滴	初のMPS IVA治療。  
-MPS VI	ガルスルファーゼ［Naglazyme］	ERT	BioMarin	2005（米）	点滴	歩行・階段昇降改善。  
-MPS VII（Sly）	ベストロニダーゼα［Mepsevii］	ERT	Ultragenyx	2017（米）	点滴	超希少疾患のERT。  
-LAL欠損症（Wolman/CEH）	セベリパーゼα［Kanuma］	ERT	Alexion	2015（米）	点滴	LAL-Dに対する初の治療。  
-CLN2（バッテン病）	セルリポナーゼα［Brineura］	脳室内ERT	BioMarin	2017（米）	脳室内	初の中枢投与ERT。  
-ASMD（NP A/B）	オリプダーゼα［Xenpozyme］	ERT	Sanofi	2022（米）	点滴	非中枢症状に適応。  
-α-マンノシドーシス	ベルマナーゼα［Lamzede］	ERT	Chiesi	2018（EU）/2023（米）	点滴	米国初のAM用ERT。  
-Niemann–Pick C	ミグルスタット［Zavesca］	SRT	Advanz等	2009（EU）	経口	NPCの進行性神経症状にEU適応。  
-Cystinosis（シスチノーシス）	システアミン［Cystagon/Procysbi］	リソソーム枯渇薬	Mylan/Horizon	1994（米：IR）/2013（米：DR）	経口	リソソーム内シスチンを低下。  
-MLD（メタクロマチック白質ジストロフィー）	atidarsagene autotemcel［Libmeldy］	遺伝子治療（自家造血幹細胞）	Orchard	2020（EU）	移植	EUで承認、米国は未承認。   
+| 疾患/適応 | 一般名［ブランド名］ | 作用形式 | 会社 | 初回承認（地域） | 投与 | メモ |
+|---|---|---|---|---|---|---|
+| Gaucher病1型 | イミグルセラーゼ［Cerezyme］ | ERT | Sanofi Genzyme | 1994（米） | 点滴 | 初の標準ERT |
+| Gaucher病1型 | ベラグルセラーゼα［VPRIV］ | ERT | Shire→Takeda | 2010（米） | 点滴 | Cerezyme代替 |
+| Gaucher病1型 | タリグルセラーゼα［Elelyso］ | ERT | Protalix/Pfizer | 2012（米） | 点滴 | 植物細胞由来 |
+| Gaucher病1型 | エリグルスタット［Cerdelga］ | **SRT** | Sanofi Genzyme | 2014（米） | 経口 | GCS阻害。CYP2D6で用量調整 |
+| Gaucher病1型（ERT不適） | ミグルスタット［Zavesca］ | **SRT** | Actelion→Janssen | 2003（米） | 経口 | 代替療法（EUではNPCにも適応） |
+| Fabry病 | アガルシダーゼβ［Fabrazyme］ | ERT | Sanofi Genzyme | 2003（米） | 点滴 | 主要ERT |
+| Fabry病（EU） | アガルシダーゼα［Replagal］ | ERT | Takeda | 2001（EU） | 点滴 | 米国は未承認 |
+| Fabry病 | **ミガラスタット**［Galafold］ | **薬理シャペロン** | Amicus | 2016（EU） | 経口 | 変異“amenable”例に限定 |
+| Fabry病 | ペグニガルシダーゼα［Elfabrio］ | ERT | Protalix/Chiesi | 2023（米/EU） | 点滴 | 新規ERT |
+| Pompe病 | アルグルコシダーゼα［Myozyme/Lumizyme］ | ERT | Sanofi | 2006（EU） | 点滴 | 乳児/遅発型の中核治療 |
+| Pompe病（遅発型） | アバルグルコシダーゼα［Nexviazyme］ | ERT | Sanofi | 2021（米/EU） | 点滴 | LOPD適応 |
+| Pompe病（成人） | シパグルコシダーゼα＋ミグルスタット［Pombiliti+Opfolda］ | 強化ERT＋シャペロン | Amicus | 2023（米/EU） | 点滴＋経口 | 2剤併用の新機序 |
+| MPS I | ラロニダーゼ［Aldurazyme］ | ERT | BioMarin/Genzyme | 2003（米/EU） | 点滴 | 標準治療 |
+| MPS II（ハンター） | イドルスルファーゼ［Elaprase］ | ERT | Takeda | 2006（米） | 点滴 | 週1回投与 |
+| MPS IVA（モルキオA） | エロスルファーゼα［Vimizim］ | ERT | BioMarin | 2014（米） | 点滴 | 初のMPS IVA治療 |
+| MPS VI | ガルスルファーゼ［Naglazyme］ | ERT | BioMarin | 2005（米） | 点滴 | 歩行・階段昇降改善 |
+| MPS VII（Sly） | ベストロニダーゼα［Mepsevii］ | ERT | Ultragenyx | 2017（米） | 点滴 | 超希少疾患 |
+| LAL欠損症 | セベリパーゼα［Kanuma］ | ERT | Alexion | 2015（米/EU） | 点滴 | LAL-Dに対する初の治療 |
+| CLN2（バッテン病） | セルリポナーゼα［Brineura］ | **脳室内ERT** | BioMarin | 2017（米/EU） | 脳室内 | 中枢投与 |
+| ASMD（Niemann–Pick A/B） | オリプダーゼα［Xenpozyme］ | ERT | Sanofi | 2022（JP→EU/米） | 点滴 | 非中枢症状に適応 |
+| α-マンノシドーシス | ベルマナーゼα［Lamzede］ | ERT | Chiesi | 2018（EU） | 点滴 | 2023に米国承認 |
+| NPC（Niemann–Pick C） | **ミグルスタット**［Zavesca］ | **SRT** | Advanz等 | 2009（EU） | 経口 | 進行性神経症状にEU適応 |
+| Cystinosis | **システアミン**［Cystagon/Procysbi］ | **シスチン低下** | Mylan/Horizon | 1994（米：IR） | 経口 | 徐放（DR）は2013（米） |
+| MLD | **atidarsagene autotemcel**［Libmeldy］ | **遺伝子治療**（自家HSC） | Orchard | 2020（EU） | 移植 | 米国未承認 |
 {% endraw %}
 
 ### 使い分けのコツ

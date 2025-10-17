@@ -21,6 +21,7 @@ kramdown:
 
 author:
   name: "向江 凪"
+  avatar : /assets/images/logo-drug.svg
   bio: "細胞生物学を研究している博士学生です。薬学部を卒業してオルガネラについて研究している視点から、オルガネラを標的とした医薬品動向について解説します。"
   location: "Nagoya, Japan"
   links:

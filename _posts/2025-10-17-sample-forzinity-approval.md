@@ -66,10 +66,7 @@ Forzinity（エラミプレチド）の登場は、ミトコンドリア病領�
 また、Forzinityはfirst-in-class薬剤であるため、その成功に刺激されてカルジオリピンや他のオルガネラ構造を標的とした創薬が今後さらに活発化するでしょう。Forzinityの開発・承認までに10年以上の歳月が費やされましたが、その歩みが今後の創薬の道標となり、難治疾患に対する革新的治療法の誕生につながると期待されています。
 
 ## 参考文献、参考サイト
-管理人が全ての引用元の情報をチェックしてからこのブログにまとめています。
-
-以下をそのまま 参考文献（脚注）部分だけ 差し替えてください。
-ポイントは、URL/DOI を 必ず Markdown のリンク形式（[URL](URL)）にしている点です（これで全部クリック可能になります）。
+管理人が全ての引用元の情報をチェックしてから記事にまとめています。
 
 [^1]: [Stealth BioTherapeutics Announces FDA Accelerated Approval of FORZINITY™ (elamipretide) injection, the First Therapy for Progressive and Life-limiting Ultra-rare Genetic Disease Barth Syndrome](https://stealthbt.com/stealth-biotherapeutics-announces-fda-accelerated-approval-of-forzinity-elamipretide-hcl-the-first-therapy-for-progressive-and-life-limiting-ultra-rare-genetic-disease-barth-syndrome/)
 [^2]: Schiller, P. W., Nguyen, T. M., Berezowska, I., Dupuis, S., Weltrowska, G., Chung, N. N., & Lemieux, C. (2000). Synthesis and in vitro opioid activity profiles of DALDA analogues. *European journal of medicinal chemistry*, 35(10), 895–901. [https://doi.org/10.1016/s0223-5234(00)01171-5](https://doi.org/10.1016/s0223-5234(00)01171-5)

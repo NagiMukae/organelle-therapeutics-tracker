@@ -11,3 +11,24 @@
   font-weight: 600;
   margin-right: .25em;
 }
+
+/* Admin note callout */
+.admin-note{
+  border: 1px solid rgba(0,0,0,.12);
+  border-radius: 14px;
+  padding: 14px 16px;
+  margin: 18px 0;
+  background: rgba(0,0,0,.03);
+}
+
+.admin-note__label{
+  font-size: 0.85em;
+  font-weight: 600;
+  letter-spacing: .02em;
+  margin-bottom: 8px;
+  opacity: .85;
+}
+
+.admin-note p{
+  margin: 0;
+}

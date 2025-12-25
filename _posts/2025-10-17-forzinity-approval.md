@@ -7,8 +7,8 @@ categories: ["Mitochondria"]
 tags: ["Peptide", "Approved", "Stealth BioTherapeutics", "US"]
 classes: wide
 header:
-  image: /assets/images/Forzinityアイキャッチ-2.png
-  teaser: /assets/images/Forzinityアイキャッチ-2.png
+  image: assets/images/Frozinity_eyecatch.png
+  teaser: assets/images/Frozinity_eyecatch.png
 ---
 
 > **対象オルガネラ**: Mitochondria / **モダリティ**: Peptide / **開発段階**: Approved / **適応症**: Barth症候群

@@ -1,47 +1,27 @@
-# Organelle Therapeutics Tracker — Starter
+# Organelle Therapeutics Tracker
 
-このフォルダは、**GitHub Pages × Jekyll（Minimal Mistakes）**で今すぐ公開できる最小スターターです。
+Organelle therapeutics（オルガネラ標的治療）に関する公開情報を趣味で整理している個人サイトです。
 
-## 1) GitHubにアップロード
-1. GitHubで新しい公開リポジトリを作成（例: `organelle-therapeutics`）。
-2. このZIPを解凍し、中身（フォルダ直下のファイル群）を**そのまま**リポジトリ直下にアップロード。
-3. `Commit`。
+**Website:** https://nagimukae.github.io/organelle-therapeutics-tracker/
 
-## 2) GitHub Pages を有効化
-- **Settings → Pages**  
-  Source: **Deploy from a branch** / Branch: **main** / Folder: **/** を選択して保存。  
-  数十秒後にサイトが公開されます。URLは `https://<あなたのユーザー名>.github.io/<リポジトリ名>/`。
 
-## 3) 記事の書き方（100%ブラウザでOK）
-- `/_posts/` に **`YYYY-MM-DD-スラッグ.md`** という名前で新規ファイルを作成。  
-- 上部に**YAMLフロントマター**、本文は**Markdown**で書きます（テンプレは `_posts/` のサンプルを参照）。
-- カテゴリ＝**オルガネラ**（例: `["Mitochondria"]`）、タグ＝**モダリティ/段階/企業/地域** で整理。
+## Scope
+- 対象：<ミトコンドリア / リソソーム / ER などのオルガネラに着目した治療戦略を持つ医薬品>
+- 情報源：論文、企業プレスリリース、ClinicalTrials、レビュー等
+- 更新：不定期（新規情報を見つけ次第）
 
-## 4) よく使うFront Matter
-```yaml
----
-title: "タイトル"
-description: "短い説明（検索・SNS用）"
-date: 2025-10-17 09:00:00 +0900
-last_modified_at: 2025-10-17 10:00:00 +0900
-categories: ["Mitochondria"]
-tags: ["Peptide", "Phase 3", "Stealth BioTherapeutics", "US"]
-layout: single
-author_profile: true
-toc: true
-toc_sticky: true
----
-```
+## Disclaimer
+本サイトの内容は公開情報に基づく個人の整理であり、正確性・完全性を保証しません。
+医療行為・投資判断等の意思決定には用いず、必ず一次情報をご確認ください。
 
-## 5) カテゴリ／タグの索引
-- `/categories/` と `/tags/` ページを用意済み。記事に付けたカテゴリ・タグが自動でまとまります。
+## Repository structure
+- `_posts/` : 記事（Markdown）
+- `assets/images/` : 画像
+- `assets/css/custom.css` : 追加CSS
 
-## 6) カスタマイズ
-- `_config.yml` の `title`/`description`/`author`/`minimal_mistakes_skin` を編集。
-- ナビは `/_data/navigation.yml`。メニューの追加・順序変更が可能です。
+## Notes on assets (images)
+- 画像は各サービスのライセンスに従って使用します。
+- 必要に応じて記事内または記事末尾にクレジットを記載します。
 
-## 7) トラブルシュート
-- 設定直後はキャッシュで表示に少し時間がかかることがあります。少し待って再読込。
-- 404のとき：PagesのSource/Branch/Folder設定を再確認。`main` ブランチ直下にファイルがあるかチェック。
-
-Happy writing! ✍️
+## Contact
+- <連絡先リンク>n.mukae-098⭐︎outlook.jp 星マークをアットマークに変更してください

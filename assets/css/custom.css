@@ -32,3 +32,11 @@
 .admin-note p{
   margin: 0;
 }
+
+.img-credit{
+  display: block;
+  margin-top: 6px;
+  font-size: 0.85em;
+  opacity: 0.75;
+}
+

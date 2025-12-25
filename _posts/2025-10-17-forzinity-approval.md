@@ -26,7 +26,7 @@ tags: ["Peptide", "Approved", "Stealth BioTherapeutics", "US"]
 
 <div class="admin-note">
   <div class="admin-note__label">管理人メモ</div>
-  <p>Forzinityはミトコンドリア自体の膜構造と機能に直接作用する初の医薬品であり、ミトコンドリア病治療の新時代を切り開くものとして注目しています。</p>
+  <p>このSzeto-Schiller peptideについては、また別記事で解説しようと思っています。</p>
 </div>
 
 ## 作用機序

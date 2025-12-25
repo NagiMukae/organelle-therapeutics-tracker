@@ -1,7 +1,7 @@
 ---
 layout: home
 author_profile: true
-entries_layout: grid
+entries_layout: list
 title: "Organelle Therapeutics Tracker"
 excerpt: "オルガネラ標的医薬（作用機序・治験・承認）専門ブログ"
 ---

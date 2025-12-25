@@ -1,5 +1,5 @@
 ---
-title: "ミトコンドリア医薬Forzinity（エラミプレチド）がFDA承認"
+title: "ミトコンドリア標的薬Forzinity（エラミプレチド）がFDA承認"
 description: "ミトコンドリア標的薬の初承認事例を解説"
 date: 2025-10-17 09:00:00 +0900
 last_modified_at: 2025-12-25 09:00:00 +0900

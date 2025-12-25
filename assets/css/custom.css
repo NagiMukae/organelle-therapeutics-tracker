@@ -50,3 +50,14 @@
   display: block;
 }
 
+/* Home archive teaser size up */
+.archive__item-teaser img{
+  width: 100%;
+  height: auto;
+}
+
+/* Make teaser area larger (works with many Minimal Mistakes versions) */
+.archive__item-teaser{
+  max-width: 360px;   /* 好みで 320〜420px で調整 */
+}
+

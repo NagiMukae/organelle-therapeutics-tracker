@@ -5,13 +5,11 @@ date: 2025-10-17 09:00:00 +0900
 last_modified_at: 2025-12-25 09:00:00 +0900
 categories: ["Mitochondria"]
 tags: ["Peptide", "Approved", "Stealth BioTherapeutics", "US"]
-classes: wide
-header:
-  image: assets/images/Frozinity_eyecatch.png
-  teaser: assets/images/Frozinity_eyecatch.png
 ---
 
 > **対象オルガネラ**: Mitochondria / **モダリティ**: Peptide / **開発段階**: Approved / **適応症**: Barth症候群
+
+![Forzinity eyecatch]({{ "/assets/images/Frozinity_eyecatch.png" | relative_url }})
 
 ## 背景：ミトコンドリア医薬の登場と意義
 ミトコンドリアは細胞内の主要なエネルギー産生器官であり、その機能不全はさまざまな疾患の根底に関与します。従来、ミトコンドリア機能を改善する目的でコエンザイムQ10やMitoQといった抗酸化剤が用いられてきましたが、これらはミトコンドリア内に十分集積できない、高用量時の毒性などの課題がありました。そのため、ミトコンドリアそのものを標的に作用する新しい治療戦略が模索され、近年ミトコンドリア標的薬剤の研究開発が急速に進んでいます。こうした中で登場したのが<strong>エラミプレチド（Elamipretide）</strong>であり、米国では<strong>Forzinity</strong>という製品名で2025年に世界初のミトコンドリア標的治療薬として承認を取得しました[^1]。

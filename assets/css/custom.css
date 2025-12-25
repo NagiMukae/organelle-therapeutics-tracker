@@ -50,14 +50,19 @@
   display: block;
 }
 
-/* Home archive teaser size up */
-.archive__item-teaser img{
+/* Home: enlarge teaser images */
+.layout--home .archive__item-teaser img{
   width: 100%;
   height: auto;
+  display: block;
 }
 
-/* Make teaser area larger (works with many Minimal Mistakes versions) */
-.archive__item-teaser{
-  max-width: 360px;   /* 好みで 320〜420px で調整 */
+/* Home: make teaser area larger */
+.layout--home .archive__item-teaser{
+  max-width: 520px;  /* 420〜620pxで好みに調整 */
 }
 
+/* Home: reduce columns so each item gets more space (works on many MM setups) */
+.layout--home .entries-grid{
+  grid-template-columns: 1fr; /* 1列にして大きく見せる */
+}

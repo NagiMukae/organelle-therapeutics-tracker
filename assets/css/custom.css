@@ -40,3 +40,13 @@
   opacity: 0.75;
 }
 
+.post-featured{
+  margin: 0 0 18px;
+}
+.post-featured img{
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+  display: block;
+}
+

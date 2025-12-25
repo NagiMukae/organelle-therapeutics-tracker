@@ -50,19 +50,25 @@
   display: block;
 }
 
-/* Home: enlarge teaser images */
-.layout--home .archive__item-teaser img{
-  width: 100%;
-  height: auto;
-  display: block;
-}
+/* ===== Home (Recent Posts) teaser: force bigger ===== */
 
-/* Home: make teaser area larger */
+/* teaser枠そのものを広げる */
 .layout--home .archive__item-teaser{
-  max-width: 520px;  /* 420〜620pxで好みに調整 */
+  width: 320px !important;      /* ここを 280〜420 で好みに調整 */
+  max-width: 320px !important;
+  margin-right: 16px !important;
 }
 
-/* Home: reduce columns so each item gets more space (works on many MM setups) */
-.layout--home .entries-grid{
-  grid-template-columns: 1fr; /* 1列にして大きく見せる */
+/* 画像を枠いっぱいに表示 */
+.layout--home .archive__item-teaser img{
+  width: 100% !important;
+  height: auto !important;
+  max-height: none !important;
+  display: block !important;
+  border-radius: 12px !important;
+}
+
+/* 2列グリッドが窮屈なら、1列にして画像を大きく見せる */
+.layout--home .entries-grid .grid__item{
+  width: 100% !important;
 }

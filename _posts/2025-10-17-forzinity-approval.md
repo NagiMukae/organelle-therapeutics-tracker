@@ -4,9 +4,11 @@ description: "ミトコンドリア標的薬の初承認事例を解説"
 date: 2025-10-17 09:00:00 +0900
 last_modified_at: 2025-12-25 09:00:00 +0900
 categories: ["Mitochondria"]
-image: /assets/images/Frozinityアイキャッチ-2.png
 tags: ["Peptide", "Approved", "Stealth BioTherapeutics", "US"]
-# classes: wide
+classes: wide
+header:
+  image: /assets/images/Forzinityアイキャッチ-2.png
+  teaser: /assets/images/Forzinityアイキャッチ-2.png
 ---
 
 > **対象オルガネラ**: Mitochondria / **モダリティ**: Peptide / **開発段階**: Approved / **適応症**: Barth症候群

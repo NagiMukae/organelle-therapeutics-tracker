@@ -72,3 +72,52 @@
 .layout--home .entries-grid .grid__item{
   width: 100% !important;
 }
+/* Home: teaser image should never be cropped */
+.layout--home .archive__item-teaser{
+  overflow: visible !important;     /* 切り捨てを無効化 */
+  height: auto !important;
+  max-height: none !important;
+}
+
+.layout--home .archive__item-teaser img{
+  height: auto !important;
+  max-height: none !important;
+  object-fit: contain !important;   /* 重要：切らずに収める */
+}
+
+/* Home: each post item becomes a 2-column row (left image / right text) */
+.layout--home .archive__item{
+  display: flex !important;
+  align-items: flex-start !important;
+  gap: 18px !important;
+}
+
+/* left column (image) */
+.layout--home .archive__item-teaser{
+  flex: 0 0 320px !important;   /* 画像の横幅。280〜420で調整 */
+  max-width: 320px !important;
+  margin: 0 !important;
+}
+
+.layout--home .archive__item-teaser img{
+  width: 100% !important;
+  display: block !important;
+  border-radius: 12px !important;
+}
+
+/* right column (text) */
+.layout--home .archive__item-title,
+.layout--home .archive__item-excerpt,
+.layout--home .page__meta{
+  flex: 1 1 auto !important;
+}
+
+/* small screens: stack vertically */
+@media (max-width: 900px){
+  .layout--home .archive__item{
+    flex-direction: column !important;
+  }
+  .layout--home .archive__item-teaser{
+    max-width: 520px !important;
+  }
+}

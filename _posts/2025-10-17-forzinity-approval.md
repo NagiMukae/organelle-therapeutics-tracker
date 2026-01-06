@@ -130,7 +130,7 @@ Forzinity（エラミプレチド）の登場は、ミトコンドリア病領�
   <p>オルガネラの研究をしている管理人も、この承認のニュースには大変心を躍らせまして、このオルガネラ医薬サイトを作るきっかけになりました。今後のForzinityの活躍に期待しています。</p>
 </div>
 
-## タイムライン
+## 開発タイムライン
 
 ```mermaid
 timeline
@@ -140,21 +140,23 @@ timeline
     2006-04 : Stealth Peptides, Inc. 設立（後にStealth BioTherapeuticsへ）
     2010-04 : MTP-131（elamipretide）の最初のIND提出（初期の臨床開発段階へ）
     2014-03-28 : cardiolipin結合とcytochrome c相互作用制御を示す機序論文発行（代表論文：[^14]）
-    2014-10 : 原発性ミトコンドリア筋症（PMM）でIND提出（適応拡張の開発ライン）
-    2017-07 : Barth症候群のTAZPOWER試験で登録開始（臨床有効性データの中核）
-    2020-10-20 : TAZPOWER（Part 1/2）主要結果がオンライン公開（Genetics in Medicine）
-    2024-01-29 : Barth症候群適応でNDA提出（FDA受領日）
-    2024-07-29 : NDAがPriority Review扱い、PDUFA目標日が2025-01-29と公表
-    2024-10-10 : FDAの循環器・腎領域Advisory Committee（CRDAC）開催
-    2025-01-23 : PDUFA目標日が2025-04-29へ3か月延長（Major Amendments扱い）
-    2025-05-15 : FDAがAction Letter（Complete Response相当）—加速承認ルートでの“完全応答”を要求
-    2025-08-15 : 2025-05-15 Action Letterへの完全応答としてNDA再提出（完全応答日）
-    2025-09-19 : FDAがForzinityを加速承認（初承認日）
-    2026-03 : 承認後の検証試験：初回被験者スクリーニング開始予定（FDA承認書簡記載の予定）
+    2014-10 : 原発性ミトコンドリア筋症（PMM）でIND提出（適応拡張の開発ライン）[^15]
+    2017-07 : Barth症候群のTAZPOWER試験で登録開始（臨床有効性データの中核）[^15]
+    2020-10-20 : TAZPOWER（Part 1/2）試験の主要結果公開 [^16]
+    2024-01-29 : Barth症候群適応でNDA提出（FDA受領日）[^17]
+    2024-07-29 : NDAがPriority Review扱い、PDUFA dateが2025-01-29と公表 [^18]
+    2024-10-10 : FDAの循環器・腎領域Advisory Committee（CRDAC）による公開審議 
+    2025-01-23 : PDUFA dateが2025-04-29へ3か月延長（Major Amendments扱い）[^19]
+    2025-05-15 : FDAがComplete Response Letter（CRL）を出し、迅速承認ルートでのcomplete responseを要求[^17]
+    2025-08-15 : 2025-05-15 CRLへのcomplete responseとしてNDA再提出（完全応答日）
+    2025-09-19 : FDAがForzinityを迅速承認（初承認日）[^1]
+    2026-03 : 承認後の検証試験：初回被験者スクリーニング開始予定
 ```
-注釈•	•	IND(Investigational New Drug application)：臨床試験を始めるためのFDA申請	•	•	NDA(New Drug Application)：承認申請
-  •	PDUFA(Prescription Drug User Fee Act)date：FDAの審査目標日
-	•	AdCom（CRDAC;FDA Advisory Committee）：FDA外部専門家会議（公開審議）
+略語
+• IND(Investigational New Drug application)：臨床試験を始めるためのFDA申請
+• NDA(New Drug Application)：承認申請
+• PDUFA(Prescription Drug User Fee Act)date：FDAの審査目標日
+• AdCom（CRDAC;FDA Advisory Committee）：FDA外部専門家会議（公開審議）
 
 ## 参考文献、参考サイト
 管理人が全ての引用元の情報をチェックしてから記事にまとめています。
@@ -173,4 +175,8 @@ timeline
 [^12]: FDA. FORZINITY (elamipretide) injection, for subcutaneous use: Prescribing Information ([https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/215244s000lbl.pdf](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/215244s000lbl.pdf))
 [^13]: FDA Approves First Mitochondrial Disease Therapy: Stealth BioTherapeutics’ Elamipretide for Barth Syndrome ([https://umdf.org/fda-approves-elamipretide/](https://umdf.org/fda-approves-elamipretide/))
 [^14]: Birk, A. V., Chao, W. M., Bracken, C., Warren, J. D., & Szeto, H. H. (2014). Targeting mitochondrial cardiolipin and the cytochrome c/cardiolipin complex to promote electron transport and optimize mitochondrial ATP synthesis. British journal of pharmacology, 171(8), 2017–2028. [doi:10.1111/bph.12468](https://doi.org/10.1111/bph.12468)
-Stealth BioTherapeutics Corp. Form F-1: Registration Statement Under the Securities Act of 1933. As filed with the U.S. Securities and Exchange Commission on December 28, 2018. SEC EDGAR. Accessed 2026-01-06.
+[^15]: Stealth BioTherapeutics Corp. Form F-1: Registration Statement Under the Securities Act of 1933. As filed with the U.S. Securities and Exchange Commission on December 28, 2018. SEC EDGAR. Accessed 2026-01-06.[https://www.sec.gov/Archives/edgar/data/1696396/000119312518361101/d587168df1.htm](https://www.sec.gov/Archives/edgar/data/1696396/000119312518361101/d587168df1.htm)
+[^16]:Reid Thompson, W., Hornby, B., Manuel, R., Bradley, E., Laux, J., Carr, J., & Vernon, H. J. (2021). A phase 2/3 randomized clinical trial followed by an open-label extension to evaluate the effectiveness of elamipretide in Barth syndrome, a genetic disorder of mitochondrial cardiolipin metabolism. Genetics in medicine : official journal of the American College of Medical Genetics, 23(3), 471–478. [https://doi.org/10.1038/s41436-020-01006-8](https://doi.org/10.1038/s41436-020-01006-8)
+[^17]:U.S. Food and Drug Administration (FDA), Center for Drug Evaluation and Research (CDER). Approval Package for NDA 215244Orig1s000: Forzinity injection, 280 mg/3.5 mL (80 mg/mL)（Approval Date: September 19, 2025）. Accessed 2026-01-07. [https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/215244Orig1s000Approv.pdf](https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/215244Orig1s000Approv.pdf)
+[^18] Stealth BioTherapeutics Corp. (2024, July 29). Stealth BioTherapeutics completes mid-cycle review meeting on elamipretide for the treatment of Barth syndrome [Press release].[https://stealthbt.com/stealth-biotherapeutics-completes-mid-cycle-review-meeting-on-elamipretide-for-the-treatment-of-barth-syndrome/](https://stealthbt.com/stealth-biotherapeutics-completes-mid-cycle-review-meeting-on-elamipretide-for-the-treatment-of-barth-syndrome/)
+[^19] Stealth BioTherapeutics Corp. (2025, Jan 23). Stealth BioTherapeutics Announces PDUFA Action Date Extension for Elamipretide to Treat Patients with Barth Syndrome[Press release].[https://stealthbt.com/stealth-biotherapeutics-announces-pdufa-action-date-extension-for-elamipretide-to-treat-patients-with-barth-syndrome/](https://stealthbt.com/stealth-biotherapeutics-announces-pdufa-action-date-extension-for-elamipretide-to-treat-patients-with-barth-syndrome/)

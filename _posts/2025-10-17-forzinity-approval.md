@@ -134,13 +134,27 @@ Forzinity（エラミプレチド）の登場は、ミトコンドリア病領�
 
 ```mermaid
 timeline
-  title Forzinity (elamipretide) Development Timeline
-  2009 : First key preclinical reports
-  2012 : Early clinical studies initiated
-  2016 : Phase 2 trial updates
-  2025 : FDA approval
+    title Forzinity（elamipretide/SS-31）開発タイムライン（主要マイルストーン）
+    2004-06-02 : SS-31（後のelamipretide）の初期報告（Epub）—ミトコンドリア標的ペプチドの概念提示[^3]
+    2004-08-13 : 上記論文がJ Biol Chem掲載（print）
+    2006-04 : Stealth Peptides, Inc. 設立（後にStealth BioTherapeuticsへ）
+    2010-04 : MTP-131（elamipretide）の最初のIND提出（初期の臨床開発段階へ）
+    2014-03-28 : cardiolipin結合とcytochrome c相互作用制御を示す機序論文発行（代表論文：[^14]）
+    2014-10 : 原発性ミトコンドリア筋症（PMM）でIND提出（適応拡張の開発ライン）
+    2017-07 : Barth症候群のTAZPOWER試験で登録開始（臨床有効性データの中核）
+    2020-10-20 : TAZPOWER（Part 1/2）主要結果がオンライン公開（Genetics in Medicine）
+    2024-01-29 : Barth症候群適応でNDA提出（FDA受領日）
+    2024-07-29 : NDAがPriority Review扱い、PDUFA目標日が2025-01-29と公表
+    2024-10-10 : FDAの循環器・腎領域Advisory Committee（CRDAC）開催
+    2025-01-23 : PDUFA目標日が2025-04-29へ3か月延長（Major Amendments扱い）
+    2025-05-15 : FDAがAction Letter（Complete Response相当）—加速承認ルートでの“完全応答”を要求
+    2025-08-15 : 2025-05-15 Action Letterへの完全応答としてNDA再提出（完全応答日）
+    2025-09-19 : FDAがForzinityを加速承認（初承認日）
+    2026-03 : 承認後の検証試験：初回被験者スクリーニング開始予定（FDA承認書簡記載の予定）
 ```
-
+注釈•	•	IND(Investigational New Drug application)：臨床試験を始めるためのFDA申請	•	•	NDA(New Drug Application)：承認申請
+  •	PDUFA(Prescription Drug User Fee Act)date：FDAの審査目標日
+	•	AdCom（CRDAC;FDA Advisory Committee）：FDA外部専門家会議（公開審議）
 
 ## 参考文献、参考サイト
 管理人が全ての引用元の情報をチェックしてから記事にまとめています。
@@ -158,3 +172,5 @@ timeline
 [^11]: Ehlers, J. P., Hu, A., Boyer, D., Cousins, S. W., Waheed, N. K., Rosenfeld, P. J., Brown, D., Kaiser, P. K., Abbruscato, A., Gao, G., Heier, J., & ReCLAIM-2 (SPIAM-202) Study Investigators (2024). ReCLAIM-2: A Randomized Phase II Clinical Trial Evaluating Elamipretide in Age-related Macular Degeneration, Geographic Atrophy Growth, Visual Function, and Ellipsoid Zone Preservation. *Ophthalmology science*, 5(1), 100628. ([https://doi.org/10.1016/j.xops.2024.100628](https://doi.org/10.1016/j.xops.2024.100628))
 [^12]: FDA. FORZINITY (elamipretide) injection, for subcutaneous use: Prescribing Information ([https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/215244s000lbl.pdf](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/215244s000lbl.pdf))
 [^13]: FDA Approves First Mitochondrial Disease Therapy: Stealth BioTherapeutics’ Elamipretide for Barth Syndrome ([https://umdf.org/fda-approves-elamipretide/](https://umdf.org/fda-approves-elamipretide/))
+[^14]: Birk, A. V., Chao, W. M., Bracken, C., Warren, J. D., & Szeto, H. H. (2014). Targeting mitochondrial cardiolipin and the cytochrome c/cardiolipin complex to promote electron transport and optimize mitochondrial ATP synthesis. British journal of pharmacology, 171(8), 2017–2028. [doi:10.1111/bph.12468](https://doi.org/10.1111/bph.12468)
+Stealth BioTherapeutics Corp. Form F-1: Registration Statement Under the Securities Act of 1933. As filed with the U.S. Securities and Exchange Commission on December 28, 2018. SEC EDGAR. Accessed 2026-01-06.

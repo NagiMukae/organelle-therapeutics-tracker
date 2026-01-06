@@ -18,8 +18,9 @@ tags: ["Peptide", "Approved", "Stealth BioTherapeutics", "US"]
 
 <div class="admin-note">
   <div class="admin-note__label">管理人メモ</div>
-  <p>Forzinityはミトコンドリア自体の膜構造と機能に直接作用する初の医薬品であり、ミトコンドリア病治療の新時代を切り開くものとして注目されています。</p>
+  <p>Forzinityはミトコンドリアの膜構造に直接作用して機能を改善させる初の医薬品であり、大注目しています！</p>
 </div>
+
 
 
 ## Forzinity（エラミプレチド）の開発経緯
@@ -128,6 +129,15 @@ Forzinity（エラミプレチド）の登場は、ミトコンドリア病領�
   <div class="admin-note__label">管理人メモ</div>
   <p>オルガネラの研究をしている管理人も、この承認のニュースには大変心を躍らせまして、このオルガネラ医薬サイトを作るきっかけになりました。今後のForzinityの活躍に期待しています。</p>
 </div>
+
+##タイムライン
+
+timeline
+  title Forzinity (elamipretide) Development Timeline
+  2009 : First key preclinical reports
+  2012 : Early clinical studies initiated
+  2016 : Phase 2 trial updates
+  2025 : FDA approval
 
 ## 参考文献、参考サイト
 管理人が全ての引用元の情報をチェックしてから記事にまとめています。

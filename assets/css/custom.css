@@ -157,3 +157,27 @@
 .mermaid-scroll .mermaid{
   min-width: 1200px;  /* 900→1200→1500 など段階的に */
 }
+
+/* Mermaid（特にflowchart）の文字サイズを調整 */
+.mermaid-scroll .mermaid text {
+  font-size: 14px !important; /* 13〜15で微調整 */
+}
+
+/* v10系でforeignObject(div)を使うラベルにも効かせる保険 */
+.mermaid-scroll .mermaid .nodeLabel,
+.mermaid-scroll .mermaid .edgeLabel,
+.mermaid-scroll .mermaid foreignObject * {
+  font-size: 14px !important;
+  line-height: 1.25;
+}
+
+/* 図が縮みすぎないように横幅を確保 */
+.mermaid-scroll .mermaid {
+  min-width: 1800px; /* 1600〜2400くらいで調整 */
+}
+
+/* SVGが親幅に押し込まれて縮むのを防ぐ（重要） */
+.mermaid-scroll svg {
+  max-width: none !important;
+  height: auto;
+}

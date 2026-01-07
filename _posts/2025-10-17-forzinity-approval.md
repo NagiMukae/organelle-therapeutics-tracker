@@ -134,7 +134,7 @@ Forzinity（エラミプレチド）の登場は、ミトコンドリア病領�
 ```mermaid
 flowchart TB
 
-A["**2004-06-02</b><br/>────────────<br/>SS-31（後のelamipretide）の初期報告<br/>—ミトコンドリア標的ペプチドの概念提示[^3]"]
+A["<b>2004-06-02</b><br/>────────────<br/>SS-31（後のelamipretide）の初期報告<br/>—ミトコンドリア標的ペプチドの概念提示[^3]"]
   --> B["<b>2004-08-13</b><br/>────────────<br/>上記論文がJ Biol Chem掲載（print）"]
   --> C["<b>2006-04</b><br/>────────────<br/>Stealth Peptides, Inc. 設立<br/>（後にStealth BioTherapeuticsへ）"]
   --> D["<b>2010-04</b><br/>────────────<br/>elamipretideの最初のIND提出<br/>（初期の臨床開発段階へ）"]

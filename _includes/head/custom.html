@@ -10,28 +10,17 @@ document.addEventListener("DOMContentLoaded", () => {
     startOnLoad: false,
     securityLevel: "loose",
     flowchart: {
-      htmlLabels: false,   // ★これが重要：SafariでもCSSが効くようにする
-      useMaxWidth: false,  // 図が勝手に縮むのを抑える
-      nodeSpacing: 30,
-      rankSpacing: 40
-    },
-    themeVariables: {
-      fontSize: "16px"     // 本文より少し小さめなら 15〜16px 推奨
+      htmlLabels: true,
+      useMaxWidth: true
     }
   });
 
   document.querySelectorAll('pre code.language-mermaid, pre code.mermaid').forEach((code) => {
     const pre = code.parentElement;
-
     const mer = document.createElement('div');
     mer.className = 'mermaid';
     mer.textContent = code.textContent;
     pre.replaceWith(mer);
-
-    const wrap = document.createElement('div');
-    wrap.className = 'mermaid-scroll';
-    mer.parentNode.insertBefore(wrap, mer);
-    wrap.appendChild(mer);
   });
 
   mermaid.run({ querySelector: '.mermaid' });

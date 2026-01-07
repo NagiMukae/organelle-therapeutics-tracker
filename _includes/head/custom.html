@@ -1,43 +1,23 @@
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 
-
-<!-- Mermeidのライブラリを入れる-->
 <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
 
 <script>
 document.addEventListener("DOMContentLoaded", () => {
   if (!window.mermaid) return;
 
+  // Mermaid初期化（1回だけ）
   mermaid.initialize({ startOnLoad: false });
 
-  document.querySelectorAll('pre code.language-mermaid, pre code.mermaid').forEach((code) => {
-    const pre = code.parentElement;
-    const container = document.createElement('div');
-    container.className = 'mermaid';
-    container.textContent = code.textContent;
-    pre.replaceWith(container);
-  });
-
-  mermaid.run({ querySelector: '.mermaid' });
-});
-</script>
-
-<script>
-document.addEventListener("DOMContentLoaded", () => {
-  if (!window.mermaid) return;
-
-  mermaid.initialize({ startOnLoad: false });
-
+  // ```mermaid のブロックを div.mermaid に置換し、スクロール枠で包む
   document.querySelectorAll('pre code.language-mermaid, pre code.mermaid').forEach((code) => {
     const pre = code.parentElement;
 
-    // 1) mermaid divに置換
     const mer = document.createElement('div');
     mer.className = 'mermaid';
     mer.textContent = code.textContent;
     pre.replaceWith(mer);
 
-    // 2) 横スクロール用wrapperで包む
     const wrap = document.createElement('div');
     wrap.className = 'mermaid-scroll';
     mer.parentNode.insertBefore(wrap, mer);

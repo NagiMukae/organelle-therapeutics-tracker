@@ -2,23 +2,22 @@
 
 
 <!-- Mermeidのライブラリを入れる-->
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+
 <script>
 document.addEventListener("DOMContentLoaded", () => {
   if (!window.mermaid) return;
 
-  // Mermaid自体の初期化
   mermaid.initialize({ startOnLoad: false });
 
-  // ```mermaid のコードブロックだけを div.mermaid に置換
-  document.querySelectorAll('pre code.language-mermaid').forEach((code) => {
+  document.querySelectorAll('pre code.language-mermaid, pre code.mermaid').forEach((code) => {
     const pre = code.parentElement;
     const container = document.createElement('div');
     container.className = 'mermaid';
-    container.textContent = code.textContent; // textContentで安全に
+    container.textContent = code.textContent;
     pre.replaceWith(container);
   });
 
-  // 描画実行
   mermaid.run({ querySelector: '.mermaid' });
 });
 </script>

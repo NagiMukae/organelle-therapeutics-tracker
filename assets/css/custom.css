@@ -193,3 +193,21 @@
 .mermaid-scroll .mermaid .node text{
   dominant-baseline: central;
 }
+/* 縦方向フローチャートは横スクロールさせない（このページの見た目用） */
+.mermaid-scroll{
+  overflow-x: hidden !important;
+}
+
+/* Mermaid図は親幅に合わせて縮める（重要） */
+.mermaid-scroll svg{
+  width: 100% !important;
+  height: auto !important;
+  max-width: 100% !important;
+}
+
+/* 図の“見た目の横幅”を2/3程度にする（中央寄せ） */
+.mermaid-scroll .mermaid{
+  min-width: 0 !important;        /* ← これが超重要：固定min-widthを解除 */
+  max-width: 66% !important;      /* 2/3 */
+  margin: 0 auto !important;      /* 中央寄せ */
+}

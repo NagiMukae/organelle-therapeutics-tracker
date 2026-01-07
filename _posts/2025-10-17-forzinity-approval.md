@@ -134,141 +134,142 @@ Forzinity（エラミプレチド）の登場は、ミトコンドリア病領�
 ```mermaid
 flowchart LR
 
-  subgraph E1[""]
+  subgraph E1[" "]
     direction TB
     dA["2004-06-02"]:::date
     A["SS-31（後のelamipretide）の初期報告<br/>—ミトコンドリア標的ペプチドの概念提示[^3]"]:::card
     dA --> A
   end
 
-  subgraph E2[""]
+  subgraph E2[" "]
     direction TB
     dB["2004-08-13"]:::date
     B["上記論文がJ Biol Chem掲載（print）"]:::card
     dB --> B
   end
 
-  subgraph E3[""]
+  subgraph E3[" "]
     direction TB
     dC["2006-04"]:::date
     C["Stealth Peptides, Inc. 設立<br/>（後にStealth BioTherapeuticsへ）"]:::card
     dC --> C
   end
 
-  subgraph E4[""]
+  subgraph E4[" "]
     direction TB
     dD["2010-04"]:::date
     D["elamipretideの最初のIND提出<br/>（初期の臨床開発段階へ）"]:::card
     dD --> D
   end
 
-  subgraph E5[""]
+  subgraph E5[" "]
     direction TB
     dE["2014-03-28"]:::date
     E["cardiolipin結合とcytochrome c相互作用制御<br/>を示す機序論文発行（代表論文：[^14]）"]:::card
     dE --> E
   end
 
-  subgraph E6[""]
+  subgraph E6[" "]
     direction TB
     dF["2014-10"]:::date
     F["原発性ミトコンドリア筋症（PMM）<br/>でIND提出（適応拡張）[^15]"]:::card
     dF --> F
   end
 
-  subgraph E7[""]
+  subgraph E7[" "]
     direction TB
     dG["2017-07"]:::date
     G["Barth症候群のTAZPOWER試験<br/>で登録開始[^15]"]:::card
     dG --> G
   end
 
-  subgraph E8[""]
+  subgraph E8[" "]
     direction TB
     dH["2020-10-20"]:::date
     H["TAZPOWER（Part 1/2）試験の<br/>主要結果公開 [^16]"]:::card
     dH --> H
   end
 
-  subgraph E9[""]
+  subgraph E9[" "]
     direction TB
     dI["2024-01-29"]:::date
     I["Barth症候群適応でNDA提出<br/>（FDA受領日）[^17]"]:::card
     dI --> I
   end
 
-  subgraph E10[""]
+  subgraph E10[" "]
     direction TB
     dJ["2024-07-29"]:::date
     J["NDAがPriority Review扱い、<br/>PDUFA dateが2025-01-29と公表 [^18]"]:::card
     dJ --> J
   end
 
-  subgraph E11[""]
+  subgraph E11[" "]
     direction TB
     dK["2024-10-10"]:::date
     K["FDAの循環器・腎領域<br/>Advisory Committee（CRDAC）<br/>による公開審議"]:::card
     dK --> K
   end
 
-  subgraph E12[""]
+  subgraph E12[" "]
     direction TB
     dL["2025-01-23"]:::date
     L["PDUFA dateが2025-04-29へ<br/>3か月延長（Major Amendments扱い）[^19]"]:::card
     dL --> L
   end
 
-  subgraph E13[""]
+  subgraph E13[" "]
     direction TB
     dM["2025-05-15"]:::date
     M["FDAがComplete Response Letter（CRL）<br/>を出し、迅速承認ルートでの<br/>complete responseを要求[^17]"]:::card
     dM --> M
   end
 
-  subgraph E14[""]
+  subgraph E14[" "]
     direction TB
     dN["2025-08-15"]:::date
     N["2025-05-15 CRLへのcomplete response<br/>としてNDA再提出（完全応答日）"]:::card
     dN --> N
   end
 
-  subgraph E15[""]
+  subgraph E15[" "]
     direction TB
     dO["2025-09-19"]:::date
     O["FDAがForzinityを<br/>迅速承認（初承認日）[^1]"]:::card
     dO --> O
   end
 
-  subgraph E16[""]
+  subgraph E16[" "]
     direction TB
     dP["2026-03"]:::date
     P["承認後の検証試験：<br/>初回被験者スクリーニング開始予定"]:::card
     dP --> P
   end
 
-  %% connect events (横方向)
+  %% イベント間は「本文カード同士」で横につなぐ
   A --> B --> C --> D --> E --> F --> G --> H --> I --> J --> K --> L --> M --> N --> O --> P
 
-  %% styles
+  %% 見た目
   classDef date fill:#ffffff,stroke:#666,stroke-width:1px,color:#111,font-weight:bold;
   classDef card fill:#EEF0FF,stroke:#6C63FF,stroke-width:1px,color:#111;
 
-  style E1 fill:transparent,stroke:transparent;
-  style E2 fill:transparent,stroke:transparent;
-  style E3 fill:transparent,stroke:transparent;
-  style E4 fill:transparent,stroke:transparent;
-  style E5 fill:transparent,stroke:transparent;
-  style E6 fill:transparent,stroke:transparent;
-  style E7 fill:transparent,stroke:transparent;
-  style E8 fill:transparent,stroke:transparent;
-  style E9 fill:transparent,stroke:transparent;
-  style E10 fill:transparent,stroke:transparent;
-  style E11 fill:transparent,stroke:transparent;
-  style E12 fill:transparent,stroke:transparent;
-  style E13 fill:transparent,stroke:transparent;
-  style E14 fill:transparent,stroke:transparent;
-  style E15 fill:transparent,stroke:transparent;
-  style E16 fill:transparent,stroke:transparent;
+  %% subgraphの枠線・背景を消す（カードっぽさを維持しつつ“グルーピングだけ”にする）
+  style E1 fill:none,stroke:none;
+  style E2 fill:none,stroke:none;
+  style E3 fill:none,stroke:none;
+  style E4 fill:none,stroke:none;
+  style E5 fill:none,stroke:none;
+  style E6 fill:none,stroke:none;
+  style E7 fill:none,stroke:none;
+  style E8 fill:none,stroke:none;
+  style E9 fill:none,stroke:none;
+  style E10 fill:none,stroke:none;
+  style E11 fill:none,stroke:none;
+  style E12 fill:none,stroke:none;
+  style E13 fill:none,stroke:none;
+  style E14 fill:none,stroke:none;
+  style E15 fill:none,stroke:none;
+  style E16 fill:none,stroke:none;
 ```
 
 略語

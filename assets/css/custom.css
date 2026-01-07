@@ -122,14 +122,17 @@
   }
 }
 
+
 /* ===========================
-   Mermaid（共通）
+   Mermaid（共通） ※ここから整理版
    =========================== */
 
-/* mermaidのスクロール表示 */
+/* 図の枠 */
 .mermaid-scroll{
-  overflow-x: auto;
+  /* もう横スクロール不要なら hidden */
+  overflow-x: hidden !important;
   overflow-y: hidden;
+
   -webkit-overflow-scrolling: touch;
   border: 1px solid #e5e5e5;
   border-radius: 12px;
@@ -137,29 +140,32 @@
   background: #fff;
 }
 
-/* 横幅確保（横スクロール前提） */
+/* Mermaid本体（表示幅を2/3程度にして中央寄せ） */
 .mermaid-scroll .mermaid{
-  min-width: 1000px;  /* 図が小さく潰れる場合は 2000〜2400 に */
+  min-width: 0 !important;        /* ← 重要：固定min-widthは完全解除 */
+  width: 100% !important;         /* 親にフィット */
+  max-width: 66% !important;      /* 見た目を 2/3 に */
+  margin: 0 auto !important;      /* 中央寄せ */
 }
 
-/* SVGが親幅に押し込まれて縮むのを防ぐ */
+/* SVGは親にフィットさせる（空白やはみ出しを防ぐ） */
 .mermaid-scroll svg{
-  max-width: none !important;
-  height: auto;
+  width: 100% !important;
+  height: auto !important;
+  max-width: 100% !important;
 }
 
 /* ===========================
    Mermaid（フォントサイズ）
-   - 本文より少し小さめにしたい → 15px推奨
-   - text と foreignObject の両方に強制適用
+   - text と foreignObject の両方に適用
    =========================== */
 
-/* SVG text（環境によってはこちらが効く） */
+/* SVG text（※位置計算に関わるので text-anchor は触らない） */
 .mermaid-scroll .mermaid text{
   font-size: 14px !important;   /* 14〜16で調整 */
 }
 
-/* v10系でforeignObject(div)を使うラベルにも必ず効かせる */
+/* v10系の foreignObject(div) ラベルにも確実に効かせる */
 .mermaid-scroll .mermaid .nodeLabel,
 .mermaid-scroll .mermaid .edgeLabel,
 .mermaid-scroll .mermaid foreignObject,
@@ -167,6 +173,11 @@
   font-size: 14px !important;
   line-height: 1.25 !important;
   text-align: left !important;
+
+  /* 長文があるときのはみ出し対策 */
+  white-space: normal !important;
+  word-break: break-word !important;
+  overflow-wrap: anywhere !important;
 }
 
 /* タイトル等（少しだけ大きく） */
@@ -177,37 +188,13 @@
   font-weight: 600;
 }
 
-/* （任意）ノード内の文字が詰まる場合の余白。効かない環境もあります */
+/* ノード枠の線を少しだけ見やすく */
 .mermaid-scroll .mermaid .node rect,
 .mermaid-scroll .mermaid .node polygon{
   stroke-width: 1.2px;
 }
 
-/* SVG text で描かれたラベルも左寄せにする（重要） */
-.mermaid-scroll .mermaid .node text,
-.mermaid-scroll .mermaid .nodeLabel text{
-  text-anchor: start !important;   /* 中央寄せ(start=左寄せ) */
-}
-
-/* ついでに、labelの基準位置がズレる環境向けの保険（必要なら） */
-.mermaid-scroll .mermaid .node text{
-  dominant-baseline: central;
-}
-/* 縦方向フローチャートは横スクロールさせない（このページの見た目用） */
-.mermaid-scroll{
-  overflow-x: hidden !important;
-}
-
-/* Mermaid図は親幅に合わせて縮める（重要） */
-.mermaid-scroll svg{
-  width: 100% !important;
-  height: auto !important;
-  max-width: 100% !important;
-}
-
-/* 図の“見た目の横幅”を2/3程度にする（中央寄せ） */
-.mermaid-scroll .mermaid{
-  min-width: 0 !important;        /* ← これが超重要：固定min-widthを解除 */
-  max-width: 66% !important;      /* 2/3 */
-  margin: 0 auto !important;      /* 中央寄せ */
-}
+/* ★重要：この2つはズレの原因なので削除（=入れない）
+   .mermaid-scroll .mermaid .node text { text-anchor: start !important; }
+   .mermaid-scroll .mermaid .node text { dominant-baseline: central; }
+*/

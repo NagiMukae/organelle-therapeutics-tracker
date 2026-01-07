@@ -156,7 +156,7 @@
 
 /* SVG text（環境によってはこちらが効く） */
 .mermaid-scroll .mermaid text{
-  font-size: 16px !important;   /* 14〜16で調整 */
+  font-size: 14px !important;   /* 14〜16で調整 */
 }
 
 /* v10系でforeignObject(div)を使うラベルにも必ず効かせる */
@@ -164,7 +164,7 @@
 .mermaid-scroll .mermaid .edgeLabel,
 .mermaid-scroll .mermaid foreignObject,
 .mermaid-scroll .mermaid foreignObject *{
-  font-size: 16px !important;
+  font-size: 14px !important;
   line-height: 1.25 !important;
 }
 

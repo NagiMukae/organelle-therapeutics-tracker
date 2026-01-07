@@ -122,6 +122,10 @@
   }
 }
 
+/* ===========================
+   Mermaid（共通）
+   =========================== */
+
 /* mermaidのスクロール表示 */
 .mermaid-scroll{
   overflow-x: auto;
@@ -133,51 +137,47 @@
   background: #fff;
 }
 
+/* 横幅確保（横スクロール前提） */
 .mermaid-scroll .mermaid{
-  min-width: 900px;   /* ここは好みで調整 */
+  min-width: 1800px;  /* 図が小さく潰れる場合は 2000〜2400 に */
 }
 
-/* SVGが縮みすぎるのを防ぐ */
+/* SVGが親幅に押し込まれて縮むのを防ぐ */
 .mermaid-scroll svg{
-  height: auto;
-  max-width: none;
-}
-
-/* Mermaid全体の文字サイズを上げる */
-.mermaid text {
-  font-size: 16px !important;   /* 14〜18あたりで調整 */
-}
-
-/* ラベル（タイトル等）も少し大きくしたい場合 */
-.mermaid .label text,
-.mermaid .title text {
-  font-size: 18px !important;
-}
-
-.mermaid-scroll .mermaid{
-  min-width: 1200px;  /* 900→1200→1500 など段階的に */
-}
-
-/* Mermaid（特にflowchart）の文字サイズを調整 */
-.mermaid-scroll .mermaid text {
-  font-size: 14px !important; /* 13〜15で微調整 */
-}
-
-/* v10系でforeignObject(div)を使うラベルにも効かせる保険 */
-.mermaid-scroll .mermaid .nodeLabel,
-.mermaid-scroll .mermaid .edgeLabel,
-.mermaid-scroll .mermaid foreignObject * {
-  font-size: 14px !important;
-  line-height: 1.25;
-}
-
-/* 図が縮みすぎないように横幅を確保 */
-.mermaid-scroll .mermaid {
-  min-width: 1800px; /* 1600〜2400くらいで調整 */
-}
-
-/* SVGが親幅に押し込まれて縮むのを防ぐ（重要） */
-.mermaid-scroll svg {
   max-width: none !important;
   height: auto;
+}
+
+/* ===========================
+   Mermaid（フォントサイズ）
+   - 本文より少し小さめにしたい → 15px推奨
+   - text と foreignObject の両方に強制適用
+   =========================== */
+
+/* SVG text（環境によってはこちらが効く） */
+.mermaid-scroll .mermaid text{
+  font-size: 15px !important;   /* 14〜16で調整 */
+}
+
+/* v10系でforeignObject(div)を使うラベルにも必ず効かせる */
+.mermaid-scroll .mermaid .nodeLabel,
+.mermaid-scroll .mermaid .edgeLabel,
+.mermaid-scroll .mermaid foreignObject,
+.mermaid-scroll .mermaid foreignObject *{
+  font-size: 15px !important;
+  line-height: 1.25 !important;
+}
+
+/* タイトル等（少しだけ大きく） */
+.mermaid-scroll .mermaid .title text,
+.mermaid-scroll .mermaid .title,
+.mermaid-scroll .mermaid .title *{
+  font-size: 16px !important;
+  font-weight: 600;
+}
+
+/* （任意）ノード内の文字が詰まる場合の余白。効かない環境もあります */
+.mermaid-scroll .mermaid .node rect,
+.mermaid-scroll .mermaid .node polygon{
+  stroke-width: 1.2px;
 }

@@ -153,3 +153,7 @@
 .mermaid .title text {
   font-size: 18px !important;
 }
+
+.mermaid-scroll .mermaid{
+  min-width: 1200px;  /* 900→1200→1500 など段階的に */
+}

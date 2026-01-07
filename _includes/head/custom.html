@@ -21,3 +21,29 @@ document.addEventListener("DOMContentLoaded", () => {
   mermaid.run({ querySelector: '.mermaid' });
 });
 </script>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  if (!window.mermaid) return;
+
+  mermaid.initialize({ startOnLoad: false });
+
+  document.querySelectorAll('pre code.language-mermaid, pre code.mermaid').forEach((code) => {
+    const pre = code.parentElement;
+
+    // 1) mermaid divに置換
+    const mer = document.createElement('div');
+    mer.className = 'mermaid';
+    mer.textContent = code.textContent;
+    pre.replaceWith(mer);
+
+    // 2) 横スクロール用wrapperで包む
+    const wrap = document.createElement('div');
+    wrap.className = 'mermaid-scroll';
+    mer.parentNode.insertBefore(wrap, mer);
+    wrap.appendChild(mer);
+  });
+
+  mermaid.run({ querySelector: '.mermaid' });
+});
+</script>

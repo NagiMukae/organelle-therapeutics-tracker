@@ -142,3 +142,14 @@
   height: auto;
   max-width: none;
 }
+
+/* Mermaid全体の文字サイズを上げる */
+.mermaid text {
+  font-size: 16px !important;   /* 14〜18あたりで調整 */
+}
+
+/* ラベル（タイトル等）も少し大きくしたい場合 */
+.mermaid .label text,
+.mermaid .title text {
+  font-size: 18px !important;
+}

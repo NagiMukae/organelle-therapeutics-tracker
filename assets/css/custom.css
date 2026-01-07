@@ -182,3 +182,14 @@
 .mermaid-scroll .mermaid .node polygon{
   stroke-width: 1.2px;
 }
+
+/* SVG text で描かれたラベルも左寄せにする（重要） */
+.mermaid-scroll .mermaid .node text,
+.mermaid-scroll .mermaid .nodeLabel text{
+  text-anchor: start !important;   /* 中央寄せ(start=左寄せ) */
+}
+
+/* ついでに、labelの基準位置がズレる環境向けの保険（必要なら） */
+.mermaid-scroll .mermaid .node text{
+  dominant-baseline: central;
+}

@@ -134,22 +134,22 @@ Forzinity（エラミプレチド）の登場は、ミトコンドリア病領�
 ```mermaid
 flowchart TB
 
-A["<b>2004-06-02</b><br/>────────────<br/>SS-31（後のelamipretide）の初期報告<br/>—ミトコンドリア標的ペプチドの概念提示[^3]"]
-  --> B["<b>2004-08-13</b><br/>────────────<br/>上記論文がJ Biol Chem掲載（print）"]
-  --> C["<b>2006-04</b><br/>────────────<br/>Stealth Peptides, Inc. 設立<br/>（後にStealth BioTherapeuticsへ）"]
-  --> D["<b>2010-04</b><br/>────────────<br/>elamipretideの最初のIND提出<br/>（初期の臨床開発段階へ）"]
-  --> E["<b>2014-03-28</b><br/>────────────<br/>cardiolipin結合とcytochrome c相互作用制御<br/>を示す機序論文発行（代表論文：[^14]）"]
-  --> F["<b>2014-10</b><br/>────────────<br/>原発性ミトコンドリア筋症（PMM）<br/>でIND提出（適応拡張）[^15]"]
-  --> G["<b>2017-07</b><br/>────────────<br/>Barth症候群のTAZPOWER試験<br/>で登録開始[^15]"]
-  --> H["<b>2020-10-20</b><br/>────────────<br/>TAZPOWER（Part 1/2）試験の<br/>主要結果公開 [^16]"]
-  --> I["<b>2024-01-29</b><br/>────────────<br/>Barth症候群適応でNDA提出<br/>（FDA受領日）[^17]"]
-  --> J["<b>2024-07-29</b><br/>────────────<br/>NDAがPriority Review扱い、<br/>PDUFA dateが2025-01-29と公表 [^18]"]
-  --> K["<b>2024-10-10</b><br/>────────────<br/>FDAの循環器・腎領域<br/>Advisory Committee（CRDAC）<br/>による公開審議"]
-  --> L["<b>2025-01-23</b><br/>────────────<br/>PDUFA dateが2025-04-29へ<br/>3か月延長（Major Amendments扱い）[^19]"]
-  --> M["<b>2025-05-15</b><br/>────────────<br/>FDAがComplete Response Letter（CRL）<br/>を出し、迅速承認ルートでの<br/>complete responseを要求[^17]"]
-  --> N["<b>2025-08-15</b><br/>────────────<br/>2025-05-15 CRLへのcomplete response<br/>としてNDA再提出（完全応答日）"]
-  --> O["<b>2025-09-19</b><br/>────────────<br/>FDAがForzinityを<br/>迅速承認（初承認日）[^1]"]
-  --> P["<b>2026-03</b><br/>────────────<br/>承認後の検証試験：<br/>初回被験者スクリーニング開始予定"]
+A["<div class='tl-card'><div class='tl-date'>2004-06-02</div><div class='tl-sep'></div><div class='tl-body'>SS-31（後のelamipretide）の初期報告<br/>—ミトコンドリア標的ペプチドの概念提示[^3]</div></div>"]
+  --> B["<div class='tl-card'><div class='tl-date'>2004-08-13</div><div class='tl-sep'></div><div class='tl-body'>上記論文がJ Biol Chem掲載（print）</div></div>"]
+  --> C["<div class='tl-card'><div class='tl-date'>2006-04</div><div class='tl-sep'></div><div class='tl-body'>Stealth Peptides, Inc. 設立<br/>（後にStealth BioTherapeuticsへ）</div></div>"]
+  --> D["<div class='tl-card'><div class='tl-date'>2010-04</div><div class='tl-sep'></div><div class='tl-body'>elamipretideの最初のIND提出<br/>（初期の臨床開発段階へ）</div></div>"]
+  --> E["<div class='tl-card'><div class='tl-date'>2014-03-28</div><div class='tl-sep'></div><div class='tl-body'>cardiolipin結合とcytochrome c相互作用制御<br/>を示す機序論文発行（代表論文：[^14]）</div></div>"]
+  --> F["<div class='tl-card'><div class='tl-date'>2014-10</div><div class='tl-sep'></div><div class='tl-body'>原発性ミトコンドリア筋症（PMM）<br/>でIND提出（適応拡張）[^15]</div></div>"]
+  --> G["<div class='tl-card'><div class='tl-date'>2017-07</div><div class='tl-sep'></div><div class='tl-body'>Barth症候群のTAZPOWER試験<br/>で登録開始[^15]</div></div>"]
+  --> H["<div class='tl-card'><div class='tl-date'>2020-10-20</div><div class='tl-sep'></div><div class='tl-body'>TAZPOWER（Part 1/2）試験の<br/>主要結果公開 [^16]</div></div>"]
+  --> I["<div class='tl-card'><div class='tl-date'>2024-01-29</div><div class='tl-sep'></div><div class='tl-body'>Barth症候群適応でNDA提出<br/>（FDA受領日）[^17]</div></div>"]
+  --> J["<div class='tl-card'><div class='tl-date'>2024-07-29</div><div class='tl-sep'></div><div class='tl-body'>NDAがPriority Review扱い、<br/>PDUFA dateが2025-01-29と公表 [^18]</div></div>"]
+  --> K["<div class='tl-card'><div class='tl-date'>2024-10-10</div><div class='tl-sep'></div><div class='tl-body'>FDAの循環器・腎領域<br/>Advisory Committee（CRDAC）<br/>による公開審議</div></div>"]
+  --> L["<div class='tl-card'><div class='tl-date'>2025-01-23</div><div class='tl-sep'></div><div class='tl-body'>PDUFA dateが2025-04-29へ<br/>3か月延長（Major Amendments扱い）[^19]</div></div>"]
+  --> M["<div class='tl-card'><div class='tl-date'>2025-05-15</div><div class='tl-sep'></div><div class='tl-body'>FDAがComplete Response Letter（CRL）<br/>を出し、迅速承認ルートでの<br/>complete responseを要求[^17]</div></div>"]
+  --> N["<div class='tl-card'><div class='tl-date'>2025-08-15</div><div class='tl-sep'></div><div class='tl-body'>2025-05-15 CRLへのcomplete response<br/>としてNDA再提出（完全応答日）</div></div>"]
+  --> O["<div class='tl-card'><div class='tl-date'>2025-09-19</div><div class='tl-sep'></div><div class='tl-body'>FDAがForzinityを<br/>迅速承認（初承認日）[^1]</div></div>"]
+  --> P["<div class='tl-card'><div class='tl-date'>2026-03</div><div class='tl-sep'></div><div class='tl-body'>承認後の検証試験：<br/>初回被験者スクリーニング開始予定</div></div>"]
 ```
 
 略語

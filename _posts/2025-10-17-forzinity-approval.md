@@ -131,7 +131,7 @@ Forzinity（エラミプレチド）の登場は、ミトコンドリア病領�
 </div>
 
 ## 開発タイムライン
-
+```mermaid
 flowchart LR
   A["2004-06-02<br/>SS-31（後のelamipretide）の初期報告（Epub）—ミトコンドリア標的ペプチドの概念提示[^3]"]
   --> B["2004-08-13<br/>上記論文がJ Biol Chem掲載（print）"]
@@ -149,6 +149,7 @@ flowchart LR
   --> N["2025-08-15<br/>2025-05-15 CRLへのcomplete responseとしてNDA再提出（完全応答日）"]
   --> O["2025-09-19<br/>FDAがForzinityを迅速承認（初承認日）[^1]"]
   --> P["2026-03<br/>承認後の検証試験：初回被験者スクリーニング開始予定"]
+```
 
 略語
 • IND(Investigational New Drug application)：臨床試験を始めるためのFDA申請

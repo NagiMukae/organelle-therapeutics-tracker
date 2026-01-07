@@ -133,22 +133,22 @@ Forzinity（エラミプレチド）の登場は、ミトコンドリア病領�
 ## 開発タイムライン
 ```mermaid
 flowchart LR
-  A["2004-06-02<br/>SS-31（後のelamipretide）の初期報告（Epub）—ミトコンドリア標的ペプチドの概念提示[^3]"]
+  A["2004-06-02<br/>SS-31（後のelamipretide）の初期報告（Epub）<br/>—ミトコンドリア標的ペプチドの概念提示[^3]"]
   --> B["2004-08-13<br/>上記論文がJ Biol Chem掲載（print）"]
-  --> C["2006-04<br/>Stealth Peptides, Inc. 設立（後にStealth BioTherapeuticsへ）"]
-  --> D["2010-04<br/>MTP-131（elamipretide）の最初のIND提出（初期の臨床開発段階へ）"]
-  --> E["2014-03-28<br/>cardiolipin結合とcytochrome c相互作用制御を示す機序論文発行（代表論文：[^14]）"]
-  --> F["2014-10<br/>原発性ミトコンドリア筋症（PMM）でIND提出（適応拡張の開発ライン）[^15]"]
-  --> G["2017-07<br/>Barth症候群のTAZPOWER試験で登録開始（臨床有効性データの中核）[^15]"]
-  --> H["2020-10-20<br/>TAZPOWER（Part 1/2）試験の主要結果公開 [^16]"]
-  --> I["2024-01-29<br/>Barth症候群適応でNDA提出（FDA受領日）[^17]"]
-  --> J["2024-07-29<br/>NDAがPriority Review扱い、PDUFA dateが2025-01-29と公表 [^18]"]
-  --> K["2024-10-10<br/>FDAの循環器・腎領域Advisory Committee（CRDAC）による公開審議"]
-  --> L["2025-01-23<br/>PDUFA dateが2025-04-29へ3か月延長（Major Amendments扱い）[^19]"]
-  --> M["2025-05-15<br/>FDAがComplete Response Letter（CRL）を出し、迅速承認ルートでのcomplete responseを要求[^17]"]
-  --> N["2025-08-15<br/>2025-05-15 CRLへのcomplete responseとしてNDA再提出（完全応答日）"]
-  --> O["2025-09-19<br/>FDAがForzinityを迅速承認（初承認日）[^1]"]
-  --> P["2026-03<br/>承認後の検証試験：初回被験者スクリーニング開始予定"]
+  --> C["2006-04<br/>Stealth Peptides, Inc. 設立<br/>（後にStealth BioTherapeuticsへ）"]
+  --> D["2010-04<br/>elamipretideの最初のIND提出<br/>（初期の臨床開発段階へ）"]
+  --> E["2014-03-28<br/>cardiolipin結合とcytochrome c相互作用制御<br/>を示す機序論文発行（代表論文：[^14]）"]
+  --> F["2014-10<br/>原発性ミトコンドリア筋症（PMM）<br/>でIND提出（適応拡張）[^15]"]
+  --> G["2017-07<br/>Barth症候群のTAZPOWER試験<br/>で登録開始[^15]"]
+  --> H["2020-10-20<br/>TAZPOWER（Part 1/2）試験の<br/>主要結果公開 [^16]"]
+  --> I["2024-01-29<br/>Barth症候群適応でNDA提出<br/>（FDA受領日）[^17]"]
+  --> J["2024-07-29<br/>NDAがPriority Review扱い、<br/>PDUFA dateが2025-01-29と公表 [^18]"]
+  --> K["2024-10-10<br/>FDAの循環器・腎領域<br/>Advisory Committee（CRDAC）<br/>による公開審議"]
+  --> L["2025-01-23<br/>PDUFA dateが2025-04-29へ<br/>3か月延長（Major Amendments扱い）[^19]"]
+  --> M["2025-05-15<br/>FDAがComplete Response Letter（CRL）<br/>を出し、迅速承認ルートでの<br/>complete responseを要求[^17]"]
+  --> N["2025-08-15<br/>2025-05-15 CRLへのcomplete response<br/>としてNDA再提出（完全応答日）"]
+  --> O["2025-09-19<br/>FDAがForzinityを<br/>迅速承認（初承認日）[^1]"]
+  --> P["2026-03<br/>承認後の検証試験：<br/>初回被験者スクリーニング開始予定"]
 ```
 
 略語

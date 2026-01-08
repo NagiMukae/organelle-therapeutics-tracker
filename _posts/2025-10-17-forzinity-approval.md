@@ -31,9 +31,9 @@ tags: ["Peptide", "Approved", "Stealth BioTherapeutics", "US"]
 
 <div class="notice--info" markdown="1">
 ### コラム：Hazel H. Szetoによるエラミプレチド開発の道のり
-エラミプレチドの開発を先導したHazel H. Szetoは、Weill Cornellで医学生から薬理学研究者・教授としてキャリアを重ねた後、養子に迎えた娘との生活に専念するため研究を終えるつもりでした。しかしその後、<strong>オピオイド受容体の研究ツールとして作製した4つのアミノ酸からなる水溶性ペプチドが、実際に細胞に浸透し、ミトコンドリアを標的とすることを発見し、大きなブレイクスルーとなりました。</strong>それ以来、Szeto博士と共同研究者たちは、このペプチドの類似体（その溶解性ゆえに長らく医薬品開発には不向きと考えられてきた化合物）を、前臨床試験で急性冠症候群、脳卒中、糖尿病性視力低下、心不全、筋萎縮、神経変性疾患の治療に有望な新しいクラスの薬剤へと発展させてきました。Szeto博士は2006年に、ミトコンドリア疾患をターゲットにしたバイオテクノロジー企業Stealth Biotherapeuticsを設立しました。当時は、教員による起業は一般的ではなく、積極的に支援されてもいませんでした。
+エラミプレチドの開発を先導したHazel H. Szetoは、Weill Cornellで医学生から薬理学研究者・教授としてキャリアを重ねた後、養子に迎えた娘との生活に専念するため研究を終えるつもりでした。しかしその後、<strong>オピオイド受容体の研究ツールとして作製した4つのアミノ酸からなる水溶性ペプチドが、実際に細胞に浸透し、ミトコンドリアを標的とすることを発見し、大きなブレイクスルーとなりました。</strong>それ以来、Szeto博士と共同研究者たちは、このペプチドの類似体（その溶解性ゆえに長らく医薬品開発には不向きと考えられてきた化合物）を、前臨床試験で急性冠症候群、脳卒中、糖尿病性視力低下、心不全、筋萎縮、神経変性疾患の治療に有望な新しいクラスの薬剤へと発展させてきました。Szeto博士は2006年に、ミトコンドリア疾患をターゲットにしたバイオテクノロジー企業Stealth Biotherapeuticsを設立。当時は、教員による起業は一般的ではなく、積極的に支援されてもいませんでした。
 
-Szeto博士はエラミプレチドの発見を「単なる幸運」と呼びますが、その後の展開は偶然任せではありませんでした。彼女は最初の論文でエラミプレチドの構造をあえて公開し、世界中の研究者が検証できる環境をつくりました。
+Szeto博士はエラミプレチドの発見を「単なる幸運」と呼びますが、その後の展開は偶然任せではありません。彼女は最初の論文でエラミプレチドの構造をあえて公開し、世界中の研究者が検証できる環境をつくりました。
 
 「投資家候補と話し始めたとき、彼らは私がそんなことをしたことに驚愕しました」と彼女は言います。「他の人が作ってテストして、何か悪いことを言うのではないかという不安があります。<strong>でも、私はオープンソースを心から信じています。最初はそれが悪い考えだとは思っていませんでしたが、何年も経つうちに、それが最善の考えだと判断しました。なぜなら、誰でもその化合物の研究ができるからです。そして、人々はまさにそれを実行し、今では開発中の薬剤化合物の中で最も検証されたものの一つになっています。</strong>」
 
@@ -154,22 +154,21 @@ Forzinity（エラミプレチド）の登場は、ミトコンドリア病領�
 ```mermaid
 flowchart TB
 
-A["<div class='tl-card'><div class='tl-date'>2004-06-02</div><div class='tl-sep'></div><div class='tl-body'>SS-31（後のelamipretide）の初期報告<br/>—ミトコンドリア標的ペプチドの概念提示[^3]</div></div>"]
-  --> B["<div class='tl-card'><div class='tl-date'>2004-08-13</div><div class='tl-sep'></div><div class='tl-body'>上記論文がJ Biol Chem掲載（print）</div></div>"]
-  --> C["<div class='tl-card'><div class='tl-date'>2006-04</div><div class='tl-sep'></div><div class='tl-body'>Stealth Peptides, Inc. 設立<br/>（後にStealth BioTherapeuticsへ）</div></div>"]
-  --> D["<div class='tl-card'><div class='tl-date'>2010-04</div><div class='tl-sep'></div><div class='tl-body'>elamipretideの最初のIND提出<br/>（初期の臨床開発段階へ）</div></div>"]
-  --> E["<div class='tl-card'><div class='tl-date'>2014-03-28</div><div class='tl-sep'></div><div class='tl-body'>cardiolipin結合とcytochrome c相互作用制御<br/>を示す機序論文発行（代表論文：[^14]）</div></div>"]
-  --> F["<div class='tl-card'><div class='tl-date'>2014-10</div><div class='tl-sep'></div><div class='tl-body'>原発性ミトコンドリア筋症（PMM）<br/>でIND提出（適応拡張）[^15]</div></div>"]
-  --> G["<div class='tl-card'><div class='tl-date'>2017-07</div><div class='tl-sep'></div><div class='tl-body'>Barth症候群のTAZPOWER試験<br/>で登録開始[^15]</div></div>"]
-  --> H["<div class='tl-card'><div class='tl-date'>2020-10-20</div><div class='tl-sep'></div><div class='tl-body'>TAZPOWER（Part 1/2）試験の<br/>主要結果公開 [^16]</div></div>"]
-  --> I["<div class='tl-card'><div class='tl-date'>2024-01-29</div><div class='tl-sep'></div><div class='tl-body'>Barth症候群適応でNDA提出<br/>（FDA受領日）[^17]</div></div>"]
-  --> J["<div class='tl-card'><div class='tl-date'>2024-07-29</div><div class='tl-sep'></div><div class='tl-body'>NDAがPriority Review扱い、<br/>PDUFA dateが2025-01-29と公表 [^18]</div></div>"]
-  --> K["<div class='tl-card'><div class='tl-date'>2024-10-10</div><div class='tl-sep'></div><div class='tl-body'>FDAの循環器・腎領域<br/>Advisory Committee（CRDAC）<br/>による公開審議</div></div>"]
-  --> L["<div class='tl-card'><div class='tl-date'>2025-01-23</div><div class='tl-sep'></div><div class='tl-body'>PDUFA dateが2025-04-29へ<br/>3か月延長（Major Amendments扱い）[^19]</div></div>"]
-  --> M["<div class='tl-card'><div class='tl-date'>2025-05-15</div><div class='tl-sep'></div><div class='tl-body'>FDAがComplete Response Letter（CRL）<br/>を出し、迅速承認ルートでの<br/>complete responseを要求[^17]</div></div>"]
-  --> N["<div class='tl-card'><div class='tl-date'>2025-08-15</div><div class='tl-sep'></div><div class='tl-body'>2025-05-15 CRLへのcomplete response<br/>としてNDA再提出</div></div>"]
-  --> O["<div class='tl-card'><div class='tl-date'>2025-09-19</div><div class='tl-sep'></div><div class='tl-body'>FDAがForzinityを<br/>迅速承認（初承認日）[^1]</div></div>"]
-  --> P["<div class='tl-card'><div class='tl-date'>2026-03</div><div class='tl-sep'></div><div class='tl-body'>承認後の検証試験：<br/>初回被験者スクリーニング開始予定</div></div>"]
+A["<div class='tl-card'><div class='tl-date'>2004-06-02</div><div class='tl-sep'></div><div class='tl-body'>SS-31（後のelamipretide）の初期報告<br/>(Zhao, J Biol Chem)<br/>—ミトコンドリア標的ペプチドの概念提示[^3]</div></div>"]
+  --> B["<div class='tl-card'><div class='tl-date'>2006-04</div><div class='tl-sep'></div><div class='tl-body'>Stealth Peptides, Inc. 設立<br/>（後にStealth BioTherapeuticsへ）</div></div>"]
+  --> C["<div class='tl-card'><div class='tl-date'>2010-04</div><div class='tl-sep'></div><div class='tl-body'>elamipretideの最初のIND提出<br/>（初期の臨床開発段階へ）</div></div>"]
+  --> D["<div class='tl-card'><div class='tl-date'>2014-03-28</div><div class='tl-sep'></div><div class='tl-body'>cardiolipin結合とcytochrome c相互作用制御<br/>を示す機序論文発行（Birk, British journal of pharmacology）</div></div>"]
+  --> E["<div class='tl-card'><div class='tl-date'>2014-10</div><div class='tl-sep'></div><div class='tl-body'>原発性ミトコンドリア筋症（PMM）<br/>でIND提出（適応拡張）</div></div>"]
+  --> F["<div class='tl-card'><div class='tl-date'>2017-07</div><div class='tl-sep'></div><div class='tl-body'>Barth症候群のTAZPOWER試験<br/>で登録開始</div></div>"]
+  --> G["<div class='tl-card'><div class='tl-date'>2020-10-20</div><div class='tl-sep'></div><div class='tl-body'>TAZPOWER（Part 1/2）試験の<br/>主要結果公開</div></div>"]
+  --> H["<div class='tl-card'><div class='tl-date'>2024-01-29</div><div class='tl-sep'></div><div class='tl-body'>Barth症候群適応でNDA提出<br/>（FDA受領日）</div></div>"]
+  --> I["<div class='tl-card'><div class='tl-date'>2024-07-29</div><div class='tl-sep'></div><div class='tl-body'>NDAがPriority Review扱い、<br/>PDUFA dateが2025-01-29と公表 [^18]</div></div>"]
+  --> J["<div class='tl-card'><div class='tl-date'>2024-10-10</div><div class='tl-sep'></div><div class='tl-body'>FDAの循環器・腎領域<br/>Advisory Committee（CRDAC）<br/>による公開審議</div></div>"]
+  --> K["<div class='tl-card'><div class='tl-date'>2025-01-23</div><div class='tl-sep'></div><div class='tl-body'>PDUFA dateが2025-04-29へ<br/>3か月延長（Major Amendments扱い）</div></div>"]
+  --> L["<div class='tl-card'><div class='tl-date'>2025-05-15</div><div class='tl-sep'></div><div class='tl-body'>FDAがComplete Response Letter（CRL）<br/>を出し、迅速承認ルートでの<br/>complete responseを要求</div></div>"]
+  --> M["<div class='tl-card'><div class='tl-date'>2025-08-15</div><div class='tl-sep'></div><div class='tl-body'>2025-05-15 CRLへのcomplete response<br/>としてNDA再提出</div></div>"]
+  --> N["<div class='tl-card'><div class='tl-date'>2025-09-19</div><div class='tl-sep'></div><div class='tl-body'>FDAがForzinityを<br/>迅速承認（初承認日）</div></div>"]
+  --> O["<div class='tl-card'><div class='tl-date'>2026-03</div><div class='tl-sep'></div><div class='tl-body'>承認後の検証試験：<br/>初回被験者スクリーニング開始予定</div></div>"]
 ```
 <!-- 脚注を本文側で参照させる（Mermaid内では脚注扱いにならないため） -->
 参照：[^3] [^15] [^16] [^17] [^18] [^19]

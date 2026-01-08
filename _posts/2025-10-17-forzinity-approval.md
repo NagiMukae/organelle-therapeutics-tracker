@@ -41,7 +41,7 @@ Szeto博士はエラミプレチドの発見を「単なる幸運」と呼びま
 
 FDA承認後、Szeto博士は「実際に人々の役に立っているのを見ることほど素晴らしいことはありません」と語っています。
 
-このコラムは Weill Cornell MedicineによるSzeto博士へのインタビュー記事からまとめたものです。
+このコラムは Weill Cornell MedicineによるSzeto博士へのインタビュー記事からまとめたものです。[^20][^21]
 
 </div>
 
@@ -59,7 +59,8 @@ FDA承認後、Szeto博士は「実際に人々の役に立っているのを見
 </div>
 
 ## 対象疾患と適応症
-<strong>Barth症候群</strong>はTAZ遺伝子の変異によるカルジオリピン異常症で、重篤な心筋症や骨格筋筋力低下、免疫不全などを特徴とする極めて稀なX連鎖性ミトコンドリア疾患です。ForzinityはBarth症候群において根本原因であるミトコンドリア障害（カルジオリピン機能不全）に直接作用する初の治療薬として開発され、成人および小児（体重30kg以上）の筋力低下改善を目的に承認されました[^6]。
+<strong>Barth症候群</strong>はTAZ遺伝子の変異によるカルジオリピン異常症で、重篤な心筋症や骨格筋筋力低下、免疫不全などを特徴とする極めて稀なX連鎖性ミトコンドリア疾患です。ForzinityはBarth症候群において根本原因であるミトコンドリア障害（カルジオリピン機能不全）に直接作用する初の治療薬として開発され、成人および小児（体重30kg以上）の筋力低下改善を目的に承認されました[^6]。米国では約150人、世界では500人未満がバース症候群の患者として知られています。
+
 
 Barth症候群以外にも、エラミプレチドはミトコンドリア機能障害を伴う様々な疾患に対する応用が模索されています。代表的な対象は以下のとおりです：
 
@@ -90,6 +91,8 @@ Forzinity（エラミプレチド）の有効性と安全性は、各疾患領�
   - 膝伸展筋力（筋力測定値）の有意な改善を示し、加えて骨格筋全般の筋力向上、心拍出量の増加、疲労スコアの改善、心機能パラメータ（脳卒中量や左室拡張末期容積・収縮末期容積）の改善が観察されました。
   - 長期投与において効果と忍容性が持続することも確認され、特に日常生活動作の向上や筋力低下の進行抑制といった臨床的ベネフィットが期待されています。
   - ただし、体重30kg未満の小児データは不足しており、今後より若年層での検証が必要とされています。[^7][^8]
+  - 実際に臨床試験に参加したBarth症候群患者の感想がWeill Cornell MedicineのNews記事に掲載されています[^21]。当初、その患者は1ブロック歩くだけで息切れしていました。しかし臨床試験を始めて6ヶ月後には、両親を追い抜くペースで歩くようになり、1年で体重は約11kg増加したそうです。「この薬のおかげで、まるで電灯のスイッチを入れたように、まるで別人になりました。」と述べています。
+
 
 - **MMPOWER-3試験（原発性ミトコンドリア筋症）**
   - 遺伝子診断で確認された原発性ミトコンドリア筋症（PMM）患者を対象にしたランダム化二重盲検プラセボ対照第3相試験。
@@ -199,3 +202,5 @@ A["<div class='tl-card'><div class='tl-date'>2004-06-02</div><div class='tl-sep'
 [^17]: U.S. Food and Drug Administration (FDA), Center for Drug Evaluation and Research (CDER). Approval Package for NDA 215244Orig1s000: Forzinity injection, 280 mg/3.5 mL (80 mg/mL)（Approval Date: September 19, 2025）. Accessed 2026-01-07. [https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/215244Orig1s000Approv.pdf](https://www.accessdata.fda.gov/drugsatfda_docs/nda/2025/215244Orig1s000Approv.pdf)
 [^18]: Stealth BioTherapeutics Corp. (2024, July 29). Stealth BioTherapeutics completes mid-cycle review meeting on elamipretide for the treatment of Barth syndrome [Press release].[https://stealthbt.com/stealth-biotherapeutics-completes-mid-cycle-review-meeting-on-elamipretide-for-the-treatment-of-barth-syndrome/](https://stealthbt.com/stealth-biotherapeutics-completes-mid-cycle-review-meeting-on-elamipretide-for-the-treatment-of-barth-syndrome/)
 [^19]: Stealth BioTherapeutics Corp. (2025, Jan 23). Stealth BioTherapeutics Announces PDUFA Action Date Extension for Elamipretide to Treat Patients with Barth Syndrome[Press release].[https://stealthbt.com/stealth-biotherapeutics-announces-pdufa-action-date-extension-for-elamipretide-to-treat-patients-with-barth-syndrome/](https://stealthbt.com/stealth-biotherapeutics-announces-pdufa-action-date-extension-for-elamipretide-to-treat-patients-with-barth-syndrome/)
+[^20]: Weill Cornell Medicine. (2014, April). Interview with the Dean: Small molecules show big promise. Weill Cornell Medicine News. Retrieved January 8, 2026. [https://news.weill.cornell.edu/news/2014/04/interview-with-the-dean-small-molecules-show-big-promise](https://news.weill.cornell.edu/news/2014/04/interview-with-the-dean-small-molecules-show-big-promise)
+[^21]: Weill Cornell Medicine. (2025, December 4). The winding road from bench to FDA approval for first mitochondria-targeting drug. Weill Cornell Medicine Newsroom. Retrieved January 8, 2026. [https://news.weill.cornell.edu/news/2025/12/the-winding-road-from-bench-to-fda-approval-for-first-mitochondria-targeting-drug](https://news.weill.cornell.edu/news/2025/12/the-winding-road-from-bench-to-fda-approval-for-first-mitochondria-targeting-drug)

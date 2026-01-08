@@ -152,7 +152,7 @@ A["<div class='tl-card'><div class='tl-date'>2004-06-02</div><div class='tl-sep'
   --> P["<div class='tl-card'><div class='tl-date'>2026-03</div><div class='tl-sep'></div><div class='tl-body'>承認後の検証試験：<br/>初回被験者スクリーニング開始予定</div></div>"]
 ```
 <!-- 脚注を本文側で参照させる（Mermaid内では脚注扱いにならないため） -->
-参照：[^1] [^15] [^16] [^17] [^18] [^19]
+参照：[^3] [^15] [^16] [^17] [^18] [^19]
 ### 略語
 
 - **IND** (Investigational New Drug application)：臨床試験を始めるためのFDA申請  

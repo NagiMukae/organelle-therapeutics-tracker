@@ -147,16 +147,17 @@ A["<div class='tl-card'><div class='tl-date'>2004-06-02</div><div class='tl-sep'
   --> K["<div class='tl-card'><div class='tl-date'>2024-10-10</div><div class='tl-sep'></div><div class='tl-body'>FDAの循環器・腎領域<br/>Advisory Committee（CRDAC）<br/>による公開審議</div></div>"]
   --> L["<div class='tl-card'><div class='tl-date'>2025-01-23</div><div class='tl-sep'></div><div class='tl-body'>PDUFA dateが2025-04-29へ<br/>3か月延長（Major Amendments扱い）[^19]</div></div>"]
   --> M["<div class='tl-card'><div class='tl-date'>2025-05-15</div><div class='tl-sep'></div><div class='tl-body'>FDAがComplete Response Letter（CRL）<br/>を出し、迅速承認ルートでの<br/>complete responseを要求[^17]</div></div>"]
-  --> N["<div class='tl-card'><div class='tl-date'>2025-08-15</div><div class='tl-sep'></div><div class='tl-body'>2025-05-15 CRLへのcomplete response<br/>としてNDA再提出（完全応答日）</div></div>"]
+  --> N["<div class='tl-card'><div class='tl-date'>2025-08-15</div><div class='tl-sep'></div><div class='tl-body'>2025-05-15 CRLへのcomplete response<br/>としてNDA再提出</div></div>"]
   --> O["<div class='tl-card'><div class='tl-date'>2025-09-19</div><div class='tl-sep'></div><div class='tl-body'>FDAがForzinityを<br/>迅速承認（初承認日）[^1]</div></div>"]
   --> P["<div class='tl-card'><div class='tl-date'>2026-03</div><div class='tl-sep'></div><div class='tl-body'>承認後の検証試験：<br/>初回被験者スクリーニング開始予定</div></div>"]
 ```
 
-略語
-• IND(Investigational New Drug application)：臨床試験を始めるためのFDA申請
-• NDA(New Drug Application)：承認申請
-• PDUFA(Prescription Drug User Fee Act)date：FDAの審査目標日
-• AdCom（CRDAC;FDA Advisory Committee）：FDA外部専門家会議（公開審議）
+### 略語
+
+- **IND** (Investigational New Drug application)：臨床試験を始めるためのFDA申請  
+- **NDA** (New Drug Application)：承認申請  
+- **PDUFA date** (Prescription Drug User Fee Act)：FDAの審査目標日  
+- **CRDAC** (Cardiovascular and Renal Drugs Advisory Committee)：FDA循環器・腎領域 薬剤諮問委員会
 
 ## 参考文献、参考サイト
 管理人が全ての引用元の情報をチェックしてから記事にまとめています。

@@ -157,7 +157,7 @@ flowchart TB
 A["<div class='tl-card'><div class='tl-date'>2004-06-02</div><div class='tl-sep'></div><div class='tl-body'>SS-31（後のelamipretide）の初期報告<br/>(Zhao, J Biol Chem)<br/>—ミトコンドリア標的ペプチドの概念提示[^3]</div></div>"]
   --> B["<div class='tl-card'><div class='tl-date'>2006-04</div><div class='tl-sep'></div><div class='tl-body'>Stealth Peptides, Inc. 設立<br/>（後にStealth BioTherapeuticsへ）</div></div>"]
   --> C["<div class='tl-card'><div class='tl-date'>2010-04</div><div class='tl-sep'></div><div class='tl-body'>elamipretideの最初のIND提出<br/>（初期の臨床開発段階へ）</div></div>"]
-  --> D["<div class='tl-card'><div class='tl-date'>2014-03-28</div><div class='tl-sep'></div><div class='tl-body'>cardiolipin結合とcytochrome c相互作用制御<br/>を示す機序論文発行（Birk, British journal of pharmacology）</div></div>"]
+  --> D["<div class='tl-card'><div class='tl-date'>2014-03-28</div><div class='tl-sep'></div><div class='tl-body'>cardiolipin結合とcytochrome c相互作用制御<br/>を示す機序論文発行<br/>（代表：Birk, Br J Pharmacol.）</div></div>"]
   --> E["<div class='tl-card'><div class='tl-date'>2014-10</div><div class='tl-sep'></div><div class='tl-body'>原発性ミトコンドリア筋症（PMM）<br/>でIND提出（適応拡張）</div></div>"]
   --> F["<div class='tl-card'><div class='tl-date'>2017-07</div><div class='tl-sep'></div><div class='tl-body'>Barth症候群のTAZPOWER試験<br/>で登録開始</div></div>"]
   --> G["<div class='tl-card'><div class='tl-date'>2020-10-20</div><div class='tl-sep'></div><div class='tl-body'>TAZPOWER（Part 1/2）試験の<br/>主要結果公開</div></div>"]

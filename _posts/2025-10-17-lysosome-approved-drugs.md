@@ -18,7 +18,9 @@ last_modified_at: 2025-10-17 00:00:00 +0900
 > **更新方針**：新承認・適応拡大があれば追記します。一次情報（FDA/EMA/PMDAのラベル・EPAR 等）を参照しています。
 
 ## 概要
-リソソームは細胞内の主に不用物の分解を担うオルガネラです。
+リソソームは細胞内の主に不用物の分解を担うオルガネラです。リソソームには約0種類以上の分解酵素があると言われており、それらの酵素の遺伝子変異や、その他リソソーム機能維持に重要なタンパク質の欠損は重篤な病態を引き起こすことがあります。この記事では、リソソーム関連疾患に対する承認薬を、作用形式（ERT/SRT/薬理シャペロン/遺伝子治療）で整理し、初回承認年の時系列順で俯瞰することができます。
+ERT（Enzyme Replacement Therapy）とは欠損/機能低下しているリソソーム酵素を、外因性に補充する治療であり、SRT（Substrate Reduction Therapy）とは 分解できない基質（substrate）の産生を抑えて、リソソームへの負荷を下げる治療です。
+ERTは末梢病変に対する標準治療として発展してきた一方、中枢移行性の制約を背景に、SRTやシャペロン、投与経路の工夫（例：脳室内投与）、遺伝子治療へとモダリティが拡張しています。
 
 ## 承認済みリソソーム標的薬（主要）
 
@@ -56,6 +58,16 @@ last_modified_at: 2025-10-17 00:00:00 +0900
 - **SRT**：経口選択肢（eliglustat/miglustat）。代謝酵素阻害で基質生成を抑制。遺伝子型・相互作用に注意。
 - **薬理シャペロン**：migalastat は**アメナブル変異**の判定が前提。
 - **遺伝子治療**：Libmeldy（EU）。導入タイミングと長期フォローが重要。
+
+##開発のマイルストーン
+
+flowchart TD
+  A[1991 FDA: Ceredase (alglucerase) Gaucher type 1] --> B[1994 FDA: Cerezyme (imiglucerase) Gaucher type 1]
+  B --> C[2003 FDA: Zavesca (miglustat) Gaucher type 1 (ERT不適)]
+  C --> D[2014 FDA: Cerdelga (eliglustat) Gaucher type 1 (CYP2D6制約)]
+  D --> E[2017 FDA: Brineura (cerliponase alfa) CLN2 脳室内ERT]
+  E --> F[2023 FDA: Pombiliti (cipaglucosidase alfa) + Opfolda (miglustat) Pompe 成人]
+
 
 ## 出典
 一次情報：FDA（Drugs@FDA / ラベル）、EMA（EPAR）、PMDA（承認審査資料・添付文書）ほか。

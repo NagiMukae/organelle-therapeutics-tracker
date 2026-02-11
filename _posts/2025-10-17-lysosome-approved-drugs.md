@@ -142,8 +142,7 @@ ERTは末梢病変に対する標準治療として発展してきた一方、�
 
 ---
 
-## 開発のマイルストーン（概観）
-（「リソソーム標的薬」領域のモダリティ進化を俯瞰するため、代表的な規制当局承認をマイルストーンとして整理）
+## モダリティ開発のマイルストーン
 
 1. <strong>1991：Ceredase（alglucerase）</strong> — Gaucher病 type 1 で <strong>placenta由来</strong>の初期ERTがFDAで承認（のちにrecombinantへ置換）。[^38]  
 2. <strong>1994：Cerezyme（imiglucerase）</strong> — Gaucher病 type 1 で <strong>recombinant ERT</strong>がFDAで初回承認（以後の標準ERTの基盤）。[^39][^29]  

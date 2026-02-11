@@ -21,6 +21,12 @@ last_modified_at: 2026-02-12 00:00:00 +0900
 
 > **更新方針**：新承認・適応拡大があれば追記します。一次情報（FDA/EMA/PMDAのラベル・EPAR 等）を参照しています。
 
+<div class="page-badges">
+  {% if page.content_type %}<span class="badge badge--type">{{ page.content_type }}</span>{% endif %}
+  {% if page.stage %}<span class="badge badge--stage">{{ page.stage }}</span>{% endif %}
+  {% for c in page.categories %}<span class="badge badge--org">{{ c }}</span>{% endfor %}
+</div>
+
 ## 概要
 リソソームは細胞内の主に不用物の分解を担うオルガネラです。リソソームには約60種類以上の分解酵素があると言われており、それらの酵素の遺伝子変異や、その他リソソーム機能維持に重要なタンパク質の欠損は重篤な病態を引き起こすことがあります。この記事では、リソソーム関連疾患に対する承認薬を、作用形式（ERT/SRT/薬理シャペロン/遺伝子治療）で整理し、初回承認年の時系列順で俯瞰することができます。
 ERT（Enzyme Replacement Therapy）とは欠損/機能低下しているリソソーム酵素を、外因性に補充する治療であり、SRT（Substrate Reduction Therapy）とは 分解できない基質（substrate）の産生を抑えて、リソソームへの負荷を下げる治療です。

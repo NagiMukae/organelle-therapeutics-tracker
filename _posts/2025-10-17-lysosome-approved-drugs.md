@@ -2,13 +2,17 @@
 layout: single
 title: "リソソーム標的薬：承認済み治療薬まとめ（2025年10月更新）"
 description: "LSD（リソソーム病）を中心に、承認済みのリソソーム標的薬を用途別に一覧化。作用機序、初回承認年、投与経路、ポイントを簡潔に整理。"
-categories: ["Lysosome"]           
+
+content_type: "医薬品"
+stage: "承認"
+
+categories: ["Lysosome"]
 tags: ["LSD","ERT","SRT","Chaperone","Gene therapy","Approvals"]
 toc: true
 toc_sticky: true
 header:
   teaser: /assets/images/eyecatch_lysosome.png
-classes: wide                       # ← 表の横幅を広げる
+classes: wide
 last_modified_at: 2026-02-12 00:00:00 +0900
 ---
 

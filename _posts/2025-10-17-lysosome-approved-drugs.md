@@ -10,6 +10,9 @@ classes: wide                       # ← 表の横幅を広げる
 last_modified_at: 2025-10-17 00:00:00 +0900
 ---
 
+![eyecatch_lysosome]({{ "/assets/images/eyecatch_lysosome.png" | relative_url }})
+
+
 > **更新方針**：新承認・適応拡大があれば追記します。一次情報（FDA/EMA/PMDAのラベル・EPAR 等）を参照しています。
 
 ### 承認済みリソソーム標的薬（主要）

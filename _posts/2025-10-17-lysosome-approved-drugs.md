@@ -18,9 +18,9 @@ last_modified_at: 2025-10-17 00:00:00 +0900
 > **更新方針**：新承認・適応拡大があれば追記します。一次情報（FDA/EMA/PMDAのラベル・EPAR 等）を参照しています。
 
 ## 概要
-リソソームは細胞内の主に不用物の分解を担うオルガネラです。リソソームには約0種類以上の分解酵素があると言われており、それらの酵素の遺伝子変異や、その他リソソーム機能維持に重要なタンパク質の欠損は重篤な病態を引き起こすことがあります。この記事では、リソソーム関連疾患に対する承認薬を、作用形式（ERT/SRT/薬理シャペロン/遺伝子治療）で整理し、初回承認年の時系列順で俯瞰することができます。
+リソソームは細胞内の主に不用物の分解を担うオルガネラです。リソソームには約60種類以上の分解酵素があると言われており、それらの酵素の遺伝子変異や、その他リソソーム機能維持に重要なタンパク質の欠損は重篤な病態を引き起こすことがあります。この記事では、リソソーム関連疾患に対する承認薬を、作用形式（ERT/SRT/薬理シャペロン/遺伝子治療）で整理し、初回承認年の時系列順で俯瞰することができます。
 ERT（Enzyme Replacement Therapy）とは欠損/機能低下しているリソソーム酵素を、外因性に補充する治療であり、SRT（Substrate Reduction Therapy）とは 分解できない基質（substrate）の産生を抑えて、リソソームへの負荷を下げる治療です。
-ERTは末梢病変に対する標準治療として発展してきた一方、中枢移行性の制約を背景に、SRTやシャペロン、投与経路の工夫（例：脳室内投与）、遺伝子治療へとモダリティが拡張しています。
+ERTは末梢病変に対する標準治療として発展してきた一方、中枢移行性の制約を背景に、SRTやシャペロン、投与経路の工夫（脳室内投与など）、遺伝子治療へとモダリティが拡張しています。
 
 ## 承認済みリソソーム標的薬（主要）
 初回承認の年の順番に並べています。最終更新日時点での情報を元にまとめています。個別症例の適用可否は各国の承認条件・年齢制限等をご確認ください。
@@ -46,7 +46,7 @@ ERTは末梢病変に対する標準治療として発展してきた一方、�
 | MPS VII（Sly） | ベストロニニダーゼα［Mepsevii］ | ERT | Ultragenyx | 2017（米）[^18] | 点滴 | 超希少疾患 |
 | CLN2（バッテン病） | セルリポナーゼα［Brineura］ | **脳室内ERT** | BioMarin | 2017（米/EU）[^19] | 脳室内 | 中枢投与 |
 | α-マンノシドーシス | ベルマナーゼα［Lamzede］ | ERT | Chiesi | 2018（EU）[^20] | 点滴 | 2023に米国承認[^21] |
-| MLD | **atidarsagene autotemcel**［Libmeldy］ | **遺伝子治療**（自家HSC） | Orchard | 2020（EU）[^22] | 移植 | 米国未承認 |
+| 異染性白質ジストロフィー(MLD) | **atidarsagene autotemcel**［Libmeldy］ | **遺伝子治療**（自家HSC） | Orchard | 2020（EU）[^22] | 移植 | 米国未承認 |
 | Pompe病（遅発型） | アバルグルコシダーゼα［Nexviazyme］ | ERT | Sanofi | 2021（米/EU）[^23] | 点滴 | LOPD適応 |
 | ASMD（Niemann–Pick A/B） | オリプダーゼα［Xenpozyme］ | ERT | Sanofi | 2022（JP→EU/米）[^24] | 点滴 | 非中枢症状に適応 |
 | Fabry病 | ペグニガルシダーゼα［Elfabrio］ | ERT | Protalix/Chiesi | 2023（米/EU）[^25] | 点滴 | 新規ERT |
@@ -100,41 +100,45 @@ ERTは末梢病変に対する標準治療として発展してきた一方、�
 
 ## モダリティ（治療アプローチ）
 
-本記事で扱う「リソソーム標的薬」は、主に <strong>(i) 欠損酵素を補う</strong>、<strong>(ii) 蓄積基質の産生を抑える</strong>、<strong>(iii) 変異酵素のフォールディング/輸送を助ける</strong>、<strong>(iv) 遺伝子を導入して持続的に酵素活性を回復する</strong>、の4系統に整理できる。
+本記事で扱う「リソソーム標的薬」は、主に <strong>(i) 欠損酵素を補う</strong>、<strong>(ii) 蓄積基質の産生を抑える</strong>、<strong>(iii) 変異酵素のフォールディング/輸送を助ける</strong>、<strong>(iv) 遺伝子を導入して持続的に酵素活性を回復する</strong>、の4系統に整理できます。
 
 ### ERT（Enzyme Replacement Therapy；酵素補充療法）
-<strong>定義</strong>：欠損または機能低下したリソソーム加水分解酵素（lysosomal hydrolase）を、<strong>組換えタンパク質（recombinant enzyme）として外因性に補充</strong>する治療。多くは <strong>静脈内投与（IV infusion）を反復</strong>して行う。[^27]
+定義：欠損または機能低下したリソソーム加水分解酵素を、<strong>組換えタンパク質（recombinant enzyme）として外因性に補充</strong>する治療です。多くは <strong>静脈内投与（IV infusion）を反復</strong>して行います。[^27]
 
-<strong>細胞内取り込みとリソソーム送達の要点</strong>：ERT製剤は、末梢組織で <strong>受容体介在性エンドサイトーシス（receptor-mediated endocytosis）</strong>により細胞内へ取り込まれ、エンドソーム—リソソーム経路で標的区画へ送達される。一般に <strong>mannose-6-phosphate receptor（M6PR）経路</strong>が基盤概念として重要であり、糖鎖設計（glyco-engineering）が有効性に直結しうる。[^28] 一方、<strong>Gaucher病のβ-glucocerebrosidase（imiglucerase など）では、標的細胞である macrophage の endocytic carbohydrate receptor（mannose receptor）に認識される “mannose-terminated” 糖鎖が実装上の設計勘所</strong>として明示されている。[^29]
+<strong>細胞内取り込みとリソソーム送達の要点</strong>：ERT製剤は、末梢組織で <strong>受容体介在性エンドサイトーシス（receptor-mediated endocytosis）</strong>により細胞内へ取り込まれ、エンドソーム—リソソーム経路で標的区画へ送達されます。一般に <strong>mannose-6-phosphate receptor（M6PR）経路</strong>が基盤概念として重要であり、糖鎖設計（glyco-engineering）が有効性に直結しえます。[^28] 一方、<strong>Gaucher病のβ-glucocerebrosidase（imiglucerase など）では、標的細胞であるマクロファージのendocytic carbohydrate receptor（mannose receptor）に認識される “mannose-terminated” 糖鎖が実装上の設計勘所</strong>として明示されています。[^29]
 
-<strong>限界（研究者向けに明示すべき点）</strong>  
-- <strong>BBB（blood–brain barrier；血液脳関門）/CNS（central nervous system；中枢神経）移行の制約</strong>：一般に全身投与のERTはBBBを通過しにくく、<strong>中枢症状（CNS manifestations）には効果が限定的</strong>になりやすい。[^27]  
-- <strong>免疫原性と投与負担</strong>：反復IV投与に伴う <strong>infusion-associated reactions</strong>、過敏反応、抗薬物抗体（anti-drug antibodies）などが現実的課題になり得る（詳細は各製品ラベル参照）。[^30]
+<strong>限界</strong>  
+- <strong>BBB（blood–brain barrier；血液脳関門）/CNS（central nervous system；中枢神経）移行の制約</strong>：
+  一般に全身投与のERTはBBBを通過しにくく、<strong>中枢症状（CNS manifestations）には効果が限定的</strong>になりやすい。[^27]  
+- <strong>免疫原性と投与負担</strong>：
+  反復IV投与に伴う <strong>注入反応(infusion-associated reactions)</strong>、過敏反応、抗薬物抗体（anti-drug antibodies）などが課題です（詳細は各製品ラベル参照）。[^30]
 
-<strong>例外（CNSに踏み込む設計）</strong>：<strong>Brineura（cerliponase alfa）</strong>は、CLN2（TPP1欠損）に対して <strong>脳室内投与（intraventricular infusion）</strong>を採用し、CNSへ直接投与する設計がラベル上明確である。[^30]
+<strong>例外</strong>：<strong>Brineura（cerliponase alfa）</strong>は、CLN2（TPP1欠損）に対して <strong>脳室内投与（intraventricular infusion）</strong>を採用し、CNSへ直接投与する設計がラベルに示されています。[^30]
 
 ---
 
 ### SRT（Substrate Reduction Therapy；基質生成抑制療法）
-<strong>定義</strong>：分解できずに蓄積する基質（substrate）の <strong>「産生側」</strong>を抑えることで、リソソームへの負荷を低下させる治療。<strong>経口投与（oral）</strong>の選択肢になり得る。[^31]
+定義：分解できずに蓄積する基質（substrate）の <strong>産生側</strong>を抑えることで、リソソームへの負荷を低下させる治療です。<strong>経口投与（oral）</strong>の選択肢になり得ます。[^31]
 
 <strong>Gaucher病での代表例（本記事の表に掲載）</strong>  
-- <strong>miglustat（Zavesca）</strong>：成人の Gaucher病 type 1 において、<strong>ERTが治療選択肢にならない</strong>患者を対象に <strong>単剤（monotherapy）</strong>として適応が規定されている。[^31]  
-- <strong>eliglustat（Cerdelga）</strong>：<strong>glucosylceramide synthase（GCS）阻害</strong>によるSRT。適格性/投与設計に <strong>CYP2D6（薬物代謝酵素）表現型</strong>が組み込まれており、<strong>CYP2D6 ultra-rapid metabolizer では十分濃度が得られない可能性</strong>、また <strong>indeterminate metabolizer では用量推奨が困難</strong>であること等がラベル上明示される（= precision dosing の典型例）。[^32][^33]
+- <strong>miglustat（Zavesca）</strong>：
+  成人の Gaucher病 type 1 において、<strong>ERTが治療選択肢にならない</strong>患者を対象に <strong>単剤（monotherapy）</strong>として適応が規定されています。[^31]  
+- <strong>eliglustat（Cerdelga）</strong>：
+  <strong>glucosylceramide synthase（GCS）阻害</strong>によるSRTです。適格性/投与設計に <strong>CYP2D6（薬物代謝酵素）表現型</strong>が組み込まれており、<strong>CYP2D6 超高速代謝型では十分濃度が得られない可能性</strong>、また <strong>中間代謝型では用量推奨が困難</strong>であること等が表記されています（= 個別化投与設計 の典型例）。[^32][^33]
 
 ---
 
 ### 薬理シャペロン（Pharmacological chaperone）
-<strong>定義</strong>：特定の変異で不安定化/ミスフォールディングしたリソソーム酵素に結合し、<strong>立体構造の安定化（stabilization）とリソソームへのトラフィッキング回復</strong>を介して残存活性を引き出すアプローチ。
+定義：特定の変異で不安定化/ミスフォールディングしたリソソーム酵素に結合し、<strong>立体構造の安定化（stabilization）とリソソームへのトラフィッキング回復</strong>を介して残存活性を引き出すアプローチです。
 
-<strong>例（Fabry病）</strong>：<strong>migalastat（Galafold）</strong>は、<strong>“amenable” な GLA variant（変異が in vitro assay で適合）</strong>に限定して適応が規定されている（アメナブル判定が前提）。[^34][^35]
+<strong>例：Fabry病</strong>：<strong>migalastat（Galafold）</strong>は、<strong>in vitro試験で感受性が確認されたGLA遺伝子変異（アメナブル変異）を有する患者に限定して、適応が認められています。[^34][^35]
 
 ---
 
 ### 遺伝子治療（Gene therapy）
-<strong>定義</strong>：遺伝子導入により、標的タンパク質（多くは欠損酵素）の産生を回復させ、<strong>長期的な酵素活性の再建</strong>を狙う。
+定義：遺伝子導入により、標的タンパク質（多くは欠損酵素）の産生を回復させ、<strong>長期的な酵素活性の再建</strong>を狙った治療です。
 
-<strong>例（MLD）</strong>：<strong>atidarsagene autotemcel（Libmeldy）</strong>は、<strong>自家造血幹細胞（autologous CD34+ HSC）をex vivoで遺伝子導入して戻す</strong>治療として、EUでマーケティングオーソリゼーションを取得している。導入タイミング（症状進行前の適用設計）と長期フォローが本質的に重要になる。[^36][^37]
+<strong>例：異染性白質ジストロフィー(MLD)</strong>：<strong>atidarsagene autotemcel（Libmeldy）</strong>は、自家造血幹細胞（autologous CD34+ HSC）に対し ex vivo で遺伝子導入を行う細胞遺伝子治療薬として、欧州で製造販売承認を取得しています。本治療においては、発症・進行前の適切な投与タイミングの設定と、長期的な経過観察（フォローアップ）が極めて重要となります。[^36][^37]
 
 ---
 

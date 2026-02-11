@@ -6,6 +6,8 @@ categories: ["Lysosome"]            # ← カテゴリは“オルガネラ1つ�
 tags: ["LSD","ERT","SRT","Chaperone","Gene therapy","Approvals"]
 toc: true
 toc_sticky: true
+header:
+  teaser: /assets/images/eyecatch_lysosome.png
 classes: wide                       # ← 表の横幅を広げる
 last_modified_at: 2025-10-17 00:00:00 +0900
 ---

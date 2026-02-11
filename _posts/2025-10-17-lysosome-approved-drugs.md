@@ -79,6 +79,25 @@ ERTは末梢病変に対する標準治療として発展してきた一方、�
 [^25]: FDA approval letter: Elfabrio (pegunigalsidase alfa-iwxj) — approved effective May 9, 2023.  [oai_citation:21‡FDA Access Data](https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2023/761161Orig1s000ltr.pdf?utm_source=chatgpt.com)
 [^26]: FDA Orphan Drug Designations and Approvals: Pombiliti and Opfolda (cipaglucosidase alfa-atga and miglustat) — Marketing Approval Date 09/28/2023.  [oai_citation:22‡FDA Access Data](https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=601617&utm_source=chatgpt.com)
 
+## 対象疾患について
+上記のリソソーム標的薬の対象疾患は、リソソームの機能破綻を背景にします。内訳としては、リソソーム加水分解酵素（lysosomal hydrolase）の欠損に起因するLysosomal Storage Diseases（LSD）が中心ですが、酵素欠損ではない疾患も一部含まれます。
+
+### リソソーム加水分解酵素欠損による典型的なLSD（Lysosomal Storage Diseases）
+- Gaucher病（GBA1 / β-glucocerebrosidase）
+- Fabry病（GLA / α-galactosidase A）
+- Pompe病（GAA / acid α-glucosidase）
+- MPS I/II/IVA/VI/VII（IDUA / IDS / GALNS / ARSB / GUSB）
+- LAL欠損症（LAL-D）（LIPA / lysosomal acid lipase）
+- CLN2（TPP1 / tripeptidyl peptidase 1）
+- ASMD（Niemann–Pick A/B）（SMPD1 / acid sphingomyelinase）
+- α-マンノシドーシス（MAN2B1 / lysosomal α-mannosidase）
+- MLD（ARSA / arylsulfatase A）
+
+### （表内の例外）加水分解酵素欠損ではない lysosome-related disorders
+- NPC（Niemann–Pick C）：主にNPC1/NPC2（脂質輸送・トラフィッキング異常）で、加水分解酵素欠損ではない
+- Cystinosis：CTNS（cystinosin：リソソーム膜輸送体）欠損で、加水分解酵素欠損ではない
+
+
 ## 使い分け
 - **ERT**：標準治療の中心。中枢病変には届きにくい（Brineuraは例外：脳室内投与）。
 - **SRT**：経口選択肢（eliglustat/miglustat）。代謝酵素阻害で基質生成を抑制。遺伝子型・相互作用に注意。

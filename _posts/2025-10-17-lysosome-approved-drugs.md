@@ -52,7 +52,6 @@ ERTは末梢病変に対する標準治療として発展してきた一方、�
 | Fabry病 | ペグニガルシダーゼα［Elfabrio］ | ERT | Protalix/Chiesi | 2023（米/EU）[^25] | 点滴 | 新規ERT |
 | Pompe病（成人） | シパグルコシダーゼα＋ミグルスタット［Pombiliti+Opfolda］ | 強化ERT＋シャペロン | Amicus | 2023（米/EU）[^26] | 点滴＋経口 | 2剤併用の新機序 |
 
-## 参考文献
 [^1]: FDA Orphan Drug Designations and Approvals: Cerezyme (imiglucerase) — Marketing Approval Date 05/23/1994.  [oai_citation:0‡FDA Access Data](https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=62491)
 [^2]: FDA Orphan Drug Designations and Approvals: Cystagon (cysteamine) — Marketing Approval Date 08/15/1994.  [oai_citation:1‡FDA Access Data](https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=55690)
 [^3]: FDA Summary Review (Procysbi NDA 203389): approval 04/03/2013; references listed drug Cystagon (approved in 1994).  [oai_citation:2‡FDA Access Data](https://www.accessdata.fda.gov/drugsatfda_docs/nda/2020/213491Orig1s000SumR.pdf)
@@ -151,14 +150,12 @@ ERTは末梢病変に対する標準治療として発展してきた一方、�
 
 ```mermaid
 flowchart TB
-  A[1991 FDA: Ceredase (alglucerase) Gaucher type 1] --> B[1994 FDA: Cerezyme (imiglucerase) Gaucher type 1]
-  B --> C[2003 FDA: Zavesca (miglustat) Gaucher type 1 (ERT不適)]
-  C --> D[2014 FDA: Cerdelga (eliglustat) Gaucher type 1 (CYP2D6制約)]
-  D --> E[2017 FDA: Brineura (cerliponase alfa) CLN2 脳室内ERT]
-  E --> F[2023 FDA: Pombiliti (cipaglucosidase alfa-atga) + Opfolda (miglustat) Pompe (LOPD)]
+  A["1991 FDA: Ceredase (alglucerase) Gaucher type 1"] --> B["1994 FDA: Cerezyme (imiglucerase) Gaucher type 1"]
+  B --> C["2003 FDA: Zavesca (miglustat) Gaucher type 1 (ERT不適)"]
+  C --> D["2014 FDA: Cerdelga (eliglustat) Gaucher type 1 (CYP2D6制約)"]
+  D --> E["2017 FDA: Brineura (cerliponase alfa) CLN2 脳室内ERT"]
+  E --> F["2023 FDA: Pombiliti (cipaglucosidase alfa-atga) + Opfolda (miglustat) Pompe (LOPD)"]
 ```
-
-## 参考文献
 [^27]: FDA. Eliglustat (Cerdelga) NDA Summary Review（「ERTはBBBを通過しないためCNSには限界」等の記載を含む）. [oai_citation:27‡FDA Access Data](https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/022458Orig1s000SumR.pdf)
 [^28]: Ellison S, et al. Advances in therapies for neurological lysosomal storage disorders. J Inherit Metab Dis (2023).（ERTの受容体介在性エンドサイトーシスとM6PR経路の概説）[oai_citation:28‡Wiley Online Library](https://onlinelibrary.wiley.com/doi/full/10.1002/jimd.12615)
 [^29]: FDA. Cerezyme (imiglucerase) label（mannose-terminated糖鎖がmacrophageのendocytic carbohydrate receptorに認識される旨）. [oai_citation:29‡FDA Access Data](https://www.accessdata.fda.gov/drugsatfda_docs/label/2002/20367s53lbl.pdf)

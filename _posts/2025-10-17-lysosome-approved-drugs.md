@@ -149,13 +149,13 @@ ERTは末梢病変に対する標準治療として発展してきた一方、�
 6. **2023：Pombiliti（cipaglucosidase alfa-atga）＋ Opfolda（miglustat）** — Pompe病（LOPD）で **ERT＋併用シャペロン**という“複合モダリティ”がFDAで承認。[^14][^15]
 
 ```mermaid
-flowchart TD
+flowchart TB
   A[1991 FDA: Ceredase (alglucerase) Gaucher type 1] --> B[1994 FDA: Cerezyme (imiglucerase) Gaucher type 1]
   B --> C[2003 FDA: Zavesca (miglustat) Gaucher type 1 (ERT不適)]
   C --> D[2014 FDA: Cerdelga (eliglustat) Gaucher type 1 (CYP2D6制約)]
   D --> E[2017 FDA: Brineura (cerliponase alfa) CLN2 脳室内ERT]
   E --> F[2023 FDA: Pombiliti (cipaglucosidase alfa-atga) + Opfolda (miglustat) Pompe (LOPD)]
-
+```
 
 ## 出典
 一次情報：FDA（Drugs@FDA / ラベル）、EMA（EPAR）、PMDA（承認審査資料・添付文書）ほか。

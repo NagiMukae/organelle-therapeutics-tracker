@@ -9,7 +9,7 @@ toc_sticky: true
 header:
   teaser: /assets/images/eyecatch_lysosome.png
 classes: wide                       # ← 表の横幅を広げる
-last_modified_at: 2025-10-17 00:00:00 +0900
+last_modified_at: 2026-02-12 00:00:00 +0900
 ---
 
 ![eyecatch_lysosome]({{ "/assets/images/eyecatch_lysosome.png" | relative_url }})

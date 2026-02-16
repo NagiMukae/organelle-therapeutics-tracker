@@ -178,7 +178,7 @@ flowchart TB
 [^32]: FDA. Drug Approval Package: Cerdelga (eliglustat) – Approval Date 8/19/2014. [oai_citation:32‡FDA Access Data](https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/205494Orig1s000TOC.cfm)
 [^33]: FDA. Cerdelga (eliglustat) label（CYP2D6 ultra-rapid / indeterminate 等の制約）. [oai_citation:33‡FDA Access Data](https://www.accessdata.fda.gov/drugsatfda_docs/label/2014/205494orig1s000lbl.pdf)
 [^34]: FDA. Galafold (migalastat) label（amenable GLA variant を適応条件として明示）. [oai_citation:34‡FDA Access Data](https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/208623s008lbl.pdf)
-[^35]: EMA. Galafold EPAR（EUでの承認と“amenable mutation”要件の概説）. [oai_citation:35‡European Medicines Agency](https://www.ema.europa.eu/en/medicines/human/EPAR/galafold)
+[^35]: EMA. Galafold EPAR（EUでの承認とamenable mutationについての概説）. [oai_citation:35‡European Medicines Agency](https://www.ema.europa.eu/en/medicines/human/EPAR/galafold)
 [^36]: EMA. Libmeldy EPAR（EUでのマーケティングオーソリゼーション日：17 Dec 2020）. [oai_citation:36‡European Medicines Agency](https://www.ema.europa.eu/en/medicines/human/EPAR/libmeldy)
 [^37]: EMA. Libmeldy EPAR product information（治療内容：autologous CD34+ HSC, ex vivo gene transfer 等）. [oai_citation:37‡European Medicines Agency](https://www.ema.europa.eu/en/documents/product-information/libmeldy-epar-product-information_en.pdf)
 [^38]: FDA Orphan Drug Designations and Approvals: Ceredase (alglucerase) — Marketing Approval Date 04/05/1991. [oai_citation:38‡FDA Access Data](https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=5585)

@@ -1,11 +1,11 @@
-<img width="1288" height="1228" alt="image" src="https://github.com/user-attachments/assets/05ce69cf-5a65-4a43-889e-0b5dc8eb1a3d" />---
+---
 layout: single
 title: "原発性ミトコンドリア病とその治療法"
-description: "原発性ミトコンドリアの"
+description: "原発性ミトコンドリア病の病態、原因、症状、診断、治療法、治療薬開発を概説します。"
 date: 2026-03-05 09:00:00 +0900
-last_modified_at: 2026-01-08 09:00:00 +0900
+last_modified_at: 2026-03-05 09:00:00 +0900
 categories: ["Mitochondria"]
-tags: ["Peptide", "Approved", "Stealth BioTherapeutics", "US"]
+tags: ["Mitochondrial disease", "Idebenone", "Gene therapy", "LHON", "PMD"]
 toc: true
 toc_sticky: true
 header:
@@ -13,9 +13,7 @@ header:
 classes: wide
 ---
 
-![Mitochondrial eyecatch]({{ "/assets/images/Mito_disease_eyecatch.png" | relative_url }})
-
-> **対象オルガネラ**: Mitochondria / **モダリティ**: 低分子、遺伝子治療 / **開発段階**: Approved,  / **適応症**: ミトコンドリア病
+> **対象オルガネラ**: Mitochondria / **主なモダリティ**: 支持療法、低分子、ペプチド、遺伝子治療、生殖医療 / **主な適応**: Primary mitochondrial disease
 
 ## ミトコンドリア病とは？
 
@@ -389,7 +387,7 @@ Lenadogene nolparvovecは、<strong>mtDNA変異に対する遺伝子治療が臨
 [^52]: Domínguez-González C, et al. Pyrimidine Nucleos(t)ide Therapy in Patients With Thymidine Kinase 2 Deficiency. *Neurology*. 2025;105(10):e2146-e2160. doi:10.1212/WNL.0000000000213908
 
 
-##臨床試験を経て開発中止になった薬
+## 臨床試験を経て開発中止になった薬
 
 | 開発コード / 一般名 | 対象疾患（PMDサブタイプ） | モダリティ / 介入軸 | 試験ID | ステータス | 中止理由（分類） | 一次ソース |
 |---|---|---|---|---|---|---|
@@ -397,7 +395,7 @@ Lenadogene nolparvovecは、<strong>mtDNA変異に対する遺伝子治療が臨
 | Mavodelpar (REN001)（Reneo） | PMM | PPARδ agonist | NCT04535609（STRIDE） | Terminated | 有効性（primary/secondary endpoint未達）→ 開発停止（suspend） | 企業IR（Reneoプレスリリース）：[STRIDE結果（miss）](https://www.globenewswire.com/news-release/2023/12/14/2796344/0/en/Reneo-Pharmaceuticals-Announces-Results-from-Pivotal-STRIDE-Study-of-Mavodelpar-in-Primary-Mitochondrial-Myopathies-PMM.html)／試験登録（ClinicalTrials.gov）：[NCT04535609](https://clinicaltrials.gov/study/NCT04535609) |
 | Cysteamine bitartrate delayed-release (RP103)（Raptor/Horizon系） | Inherited mitochondrial disease（小児中心のミトコンドリア病コホート） | redox / thiol系（抗酸化・代謝補助の文脈） | NCT02473445（RP103-MITO-002；extension） | Terminated | 有効性（ベース試験で有効性不十分）→ スポンサー判断で開発終了 | 試験登録（ClinicalTrials.gov；理由記載あり）：[NCT02473445](https://clinicaltrials.gov/study/NCT02473445) |
 | Dichloroacetate (DCA) | MELAS（mtDNA関連PMD） | metabolic bypass（PDH活性化→乳酸/糖代謝介入の文脈） | —（古いRCTのためNCT付与なしの場合あり） | Trial terminated early（論文記載） | 安全性（末梢神経毒性） | 論文（Neurology; Kaufmannら）：[PubMed 16476929](https://pubmed.ncbi.nlm.nih.gov/16476929/) |
-| Vatiquinone (PTC743; EPI-743 系列)（PTC） | MDAS（mitochondrial disease associated seizures：遺伝学的に確認されたミトコンドリア病＋難治性てんかん） | antioxidant / redox modulator（酸化還元ストレス経路介入） | NCT04378075（MIT-E） | （登録上 “Sponsor decision” 等の表記） | 有効性（primary endpoint未達）→ 事業判断（試験不成功） | 企業IR（PTC；primary endpoint未達）：[MIT-E結果](https://ir.ptcbio.com/news-releases/news-release-details/ptc-therapeutics-announces-results-mit-e-clinical-trial?mobile=1)／日本jRCT（英語；早期終了・Secondary IDにNCT記載）：[jRCT2011210075](https://jrct.mhlw.go.jp/en-latest-detail/jRCT2011210075)／試験登録（ClinicalTrials.gov）
+| Vatiquinone (PTC743; EPI-743 系列)（PTC） | MDAS（mitochondrial disease associated seizures：遺伝学的に確認されたミトコンドリア病＋難治性てんかん） | antioxidant / redox modulator（酸化還元ストレス経路介入） | NCT04378075（MIT-E） | Sponsor decision | 有効性（primary endpoint未達）→ 事業判断（試験不成功） | 企業IR（PTC；primary endpoint未達）：[MIT-E結果](https://ir.ptcbio.com/news-releases/news-release-details/ptc-therapeutics-announces-results-mit-e-clinical-trial?mobile=1)／日本jRCT（英語；早期終了・Secondary IDにNCT記載）：[jRCT2011210075](https://jrct.mhlw.go.jp/en-latest-detail/jRCT2011210075)／試験登録（ClinicalTrials.gov）：[NCT04378075](https://clinicaltrials.gov/study/NCT04378075) |
 
 ## 何がミトコンドリア病治療薬開発を困難にするのか？
 
@@ -512,6 +510,6 @@ flowchart TD
 [^73]: Domínguez-González C, et al. Pyrimidine Nucleos(t)ide Therapy in Patients With Thymidine Kinase 2 Deficiency. Neurology. 2025. https://pubmed.ncbi.nlm.nih.gov/40911819/
 [^74]: Yu-Wai-Man P, et al. Five-Year Outcomes of Lenadogene Nolparvovec Gene Therapy in Leber Hereditary Optic Neuropathy Due to MT-ND4 Variant. JAMA Ophthalmology. 2025. https://pubmed.ncbi.nlm.nih.gov/39699886/
 
-##参考文献
+## 参考文献
 
 

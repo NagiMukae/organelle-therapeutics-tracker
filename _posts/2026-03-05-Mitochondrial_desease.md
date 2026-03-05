@@ -234,6 +234,14 @@ PMDの診断は、単一の検査で確定できるとは限らず、<strong>臨
 - <strong>生殖医療・手術的介入</strong>  
   既に発症した患者を治療する方法とは少し異なりますが、英国では、病的mtDNAの次世代伝播を減らす目的で<strong>mitochondrial donation</strong>（ミトコンドリアドネーション）が制度化されています。[^31][^32]
 
+| モダリティ | 代表例 | 現状 |
+|---|---|---|
+| 支持療法 | 栄養、リハビリ、臓器別管理 | 現在の一般的な治療 |
+| 低分子医薬 | Idebenone | LHONで承認 |
+| ペプチド | Elamipretide | Phase 3で主要評価未達 |
+| 遺伝子療法 | Lenadogene nolparvovec | 長期成績報告あり |
+| 生殖医療 | Mitochondrial donation | 英国で制度化 |
+
 ---
 
 ## 治療薬

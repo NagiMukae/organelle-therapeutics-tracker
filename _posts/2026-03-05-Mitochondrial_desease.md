@@ -457,7 +457,44 @@ Lenadogene nolparvovecは、<strong>mtDNA変異に対する遺伝子治療が臨
 
 ## 何がミトコンドリア病治療薬開発を困難にするのか？
 
-文献をみると、<strong>原発性ミトコンドリア病（primary mitochondrial disease; PMD）</strong>の治療薬開発を難しくしている要因は、単独ではなく複数が相互に絡み合っています。特に、単一の分子病型ではなく、遺伝的に混在した広い患者集団を対象に開発プログラムを組む場合、その困難さはいっそう大きくなります。[^53][^54]
+<div style="border:1px solid #d8dee4; border-radius:10px; padding:1rem 1.2rem; margin:1rem 0 1.4rem 0; background:#fafbfc;">
+  <div style="font-weight:700; margin-bottom:0.6rem;">このセクションの要点</div>
+
+  <div style="margin-bottom:0.7rem;">
+    <strong>原発性ミトコンドリア病（primary mitochondrial disease; PMD）</strong>の治療薬開発は、
+    単一の障害で難しいのではなく、<strong>診断の複雑さ</strong>、<strong>患者数の少なさ</strong>、
+    <strong>自然歴の不確実性</strong>、<strong>エンドポイント設定の難しさ</strong>など、
+    複数の要因が重なって難しくなっています。[^53][^54]
+  </div>
+
+  <ul style="margin:0.3rem 0 0 1.2rem;">
+    <li style="margin-bottom:0.45rem;">
+      PMDは<strong>400を超える遺伝子</strong>が関与する疾患群であり、
+      <strong>遺伝子型と表現型の不均一性</strong>が非常に大きいため、
+      「ひとつの病気」として試験設計すること自体が難しくなります。[^53][^54]
+    </li>
+    <li style="margin-bottom:0.45rem;">
+      各サブタイプは超希少で、しかも患者が地理的に分散しているため、
+      従来型のRCTに十分な<strong>統計的パワー</strong>を持たせにくいという問題があります。[^57][^58]
+    </li>
+    <li style="margin-bottom:0.45rem;">
+      自然歴データが不十分なことに加え、症状が多次元的で、
+      <strong>6-minute walk test（6MWT）</strong>のような既存指標も日差・努力依存性が大きいため、
+      単一の主要評価項目で薬効を捉えるのが難しいとされています。[^57][^59][^60][^61]
+    </li>
+    <li style="margin-bottom:0.45rem;">
+      さらに、薬効が特定サブグループに限られると、
+      混合集団では効果が平均化されて見えなくなる
+      <strong>responder dilution</strong> も問題になります。[^53][^67]
+    </li>
+    <li>
+      そのため現在は、<strong>遺伝子型を踏まえた集団濃縮</strong>、
+      <strong>自然歴研究とレジストリ整備</strong>、
+      <strong>PROMs・医師評価・デジタル指標を組み合わせたエンドポイント設計</strong>
+      が、試験戦略の重要な方向性として議論されています。[^57][^59][^61]
+    </li>
+  </ul>
+</div>
 
 ### 1. 診断と疾患定義そのものが本質的に複雑である
 

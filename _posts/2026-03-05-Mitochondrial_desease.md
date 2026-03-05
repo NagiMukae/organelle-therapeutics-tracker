@@ -210,8 +210,6 @@ PMDの診断は、単一の検査で確定できるとは限らず、<strong>臨
 
 ---
 
-## 参考文献
-
 [^10]: Nogueira C, et al. The genetic landscape of mitochondrial diseases in the next generation sequencing era. *Front Cell Dev Biol*. 2024;12:1331351. doi:10.3389/fcell.2024.1331351
 [^11]: Mancuso M, et al. Management of seizures in patients with primary mitochondrial diseases. *Eur J Neurol*. 2024;31(8):e16275. doi:10.1111/ene.16275
 [^12]: Grigalionienė K, et al. Wide diagnostic and genotypic spectrum in patients with suspected mitochondrial disease. *Orphanet J Rare Dis*. 2023;18:362. doi:10.1186/s13023-023-02921-0
@@ -359,8 +357,6 @@ Lenadogene nolparvovecは、<strong>mtDNA変異に対する遺伝子治療が臨
 
 ---
 
-## 参考文献
-
 [^21]: Klopstock T, Priglinger C, Yilmaz A, Kornblum C, Distelmaier F, Prokisch H. Mitochondrial Disorders. *Dtsch Arztebl Int*. 2021;118(44):741-748. doi:10.3238/arztebl.m2021.0251
 [^22]: Ng YS, Turnbull DM. Mitochondrial disease in adults: recent advances and future promise. *Lancet Neurol*. 2021;20(7):573-584. doi:10.1016/S1474-4422(21)00098-3
 [^23]: Wen H, et al. Mitochondrial diseases: from molecular mechanisms to therapeutic advances. *Signal Transduct Target Ther*. 2025;10:17. doi:10.1038/s41392-024-02044-3
@@ -405,5 +401,6 @@ Lenadogene nolparvovecは、<strong>mtDNA変異に対する遺伝子治療が臨
 | Dichloroacetate (DCA) | MELAS（mtDNA関連PMD） | metabolic bypass（PDH活性化→乳酸/糖代謝介入の文脈） | —（古いRCTのためNCT付与なしの場合あり） | Trial terminated early（論文記載） | 安全性（末梢神経毒性） | 論文（Neurology; Kaufmannら）：[PubMed 16476929](https://pubmed.ncbi.nlm.nih.gov/16476929/) |
 | Vatiquinone (PTC743; EPI-743 系列)（PTC） | MDAS（mitochondrial disease associated seizures：遺伝学的に確認されたミトコンドリア病＋難治性てんかん） | antioxidant / redox modulator（酸化還元ストレス経路介入） | NCT04378075（MIT-E） | （登録上 “Sponsor decision” 等の表記） | 有効性（primary endpoint未達）→ 事業判断（試験不成功） | 企業IR（PTC；primary endpoint未達）：[MIT-E結果](https://ir.ptcbio.com/news-releases/news-release-details/ptc-therapeutics-announces-results-mit-e-clinical-trial?mobile=1)／日本jRCT（英語；早期終了・Secondary IDにNCT記載）：[jRCT2011210075](https://jrct.mhlw.go.jp/en-latest-detail/jRCT2011210075)／試験登録（ClinicalTrials.gov）
 
+##参考文献
 
 

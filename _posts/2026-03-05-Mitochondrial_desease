@@ -1,3 +1,22 @@
+---
+layout: single
+title: "原発性ミトコンドリア病とその治療法"
+description: "原発性ミトコンドリアの"
+date: 2026-03-05 09:00:00 +0900
+last_modified_at: 2026-01-08 09:00:00 +0900
+categories: ["Mitochondria"]
+tags: ["Peptide", "Approved", "Stealth BioTherapeutics", "US"]
+toc: true
+toc_sticky: true
+header:
+  teaser: /assets/images/Mito_disease_eyecatch.png
+classes: wide
+---
+
+![Mitochondrial eyecatch]({{ "/assets/images/Mito_disease_eyecatch.png" | relative_url }})
+
+> **対象オルガネラ**: Mitochondria / **モダリティ**: 低分子、遺伝子治療 / **開発段階**: Approved,  / **適応症**: ミトコンドリア病
+
 ## ミトコンドリア病とは？
 
 <strong>ミトコンドリア</strong>は、細胞内で<strong>酸化的リン酸化（oxidative phosphorylation; OXPHOS）</strong>を担い、ATP産生の中核となるオルガネラです。原発性ミトコンドリア病（<strong>primary mitochondrial disease; PMD</strong>）は、このミトコンドリア呼吸鎖やその維持機構の障害によって生じる、遺伝学的・臨床的にきわめて多様な疾患群です。[^1][^2]

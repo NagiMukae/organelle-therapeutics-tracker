@@ -1,4 +1,4 @@
----
+<img width="1288" height="1228" alt="image" src="https://github.com/user-attachments/assets/05ce69cf-5a65-4a43-889e-0b5dc8eb1a3d" />---
 layout: single
 title: "原発性ミトコンドリア病とその治療法"
 description: "原発性ミトコンドリアの"
@@ -223,5 +223,187 @@ PMDの診断は、単一の検査で確定できるとは限らず、<strong>臨
 [^18]: Ahmed ST, Craven L, Russell OM, et al. Diagnosis and Treatment of Mitochondrial Myopathies. *Neurotherapeutics*. 2023;20(6):1545-1568. doi:10.1007/s13311-023-01407-0
 [^19]: Baldacci J, et al. Automatic Recognition of Ragged Red Fibers in Muscle Biopsies From Patients With Mitochondrial Diseases. *Front Neurol*. 2022;13:836387. doi:10.3389/fneur.2022.836387
 [^20]: Hinojosa JC, et al. Diagnostic Testing in Suspected Primary Mitochondrial Myopathy. *Mitochondrial Med*. 2023;2(1):7. doi:10.3390/mitochondrialmed2010007
+
+## 治療方法
+
+原発性ミトコンドリア病（<strong>primary mitochondrial disease; PMD</strong>）に対する治療は、現時点では<strong>根治治療よりも対症療法・支持療法が中心</strong>です。これは、PMDが<strong>遺伝学的にも臨床的にもきわめて不均一</strong>であり、単一の治療で広い患者群をカバーしにくいこと、さらに<strong>治療効果を評価するエンドポイント設定が難しい</strong>ことによります。[^21][^22]
+
+治療モダリティとしては、大きく以下のように整理できます。[^21][^23]
+
+- <strong>対症療法・支持療法</strong>  
+  リハビリテーション、栄養管理、呼吸管理、てんかんや糖尿病、不整脈、心不全、難聴などの臓器別管理を行います。多くのPMD患者では、現在もこの支持療法が治療の基盤です。[^21][^24]
+
+- <strong>低分子医薬</strong>  
+  代表例が<strong>Idebenone</strong>で、LHONに対してEUで承認されています。ほかにも、<strong>redox modulation</strong>、<strong>mitochondrial biogenesis</strong>、<strong>metabolic bypass</strong>などを狙う低分子・低分子様薬剤が臨床開発されています。[^25][^26]
+
+- <strong>ペプチド医薬</strong>  
+  ミトコンドリア内膜やミトコンドリア脂質と相互作用し、機能維持を狙う<strong>mitochondria-targeting peptide</strong>が開発されています。代表例が<strong>Elamipretide</strong>です。[^27][^28]
+
+- <strong>遺伝子療法</strong>  
+  LHONに対する<strong>Lenadogene nolparvovec</strong>のように、mtDNA変異に対して<strong>allotopic expression</strong>で機能補完を図るアプローチが進んでいます。[^29][^30]
+
+- <strong>生殖医療・手術的介入</strong>  
+  既に発症した患者を治療する方法とは少し異なりますが、英国では、病的mtDNAの次世代伝播を減らす目的で<strong>mitochondrial donation</strong>（ミトコンドリアドネーション）が制度化されています。[^31][^32]
+
+---
+
+## 治療薬
+
+PMDでは現在も<strong>対症療法・支持療法</strong>が中心ですが、近年の薬物治療として特に重要なのが<strong>Idebenone（Raxone）</strong>です。Idebenoneは、現時点でPMD領域において規制当局承認に到達した代表的薬剤として位置づけられます。[^25][^26]
+
+### Idebenone（Raxone）の基本情報
+
+<strong>Idebenone</strong>は、<strong>Coenzyme Q10（CoQ10）類似の合成キノン化合物</strong>です。CoQ10より側鎖が短く、細胞内で還元された後に電子キャリアとして機能しうることが知られています。[^25][^33][^34]
+
+製品名は<strong>Raxone</strong>で、EMAの製品情報では<strong>Chiesi Farmaceutici S.p.A.</strong>がmarketing authorisation holderとして記載されています。[^35]  
+EUでは、<strong>2015年9月8日</strong>に、<strong>Leber hereditary optic neuropathy（LHON）による視機能障害</strong>に対する承認が付与されました。適応は<strong>12歳以上の思春期・成人患者</strong>です。[^35][^36][^37]
+
+### 作用機序
+
+Idebenoneの作用機序として最も重要なのは、<strong>複合体I（Complex I）機能不全をバイパスして、電子を複合体IIIへ受け渡しうる</strong>点です。レビューおよび基礎研究では、還元型Idebenoneが<strong>complex IIIへの電子供与</strong>を介して、<strong>complex I defectのredox bypass</strong>として機能し、ATP産生を部分的に支える可能性が示されています。[^25][^33][^34]
+
+この作用は特に、<strong>Complex I関連変異</strong>が中心となるLHONの病態と理論的に整合します。また、Idebenoneは<strong>抗酸化的性質</strong>も有しており、ミトコンドリア内の酸化還元環境を改善する可能性があります。[^25][^34]
+
+### 承認の根拠となった臨床開発
+
+Idebenoneの臨床開発では、LHON患者を対象とした<strong>RHODOS trial</strong>（ランダム化プラセボ対照試験）が中核的試験として知られています。この試験では、全体集団での主要評価項目は明確な有意差に至らなかった一方、視力の左右差がある患者群などで治療効果が示唆され、さらに後続解析・長期観察で視機能改善の持続が報告されました。[^38][^39]
+
+EMAのEPARでは、こうした臨床データに加えて、重篤な視力障害をきたす希少疾患であることや、安全性プロファイルが比較的良好であることを踏まえ、EUでの承認が支持されました。[^36][^37]
+
+### 認められた薬効・位置づけ
+
+EMAの製品情報上、Raxoneは<strong>LHONに伴う視機能障害の治療</strong>として承認されています。[^35]  
+ただし、Idebenoneは「すべてのミトコンドリア病に有効な薬」ではなく、現時点では<strong>LHONという比較的病態の明確なサブタイプにおいて承認された治療</strong>と理解するのが適切です。[^25][^26]
+
+---
+
+## 手術治療
+
+PMDに対する「手術治療」は一般的ではありませんが、<strong>次世代への病的mtDNA伝播を減らす</strong>という文脈で、英国では<strong>mitochondrial donation</strong>が制度化されています。[^31][^32]
+
+### ミトコンドリアドネーションとは何か
+
+<strong>ミトコンドリアドネーション</strong>は、病的mtDNAを持つ女性が、自身の<strong>核DNA</strong>を保ちながら、<strong>ドナー由来の正常ミトコンドリア</strong>を用いて妊娠を目指す生殖医療技術です。[^31][^32]
+
+英国のHFEA（Human Fertilisation and Embryology Authority）によると、承認された主な方法は以下の2つです。[^31]
+
+- <strong>Maternal spindle transfer（MST）</strong>  
+  母親の卵子から核由来成分を取り出し、核を除去したドナー卵子へ移して受精させる方法。[^31]
+
+- <strong>Pronuclear transfer（PNT）</strong>  
+  受精後の前核を、正常ミトコンドリアを持つ別の受精卵へ移植する方法。[^31]
+
+### 英国での位置づけ
+
+英国では、ミトコンドリアドネーションは<strong>法的に認められた生殖医療技術</strong>であり、病的mtDNA変異を持つ女性に対する選択肢として制度整備が進められてきました。[^31][^32]  
+さらに、NEJMに掲載された2025年の報告では、英国の生殖医療パスウェイにおける<strong>mitochondrial donation</strong>の実施経験と、mtDNA病の次世代伝播低減を目的とした臨床的運用が報告されています。[^40]
+
+### 本サイトでの扱い
+
+ミトコンドリアドネーションは、既に発症した患者に投与する<strong>薬物治療</strong>とは異なり、<strong>再発予防・遺伝学的介入</strong>という非常に興味深い位置づけにあります。内容が大きいため、本サイトでは今後<strong>別記事として詳しく扱う予定</strong>です。
+
+---
+
+## 臨床試験中の薬
+
+PMDでは、低分子、ペプチド、核酸・遺伝子治療など、複数のモダリティで開発が続いています。ここでは、現在のパイプラインの中でも、作用機序が比較的明確で教育的価値の高い例を取り上げます。[^23][^26]
+
+### （1）Mitochondria-targeting peptide：Elamipretide（SS-31; MTP-131）
+
+<strong>Elamipretide</strong>は、<strong>ミトコンドリア標的ペプチド</strong>として開発されている候補で、ミトコンドリア内膜やそこに存在する脂質（特に<strong>cardiolipin</strong>）との相互作用を介して、ミトコンドリア機能を安定化させることが想定されています。[^27][^41]
+
+対象は主に<strong>Primary mitochondrial myopathy（PMM）</strong>です。初期のクロスオーバー試験では有効性シグナルが示され、これを受けて<strong>MMPOWER-3</strong>というPhase 3試験が実施されました。[^28][^42]
+
+しかし、2023年に公表されたMMPOWER-3試験では、<strong>24週時点の6-minute walk test（6MWT）</strong>や疲労指標において、プラセボに対する有意な改善は示されませんでした。論文では、<strong>Class I evidence</strong>として「PMM患者においてElamipretideは6MWTまたはfatigueを改善しなかった」と結論されています。[^28]
+
+一方で、2024年のpost hoc解析では、<strong>mtDNA replisome disorder</strong>患者群など特定の遺伝学的サブタイプで便益が示唆され、後続試験設計（NuPOWER）に反映されました。[^43]  
+この経緯は、PMD治療開発において<strong>エンドポイントの難しさ</strong>、および<strong>遺伝子サブタイプごとの反応差</strong>をよく示しています。[^28][^43]
+
+<div style="border:1px solid #d0d7de; border-radius:10px; padding:1rem; margin:1rem 0; background:#f6f8fa;">
+  <strong>関連する別記事</strong><br>
+  Elamipretide / Forzinity については、当サイトの別記事でも扱っています。<br>
+  <a href="https://nagimukae.github.io/organelle-therapeutics-tracker/mitochondria/2025/10/17/forzinity-approval.html">Elamipretide（Forzinity）関連記事を読む</a>
+</div>
+
+### （2）Redox / “reductive-oxidative distress” modulation：Sonlicromanol（KH176）
+
+<strong>Sonlicromanol（KH176）</strong>は、単純なROS scavengerではなく、<strong>reductive and oxidative distress modulator</strong>として位置づけられている候補です。[^44]  
+2025年の<strong>Brain</strong>掲載論文では、<strong>m.3243A&gt;G変異</strong>を有するPMD患者を対象にした<strong>Phase 2b program</strong>が報告されました。試験プログラムは、用量選択を伴うランダム化比較試験と、52週のopen-label extensionから構成されています。[^44]
+
+この論文では、Sonlicromanolが<strong>代謝・炎症関連経路</strong>に好影響を与える候補として位置づけられており、少なくとも<strong>開発継続中であること</strong>が確認できます。[^44]  
+PMDにおいて、<strong>酸化還元ストレスを主病態の一部として捉え、薬理学的に調整する</strong>代表例として重要です。[^44][^45]
+
+### （3）Nucleos(t)ide bypass（mtDNA maintenance）：TK2 deficiency に対する pyrimidine nucleos(t)ide therapy
+
+<strong>TK2 deficiency</strong>は、核遺伝子<strong>TK2</strong>の両アレル変異により生じる<strong>mtDNA depletion / multiple deletions disease</strong>で、ミトコンドリアDNA維持障害の代表例です。TK2はミトコンドリア内で<strong>deoxycytidine（dC）</strong>および<strong>deoxythymidine（dT）</strong>をリン酸化し、mtDNA合成に必要なピリミジンヌクレオチド供給に関わります。[^46][^47]
+
+この病態に対しては、<strong>deoxythymidine（dThd）</strong>と<strong>deoxycytidine（dCyt）</strong>を補充する<strong>pyrimidine nucleos(t)ide therapy</strong>が開発されています。作用機序としては、<strong>不足したヌクレオシドプールを外因性に補い、mtDNA copy number維持を支える</strong>という、きわめて教育的な<strong>metabolic / genetic bypass</strong>です。[^46][^47]
+
+ClinicalTrials.govには、少なくとも以下のような試験が登録されています。[^48][^49][^50]
+
+- <strong>NCT03639701</strong>：TK2 deficiency患者を対象としたopen-label治療試験[^48]
+- <strong>NCT03845712</strong>：継続投与試験（continuation study）[^49]
+- <strong>NCT03701568</strong>：既治療患者を対象としたretrospective study[^50]
+- <strong>NCT04581733</strong>：小児・青年患者を対象とした<strong>MT1621</strong>のPhase 3b試験[^51]
+
+さらに、2025年の<strong>Neurology</strong>論文では、TK2 deficiency患者に対するpyrimidine nucleos(t)ide therapyにより、<strong>未治療群と比較して死亡リスク低下が示唆された</strong>ことが報告されました。要旨では、治療群38例で死亡0例、未治療群69例で58%死亡という結果が示され、病勢修飾の可能性を支持しています。[^52]
+
+### （4）Gene therapy（allotopic expression）：LHON（MT-ND4）に対する Lenadogene nolparvovec（GS010; Lumevoq）
+
+<strong>Lenadogene nolparvovec</strong>（別名：<strong>GS010</strong>、開発上は<strong>Lumevoq</strong>）は、<strong>MT-ND4変異LHON</strong>を対象とする遺伝子治療候補です。[^29][^30]  
+このアプローチの本質は、mtDNAにコードされた<strong>ND4</strong>を<strong>核側で発現</strong>させ、その産物をミトコンドリアへ輸送して機能補完を狙う<strong>allotopic expression</strong>にあります。[^29][^30]
+
+2025年の<strong>JAMA Ophthalmology</strong>報告では、5年間の長期追跡試験（RESTORE）において、<strong>best-corrected visual acuity（BCVA）の持続的改善</strong>と、良好な安全性プロファイルが示されました。論文要旨には、ClinicalTrials.gov Identifierとして<strong>NCT03406104</strong>が記載されています。[^29]
+
+Lenadogene nolparvovecは、<strong>mtDNA変異に対する遺伝子治療が臨床試験レベルでどこまで到達したか</strong>を示す代表例であり、PMD領域の中でも特に注目度の高い開発プログラムです。[^29][^30]
+
+---
+
+## 参考文献
+
+[^21]: Klopstock T, Priglinger C, Yilmaz A, Kornblum C, Distelmaier F, Prokisch H. Mitochondrial Disorders. *Dtsch Arztebl Int*. 2021;118(44):741-748. doi:10.3238/arztebl.m2021.0251
+[^22]: Ng YS, Turnbull DM. Mitochondrial disease in adults: recent advances and future promise. *Lancet Neurol*. 2021;20(7):573-584. doi:10.1016/S1474-4422(21)00098-3
+[^23]: Wen H, et al. Mitochondrial diseases: from molecular mechanisms to therapeutic advances. *Signal Transduct Target Ther*. 2025;10:17. doi:10.1038/s41392-024-02044-3
+[^24]: Parikh S, et al. Patient care standards for primary mitochondrial disease: a consensus statement from the Mitochondrial Medicine Society. *Genet Med*. 2017;19(12):1380-1387. doi:10.1038/gim.2017.107
+[^25]: Chen BS, Yu-Wai-Man P, Newman NJ, Carelli V. Developments in the Treatment of Leber Hereditary Optic Neuropathy. *Curr Opin Neurol*. 2022;35(1):75-83. doi:10.1097/WCO.0000000000001012
+[^26]: Smeitink J, et al. Phase 2b program with sonlicromanol in patients with mitochondrial disease due to m.3243A>G mutation. *Brain*. 2025;148(3):896-907. doi:10.1093/brain/awae277
+[^27]: Birk AV, et al. The mitochondrial-targeted compound SS-31 re-energizes ischemic mitochondria by interacting with cardiolipin. *J Am Soc Nephrol*. 2013;24(8):1250-1261. doi:10.1681/ASN.2012121216
+[^28]: Karaa A, et al. The MMPOWER-3 Randomized Clinical Trial. *Neurology*. 2023;100(24):e2557-e2568. doi:10.1212/WNL.0000000000207383
+[^29]: Yu-Wai-Man P, et al. Five-Year Outcomes of Lenadogene Nolparvovec Gene Therapy in Leber Hereditary Optic Neuropathy Due to MT-ND4 Variant. *JAMA Ophthalmol*. 2025;143(1):e245618. doi:10.1001/jamaophthalmol.2024.5618
+[^30]: Chen KY, et al. Can Gene Therapy Transform the Treatment Landscape of Leber Hereditary Optic Neuropathy? *Genes (Basel)*. 2025;16(1):10. doi:10.3390/genes16010010
+[^31]: Human Fertilisation and Embryology Authority (HFEA). *Mitochondrial donation treatment*. https://www.hfea.gov.uk/treatments/embryo-testing-and-treatments-for-disease/mitochondrial-donation-treatment/
+[^32]: Mavraki E, et al. Genetic testing for mitochondrial disease: the United Kingdom best practice guidelines. *Eur J Hum Genet*. 2023;31:1485-1498. doi:10.1038/s41431-022-01249-w
+[^33]: Jaber SM, et al. Idebenone Has Distinct Effects on Mitochondrial Respiration in Cortical Astrocytes and Retinal Ganglion Cells. *Cells*. 2020;9(9):2094. doi:10.3390/cells9092094
+[^34]: Theodorou-Kanakari A, et al. Current and Emerging Treatment Modalities for Leber’s Hereditary Optic Neuropathy: A Review of the Literature. *Adv Ther*. 2018;35(10):1510-1518. doi:10.1007/s12325-018-0771-z
+[^35]: European Medicines Agency. *Raxone, INN-idebenone: Product information*. Updated 2025. https://www.ema.europa.eu/en/documents/product-information/raxone-epar-product-information_en.pdf
+[^36]: European Medicines Agency. *Raxone EPAR: summary for the public*. https://www.ema.europa.eu/en/documents/overview/raxone-epar-summary-public_en.pdf
+[^37]: European Medicines Agency. *Raxone EPAR public assessment report*. 2015. https://www.ema.europa.eu/en/documents/assessment-report/raxone-epar-public-assessment-report_en.pdf
+[^38]: Klopstock T, et al. A randomized placebo-controlled trial of idebenone in Leber's hereditary optic neuropathy. *Brain*. 2011;134(Pt 9):2677-2686. doi:10.1093/brain/awr170
+[^39]: Klopstock T, et al. Persistence of the treatment effect of idebenone in Leber's hereditary optic neuropathy. *Brain*. 2013;136(Pt 2):e230. doi:10.1093/brain/aws345
+[^40]: McFarland R, et al. Mitochondrial Donation in a Reproductive Care Pathway for Mothers at Risk for Transmission of mtDNA Disease. *N Engl J Med*. 2025;393(5):401-413. doi:10.1056/NEJMoa2503658
+[^41]: Szeto HH. First-in-Class Cardiolipin Therapeutics for Mitochondrial Bioenergetics. *Br J Pharmacol*. 2014;171(8):2029-2050. doi:10.1111/bph.12461
+[^42]: Karaa A, et al. A randomized crossover trial of elamipretide in adults with primary mitochondrial myopathy. *Neurology*. 2020;94(12):e1212-e1221. doi:10.1212/WNL.0000000000008904
+[^43]: Karaa A, et al. NuPOWER: post hoc analysis of the MMPOWER-3 trial supports further evaluation of elamipretide in mtDNA maintenance disorders. *J Neurol*. 2024. doi:10.1007/s00415-024-12662-5
+[^44]: Smeitink J, et al. Phase 2b program with sonlicromanol in patients with mitochondrial disease due to m.3243A>G mutation. *Brain*. 2025;148(3):896-907. doi:10.1093/brain/awae277
+[^45]: Koene S, et al. KH176 under development for rare mitochondrial disease: a first in man randomized controlled clinical trial in healthy male volunteers. *Orphanet J Rare Dis*. 2017;12:163. doi:10.1186/s13023-017-0713-2
+[^46]: Domínguez-González C, et al. Pyrimidine Nucleos(t)ide Therapy in Patients With Thymidine Kinase 2 Deficiency. *Neurology*. 2025. doi:10.1212/WNL.0000000000213908
+[^47]: Hirano M, et al. Regulatory environment for novel therapeutic development in mitochondrial diseases: deoxynucleoside therapy for TK2 deficiency as an example. *J Inherit Metab Dis*. 2022;45(5):879-887. doi:10.1002/jimd.12498
+[^48]: ClinicalTrials.gov. *Treatment of TK2 Deficiency With Thymidine and Deoxycytidine (NCT03639701)*. https://clinicaltrials.gov/study/NCT03639701
+[^49]: ClinicalTrials.gov. *Continuation Treatment With Combination Pyrimidine Nucleosides in Patients With TK2 Deficiency (NCT03845712)*. https://clinicaltrials.gov/study/NCT03845712
+[^50]: ClinicalTrials.gov. *A RETROspective Study of Patients With TK2 Deficiency Treated With Pyrimidine Nucleosides (NCT03701568)*. https://clinicaltrials.gov/study/NCT03701568
+[^51]: ClinicalTrials.gov. *A Study of the Efficacy and Safety of MT1621 in Thymidine Kinase 2 (TK2) Deficiency (NCT04581733)*. https://clinicaltrials.gov/study/NCT04581733
+[^52]: Domínguez-González C, et al. Pyrimidine Nucleos(t)ide Therapy in Patients With Thymidine Kinase 2 Deficiency. *Neurology*. 2025;105(10):e2146-e2160. doi:10.1212/WNL.0000000000213908
+
+
+##臨床試験を経て開発中止になった薬
+
+| 開発コード / 一般名 | 対象疾患（PMDサブタイプ） | モダリティ / 介入軸 | 試験ID | ステータス | 中止理由（分類） | 一次ソース |
+|---|---|---|---|---|---|---|
+| ASP0367 / MA-0211 (bocidelpar)（Astellas） | PMM（Primary mitochondrial myopathy） | PPARδ modulator（metabolic remodeling / mitochondrial function modulation） | NCT04641962 | Terminated | 有効性（事前基準未達）＋事業判断（開発中止） | 試験登録（ClinicalTrials.gov）：[NCT04641962](https://clinicaltrials.gov/study/NCT04641962)／企業開示（Astellas, 2024年4月に開発中止）：[FY2025 Notice of Convocation（PDF）](https://www.astellas.com/content/dam/astellas-com/global/en/documents/fy2025-notice-of-convocation-of-the-20th-term-annual-shareholders-meeting-revised.pdf) |
+| Mavodelpar (REN001)（Reneo） | PMM | PPARδ agonist | NCT04535609（STRIDE） | Terminated | 有効性（primary/secondary endpoint未達）→ 開発停止（suspend） | 企業IR（Reneoプレスリリース）：[STRIDE結果（miss）](https://www.globenewswire.com/news-release/2023/12/14/2796344/0/en/Reneo-Pharmaceuticals-Announces-Results-from-Pivotal-STRIDE-Study-of-Mavodelpar-in-Primary-Mitochondrial-Myopathies-PMM.html)／試験登録（ClinicalTrials.gov）：[NCT04535609](https://clinicaltrials.gov/study/NCT04535609) |
+| Cysteamine bitartrate delayed-release (RP103)（Raptor/Horizon系） | Inherited mitochondrial disease（小児中心のミトコンドリア病コホート） | redox / thiol系（抗酸化・代謝補助の文脈） | NCT02473445（RP103-MITO-002；extension） | Terminated | 有効性（ベース試験で有効性不十分）→ スポンサー判断で開発終了 | 試験登録（ClinicalTrials.gov；理由記載あり）：[NCT02473445](https://clinicaltrials.gov/study/NCT02473445) |
+| Dichloroacetate (DCA) | MELAS（mtDNA関連PMD） | metabolic bypass（PDH活性化→乳酸/糖代謝介入の文脈） | —（古いRCTのためNCT付与なしの場合あり） | Trial terminated early（論文記載） | 安全性（末梢神経毒性） | 論文（Neurology; Kaufmannら）：[PubMed 16476929](https://pubmed.ncbi.nlm.nih.gov/16476929/) |
+| Vatiquinone (PTC743; EPI-743 系列)（PTC） | MDAS（mitochondrial disease associated seizures：遺伝学的に確認されたミトコンドリア病＋難治性てんかん） | antioxidant / redox modulator（酸化還元ストレス経路介入） | NCT04378075（MIT-E） | （登録上 “Sponsor decision” 等の表記） | 有効性（primary endpoint未達）→ 事業判断（試験不成功） | 企業IR（PTC；primary endpoint未達）：[MIT-E結果](https://ir.ptcbio.com/news-releases/news-release-details/ptc-therapeutics-announces-results-mit-e-clinical-trial?mobile=1)／日本jRCT（英語；早期終了・Secondary IDにNCT記載）：[jRCT2011210075](https://jrct.mhlw.go.jp/en-latest-detail/jRCT2011210075)／試験登録（ClinicalTrials.gov）：[NCT04378075](https://clinicaltrials.gov/study/NCT04378075) |
+
 
 

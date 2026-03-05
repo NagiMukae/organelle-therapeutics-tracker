@@ -15,7 +15,7 @@ classes: wide
 
 > **対象オルガネラ**: Mitochondria / **主なモダリティ**: 支持療法、低分子、ペプチド、遺伝子治療、生殖医療 / **主な適応**: Primary mitochondrial disease
 
-## ミトコンドリア病とは？
+## ミトコンドリア病(PMD)とは？
 
 <strong>ミトコンドリア</strong>は、細胞内で<strong>酸化的リン酸化（oxidative phosphorylation; OXPHOS）</strong>を担い、ATP産生の中核となるオルガネラです。原発性ミトコンドリア病（<strong>primary mitochondrial disease; PMD</strong>）は、このミトコンドリア呼吸鎖やその維持機構の障害によって生じる、遺伝学的・臨床的にきわめて多様な疾患群です。[^1][^2]
 

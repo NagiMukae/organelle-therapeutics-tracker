@@ -123,16 +123,6 @@ classes: wide
 
 ---
 
-[^1]: Chinnery PF. *Primary Mitochondrial Disorders Overview*. GeneReviews. University of Washington, Seattle; 2000-2021. https://www.ncbi.nlm.nih.gov/books/NBK1224/
-[^2]: Ng YS, Turnbull DM. Mitochondrial disease in adults: recent advances and future promise. *Lancet Neurol*. 2021;20(7):573-584. doi:10.1016/S1474-4422(21)00098-3
-[^3]: Arena IG, Catania A, D’Amico A, et al. Molecular Genetics Overview of Primary Mitochondrial Diseases. *Int J Mol Sci*. 2022;23(3):1242. doi:10.3390/ijms23031242
-[^4]: Nissanka N, Moraes CT. Mitochondrial DNA heteroplasmy in disease and targeted nuclease-based therapeutic approaches. *EMBO Rep*. 2020;21(3):e49612. doi:10.15252/embr.201949612
-[^5]: Ng YS, Bindoff LA, Gorman GS, et al. Mitochondrial disease: genetics and management. *J Neurol*. 2015;262(1):179-191. doi:10.1007/s00415-014-7404-3
-[^6]: Scholle LM, Veleeparambil M, Zempel M, et al. Heteroplasmy and Copy Number in the Common m.3243A>G Mutation—A Post-mortem Genotype–Phenotype Analysis. *Genes (Basel)*. 2020;11(2):212. doi:10.3390/genes11020212
-[^7]: Kanungo S, Das AM, et al. Mitochondrial disorders. *Ann Transl Med*. 2018;6(24):475. doi:10.21037/atm.2018.12.13
-[^8]: Luft R, Ikkos D, Palmieri G, Ernster L, Afzelius B. A case of severe hypermetabolism of nonthyroid origin with a defect in the maintenance of mitochondrial respiratory control: a correlated clinical, biochemical, and morphological study. *J Clin Invest*. 1962;41(9):1776-1804. doi:10.1172/JCI104637
-[^9]: Luft R. Physiopathology of mitochondria. From Luft's disease to mitochondrial myopathies. *J Intern Med Suppl*. 1993;734:1-9. PMID: 8366714
-
 
 ## 原因
 
@@ -251,18 +241,6 @@ PMDの診断は、単一の検査で確定できるとは限らず、<strong>臨
 それでもなお、PMDは<strong>二重ゲノム支配</strong>、<strong>ヘテロプラスミー</strong>、<strong>組織差</strong>、<strong>表現型の多様性</strong>のために診断が難しく、筋生検や生化学的評価が補助的に重要であり続けています。[^1][^17][^18]
 
 ---
-
-[^10]: Nogueira C, et al. The genetic landscape of mitochondrial diseases in the next generation sequencing era. *Front Cell Dev Biol*. 2024;12:1331351. doi:10.3389/fcell.2024.1331351
-[^11]: Mancuso M, et al. Management of seizures in patients with primary mitochondrial diseases. *Eur J Neurol*. 2024;31(8):e16275. doi:10.1111/ene.16275
-[^12]: Grigalionienė K, et al. Wide diagnostic and genotypic spectrum in patients with suspected mitochondrial disease. *Orphanet J Rare Dis*. 2023;18:362. doi:10.1186/s13023-023-02921-0
-[^13]: Parikh S, et al. Patient care standards for primary mitochondrial disease: a consensus statement from the Mitochondrial Medicine Society. *Genet Med*. 2017;19(12):1380-1387. doi:10.1038/gim.2017.107
-[^14]: Gorman GS, et al. Prevalence of nuclear and mitochondrial DNA mutations related to adult mitochondrial disease. *Ann Neurol*. 2015;77(5):753-759. doi:10.1002/ana.24362
-[^15]: Ibayashi K, et al. Estimation of the Number of Patients With Mitochondrial Diseases: A Descriptive Study Using a Nationwide Database in Japan. *J Epidemiol*. 2023;33(2):68-75. doi:10.2188/jea.JE20200577
-[^16]: Ibayashi K, et al. Estimation of the Number of Patients With Mitochondrial Diseases: A Descriptive Study Using a Nationwide Database in Japan. *Research report / MHLW grant summary*. 2021. https://mhlw-grants.niph.go.jp/system/files/report_pdf/%E5%8F%82%E8%80%83%E8%B3%87%E6%96%99.pdf
-[^17]: Tolomeo D, et al. The Diagnostic Approach to Mitochondrial Disorders in the Era of Next-Generation Sequencing: A Review. *J Clin Med*. 2021;10(15):3222. doi:10.3390/jcm10153222
-[^18]: Ahmed ST, Craven L, Russell OM, et al. Diagnosis and Treatment of Mitochondrial Myopathies. *Neurotherapeutics*. 2023;20(6):1545-1568. doi:10.1007/s13311-023-01407-0
-[^19]: Baldacci J, et al. Automatic Recognition of Ragged Red Fibers in Muscle Biopsies From Patients With Mitochondrial Diseases. *Front Neurol*. 2022;13:836387. doi:10.3389/fneur.2022.836387
-[^20]: Hinojosa JC, et al. Diagnostic Testing in Suspected Primary Mitochondrial Myopathy. *Mitochondrial Med*. 2023;2(1):7. doi:10.3390/mitochondrialmed2010007
 
 ## 治療方法
 
@@ -440,39 +418,6 @@ Lenadogene nolparvovecは、<strong>mtDNA変異に対する遺伝子治療が臨
 
 ---
 
-[^21]: Klopstock T, Priglinger C, Yilmaz A, Kornblum C, Distelmaier F, Prokisch H. Mitochondrial Disorders. *Dtsch Arztebl Int*. 2021;118(44):741-748. doi:10.3238/arztebl.m2021.0251
-[^22]: Ng YS, Turnbull DM. Mitochondrial disease in adults: recent advances and future promise. *Lancet Neurol*. 2021;20(7):573-584. doi:10.1016/S1474-4422(21)00098-3
-[^23]: Wen H, et al. Mitochondrial diseases: from molecular mechanisms to therapeutic advances. *Signal Transduct Target Ther*. 2025;10:17. doi:10.1038/s41392-024-02044-3
-[^24]: Parikh S, et al. Patient care standards for primary mitochondrial disease: a consensus statement from the Mitochondrial Medicine Society. *Genet Med*. 2017;19(12):1380-1387. doi:10.1038/gim.2017.107
-[^25]: Chen BS, Yu-Wai-Man P, Newman NJ, Carelli V. Developments in the Treatment of Leber Hereditary Optic Neuropathy. *Curr Opin Neurol*. 2022;35(1):75-83. doi:10.1097/WCO.0000000000001012
-[^26]: Smeitink J, et al. Phase 2b program with sonlicromanol in patients with mitochondrial disease due to m.3243A>G mutation. *Brain*. 2025;148(3):896-907. doi:10.1093/brain/awae277
-[^27]: Birk AV, et al. The mitochondrial-targeted compound SS-31 re-energizes ischemic mitochondria by interacting with cardiolipin. *J Am Soc Nephrol*. 2013;24(8):1250-1261. doi:10.1681/ASN.2012121216
-[^28]: Karaa A, et al. The MMPOWER-3 Randomized Clinical Trial. *Neurology*. 2023;100(24):e2557-e2568. doi:10.1212/WNL.0000000000207383
-[^29]: Yu-Wai-Man P, et al. Five-Year Outcomes of Lenadogene Nolparvovec Gene Therapy in Leber Hereditary Optic Neuropathy Due to MT-ND4 Variant. *JAMA Ophthalmol*. 2025;143(1):e245618. doi:10.1001/jamaophthalmol.2024.5618
-[^30]: Chen KY, et al. Can Gene Therapy Transform the Treatment Landscape of Leber Hereditary Optic Neuropathy? *Genes (Basel)*. 2025;16(1):10. doi:10.3390/genes16010010
-[^31]: Human Fertilisation and Embryology Authority (HFEA). *Mitochondrial donation treatment*. https://www.hfea.gov.uk/treatments/embryo-testing-and-treatments-for-disease/mitochondrial-donation-treatment/
-[^32]: Mavraki E, et al. Genetic testing for mitochondrial disease: the United Kingdom best practice guidelines. *Eur J Hum Genet*. 2023;31:1485-1498. doi:10.1038/s41431-022-01249-w
-[^33]: Jaber SM, et al. Idebenone Has Distinct Effects on Mitochondrial Respiration in Cortical Astrocytes and Retinal Ganglion Cells. *Cells*. 2020;9(9):2094. doi:10.3390/cells9092094
-[^34]: Theodorou-Kanakari A, et al. Current and Emerging Treatment Modalities for Leber’s Hereditary Optic Neuropathy: A Review of the Literature. *Adv Ther*. 2018;35(10):1510-1518. doi:10.1007/s12325-018-0771-z
-[^35]: European Medicines Agency. *Raxone, INN-idebenone: Product information*. Updated 2025. https://www.ema.europa.eu/en/documents/product-information/raxone-epar-product-information_en.pdf
-[^36]: European Medicines Agency. *Raxone EPAR: summary for the public*. https://www.ema.europa.eu/en/documents/overview/raxone-epar-summary-public_en.pdf
-[^37]: European Medicines Agency. *Raxone EPAR public assessment report*. 2015. https://www.ema.europa.eu/en/documents/assessment-report/raxone-epar-public-assessment-report_en.pdf
-[^38]: Klopstock T, et al. A randomized placebo-controlled trial of idebenone in Leber's hereditary optic neuropathy. *Brain*. 2011;134(Pt 9):2677-2686. doi:10.1093/brain/awr170
-[^39]: Klopstock T, et al. Persistence of the treatment effect of idebenone in Leber's hereditary optic neuropathy. *Brain*. 2013;136(Pt 2):e230. doi:10.1093/brain/aws345
-[^40]: McFarland R, et al. Mitochondrial Donation in a Reproductive Care Pathway for Mothers at Risk for Transmission of mtDNA Disease. *N Engl J Med*. 2025;393(5):401-413. doi:10.1056/NEJMoa2503658
-[^41]: Szeto HH. First-in-Class Cardiolipin Therapeutics for Mitochondrial Bioenergetics. *Br J Pharmacol*. 2014;171(8):2029-2050. doi:10.1111/bph.12461
-[^42]: Karaa A, et al. A randomized crossover trial of elamipretide in adults with primary mitochondrial myopathy. *Neurology*. 2020;94(12):e1212-e1221. doi:10.1212/WNL.0000000000008904
-[^43]: Karaa A, et al. NuPOWER: post hoc analysis of the MMPOWER-3 trial supports further evaluation of elamipretide in mtDNA maintenance disorders. *J Neurol*. 2024. doi:10.1007/s00415-024-12662-5
-[^44]: Smeitink J, et al. Phase 2b program with sonlicromanol in patients with mitochondrial disease due to m.3243A>G mutation. *Brain*. 2025;148(3):896-907. doi:10.1093/brain/awae277
-[^45]: Koene S, et al. KH176 under development for rare mitochondrial disease: a first in man randomized controlled clinical trial in healthy male volunteers. *Orphanet J Rare Dis*. 2017;12:163. doi:10.1186/s13023-017-0713-2
-[^46]: Domínguez-González C, et al. Pyrimidine Nucleos(t)ide Therapy in Patients With Thymidine Kinase 2 Deficiency. *Neurology*. 2025. doi:10.1212/WNL.0000000000213908
-[^47]: Hirano M, et al. Regulatory environment for novel therapeutic development in mitochondrial diseases: deoxynucleoside therapy for TK2 deficiency as an example. *J Inherit Metab Dis*. 2022;45(5):879-887. doi:10.1002/jimd.12498
-[^48]: ClinicalTrials.gov. *Treatment of TK2 Deficiency With Thymidine and Deoxycytidine (NCT03639701)*. https://clinicaltrials.gov/study/NCT03639701
-[^49]: ClinicalTrials.gov. *Continuation Treatment With Combination Pyrimidine Nucleosides in Patients With TK2 Deficiency (NCT03845712)*. https://clinicaltrials.gov/study/NCT03845712
-[^50]: ClinicalTrials.gov. *A RETROspective Study of Patients With TK2 Deficiency Treated With Pyrimidine Nucleosides (NCT03701568)*. https://clinicaltrials.gov/study/NCT03701568
-[^51]: ClinicalTrials.gov. *A Study of the Efficacy and Safety of MT1621 in Thymidine Kinase 2 (TK2) Deficiency (NCT04581733)*. https://clinicaltrials.gov/study/NCT04581733
-[^52]: Domínguez-González C, et al. Pyrimidine Nucleos(t)ide Therapy in Patients With Thymidine Kinase 2 Deficiency. *Neurology*. 2025;105(10):e2146-e2160. doi:10.1212/WNL.0000000000213908
-
 
 ## 臨床試験を経て開発中止になった薬
 
@@ -645,6 +590,61 @@ flowchart TD
   F --> G
 ```
 
+## 参考文献
+
+[^1]: Chinnery PF. *Primary Mitochondrial Disorders Overview*. GeneReviews. University of Washington, Seattle; 2000-2021. https://www.ncbi.nlm.nih.gov/books/NBK1224/
+[^2]: Ng YS, Turnbull DM. Mitochondrial disease in adults: recent advances and future promise. *Lancet Neurol*. 2021;20(7):573-584. doi:10.1016/S1474-4422(21)00098-3
+[^3]: Arena IG, Catania A, D’Amico A, et al. Molecular Genetics Overview of Primary Mitochondrial Diseases. *Int J Mol Sci*. 2022;23(3):1242. doi:10.3390/ijms23031242
+[^4]: Nissanka N, Moraes CT. Mitochondrial DNA heteroplasmy in disease and targeted nuclease-based therapeutic approaches. *EMBO Rep*. 2020;21(3):e49612. doi:10.15252/embr.201949612
+[^5]: Ng YS, Bindoff LA, Gorman GS, et al. Mitochondrial disease: genetics and management. *J Neurol*. 2015;262(1):179-191. doi:10.1007/s00415-014-7404-3
+[^6]: Scholle LM, Veleeparambil M, Zempel M, et al. Heteroplasmy and Copy Number in the Common m.3243A>G Mutation—A Post-mortem Genotype–Phenotype Analysis. *Genes (Basel)*. 2020;11(2):212. doi:10.3390/genes11020212
+[^7]: Kanungo S, Das AM, et al. Mitochondrial disorders. *Ann Transl Med*. 2018;6(24):475. doi:10.21037/atm.2018.12.13
+[^8]: Luft R, Ikkos D, Palmieri G, Ernster L, Afzelius B. A case of severe hypermetabolism of nonthyroid origin with a defect in the maintenance of mitochondrial respiratory control: a correlated clinical, biochemical, and morphological study. *J Clin Invest*. 1962;41(9):1776-1804. doi:10.1172/JCI104637
+[^9]: Luft R. Physiopathology of mitochondria. From Luft's disease to mitochondrial myopathies. *J Intern Med Suppl*. 1993;734:1-9. PMID: 8366714
+
+[^10]: Nogueira C, et al. The genetic landscape of mitochondrial diseases in the next generation sequencing era. *Front Cell Dev Biol*. 2024;12:1331351. doi:10.3389/fcell.2024.1331351
+[^11]: Mancuso M, et al. Management of seizures in patients with primary mitochondrial diseases. *Eur J Neurol*. 2024;31(8):e16275. doi:10.1111/ene.16275
+[^12]: Grigalionienė K, et al. Wide diagnostic and genotypic spectrum in patients with suspected mitochondrial disease. *Orphanet J Rare Dis*. 2023;18:362. doi:10.1186/s13023-023-02921-0
+[^13]: Parikh S, et al. Patient care standards for primary mitochondrial disease: a consensus statement from the Mitochondrial Medicine Society. *Genet Med*. 2017;19(12):1380-1387. doi:10.1038/gim.2017.107
+[^14]: Gorman GS, et al. Prevalence of nuclear and mitochondrial DNA mutations related to adult mitochondrial disease. *Ann Neurol*. 2015;77(5):753-759. doi:10.1002/ana.24362
+[^15]: Ibayashi K, et al. Estimation of the Number of Patients With Mitochondrial Diseases: A Descriptive Study Using a Nationwide Database in Japan. *J Epidemiol*. 2023;33(2):68-75. doi:10.2188/jea.JE20200577
+[^16]: Ibayashi K, et al. Estimation of the Number of Patients With Mitochondrial Diseases: A Descriptive Study Using a Nationwide Database in Japan. *Research report / MHLW grant summary*. 2021. https://mhlw-grants.niph.go.jp/system/files/report_pdf/%E5%8F%82%E8%80%83%E8%B3%87%E6%96%99.pdf
+[^17]: Tolomeo D, et al. The Diagnostic Approach to Mitochondrial Disorders in the Era of Next-Generation Sequencing: A Review. *J Clin Med*. 2021;10(15):3222. doi:10.3390/jcm10153222
+[^18]: Ahmed ST, Craven L, Russell OM, et al. Diagnosis and Treatment of Mitochondrial Myopathies. *Neurotherapeutics*. 2023;20(6):1545-1568. doi:10.1007/s13311-023-01407-0
+[^19]: Baldacci J, et al. Automatic Recognition of Ragged Red Fibers in Muscle Biopsies From Patients With Mitochondrial Diseases. *Front Neurol*. 2022;13:836387. doi:10.3389/fneur.2022.836387
+[^20]: Hinojosa JC, et al. Diagnostic Testing in Suspected Primary Mitochondrial Myopathy. *Mitochondrial Med*. 2023;2(1):7. doi:10.3390/mitochondrialmed2010007
+[^21]: Klopstock T, Priglinger C, Yilmaz A, Kornblum C, Distelmaier F, Prokisch H. Mitochondrial Disorders. *Dtsch Arztebl Int*. 2021;118(44):741-748. doi:10.3238/arztebl.m2021.0251
+[^22]: Ng YS, Turnbull DM. Mitochondrial disease in adults: recent advances and future promise. *Lancet Neurol*. 2021;20(7):573-584. doi:10.1016/S1474-4422(21)00098-3
+[^23]: Wen H, et al. Mitochondrial diseases: from molecular mechanisms to therapeutic advances. *Signal Transduct Target Ther*. 2025;10:17. doi:10.1038/s41392-024-02044-3
+[^24]: Parikh S, et al. Patient care standards for primary mitochondrial disease: a consensus statement from the Mitochondrial Medicine Society. *Genet Med*. 2017;19(12):1380-1387. doi:10.1038/gim.2017.107
+[^25]: Chen BS, Yu-Wai-Man P, Newman NJ, Carelli V. Developments in the Treatment of Leber Hereditary Optic Neuropathy. *Curr Opin Neurol*. 2022;35(1):75-83. doi:10.1097/WCO.0000000000001012
+[^26]: Smeitink J, et al. Phase 2b program with sonlicromanol in patients with mitochondrial disease due to m.3243A>G mutation. *Brain*. 2025;148(3):896-907. doi:10.1093/brain/awae277
+[^27]: Birk AV, et al. The mitochondrial-targeted compound SS-31 re-energizes ischemic mitochondria by interacting with cardiolipin. *J Am Soc Nephrol*. 2013;24(8):1250-1261. doi:10.1681/ASN.2012121216
+[^28]: Karaa A, et al. The MMPOWER-3 Randomized Clinical Trial. *Neurology*. 2023;100(24):e2557-e2568. doi:10.1212/WNL.0000000000207383
+[^29]: Yu-Wai-Man P, et al. Five-Year Outcomes of Lenadogene Nolparvovec Gene Therapy in Leber Hereditary Optic Neuropathy Due to MT-ND4 Variant. *JAMA Ophthalmol*. 2025;143(1):e245618. doi:10.1001/jamaophthalmol.2024.5618
+[^30]: Chen KY, et al. Can Gene Therapy Transform the Treatment Landscape of Leber Hereditary Optic Neuropathy? *Genes (Basel)*. 2025;16(1):10. doi:10.3390/genes16010010
+[^31]: Human Fertilisation and Embryology Authority (HFEA). *Mitochondrial donation treatment*. https://www.hfea.gov.uk/treatments/embryo-testing-and-treatments-for-disease/mitochondrial-donation-treatment/
+[^32]: Mavraki E, et al. Genetic testing for mitochondrial disease: the United Kingdom best practice guidelines. *Eur J Hum Genet*. 2023;31:1485-1498. doi:10.1038/s41431-022-01249-w
+[^33]: Jaber SM, et al. Idebenone Has Distinct Effects on Mitochondrial Respiration in Cortical Astrocytes and Retinal Ganglion Cells. *Cells*. 2020;9(9):2094. doi:10.3390/cells9092094
+[^34]: Theodorou-Kanakari A, et al. Current and Emerging Treatment Modalities for Leber’s Hereditary Optic Neuropathy: A Review of the Literature. *Adv Ther*. 2018;35(10):1510-1518. doi:10.1007/s12325-018-0771-z
+[^35]: European Medicines Agency. *Raxone, INN-idebenone: Product information*. Updated 2025. https://www.ema.europa.eu/en/documents/product-information/raxone-epar-product-information_en.pdf
+[^36]: European Medicines Agency. *Raxone EPAR: summary for the public*. https://www.ema.europa.eu/en/documents/overview/raxone-epar-summary-public_en.pdf
+[^37]: European Medicines Agency. *Raxone EPAR public assessment report*. 2015. https://www.ema.europa.eu/en/documents/assessment-report/raxone-epar-public-assessment-report_en.pdf
+[^38]: Klopstock T, et al. A randomized placebo-controlled trial of idebenone in Leber's hereditary optic neuropathy. *Brain*. 2011;134(Pt 9):2677-2686. doi:10.1093/brain/awr170
+[^39]: Klopstock T, et al. Persistence of the treatment effect of idebenone in Leber's hereditary optic neuropathy. *Brain*. 2013;136(Pt 2):e230. doi:10.1093/brain/aws345
+[^40]: McFarland R, et al. Mitochondrial Donation in a Reproductive Care Pathway for Mothers at Risk for Transmission of mtDNA Disease. *N Engl J Med*. 2025;393(5):401-413. doi:10.1056/NEJMoa2503658
+[^41]: Szeto HH. First-in-Class Cardiolipin Therapeutics for Mitochondrial Bioenergetics. *Br J Pharmacol*. 2014;171(8):2029-2050. doi:10.1111/bph.12461
+[^42]: Karaa A, et al. A randomized crossover trial of elamipretide in adults with primary mitochondrial myopathy. *Neurology*. 2020;94(12):e1212-e1221. doi:10.1212/WNL.0000000000008904
+[^43]: Karaa A, et al. NuPOWER: post hoc analysis of the MMPOWER-3 trial supports further evaluation of elamipretide in mtDNA maintenance disorders. *J Neurol*. 2024. doi:10.1007/s00415-024-12662-5
+[^44]: Smeitink J, et al. Phase 2b program with sonlicromanol in patients with mitochondrial disease due to m.3243A>G mutation. *Brain*. 2025;148(3):896-907. doi:10.1093/brain/awae277
+[^45]: Koene S, et al. KH176 under development for rare mitochondrial disease: a first in man randomized controlled clinical trial in healthy male volunteers. *Orphanet J Rare Dis*. 2017;12:163. doi:10.1186/s13023-017-0713-2
+[^46]: Domínguez-González C, et al. Pyrimidine Nucleos(t)ide Therapy in Patients With Thymidine Kinase 2 Deficiency. *Neurology*. 2025. doi:10.1212/WNL.0000000000213908
+[^47]: Hirano M, et al. Regulatory environment for novel therapeutic development in mitochondrial diseases: deoxynucleoside therapy for TK2 deficiency as an example. *J Inherit Metab Dis*. 2022;45(5):879-887. doi:10.1002/jimd.12498
+[^48]: ClinicalTrials.gov. *Treatment of TK2 Deficiency With Thymidine and Deoxycytidine (NCT03639701)*. https://clinicaltrials.gov/study/NCT03639701
+[^49]: ClinicalTrials.gov. *Continuation Treatment With Combination Pyrimidine Nucleosides in Patients With TK2 Deficiency (NCT03845712)*. https://clinicaltrials.gov/study/NCT03845712
+[^50]: ClinicalTrials.gov. *A RETROspective Study of Patients With TK2 Deficiency Treated With Pyrimidine Nucleosides (NCT03701568)*. https://clinicaltrials.gov/study/NCT03701568
+[^51]: ClinicalTrials.gov. *A Study of the Efficacy and Safety of MT1621 in Thymidine Kinase 2 (TK2) Deficiency (NCT04581733)*. https://clinicaltrials.gov/study/NCT04581733
+[^52]: Domínguez-González C, et al. Pyrimidine Nucleos(t)ide Therapy in Patients With Thymidine Kinase 2 Deficiency. *Neurology*. 2025;105(10):e2146-e2160. doi:10.1212/WNL.0000000000213908
 [^53]: Nogueira C, Barros J, Cerezo D, et al. The genetic landscape of mitochondrial diseases in the next-generation sequencing era. Front Cell Dev Biol. 2024. (PMCID: PMC10920333). https://pmc.ncbi.nlm.nih.gov/articles/PMC10920333/
 [^54]: Chinnery PF. Primary Mitochondrial Disorders Overview. GeneReviews (updated 2021). https://www.ncbi.nlm.nih.gov/books/NBK1224/
 [^55]: Grier J, Hirano M, Karaa A, et al. Diagnostic odyssey of patients with mitochondrial disease: results of a survey. Neurol Genet. 2018. https://www.neurology.org/doi/10.1212/NXG.0000000000000230
@@ -669,7 +669,3 @@ flowchart TD
 [^74]: Yu-Wai-Man P, et al. Five-Year Outcomes of Lenadogene Nolparvovec Gene Therapy in Leber Hereditary Optic Neuropathy Due to MT-ND4 Variant. JAMA Ophthalmology. 2025. https://pubmed.ncbi.nlm.nih.gov/39699886/
 [^75]: Griggs RC, Batshaw M, Dunkle M, et al. Clinical research for rare disease: opportunities, challenges, and solutions. *Mol Genet Metab*. 2009;96(1):20-26. doi:10.1016/j.ymgme.2008.10.003
 [^76]: Thompson R, Johnston L, Taruscio D, et al. RD-Connect: an integrated platform connecting databases, registries, biobanks and clinical bioinformatics for rare disease research. *J Gen Intern Med*. 2014;29 Suppl 3:S780-S787. doi:10.1007/s11606-014-2908-8
-
-## 参考文献
-
-

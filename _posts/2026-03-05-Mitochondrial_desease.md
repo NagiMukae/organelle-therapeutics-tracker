@@ -2,7 +2,6 @@
 layout: single
 title: "原発性ミトコンドリア病とその治療法"
 description: "原発性ミトコンドリア病の病態、原因、症状、診断、治療法、治療薬開発を概説します。"
-excerpt: "原発性ミトコンドリア病（PMD）を、原因・症状・診断・治療と臨床開発の論点から整理します。"
 date: 2026-03-05 09:00:00 +0900
 last_modified_at: 2026-03-05 09:00:00 +0900
 categories: ["Mitochondria"]

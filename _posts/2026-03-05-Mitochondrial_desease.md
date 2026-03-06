@@ -32,62 +32,43 @@ classes: wide
   一次原因は別に存在し、その結果としてミトコンドリア機能低下が生じる状態です。たとえば、他の遺伝性疾患、代謝疾患、神経変性疾患、炎症、薬剤性障害などでもミトコンドリア異常は二次的にみられます。[^1]
 
 本記事では、主として<strong>原発性ミトコンドリア病(PMD)</strong>を扱います。
-
 <!-- 用語解説：ヘテロプラスミー -->
-<details style="margin:1.2rem 0;" markdown="1">
-  <summary style="cursor:pointer; list-style:none;">
-    <span style="display:inline-block; border-left:5px solid #6aa7b2; border-radius:10px; padding:0.75rem 1rem; background:#f7fbfc; border:1px solid #d8dee4;">
-      <strong>用語解説：ヘテロプラスミー（heteroplasmy）</strong>
-      <span style="margin-left:0.6rem; font-weight:600;">詳しく見る ▼</span>
-    </span>
-  </summary>
+<details style="margin:1.2rem 0;">
+<summary style="cursor:pointer; list-style:none;">
+<span style="display:inline-block; border-left:5px solid #6aa7b2; border-radius:10px; padding:0.75rem 1rem; background:#f7fbfc; border:1px solid #d8dee4;">
+<strong>用語解説：ヘテロプラスミー（heteroplasmy）</strong>
+<span style="margin-left:0.6rem; font-weight:600;">詳しく見る ▼</span>
+</span>
+</summary>
 
-  <div style="border-left:5px solid #6aa7b2; border-radius:10px; padding:1rem 1.2rem; margin-top:0.6rem; background:#f7fbfc;" markdown="1">
-    <div style="margin-bottom:0.7rem;">
-      <strong>ヘテロプラスミー（heteroplasmy）</strong>とは、1つの細胞内に存在する多数の<strong>ミトコンドリアDNA（mtDNA）コピー</strong>がすべて同一ではなく、<strong>正常型（wild-type）</strong>と<strong>変異型（mutant）</strong>が混在している状態を指します。[^4][^5]
-    </div>
+<div style="border-left:5px solid #6aa7b2; border-radius:10px; padding:1rem 1.2rem; margin-top:0.6rem; background:#f7fbfc;" markdown="1">
+**ヘテロプラスミー（heteroplasmy）**とは、1つの細胞内に存在する多数の**ミトコンドリアDNA（mtDNA）コピー**がすべて同一ではなく、**正常型（wild-type）**と**変異型（mutant）**が混在している状態を指します。[^4][^5]
 
-    <div style="margin-bottom:0.7rem;">
-      mtDNAは1細胞あたり多数コピー存在しており、そのコピー数は組織によって異なります。変異型mtDNAの割合、すなわち<strong>heteroplasmy level</strong>は、細胞機能低下や臨床表現型の出現に強く影響します。[^4][^5]
-    </div>
+mtDNAは1細胞あたり多数コピー存在しており、そのコピー数は組織によって異なります。変異型mtDNAの割合、すなわち**heteroplasmy level**は、細胞機能低下や臨床表現型の出現に強く影響します。[^4][^5]
 
-    <div style="font-weight:700; margin:0.9rem 0 0.4rem;">研究・診断上の重要性</div>
-    <div style="margin-bottom:0.5rem;">
-      研究・診断の観点から重要なのは、ヘテロプラスミーが一様ではないことです。[^4][^6]
-    </div>
+**研究・診断上の重要性**  
+研究・診断の観点から重要なのは、ヘテロプラスミーが一様ではないことです。[^4][^6]
 
-    <ul style="margin:0.2rem 0 0 1.2rem;">
-      <li style="margin-bottom:0.4rem;">
-        <strong>組織差（tissue heterogeneity）</strong>：同じ個体でも、血液では変異率が低く、骨格筋や脳などで高いことがあります。したがって、血液検査だけでは病的mtDNA変異を十分に評価できない場合があります。[^1][^4][^6]
-      </li>
-      <li style="margin-bottom:0.4rem;">
-        <strong>細胞間ばらつき（cell-to-cell variance）</strong>：同一組織内でも細胞ごとに変異率が異なりうるため、組織全体の平均値だけでは病態を完全には表せません。[^4][^5]
-      </li>
-      <li>
-        <strong>時間変化</strong>：ヘテロプラスミーは固定的ではなく、細胞増殖、組織更新、選択圧などにより経時的に変化しえます。特に血液系では年齢や細胞動態に伴う変動が問題になります。[^4][^5]
-      </li>
-    </ul>
-  </div>
+- **組織差（tissue heterogeneity）**：同じ個体でも、血液では変異率が低く、骨格筋や脳などで高いことがあります。したがって、血液検査だけでは病的mtDNA変異を十分に評価できない場合があります。[^1][^4][^6]
+- **細胞間ばらつき（cell-to-cell variance）**：同一組織内でも細胞ごとに変異率が異なりうるため、組織全体の平均値だけでは病態を完全には表せません。[^4][^5]
+- **時間変化**：ヘテロプラスミーは固定的ではなく、細胞増殖、組織更新、選択圧などにより経時的に変化しえます。特に血液系では年齢や細胞動態に伴う変動が問題になります。[^4][^5]
+</div>
 </details>
 
 <!-- 用語解説：閾値効果 -->
-<details style="margin:1.2rem 0;" markdown="1">
-  <summary style="cursor:pointer; list-style:none;">
-    <span style="display:inline-block; border-left:5px solid #6aa7b2; border-radius:10px; padding:0.75rem 1rem; background:#f7fbfc; border:1px solid #d8dee4;">
-      <strong>用語解説：閾値効果（threshold effect）</strong>
-      <span style="margin-left:0.6rem; font-weight:600;">詳しく見る ▼</span>
-    </span>
-  </summary>
+<details style="margin:1.2rem 0;">
+<summary style="cursor:pointer; list-style:none;">
+<span style="display:inline-block; border-left:5px solid #6aa7b2; border-radius:10px; padding:0.75rem 1rem; background:#f7fbfc; border:1px solid #d8dee4;">
+<strong>用語解説：閾値効果（threshold effect）</strong>
+<span style="margin-left:0.6rem; font-weight:600;">詳しく見る ▼</span>
+</span>
+</summary>
 
-  <div style="border-left:5px solid #6aa7b2; border-radius:10px; padding:1rem 1.2rem; margin-top:0.6rem; background:#f7fbfc;" markdown="1">
-    <div style="margin-bottom:0.7rem;">
-      <strong>閾値効果（threshold effect）</strong>とは、変異mtDNAが存在していても、ある一定割合までは細胞機能が代償され、<strong>変異負荷がある閾値を超えたときに初めて機能障害や症状が顕在化する</strong>という概念です。[^5][^7]
-    </div>
+<div style="border-left:5px solid #6aa7b2; border-radius:10px; padding:1rem 1.2rem; margin-top:0.6rem; background:#f7fbfc;" markdown="1">
+**閾値効果（threshold effect）**とは、変異mtDNAが存在していても、ある一定割合までは細胞機能が代償され、**変異負荷がある閾値を超えたときに初めて機能障害や症状が顕在化する**という概念です。[^5][^7]
 
-    <div>
-      この閾値は固定ではなく、<strong>変異の種類</strong>、<strong>組織のエネルギー需要</strong>、<strong>mtDNA copy number</strong>、<strong>代謝状態</strong>などに依存します。そのため、同じ変異を有していても、患者間あるいは組織間で症状の強さが大きく異なることがあります。[^1][^5][^7]
-    </div>
-  </div>
+この閾値は固定ではなく、**変異の種類**、**組織のエネルギー需要**、**mtDNA copy number**、**代謝状態**などに依存します。そのため、同じ変異を有していても、患者間あるいは組織間で症状の強さが大きく異なることがあります。[^1][^5][^7]
+</div>
 </details>
 ---
 

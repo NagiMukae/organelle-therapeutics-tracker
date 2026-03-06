@@ -630,6 +630,9 @@ flowchart TD
   F --> G
 ```
 
+<!-- footnote test -->
+[^64][^65][^66][^67][^68][^69]
+
 ## 参考文献
 
 [^1]: Chinnery PF. *Primary Mitochondrial Disorders Overview*. GeneReviews. University of Washington, Seattle; 2000-2021. https://www.ncbi.nlm.nih.gov/books/NBK1224/
@@ -695,7 +698,7 @@ flowchart TD
 [^61]: Diodato D, Schiff M, Cohen BH, et al. 258th ENMC international workshop: Leigh syndrome spectrum—genetic causes, natural history and preparing for clinical trials. *Neuromuscul Disord*. 2023. https://pubmed.ncbi.nlm.nih.gov/37541860/
 [^62]: Lehtonen JM, et al. Diagnostic value of serum biomarkers FGF21 and GDF15 compared to muscle sample in mitochondrial disease. *J Inherit Metab Dis*. 2021. https://pubmed.ncbi.nlm.nih.gov/32857451/
 [^63]: Maresca A, et al. Expanding and validating the biomarkers for mitochondrial diseases. *J Mol Med*. 2020. https://link.springer.com/article/10.1007/s00109-020-01967-y
-[^64]: Di Donfrancesco A, Massaro G, Pignataro D, et al. Gene Therapy for Mitochondrial Diseases: Current Status and Future Perspectives.*Pharmaceutics*. 2022;14(6):1287. https://www.mdpi.com/1999-4923/14/6/1287
+[^64]: Di Donfrancesco A, Massaro G, Pignataro D, et al. Gene Therapy for Mitochondrial Diseases: Current Status and Future Perspectives. *Pharmaceutics*. 2022;14(6):1287. https://www.mdpi.com/1999-4923/14/6/1287
 [^65]: Russell OM, et al. Mitochondrial Diseases: Hope for the Future. *Cell*. 2020. https://www.sciencedirect.com/science/article/pii/S0092867420302282
 [^66]: Tinker RJ, et al. Drivers of Diagnostic Delay in Mitochondrial Disease. 2026. https://pmc.ncbi.nlm.nih.gov/articles/PMC12827488/
 [^67]: Karaa A, et al. Genotype-specific effects of elamipretide in patients with primary mitochondrial myopathy: a post hoc analysis of the MMPOWER-3 trial. 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11583740/

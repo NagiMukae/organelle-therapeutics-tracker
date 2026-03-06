@@ -12,6 +12,7 @@ header:
   teaser: /assets/images/Mito_disease_eyecatch.png
 classes: wide
 ---
+![eyecatch_Mito_disease]({{ "/assets/images/Mito_disease_eyecatch.png" | relative_url }})
 
 > **対象オルガネラ**: Mitochondria / **主なモダリティ**: 支持療法、低分子、ペプチド、遺伝子治療、生殖医療 / **主な適応**: Primary mitochondrial disease
 

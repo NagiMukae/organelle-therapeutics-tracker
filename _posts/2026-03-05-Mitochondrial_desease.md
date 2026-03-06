@@ -594,14 +594,13 @@ flowchart TD
 
 [^1]: Chinnery PF. *Primary Mitochondrial Disorders Overview*. GeneReviews. University of Washington, Seattle; 2000-2021. https://www.ncbi.nlm.nih.gov/books/NBK1224/
 [^2]: Ng YS, Turnbull DM. Mitochondrial disease in adults: recent advances and future promise. *Lancet Neurol*. 2021;20(7):573-584. doi:10.1016/S1474-4422(21)00098-3
-[^3]: Arena IG, Catania A, D’Amico A, et al. Molecular Genetics Overview of Primary Mitochondrial Diseases. *Int J Mol Sci*. 2022;23(3):1242. doi:10.3390/ijms23031242
+[^3]: Arena IG, Catania A, D'Amico A, et al. Molecular Genetics Overview of Primary Mitochondrial Diseases. *Int J Mol Sci*. 2022;23(3):1242. doi:10.3390/ijms23031242
 [^4]: Nissanka N, Moraes CT. Mitochondrial DNA heteroplasmy in disease and targeted nuclease-based therapeutic approaches. *EMBO Rep*. 2020;21(3):e49612. doi:10.15252/embr.201949612
 [^5]: Ng YS, Bindoff LA, Gorman GS, et al. Mitochondrial disease: genetics and management. *J Neurol*. 2015;262(1):179-191. doi:10.1007/s00415-014-7404-3
 [^6]: Scholle LM, Veleeparambil M, Zempel M, et al. Heteroplasmy and Copy Number in the Common m.3243A>G Mutation—A Post-mortem Genotype–Phenotype Analysis. *Genes (Basel)*. 2020;11(2):212. doi:10.3390/genes11020212
 [^7]: Kanungo S, Das AM, et al. Mitochondrial disorders. *Ann Transl Med*. 2018;6(24):475. doi:10.21037/atm.2018.12.13
 [^8]: Luft R, Ikkos D, Palmieri G, Ernster L, Afzelius B. A case of severe hypermetabolism of nonthyroid origin with a defect in the maintenance of mitochondrial respiratory control: a correlated clinical, biochemical, and morphological study. *J Clin Invest*. 1962;41(9):1776-1804. doi:10.1172/JCI104637
 [^9]: Luft R. Physiopathology of mitochondria. From Luft's disease to mitochondrial myopathies. *J Intern Med Suppl*. 1993;734:1-9. PMID: 8366714
-
 [^10]: Nogueira C, et al. The genetic landscape of mitochondrial diseases in the next generation sequencing era. *Front Cell Dev Biol*. 2024;12:1331351. doi:10.3389/fcell.2024.1331351
 [^11]: Mancuso M, et al. Management of seizures in patients with primary mitochondrial diseases. *Eur J Neurol*. 2024;31(8):e16275. doi:10.1111/ene.16275
 [^12]: Grigalionienė K, et al. Wide diagnostic and genotypic spectrum in patients with suspected mitochondrial disease. *Orphanet J Rare Dis*. 2023;18:362. doi:10.1186/s13023-023-02921-0
@@ -626,7 +625,7 @@ flowchart TD
 [^31]: Human Fertilisation and Embryology Authority (HFEA). *Mitochondrial donation treatment*. https://www.hfea.gov.uk/treatments/embryo-testing-and-treatments-for-disease/mitochondrial-donation-treatment/
 [^32]: Mavraki E, et al. Genetic testing for mitochondrial disease: the United Kingdom best practice guidelines. *Eur J Hum Genet*. 2023;31:1485-1498. doi:10.1038/s41431-022-01249-w
 [^33]: Jaber SM, et al. Idebenone Has Distinct Effects on Mitochondrial Respiration in Cortical Astrocytes and Retinal Ganglion Cells. *Cells*. 2020;9(9):2094. doi:10.3390/cells9092094
-[^34]: Theodorou-Kanakari A, et al. Current and Emerging Treatment Modalities for Leber’s Hereditary Optic Neuropathy: A Review of the Literature. *Adv Ther*. 2018;35(10):1510-1518. doi:10.1007/s12325-018-0771-z
+[^34]: Theodorou-Kanakari A, et al. Current and Emerging Treatment Modalities for Leber's Hereditary Optic Neuropathy: A Review of the Literature. *Adv Ther*. 2018;35(10):1510-1518. doi:10.1007/s12325-018-0771-z
 [^35]: European Medicines Agency. *Raxone, INN-idebenone: Product information*. Updated 2025. https://www.ema.europa.eu/en/documents/product-information/raxone-epar-product-information_en.pdf
 [^36]: European Medicines Agency. *Raxone EPAR: summary for the public*. https://www.ema.europa.eu/en/documents/overview/raxone-epar-summary-public_en.pdf
 [^37]: European Medicines Agency. *Raxone EPAR public assessment report*. 2015. https://www.ema.europa.eu/en/documents/assessment-report/raxone-epar-public-assessment-report_en.pdf
@@ -645,27 +644,20 @@ flowchart TD
 [^50]: ClinicalTrials.gov. *A RETROspective Study of Patients With TK2 Deficiency Treated With Pyrimidine Nucleosides (NCT03701568)*. https://clinicaltrials.gov/study/NCT03701568
 [^51]: ClinicalTrials.gov. *A Study of the Efficacy and Safety of MT1621 in Thymidine Kinase 2 (TK2) Deficiency (NCT04581733)*. https://clinicaltrials.gov/study/NCT04581733
 [^52]: Domínguez-González C, et al. Pyrimidine Nucleos(t)ide Therapy in Patients With Thymidine Kinase 2 Deficiency. *Neurology*. 2025;105(10):e2146-e2160. doi:10.1212/WNL.0000000000213908
-[^53]: Nogueira C, Barros J, Cerezo D, et al. The genetic landscape of mitochondrial diseases in the next-generation sequencing era. Front Cell Dev Biol. 2024. (PMCID: PMC10920333). https://pmc.ncbi.nlm.nih.gov/articles/PMC10920333/
+[^53]: Nogueira C, Barros J, Cerezo D, et al. The genetic landscape of mitochondrial diseases in the next-generation sequencing era. *Front Cell Dev Biol*. 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC10920333/
 [^54]: Chinnery PF. Primary Mitochondrial Disorders Overview. GeneReviews (updated 2021). https://www.ncbi.nlm.nih.gov/books/NBK1224/
-[^55]: Grier J, Hirano M, Karaa A, et al. Diagnostic odyssey of patients with mitochondrial disease: results of a survey. Neurol Genet. 2018. https://www.neurology.org/doi/10.1212/NXG.0000000000000230
-[^56]: Thompson JLP, et al. The evolution of the mitochondrial disease diagnostic odyssey. Orphanet J Rare Dis. 2023. https://link.springer.com/article/10.1186/s13023-023-02754-x
-[^57]: Ng YS, Bindoff LA, Gorman GS, et al. Mitochondrial disease in adults: recent advances and future promise. Lancet Neurol. 2021;20(7):573–584. https://pubmed.ncbi.nlm.nih.gov/34146515/
-[^58]: Gorman GS, Schaefer AM, Ng Y, et al. Prevalence of nuclear and mitochondrial DNA mutations related to adult mitochondrial disease. Ann Neurol. 2015;77(5):753–759. https://pubmed.ncbi.nlm.nih.gov/25652200/
-[^59]: Mancuso M, Lopriore P, Semmler L, Kornblum C, et al. 280th ENMC International Workshop: Diagnostic criteria and outcome measures in primary mitochondrial myopathies (PMM), including digital health technologies in clinical trials (Hoofddorp, 22–24 Nov 2024). Neuromuscul Disord. 2025. (Full report PDF). https://www.enmc.org/wp-content/uploads/2025/05/Full-report-WS-280.pdf
-[^60]: Karaa A, et al. The MMPOWER-3 Randomized Clinical Trial (elamipretide in primary mitochondrial myopathy). Neurology. 2023. https://pubmed.ncbi.nlm.nih.gov/37268435/
-[^61]: Diodato D, Schiff M, Cohen BH, et al. 258th ENMC international workshop: Leigh syndrome spectrum—genetic causes, natural history and preparing for clinical trials. Neuromuscul Disord. 2023. https://pubmed.ncbi.nlm.nih.gov/37541860/
-[^62]: Lehtonen JM, et al. Diagnostic value of serum biomarkers FGF21 and GDF15 compared to muscle sample in mitochondrial disease. J Inherit Metab Dis. 2021. https://pubmed.ncbi.nlm.nih.gov/32857451/
-[^63]: Maresca A, et al. Expanding and validating the biomarkers for mitochondrial diseases. J Mol Med. 2020. https://link.springer.com/article/10.1007/s00109-020-01967-y
-[^64]: Di Donfrancesco A, Massaro G, Pignataro D, et al. Gene Therapy for Mitochondrial Diseases: Current Status and Future Perspectives. Pharmaceutics. 2022;14(6):1287. https://www.mdpi.com/1999-4923/14/6/1287
-[^65]: Russell OM, et al. Mitochondrial Diseases: Hope for the Future. Cell. 2020. https://www.sciencedirect.com/science/article/pii/S0092867420302282
-[^66]: Tinker RJ, et al. Drivers of Diagnostic Delay in Mitochondrial Disease. 2026. (PMCID: PMC12827488). https://pmc.ncbi.nlm.nih.gov/articles/PMC12827488/
-[^67]: Karaa A, et al. Genotype-specific effects of elamipretide in patients with primary mitochondrial myopathy: a post hoc analysis of the MMPOWER-3 trial. 2024. (PMCID: PMC11583740). https://pmc.ncbi.nlm.nih.gov/articles/PMC11583740/
-[^68]: Luft R, Ikkos D, Palmieri G, Ernster L, Afzelius B. A case of severe hypermetabolism of nonthyroid origin with a defect in the maintenance of mitochondrial respiratory control. J Clin Invest. 1962;41(9):1776–1804. https://pubmed.ncbi.nlm.nih.gov/14467237/
-[^69]: Wallace DC, Singh G, Lott MT, et al. Mitochondrial DNA Mutation Associated with Leber’s Hereditary Optic Neuropathy. Science. 1988. https://www.science.org/doi/10.1126/science.3201231
-[^70]: Holt IJ, Harding AE, Morgan-Hughes JA. Deletions of muscle mitochondrial DNA in patients with mitochondrial myopathies. Nature. 1988;331:717–719. https://www.nature.com/articles/331717a0
-[^71]: European Medicines Agency. Raxone EPAR (EU marketing authorisation granted 8 September 2015; “exceptional circumstances”). https://www.ema.europa.eu/en/medicines/human/EPAR/raxone
-[^72]: Smeitink J, et al. Phase 2b program with sonlicromanol in patients with mitochondrial disease due to m.3243A>G mutation. Brain. 2025. https://pubmed.ncbi.nlm.nih.gov/39501914/
-[^73]: Domínguez-González C, et al. Pyrimidine Nucleos(t)ide Therapy in Patients With Thymidine Kinase 2 Deficiency. Neurology. 2025. https://pubmed.ncbi.nlm.nih.gov/40911819/
-[^74]: Yu-Wai-Man P, et al. Five-Year Outcomes of Lenadogene Nolparvovec Gene Therapy in Leber Hereditary Optic Neuropathy Due to MT-ND4 Variant. JAMA Ophthalmology. 2025. https://pubmed.ncbi.nlm.nih.gov/39699886/
+[^55]: Grier J, Hirano M, Karaa A, et al. Diagnostic odyssey of patients with mitochondrial disease: results of a survey. *Neurol Genet*. 2018. https://www.neurology.org/doi/10.1212/NXG.0000000000000230
+[^56]: Thompson JLP, et al. The evolution of the mitochondrial disease diagnostic odyssey. *Orphanet J Rare Dis*. 2023. https://link.springer.com/article/10.1186/s13023-023-02754-x
+[^57]: Ng YS, Bindoff LA, Gorman GS, et al. Mitochondrial disease in adults: recent advances and future promise. *Lancet Neurol*. 2021;20(7):573–584. https://pubmed.ncbi.nlm.nih.gov/34146515/
+[^58]: Gorman GS, Schaefer AM, Ng Y, et al. Prevalence of nuclear and mitochondrial DNA mutations related to adult mitochondrial disease. *Ann Neurol*. 2015;77(5):753–759. https://pubmed.ncbi.nlm.nih.gov/25652200/
+[^59]: Mancuso M, Lopriore P, Semmler L, Kornblum C, et al. 280th ENMC International Workshop: Diagnostic criteria and outcome measures in primary mitochondrial myopathies (PMM), including digital health technologies in clinical trials (Hoofddorp, 22–24 Nov 2024). *Neuromuscul Disord*. 2025. https://www.enmc.org/wp-content/uploads/2025/05/Full-report-WS-280.pdf
+[^60]: Karaa A, et al. The MMPOWER-3 Randomized Clinical Trial (elamipretide in primary mitochondrial myopathy). *Neurology*. 2023. https://pubmed.ncbi.nlm.nih.gov/37268435/
+[^61]: Diodato D, Schiff M, Cohen BH, et al. 258th ENMC international workshop: Leigh syndrome spectrum—genetic causes, natural history and preparing for clinical trials. *Neuromuscul Disord*. 2023. https://pubmed.ncbi.nlm.nih.gov/37541860/
+[^62]: Lehtonen JM, et al. Diagnostic value of serum biomarkers FGF21 and GDF15 compared to muscle sample in mitochondrial disease. *J Inherit Metab Dis*. 2021. https://pubmed.ncbi.nlm.nih.gov/32857451/
+[^63]: Maresca A, et al. Expanding and validating the biomarkers for mitochondrial diseases. *J Mol Med*. 2020. https://link.springer.com/article/10.1007/s00109-020-01967-y
+[^64]: Di Donfrancesco A, Massaro G, Pignataro D, et al. Gene Therapy for Mitochondrial Diseases: Current Status and Future Perspectives. *Pharmaceutics*. 2022;14(6):1287. https://www.mdpi.com/1999-4923/14/6/1287
+[^65]: Russell OM, et al. Mitochondrial Diseases: Hope for the Future. *Cell*. 2020. https://www.sciencedirect.com/science/article/pii/S0092867420302282
+[^66]: Tinker RJ, et al. Drivers of Diagnostic Delay in Mitochondrial Disease. 2026. https://pmc.ncbi.nlm.nih.gov/articles/PMC12827488/
+[^67]: Karaa A, et al. Genotype-specific effects of elamipretide in patients with primary mitochondrial myopathy: a post hoc analysis of the MMPOWER-3 trial. 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11583740/
 [^75]: Griggs RC, Batshaw M, Dunkle M, et al. Clinical research for rare disease: opportunities, challenges, and solutions. *Mol Genet Metab*. 2009;96(1):20-26. doi:10.1016/j.ymgme.2008.10.003
 [^76]: Thompson R, Johnston L, Taruscio D, et al. RD-Connect: an integrated platform connecting databases, registries, biobanks and clinical bioinformatics for rare disease research. *J Gen Intern Med*. 2014;29 Suppl 3:S780-S787. doi:10.1007/s11606-014-2908-8

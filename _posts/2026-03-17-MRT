@@ -1,0 +1,183 @@
+---
+layout: single
+title: "ミトコンドリア置換法（ミトコンドリアドネーション）とは？"
+description: "mtDNA疾患の母系遺伝リスクを低減する生殖医療：Mitochondrial Replacement Therapy (MRT) の原理、歴史、制度、課題、倫理を一次情報で整理"
+date: 2026-03-17 09:00:00 +0900
+last_modified_at: 2026-03-17 09:00:00 +0900
+categories: ["Mitochondria","Reproductive medicine"]
+tags: ["MRT","Mitochondrial donation","PNT","MST","mtDNA","HFEA","PGT"]
+toc: true
+toc_sticky: true
+classes: wide
+---
+
+## 概要
+<strong>Mitochondrial Replacement Therapy (MRT)</strong> は、母親由来の<strong>pathogenic mtDNA variants</strong>（病的mtDNA変異）による疾患リスクを、次世代（子）において低減することを目的とした<strong>生殖補助医療（assisted reproductive technology; ART）</strong>である。母系遺伝するmtDNAの性質を踏まえ、受精卵（zygote）または未受精卵（oocyte）に対し<strong>核（nuclear genome）を移す</strong>操作によって、主として<strong>ドナー卵子由来の健常mtDNA</strong>を持つ細胞質環境で胚発生を進めることを狙う[^1][^2]。
+
+---
+
+## ミトコンドリア置換法（ミトコンドリアドネーション）とは
+ミトコンドリアのゲノム（mtDNA）は<strong>母系遺伝（maternal inheritance）</strong>し、母親がもつ病的mtDNA変異は子へ伝わり得る[^2]。MRTはこの点に介入し、胚の核DNA（両親由来）を維持しつつ、卵子/受精卵の細胞質（mtDNAを含む）を<strong>ドナー由来に置換</strong>することで、子における<strong>mtDNA疾患リスクを低減</strong>することを目指す[^1][^2]。
+
+本稿では、誤解を避けるため、英国の規制・臨床文脈で用いられる<strong>mitochondrial donation</strong>という表現も参照しつつ、総称として<strong>ミトコンドリア置換法（MRT）</strong>を用いる（MST/PNTを含む）[^3][^4]。
+
+---
+
+## 歴史（前臨床 → ヒト胚での概念実証）
+### 2009：Maternal Spindle Transfer (MST) の霊長類実証
+rhesus macaqueで<strong>spindle-chromosomal complex transfer</strong>（母性紡錘体移植）により、正常受精・胚発生を経て健康な産仔が得られた。MSTの前臨床的起点として頻用される[^5]。
+
+### 2010：Pronuclear Transfer (PNT) のヒト受精卵での概念実証
+abnormally fertilized zygotesを用い、<strong>pronuclear transfer</strong>が胚盤胞到達と両立し得ること、また<strong>mtDNA carryover</strong>が最小化され得ることを示した代表的基礎研究[^2]。
+
+### 2012/2013：卵子間の nuclear genome transfer（ヒト）
+未受精卵を用いた<strong>nuclear genome transfer</strong>により、mtDNA変異の伝播回避（低減）を志向する基盤研究が報告された（論文は2012年オンライン、2013年刊行として扱われることが多い）[^6]。
+
+---
+
+## 制度化（英国：科学レビュー → 法制化 → ライセンス運用）
+### HFEAによる科学的レビュー
+英国では、規制当局である<strong>Human Fertilisation and Embryology Authority (HFEA)</strong>が、MST/PNTの安全性・有効性に関する科学的レビューを複数回実施し、段階的にエビデンス評価が更新された（2011/2013/2014のレビュー実施が公的文書に明記）[^7]。
+
+> HFEAは、英国における不妊治療・胚研究を含むART領域を<strong>ライセンス制で規制・監督</strong>する独立規制機関であり、治療や研究の許可・監査・情報公開などを担う[^3][^4]。
+
+### 2015：Human Fertilisation and Embryology (Mitochondrial Donation) Regulations 2015
+<strong>Human Fertilisation and Embryology (Mitochondrial Donation) Regulations 2015</strong>により、英国でMST/PNT（特に臨床はPNT中心）が法的に可能となり、HFEAによるケースバイケース審査・許可（ライセンス運用）の枠組みが整備された[^7][^8]。
+
+### 2017：最初のライセンス付与（Newcastle）
+HFEAは2017年、Newcastleの施設に対し<strong>mitochondrial donation</strong>の実施に関する最初の申請を承認した（個別患者ごとに申請する運用の開始）[^9]。
+
+---
+
+## 現在までの流れ（英国の臨床実装とアウトカム）
+### 2025：NHS経路の成績（NEJM）
+NHSの<strong>Highly Specialised Mitochondrial Reproductive Care Pathway</strong>におけるPNTおよびPGT（後述）を統合した取り組みがNEJMで報告された[^1]。
+
+この報告では、研究期間内に<strong>PNTは8件のlive birth</strong>（一卵性双生児を含む）と<strong>1件のongoing pregnancy</strong>に至ったことが明記されている[^1]。また、PNTを受けた患者群として<strong>pronuclear-transfer patients (n=25)</strong>が記載され、PNT手技や胚発生・妊娠成績が定量的に提示されている[^1]。
+
+---
+
+## 「英国でのみ承認」に見える理由（枠組みの差）
+英国では、HFEAを中核とする<strong>規制・審査・ライセンス運用</strong>が法制度として確立され、科学レビュー（HFEA）→法制化（2015規則）→施設ライセンス（2017〜）→NHS経路という一本道が形成された[^3][^7][^9]。
+
+一方で、国によっては<strong>生殖系列（germline）に影響し得る介入</strong>として制度的ハードルが高く、同じMRTでも臨床研究が進みにくい。
+
+---
+
+## これまで「たった一箇所でしか行われていない」点について
+英国では、最初のライセンス承認がNewcastleの施設に対して行われたことがHFEA公式声明で示される[^9]。また、NEJM報告の著者所属もNewcastleのNHS施設・大学・Fertility Centreを中心としており、少なくとも当該NHS経路の中核がNewcastleであることが読み取れる[^1]。
+
+- 手術（治療）を受けた人数：NEJM報告では、PNT患者群として<strong>n=25</strong>が記載される[^1]。  
+- 生まれた子どもの人数：同報告で、PNTは<strong>8 live births</strong>（一卵性双生児を含む）に至ったとされる[^1]。
+
+---
+
+## オーストラリア：Maeve’s Law（2022）で段階導入
+オーストラリアでは、<strong>Mitochondrial Donation Law Reform (Maeve’s Law) Act 2022</strong> が2022年10月1日に施行され、厳格な規制条件の下で<strong>staged approach（段階的導入）</strong>としてMRT/mitochondrial donationを制度化した[^10][^11]。
+
+---
+
+## 逆に規制が厳しい国もある
+### 米国：FDAが臨床試験申請を受理できない（議会の予算条項）
+FDAは、MRTの臨床利用がFDAの規制権限の範囲にある一方で、<strong>2015年12月以降、連邦議会の予算関連法によりMRTを用いた臨床研究申請をFDAが受理できない</strong>と明記している[^12]。その結果、米国ではMRTの臨床研究は法的に進められない構造となっている[^12]。
+
+### カナダ：刑事罰を伴う禁止枠組み
+カナダ政府（Health Canada）は、核DNAが2人、mtDNAが第三者となる胚の作成を含む形で、関連行為が違法となり得ることを明示している（禁止規定の解説ページ）[^13]。
+
+---
+
+## 日本では
+日本では、臨床としての<strong>MRT</strong>は一般に実施されていない（少なくとも公的制度としての臨床提供枠組みは整備されていない）。一方で、研究面ではMEXT等の倫理指針により、<strong>ヒト受精胚を作成して行う研究</strong>の枠組みが整備されている[^14][^15]。
+
+- 受精胚研究には<strong>取扱期間（原始線条出現または受精14日）</strong>等の制約が明記される[^15]。  
+- 研究に用いた受精胚については<strong>胎内への移植等が禁止</strong>されている[^15]。  
+- 令和4年2月にCSTIが、遺伝性・先天性疾患研究および<strong>卵子間核置換技術を用いたミトコンドリア病に関する基礎研究</strong>のための新規胚作成を容認し、これを受けて指針改正（令和6年2月9日）が行われた旨が、政府資料（改正概要）に明記されている[^14]。
+
+---
+
+## 現在の対象患者（英国NHS経路の具体像）
+NEJM報告では、女性が保有する<strong>pathogenic mtDNA variants</strong>の性質（homoplasmy / heteroplasmy、変異種別）と、PGTまたはPNTの選択が整理されている[^1]。たとえば、LHON関連変異がPNT患者群の最大コホートであること、m.3243A>Gなどの変異について高ヘテロプラスミーではPNTが提示されること等が明記される[^1]。
+
+また、同報告は<strong>“In the absence of curative treatments”</strong>（根治的治療がない状況）においてARTが伝播リスク低減の選択肢となる、という臨床的位置づけを明示している[^1]。
+
+---
+
+## 手術（治療）の流れ（PNT中心の運用例）
+NEJM報告に基づくPNTの流れ（概略）は以下の通り[^1]。
+
+1. 患者とドナーがそれぞれ卵巣刺激・採卵を行う（報告では患者群も複数回の採卵を受ける）[^1]  
+2. ICSIにより患者卵およびドナー卵を受精させ、2 pronucleiを確認する[^1]  
+3. 受精後<strong>8–13時間</strong>でPNTを行う：患者zygoteからpronuclei（karyoplast）を回収し、核除去したドナーzygoteへ移植・融合する[^1]  
+4. 胚培養→胚移植（fresh/frozen）→妊娠判定・経過観察[^1]  
+5. 出生後、少なくとも血液などでmtDNA heteroplasmyの評価が行われる（表として提示）[^1]
+
+---
+
+### ドナーのミトコンドリアはどう決まるか（実務的ポイント）
+NEJM報告では、ドナー卵子を用いるPNTの実施条件として、患者卵とドナー卵が同日にICSIされること、また一部ケースではドナーの遺伝的関係性等を踏まえた運用上の制約（例：ドナー卵側の受精に用いる精子ソースが規定される場面）が記載される[^1]。
+
+（※ドナー選定の詳細は国・施設の規制と臨床運用に強く依存するため、本稿では一次情報で明確に述べられている範囲に限定し、追加の詳細は各国ガイドライン・施設の同意説明文書に依拠して追記する。）
+
+---
+
+## 技術的な課題
+### mtDNA carryover / heteroplasmy drift（reversion）
+PNT/MSTは原理上、患者側の細胞質がゼロにはならず、<strong>mtDNA carryover</strong>が残り得る[^2][^1]。さらに、ヒト細胞系の研究では、少量のcarryoverがあっても<strong>genetic drift</strong>により<strong>mtDNA genotype reversion</strong>が起こり得ることが示され、臨床応用上回避すべき事象として議論されている[^16]。総説でも、<strong>mtDNA carryover</strong>、<strong>mtDNA genetic drift</strong>、ドナー・レシピエント適合性が主要論点として整理される[^17]。
+
+### ボトルネック効果（mtDNA bottleneck）とMRT/PGTの関係
+<strong>mtDNA genetic bottleneck</strong>は、卵子形成〜世代間伝播でヘテロプラスミー比率が大きく変動し得る現象であり、同一女性の卵子/胚の間でheteroplasmyが大きく散る背景要因として理解される[^18]。
+
+- A. リスク予測が難しい  
+  heteroplasmyが卵子間で大きく散るため、母体サンプル（血液/尿など）から子の重症度を一意に予測しづらい、という臨床上の不確実性に関係する（NEJM報告は尿中heteroplasmyなどを提示し、PGT/PNTの選択ロジックを記述）[^1][^18]。
+
+- B. PGTが「有効だが万能ではない」理由にもなる  
+  PGTは低heteroplasmy胚の選択によりリスク低減を狙うが、胚間ばらつき・閾値・組織差などの問題が残り得る。NEJM報告でも、PGT胚のうち一定割合が>30% heteroplasmyで治療に用いられない等、意思決定の現実が具体的に示される[^1]。
+
+#### 専門用語解説：ボトルネック効果
+卵母細胞系列でmtDNAの「実効コピー数（伝播単位）」が小さくなる局面を経て、その後増幅されることで、確率過程（drift）によりheteroplasmyが急速に変動する、という概念で説明されることが多い[^18]。
+
+### “reversion（原型回帰）”問題
+MRTにおいて、ドナーmtDNAが徐々に失われ、核DNAに一致するハプロタイプへ偏る（または患者由来mtDNAが相対的に増える）現象は、細胞系・総説で繰り返し論点化されている[^16][^17]。
+
+---
+
+## 倫理的な課題
+### (1) germline介入の位置づけ
+MRTは「治療」という言葉が使われることがある一方、実質的には<strong>生殖系列（germline）に関わる介入</strong>であり、将来世代に影響し得る点が倫理的特徴となる。Nuffield Council on Bioethicsは、重篤疾患回避という目的や代替手段との比較の中で、PNT/MSTの倫理的論点を体系化している[^19]。
+
+### (2) “three-parent” 表現の是非
+“3人の親”という表現は社会的インパクトが大きいが、学術的には、核DNA（両親）とmtDNA（ドナー）を区別し、<strong>third-party mitochondrial DNA</strong>という形で整理する方が誤解が少ない、という議論がある（倫理レビューの中で論点化）[^19]。
+
+### (3) ドナーの権利（匿名性、子の「知る権利」）
+卵子ドナーの同意、将来の子の情報アクセス、匿名性の扱いなどは、ART一般の論点に加えてMRT特有の議論を含む。Nuffield倫理レビューは、影響を受けるステークホルダー（家族、ドナー、医療者等）と論点を整理している[^19]。
+
+### (4) 公平性（アクセス、費用、対象限定）
+対象が「重篤疾患リスクの高いケース」に限定されても、導入国では制度設計・資源配分が争点になり得る。オーストラリアでは、政府が<strong>staged approach</strong>で導入することを明示している[^10]。
+
+---
+
+## まとめ
+<strong>ミトコンドリア置換法（MRT）</strong>は、母系遺伝する病的mtDNA変異の伝播リスクを低減するためのARTであり、MST/PNTという核移植ベースの技術群からなる[^2][^5]。英国では、HFEAによる科学レビューと2015年法制化、2017年のライセンス運用を経て、NHS経路としての実装と臨床アウトカム（PNTで8 live births）がNEJMで報告された[^1][^7][^9]。一方で、<strong>mtDNA carryover</strong>、<strong>genetic drift / reversion</strong>、<strong>mtDNA bottleneck</strong>に起因する不確実性は技術・運用上の主要課題であり、倫理・規制（germline介入、ドナー負担、社会的受容）と不可分に議論されている[^16][^18][^19]。
+
+---
+
+## 参考文献
+[^1]: Hyslop LA, et al. *Mitochondrial Donation and PGT to Reduce Risk of Mitochondrial DNA Disease.* N Engl J Med. 2025;393(5):438–449. (PMC) https://pmc.ncbi.nlm.nih.gov/articles/PMC7617940/
+[^2]: Craven L, et al. *Pronuclear transfer in human embryos to prevent transmission of mitochondrial DNA disease.* Nature. 2010. (PMC) https://pmc.ncbi.nlm.nih.gov/articles/PMC2875160/
+[^3]: HFEA. *Mitochondrial donation treatment*（HFEA公式） https://www.hfea.gov.uk/treatments/embryo-testing-and-treatments-for-disease/mitochondrial-donation-treatment/
+[^4]: UK Parliament (Hansard). HFEAの位置づけ・規制枠組みに関する議会討議（例） https://hansard.parliament.uk/Lords/2015-02-24/debates/15022465000540/HumanFertilisationAndEmbryology
+[^5]: Tachibana M, et al. *Mitochondrial gene replacement in primate offspring and embryonic stem cells.* Nature. 2009. https://pubmed.ncbi.nlm.nih.gov/19710649/
+[^6]: Paull D, et al. *Nuclear genome transfer in human oocytes eliminates mitochondrial DNA variants.* Nature. 2013. https://www.nature.com/articles/nature11800
+[^7]: The Human Fertilisation and Embryology (Mitochondrial Donation) Regulations 2015（解説PDF） https://www.legislation.gov.uk/uksi/2015/572/pdfs/uksiem_20150572_en.pdf
+[^8]: The Human Fertilisation and Embryology (Mitochondrial Donation) Regulations 2015（規則PDF） https://www.legislation.gov.uk/ukdsi/2015/9780111125816/pdfs/ukdsiem_9780111125816_en.pdf
+[^9]: HFEA. *HFEA statement on mitochondrial donation*（2017年：初回承認） https://www.hfea.gov.uk/about-us/news-and-press-releases/2017-news-and-press-releases/hfea-statement-on-mitochondrial-donation/
+[^10]: Australian Government Department of Health and Aged Care. *Mitochondrial donation*（Maeve’s Law、段階導入） https://www.health.gov.au/our-work/mitochondrial-donation
+[^11]: AustLII. *Mitochondrial Donation Law Reform (Maeve’s Law) Act 2022* https://www.austlii.edu.au/au/legis/cth/num_act/mdlrla2022427/notes.html
+[^12]: FDA. *Advisory on Legal Restrictions on the Use of Mitochondrial Replacement Techniques to Introduce Donor Mitochondria into Human Eggs or Embryos*（2015以降の予算条項） https://www.fda.gov/vaccines-blood-biologics/cellular-gene-therapy-products/advisory-legal-restrictions-use-mitochondrial-replacement-techniques-introduce-donor-mitochondria
+[^13]: Health Canada. *Prohibitions related to scientific research and clinical applications*（第三者mtDNAを含む胚作成の違法性に言及） https://www.canada.ca/en/health-canada/services/drugs-health-products/biologics-radiopharmaceuticals-genetic-therapies/legislation-guidelines/assisted-human-reproduction/prohibitions-scientific-research-clinical-applications.html
+[^14]: こども家庭庁・文部科学省・厚生労働省. *ART指針／ゲノム編集指針の改正について（令和6年2月9日）*（CSTIが令和4年2月に卵子間核置換等の基礎研究目的で新規胚作成を容認と記載） https://www.mext.go.jp/lifescience/bioethics/files/pdf/n2409_02.pdf
+[^15]: こども家庭庁・文部科学省・厚生労働省. *ヒト受精胚を作成して行う研究に関する倫理指針（令和6年2月9日最終改正）*（14日ルール、胎内移植禁止等） https://www.mext.go.jp/lifescience/bioethics/files/pdf/n2409_01.pdf
+[^16]: Yamada M, et al. *Genetic Drift Can Compromise Mitochondrial Replacement by Nuclear Transfer in Human Oocytes.* Cell Stem Cell. 2016. (PMC) https://pmc.ncbi.nlm.nih.gov/articles/PMC9326498/
+[^17]: Yamada M, et al. *Mitochondrial replacement by genome transfer in human oocytes: efficacy, concerns, and legality.* Reprod Med Biol. 2020. (PMC) https://pmc.ncbi.nlm.nih.gov/articles/PMC7812462/
+[^18]: Zhang H, Burr SP, Chinnery PF. *The mitochondrial DNA genetic bottleneck: inheritance and beyond.* Essays Biochem. 2018. https://portlandpress.com/essaysbiochem/article/62/3/225/78534/The-mitochondrial-DNA-genetic-bottleneck
+[^19]: Nuffield Council on Bioethics. *Novel techniques for the prevention of mitochondrial DNA disorders: an ethical review*（2012, PDF） https://cdn.nuffieldbioethics.org/wp-content/uploads/Novel_techniques_for_the_prevention_of_mitochondrial_DNA_disorders.pdf

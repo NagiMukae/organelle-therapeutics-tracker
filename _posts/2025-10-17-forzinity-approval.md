@@ -94,9 +94,16 @@ Barth症候群以外にも、エラミプレチドはミトコンドリア機能
 
 このようにForzinityは、超希少疾患からより一般的な疾患領域まで、ミトコンドリアを標的とした新規治療法として広範な応用可能性が検討されています。ただし、現時点で公式に承認された適応症はBarth症候群のみであり、他疾患への適用は臨床試験段階か研究途上にあります。
 
-<div class="admin-note">
-  <div class="admin-note__label">管理人メモ</div>
-  <p>希少疾患でこれまで治療法のなかったBarth症候群の初の治療薬というところも、個人的には熱いポイントです。</p>
+<div class="admin-comment-box">
+  <div class="admin-comment-icon">
+    <img src="{{ '/assets/images/illust-icon.png' | relative_url }}" alt="管理人アイコン">
+  </div>
+  <div class="admin-comment-body">
+    <p class="admin-comment-label">管理人コメント</p>
+    <div class="admin-comment-text">
+      希少疾患でこれまで治療法のなかったBarth症候群の初の治療薬というところも、個人的には熱いポイントです。
+    </div>
+  </div>
 </div>
 
 

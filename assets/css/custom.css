@@ -224,3 +224,76 @@
 
 .badge--stage{ background:#eef6ff; }
 .badge--org{ background:#eefaf2; }
+
+
+/* 管理人コメントパネル */
+.admin-comment-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin: 1.5rem 0;
+  padding: 16px 18px;
+  border: 1px solid #d8d8d8;
+  border-radius: 16px;
+  background: #fafafa;
+}
+
+.admin-comment-icon {
+  flex: 0 0 64px;
+}
+
+.admin-comment-icon img {
+  display: block;
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.admin-comment-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.admin-comment-label {
+  margin: 0 0 0.45rem 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI",
+               "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+  font-size: 0.98rem;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #222;
+  letter-spacing: 0.02em;
+}
+
+.admin-comment-text {
+  margin: 0;
+  font-size: 0.96rem;
+  line-height: 1.8;
+  color: #333;
+}
+
+@media (max-width: 600px) {
+  .admin-comment-box {
+    gap: 12px;
+    padding: 14px;
+  }
+
+  .admin-comment-icon {
+    flex-basis: 52px;
+  }
+
+  .admin-comment-icon img {
+    width: 52px;
+    height: 52px;
+  }
+
+  .admin-comment-label {
+    font-size: 0.92rem;
+  }
+
+  .admin-comment-text {
+    font-size: 0.92rem;
+    line-height: 1.75;
+  }
+}

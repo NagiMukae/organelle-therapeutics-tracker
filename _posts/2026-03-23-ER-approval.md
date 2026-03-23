@@ -112,6 +112,7 @@ flowchart TD
   ORK[lumacaftor/tezacaftor/\nelexacaftor含有レジメン] -.-> CFTR
   GAL[migalastat\n(薬理シャペロン)] -.-> ENZ
   AMX[AMX0035\n(ER stress関連細胞死経路抑制)] -.-> A
+```
 
 ## 開発中の治療薬
 

@@ -155,6 +155,7 @@ ER stress 創薬の全体像をざっくり俯瞰すると、<strong>UPR（IRE1 
 
 ```mermaid
 flowchart TD
+  %% ===== ノード =====
   A["ERでの誤折り畳み / タンパク質負荷↑"] --> B["UPR起動"]
   B --> IRE1["IRE1α (ERN1)<br/>RNase / キナーゼ"]
   B --> PERK["PERK (EIF2AK3)<br/>eIF2α-P"]
@@ -178,22 +179,31 @@ flowchart TD
   FOLD --> CFTR["CFTR 折り畳み / 輸送"]
   FOLD --> ENZ["変異酵素の安定化<br/>(例: α-Gal A)"]
 
-  ORIN["ORIN1001<br/>(IRE1阻害)"] -.-> IRE1
-  DNL["DNL343<br/>(eIF2B活性化)"] -.-> EIF2B
-  FOSI["fosigotifator<br/>(ABBV-CLS-7262, eIF2B活性化)"] -.-> EIF2B
-  IFB["IFB-088 / icerguastat<br/>(PPP1R15A系調節)"] -.-> PPP1R15A
+  %% ===== 薬（点線）=====
+  ORIN["ORIN1001"] -.-> IRE1
+  DNL["DNL343"] -.-> EIF2B
+  FOSI["fosigotifator"] -.-> EIF2B
+  IFB["IFB-088"] -.-> PPP1R15A
 
-  CB5339["CB-5339<br/>(p97阻害)"] -.-> P97
-  CB5083["CB-5083<br/>(p97阻害, PDE6 off-target)"] -.-> P97
-  BOR["proteasome阻害<br/>(bortezomib等)"] -.-> PROT
+  CB5339["CB-5339"] -.-> P97
+  CB5083["CB-5083"] -.-> P97
+  BOR["proteasome inhibitor<br/>(bortezomib等)"] -.-> PROT
 
-  MIP["mipsagargin<br/>(SERCA阻害プロドラッグ)"] -.-> SERCA
-  DAN["dantrolene<br/>(RyR1抑制)"] -.-> RYR
+  MIP["mipsagargin"] -.-> SERCA
+  DAN["dantrolene"] -.-> RYR
 
-  ORK["lumacaftor / tezacaftor /<br/>elexacaftor含有レジメン"] -.-> CFTR
-  GAL["migalastat<br/>(薬理シャペロン)"] -.-> ENZ
-  AMX["AMX0035<br/>(ER stress関連細胞死経路抑制)"] -.-> A
+  ORK["CFTR modulators<br/>(lumacaftor等)"] -.-> CFTR
+  GAL["migalastat"] -.-> ENZ
+  AMX["AMX0035"] -.-> A
+
+  %% ===== スタイル =====
+  classDef drug fill:#ffe5e5,stroke:#d33,stroke-width:2px,color:#900;
+  classDef pathway fill:#f7fbfc,stroke:#6aa7b2;
+
+  class ORIN,DNL,FOSI,IFB,CB5339,CB5083,BOR,MIP,DAN,ORK,GAL,AMX drug;
 ```
+※ 図中の点線矢印は、各薬剤が作用する標的分子または経路を示しています。
+
 <!-- 用語解説：ISR -->
 <details style="margin:1.2rem 0;">
   <summary style="cursor:pointer; list-style:none;">

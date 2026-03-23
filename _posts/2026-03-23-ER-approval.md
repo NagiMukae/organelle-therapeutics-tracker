@@ -74,44 +74,44 @@ ER stress 創薬の全体像をざっくり俯瞰すると、<strong>UPR（IRE1 
 
 ```mermaid
 flowchart TD
-  A[ERでの誤折り畳み/タンパク質負荷↑] --> B[UPR起動]
-  B --> IRE1[IRE1α (ERN1)\nRNase/キナーゼ]
-  B --> PERK[PERK (EIF2AK3)\n→ eIF2α-P]
-  B --> ATF6[ATF6\nゴルジ活性化→転写]
+  A["ERでの誤折り畳み / タンパク質負荷↑"] --> B["UPR起動"]
+  B --> IRE1["IRE1α (ERN1)<br/>RNase / キナーゼ"]
+  B --> PERK["PERK (EIF2AK3)<br/>eIF2α-P"]
+  B --> ATF6["ATF6<br/>ゴルジ活性化 → 転写"]
 
-  IRE1 -->|RNaseシグナル| XBP1[XBP1s転写\n(適応/腫瘍生存)]
-  PERK --> EIF2A[eIF2α-P\n翻訳抑制/ATF4↑]
-  EIF2A --> ISR[統合ストレス応答 (ISR)]
-  ISR --> EIF2B[eIF2B\n翻訳開始複合体]
-  EIF2A --> PPP1R15A[PPP1R15A/GADD34\n(eIF2α脱リン酸化複合体)]
+  IRE1 -->|RNaseシグナル| XBP1["XBP1s転写<br/>(適応 / 腫瘍生存)"]
+  PERK --> EIF2A["eIF2α-P<br/>翻訳抑制 / ATF4↑"]
+  EIF2A --> ISR["統合ストレス応答 (ISR)"]
+  ISR --> EIF2B["eIF2B<br/>翻訳開始複合体"]
+  EIF2A --> PPP1R15A["PPP1R15A / GADD34<br/>(eIF2α脱リン酸化複合体)"]
 
-  A --> ERAD[ERAD\n逆輸送/ユビキチン化]
-  ERAD --> P97[p97/VCP\n抽出]
-  P97 --> PROT[プロテアソーム\n分解]
+  A --> ERAD["ERAD<br/>逆輸送 / ユビキチン化"]
+  ERAD --> P97["p97 / VCP<br/>抽出"]
+  P97 --> PROT["プロテアソーム<br/>分解"]
 
-  A --> CA[ER Ca2+恒常性]
-  CA --> SERCA[SERCA\nCa2+取り込み]
-  CA --> RYR[RyR\nCa2+放出]
+  A --> CA["ER Ca2+ 恒常性"]
+  CA --> SERCA["SERCA<br/>Ca2+ 取り込み"]
+  CA --> RYR["RyR<br/>Ca2+ 放出"]
 
-  A --> FOLD[折り畳み/品質管理]
-  FOLD --> CFTR[CFTR折り畳み/輸送]
-  FOLD --> ENZ[変異酵素の安定化\n(例: α-Gal A)]
+  A --> FOLD["折り畳み / 品質管理"]
+  FOLD --> CFTR["CFTR 折り畳み / 輸送"]
+  FOLD --> ENZ["変異酵素の安定化<br/>(例: α-Gal A)"]
 
-  ORIN[ORIN1001\n(IRE1阻害)] -.-> IRE1
-  DNL[DNL343\n(eIF2B活性化)] -.-> EIF2B
-  FOSI[fosigotifator\n(ABBV-CLS-7262; eIF2B活性化)] -.-> EIF2B
-  IFB[IFB-088 / icerguastat\n(PPP1R15A系調節)] -.-> PPP1R15A
+  ORIN["ORIN1001<br/>(IRE1阻害)"] -.-> IRE1
+  DNL["DNL343<br/>(eIF2B活性化)"] -.-> EIF2B
+  FOSI["fosigotifator<br/>(ABBV-CLS-7262, eIF2B活性化)"] -.-> EIF2B
+  IFB["IFB-088 / icerguastat<br/>(PPP1R15A系調節)"] -.-> PPP1R15A
 
-  CB5339[CB-5339\n(p97阻害)] -.-> P97
-  CB5083[CB-5083\n(p97阻害; PDE6 off-target)] -.-> P97
-  BOR[proteasome阻害\n(bortezomib等)] -.-> PROT
+  CB5339["CB-5339<br/>(p97阻害)"] -.-> P97
+  CB5083["CB-5083<br/>(p97阻害, PDE6 off-target)"] -.-> P97
+  BOR["proteasome阻害<br/>(bortezomib等)"] -.-> PROT
 
-  MIP[mipsagargin\n(SERCA阻害プロドラッグ)] -.-> SERCA
-  DAN[dantrolene\n(RyR1抑制)] -.-> RYR
+  MIP["mipsagargin<br/>(SERCA阻害プロドラッグ)"] -.-> SERCA
+  DAN["dantrolene<br/>(RyR1抑制)"] -.-> RYR
 
-  ORK[lumacaftor/tezacaftor/\nelexacaftor含有レジメン] -.-> CFTR
-  GAL[migalastat\n(薬理シャペロン)] -.-> ENZ
-  AMX[AMX0035\n(ER stress関連細胞死経路抑制)] -.-> A
+  ORK["lumacaftor / tezacaftor /<br/>elexacaftor含有レジメン"] -.-> CFTR
+  GAL["migalastat<br/>(薬理シャペロン)"] -.-> ENZ
+  AMX["AMX0035<br/>(ER stress関連細胞死経路抑制)"] -.-> A
 ```
 
 ## 開発中の治療薬

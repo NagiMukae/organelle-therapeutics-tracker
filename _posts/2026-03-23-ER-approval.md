@@ -17,6 +17,39 @@ classes: wide
 
 本記事では、<strong>「ER そのものを一次標的とする薬」</strong>に加えて、<strong>ER proteostasis network の脆弱性を治療に利用する承認薬</strong>も含めて整理しています。そのため、たとえば <strong>proteasome inhibitors</strong> は厳密には「ER膜タンパク質を直接阻害する薬」ではありませんが、<strong>ERAD の出口側を塞ぐことで misfolded protein burden と UPR 負荷を増大させる</strong>という意味で、ER関連薬として扱っています。[^1][^4][^5]
 
+<!-- 用語解説：UPR -->
+<details style="margin:1.2rem 0;">
+  <summary style="cursor:pointer; list-style:none;">
+    <span style="display:inline-block; border-left:5px solid #6aa7b2; border-radius:10px; padding:0.75rem 1rem; background:#f7fbfc; border:1px solid #d8dee4;">
+      <strong>専門用語解説：UPR</strong>
+      <span style="margin-left:0.6rem; font-weight:600;">詳しく見る ▼</span>
+    </span>
+  </summary>
+
+  <div style="border-left:5px solid #6aa7b2; border-radius:10px; padding:1rem 1.2rem; margin-top:0.6rem; background:#f7fbfc;" markdown="1">
+<strong>UPR（Unfolded Protein Response）</strong> は、小胞体内に<strong>誤って折り畳まれたタンパク質（misfolded protein）</strong>が蓄積したときに起動するストレス応答です。主なセンサーは <strong>IRE1</strong>、<strong>PERK</strong>、<strong>ATF6</strong> の3つで、翻訳抑制、シャペロン誘導、ERAD 活性化などを通じて、小胞体の処理能力を回復させようとします。
+
+重要なのは、UPR が単なる「悪い経路」ではなく、まずは<strong>適応応答（adaptive response）</strong>として働く点です。一方で、ストレスが強すぎたり長引いたりすると、UPR は<strong>細胞死誘導</strong>の方向へ傾きます。この二面性のため、ERターゲット医薬では「UPR を完全に止める」よりも、<strong>どの枝をどの程度調節するか</strong>が重要な課題になります。
+  </div>
+</details>
+
+<!-- 用語解説：Proteostasis -->
+<details style="margin:1.2rem 0;">
+  <summary style="cursor:pointer; list-style:none;">
+    <span style="display:inline-block; border-left:5px solid #6aa7b2; border-radius:10px; padding:0.75rem 1rem; background:#f7fbfc; border:1px solid #d8dee4;">
+      <strong>専門用語解説：Proteostasis</strong>
+      <span style="margin-left:0.6rem; font-weight:600;">詳しく見る ▼</span>
+    </span>
+  </summary>
+
+  <div style="border-left:5px solid #6aa7b2; border-radius:10px; padding:1rem 1.2rem; margin-top:0.6rem; background:#f7fbfc;" markdown="1">
+<strong>Proteostasis（protein homeostasis, タンパク質恒常性）</strong> とは、細胞内でタンパク質の<strong>合成・折り畳み・輸送・分解</strong>を全体として制御する仕組みを指します。小胞体は、分泌タンパク質や膜タンパク質の折り畳み・品質管理の中心であるため、proteostasis network の中核的なオルガネラの一つです。
+
+ERターゲット医薬の文脈では、「タンパク質をうまく折り畳ませて救う」戦略もあれば、「逆に proteostasis の脆弱性を突いて細胞を破綻させる」戦略もあります。たとえば <strong>CFTR corrector</strong> や <strong>pharmacological chaperone</strong> は前者、<strong>proteasome inhibitor</strong> は後者に近い考え方です。つまり proteostasis は、ER創薬を理解するうえでの最も大きな土台概念の一つです。
+  </div>
+</details>
+
+
 ---
 
 ## 承認済み小胞体標的薬
@@ -54,13 +87,61 @@ classes: wide
 
 この群は、ER内で <strong>misfolding</strong> や <strong>trafficking defect</strong> を起こしたタンパク質を、<strong>folding 補正・成熟促進・ER exit 改善</strong>によって救う薬です。最も完成度の高い例は <strong>CFTR modulators</strong> で、<strong>lumacaftor</strong>、<strong>tezacaftor</strong>、<strong>elexacaftor</strong> はいずれも <strong>CFTR corrector</strong> として働き、特に <strong>F508del-CFTR</strong> の ER 滞留を減らして細胞表面への到達量を増やします。一方で <strong>ivacaftor</strong> は主として細胞表面 CFTR の開口確率を改善する <strong>potentiator</strong> です。したがって ORKAMBI、SYMDEKO/SYMKEVI、TRIKAFTA/KAFTRIO は、<strong>「ER rescue を含む複合モジュレーター」</strong>として位置づけるのが正確です。[^10][^11][^15][^16][^17][^18][^19]
 
+<!-- 用語解説：CFTR corrector -->
+<details style="margin:1.2rem 0;">
+  <summary style="cursor:pointer; list-style:none;">
+    <span style="display:inline-block; border-left:5px solid #6aa7b2; border-radius:10px; padding:0.75rem 1rem; background:#f7fbfc; border:1px solid #d8dee4;">
+      <strong>専門用語解説：CFTR corrector</strong>
+      <span style="margin-left:0.6rem; font-weight:600;">詳しく見る ▼</span>
+    </span>
+  </summary>
+
+  <div style="border-left:5px solid #6aa7b2; border-radius:10px; padding:1rem 1.2rem; margin-top:0.6rem; background:#f7fbfc;" markdown="1">
+<strong>CFTR corrector</strong> は、Cystic fibrosis の原因となる <strong>CFTR タンパク質の folding defect / trafficking defect</strong> を補正し、ER から細胞膜への輸送を改善する薬剤群です。特に <strong>F508del-CFTR</strong> は小胞体で正しく成熟できず、品質管理によって分解されやすいため、corrector はこの ER 滞留を減らす役割を担います。
+
+代表的な corrector には <strong>lumacaftor</strong>、<strong>tezacaftor</strong>、<strong>elexacaftor</strong> があり、しばしば <strong>ivacaftor</strong> のような <strong>potentiator</strong> と併用されます。corrector が「細胞膜まで届ける」薬であるのに対し、potentiator は「膜上に到達した CFTR の機能を高める」薬です。この区別は、ERターゲット医薬としての位置づけを理解するうえで重要です。
+  </div>
+</details>
+
 ### 2. Pharmacological chaperone
 
 この群は、変異タンパク質、特に酵素を <strong>ER 内で安定化</strong>し、品質管理を通過させて正しい細胞内輸送につなげる薬です。承認薬の代表は <strong>migalastat</strong> で、Fabry disease における <strong>amenable mutation</strong> を持つ <strong>α-galactosidase A</strong> に結合して酵素を安定化し、<strong>ER から lysosome への trafficking</strong> を促進します。したがって migalastat は、一般的な「chemical chaperone」ではなく、<strong>特定クライアントを選択的に安定化する pharmacological chaperone</strong> とみなすべきです。[^13][^14][^21]
 
+<!-- 用語解説：Pharmacological chaperone -->
+<details style="margin:1.2rem 0;">
+  <summary style="cursor:pointer; list-style:none;">
+    <span style="display:inline-block; border-left:5px solid #6aa7b2; border-radius:10px; padding:0.75rem 1rem; background:#f7fbfc; border:1px solid #d8dee4;">
+      <strong>専門用語解説：Pharmacological chaperone</strong>
+      <span style="margin-left:0.6rem; font-weight:600;">詳しく見る ▼</span>
+    </span>
+  </summary>
+
+  <div style="border-left:5px solid #6aa7b2; border-radius:10px; padding:1rem 1.2rem; margin-top:0.6rem; background:#f7fbfc;" markdown="1">
+<strong>Pharmacological chaperone</strong> は、特定の変異タンパク質に結合して<strong>構造を安定化</strong>し、ER の品質管理を通過できるようにする低分子化合物です。一般的な分子シャペロン（HSP など）が細胞にもともと存在するタンパク質群であるのに対し、pharmacological chaperone は<strong>薬として投与される外因性分子</strong>です。
+
+ERターゲット医薬の代表例は <strong>migalastat</strong> で、Fabry disease における amenable 変異型 <strong>α-Gal A</strong> を ER 内で安定化し、分解されずに lysosome へ運ばれる確率を高めます。したがってこの戦略は、タンパク質を「補充する」のではなく、<strong>患者自身の変異タンパク質を rescue する</strong>治療といえます。
+  </div>
+</details>
+
 ### 3. ER proteostasis network / ERAD downstream を利用する薬
 
 この分類は少し注意が必要です。承認薬の中心は、<strong>IRE1/PERK/ATF6 を直接調節する薬</strong>ではなく、<strong>ERAD の下流にある proteasome</strong> を阻害する薬です。代表例は <strong>bortezomib</strong>、<strong>carfilzomib</strong>、<strong>ixazomib</strong> で、直接標的は proteasome ですが、ER で生じた misfolded protein の分解出口を塞ぐことで <strong>proteotoxic stress</strong> を増幅し、特に <strong>plasma cell malignancy</strong> において有効性を示します。厳密には “ER-targeted” というより、<strong>ER-proteostasis vulnerability exploiting drugs</strong> と呼ぶ方が正確です。[^1][^4][^5][^8][^9][^12]
+
+<!-- 用語解説：ERAD -->
+<details style="margin:1.2rem 0;">
+  <summary style="cursor:pointer; list-style:none;">
+    <span style="display:inline-block; border-left:5px solid #6aa7b2; border-radius:10px; padding:0.75rem 1rem; background:#f7fbfc; border:1px solid #d8dee4;">
+      <strong>専門用語解説：ERAD</strong>
+      <span style="margin-left:0.6rem; font-weight:600;">詳しく見る ▼</span>
+    </span>
+  </summary>
+
+  <div style="border-left:5px solid #6aa7b2; border-radius:10px; padding:1rem 1.2rem; margin-top:0.6rem; background:#f7fbfc;" markdown="1">
+<strong>ERAD（ER-associated degradation）</strong> は、小胞体で正しく折り畳めなかったタンパク質を認識し、<strong>細胞質側へ逆輸送（retrotranslocation）</strong>したうえで、ユビキチン化し、最終的に <strong>proteasome</strong> で分解する品質管理機構です。小胞体の「不良品処理ライン」と考えると理解しやすいです。
+
+この経路では <strong>p97 / VCP</strong> が、基質を膜から引き抜く AAA+ ATPase として重要な役割を担います。ERターゲット医薬の観点では、ERAD 自体を直接操作する薬はまだ限られますが、<strong>proteasome inhibitor</strong> や <strong>p97 inhibitor</strong> はこの経路の下流・中核に介入することで、misfolded protein burden を増やし、特に proteostasis に強く依存する腫瘍細胞にダメージを与えます。
+  </div>
+</details>
 
 ### 4. ER / SR calcium homeostasis modulators
 
@@ -113,6 +194,22 @@ flowchart TD
   GAL["migalastat<br/>(薬理シャペロン)"] -.-> ENZ
   AMX["AMX0035<br/>(ER stress関連細胞死経路抑制)"] -.-> A
 ```
+<!-- 用語解説：ISR -->
+<details style="margin:1.2rem 0;">
+  <summary style="cursor:pointer; list-style:none;">
+    <span style="display:inline-block; border-left:5px solid #6aa7b2; border-radius:10px; padding:0.75rem 1rem; background:#f7fbfc; border:1px solid #d8dee4;">
+      <strong>専門用語解説：ISR</strong>
+      <span style="margin-left:0.6rem; font-weight:600;">詳しく見る ▼</span>
+    </span>
+  </summary>
+
+  <div style="border-left:5px solid #6aa7b2; border-radius:10px; padding:1rem 1.2rem; margin-top:0.6rem; background:#f7fbfc;" markdown="1">
+<strong>ISR（Integrated Stress Response）</strong> は、ER stress だけでなく、アミノ酸飢餓、ウイルス感染、酸化ストレスなど複数のストレス入力を統合して、<strong>eIF2α のリン酸化</strong>を介して翻訳を制御する応答です。ER 由来の stress では主に <strong>PERK</strong> がこの系に入ります。
+
+eIF2α がリン酸化されると全般的な翻訳は抑制されますが、一部の stress response 遺伝子はむしろ翻訳されやすくなります。ここで重要になるのが <strong>eIF2B</strong> と <strong>PPP1R15A / GADD34</strong> で、前者は翻訳再開側、後者は eIF2α 脱リン酸化側に関わります。ERターゲット医薬では、ISR を完全に遮断するのではなく、<strong>eIF2B activator</strong> などで翻訳を適度に回復させる「部分調節」が有力な戦略になっています。
+  </div>
+</details>
+
 
 ## 開発中の治療薬
 

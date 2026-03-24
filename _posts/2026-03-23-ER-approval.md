@@ -49,7 +49,6 @@ ER標的医薬の文脈では、「タンパク質を正しく折り畳ませて
   </div>
 </details>
 
-
 ---
 
 ## 承認済み小胞体標的薬
@@ -58,74 +57,74 @@ ER標的医薬の文脈では、「タンパク質を正しく折り畳ませて
 
 | 疾患/適応 | 販売名［一般名］ | 作用形式 | 会社 | 初回承認（地域） | 投与 | メモ |
 |---|---|---|---|---:|---|---|
-| 悪性高熱症、高リスク患者での予防／痙縮 | Dantrium / Ryanodex［dantrolene］ | ER/SR calcium homeostasis modulator | Endo / Eagle など | 1974（米）[^6] | 経口 / 静注 | <strong>RyR1 を介する SR からの Ca<sup>2+</sup> 放出を抑制</strong>する代表薬。悪性高熱症では救命薬として定着。[^6][^7] |
-| 多発性骨髄腫 | VELCADE［bortezomib］ | ER proteostasis / ERAD downstream exploitation | Millennium / Takeda | 2003（米）[^8] | 静注 / 皮下 | <strong>proteasome inhibitor</strong>。分泌負荷の高い plasma cell malignancy で proteostasis 脆弱性を突く。[^4][^8] |
-| 再発・難治性多発性骨髄腫 | KYPROLIS［carfilzomib］ | ER proteostasis / ERAD downstream exploitation | Onyx / Amgen | 2012（米）[^9] | 静注 | 第二世代 proteasome inhibitor。[^9] |
-| Cystic fibrosis（F508del/F508del） | ORKAMBI［lumacaftor/ivacaftor］ | ER folding / trafficking corrector | Vertex | 2015（米）[^10] | 経口 | <strong>lumacaftor は CFTR corrector</strong>として F508del-CFTR の ER 滞留を減らし、細胞表面発現を増やす。ivacaftor は potentiator。[^10][^11] |
-| 多発性骨髄腫 | NINLARO［ixazomib］ | ER proteostasis / ERAD downstream exploitation | Takeda | 2015（米）[^12] | 経口 | 初の経口 proteasome inhibitor。[^12] |
-| Fabry disease（amenable mutation） | Galafold［migalastat］ | Pharmacological chaperone | Amicus | 2016（EU）[^13] | 経口 | <strong>amenable 変異型 α-Gal A を ER 内で安定化</strong>し、lysosome への輸送を促す。[^13][^14] |
-| Cystic fibrosis（F508del/F508del ほか） | SYMDEKO / SYMKEVI［tezacaftor/ivacaftor］ | ER folding / trafficking corrector | Vertex | 2018（米 / EU）[^15][^16] | 経口 | <strong>tezacaftor は corrector</strong>、ivacaftor は potentiator。lumacaftor/ivacaftor より相互作用面で扱いやすい症例がある。[^15][^16] |
-| Cystic fibrosis（少なくとも1つの F508del など） | TRIKAFTA / KAFTRIO［elexacaftor/tezacaftor/ivacaftor］ | ER folding / trafficking corrector | Vertex | 2019（米）[^17] | 経口 | <strong>2つの corrector（elexacaftor, tezacaftor）＋ potentiator（ivacaftor）</strong>からなる triple combination。現行の CFTR rescue の中心。[^17][^18][^19] |
+| 悪性高熱症、高リスク患者での予防／痙縮 | Dantrium / Ryanodex［dantrolene］ | ER/SR カルシウム恒常性調節薬 | Endo / Eagle など | 1974（米）[^6] | 経口 / 静注 | <strong>RyR1 を介する SR からの Ca<sup>2+</sup> 放出を抑制</strong>する代表薬。悪性高熱症では救命薬として定着。[^6][^7] |
+| 多発性骨髄腫 | VELCADE［bortezomib］ | ERAD下流を利用するタンパク質恒常性攪乱薬 | Millennium / Takeda | 2003（米）[^8] | 静注 / 皮下 | <strong>プロテアソーム阻害薬</strong>。分泌負荷の高い形質細胞系腫瘍のタンパク質恒常性の脆弱性を突く。[^4][^8] |
+| 再発・難治性多発性骨髄腫 | KYPROLIS［carfilzomib］ | ERAD下流を利用するタンパク質恒常性攪乱薬 | Onyx / Amgen | 2012（米）[^9] | 静注 | 第二世代プロテアソーム阻害薬。[^9] |
+| Cystic fibrosis（F508del/F508del） | ORKAMBI［lumacaftor/ivacaftor］ | 小胞体での折り畳み・輸送補正薬 | Vertex | 2015（米）[^10] | 経口 | <strong>lumacaftor は CFTR補正薬（corrector）</strong>として F508del-CFTR の小胞体滞留を減らし、細胞表面発現を増やす。ivacaftor は増強薬（potentiator）。[^10][^11] |
+| 多発性骨髄腫 | NINLARO［ixazomib］ | ERAD下流を利用するタンパク質恒常性攪乱薬 | Takeda | 2015（米）[^12] | 経口 | 初の経口プロテアソーム阻害薬。[^12] |
+| Fabry disease（対応変異保有例） | Galafold［migalastat］ | 薬理学的シャペロン（pharmacological chaperone） | Amicus | 2016（EU）[^13] | 経口 | <strong>対応変異型（amenable mutation） α-ガラクトシダーゼA を小胞体内で安定化</strong>し、リソソームへの輸送を促す。[^13][^14] |
+| Cystic fibrosis（F508del/F508del ほか） | SYMDEKO / SYMKEVI［tezacaftor/ivacaftor］ | 小胞体での折り畳み・輸送補正薬 | Vertex | 2018（米 / EU）[^15][^16] | 経口 | <strong>tezacaftor は補正薬（corrector）</strong>、ivacaftor は増強薬（potentiator）。lumacaftor/ivacaftor より薬物相互作用の面で扱いやすい症例がある。[^15][^16] |
+| Cystic fibrosis（少なくとも1つの F508del など） | TRIKAFTA / KAFTRIO［elexacaftor/tezacaftor/ivacaftor］ | 小胞体での折り畳み・輸送補正薬 | Vertex | 2019（米）[^17] | 経口 | <strong>2つの補正薬（elexacaftor, tezacaftor）＋ 増強薬（ivacaftor）</strong>からなる三剤併用。現行のCFTR機能回復治療の中心。[^17][^18][^19] |
 
-> 注：<strong>ivacaftor 単剤（KALYDECO）</strong>も承認済み CFTR modulator ですが、主作用は細胞表面に到達した CFTR の <strong>channel gating 改善</strong>であり、ER folding / trafficking rescue を主軸とする本記事の「代表的な ER folding corrector」表からは外しています。[^20]
+> 注：<strong>ivacaftor 単剤（KALYDECO）</strong>も承認済みCFTR調節薬ですが、主作用は細胞表面に到達したCFTRの<strong>チャネル開口特性の改善</strong>であり、小胞体での折り畳み・輸送補正を主軸とする本記事の「代表的な補正薬」表からは外しています。[^20]
 
 ---
 
 ## 対象疾患
 
-現在の承認薬を俯瞰すると、ER関連治療薬の対象疾患は大きく3つの臨床文脈に分かれます。第一に、<strong>misfolding や trafficking defect を伴う遺伝性疾患</strong>で、代表例は <strong>Cystic fibrosis</strong> と <strong>Fabry disease</strong> です。前者では F508del-CFTR の ER 滞留が、後者では amenable 変異型 <strong>α-Gal A</strong> の不安定化が問題となり、いずれも <strong>ER quality control を通過できる形に rescue する</strong>ことが治療の核になります。[^10][^11][^13][^14]
+現在の承認薬を俯瞰すると、ER関連治療薬の対象疾患は大きく3つの臨床文脈に分かれます。第一に、<strong>折り畳み異常や輸送障害を伴う遺伝性疾患</strong>で、代表例は<strong>嚢胞性線維症（Cystic fibrosis）</strong>と<strong>ファブリー病（Fabry disease）</strong>です。前者ではF508del-CFTRの小胞体滞留が、後者では対応変異型（amenable mutation）<strong>α-ガラクトシダーゼA</strong>の不安定化が問題となり、いずれも<strong>小胞体の品質管理を通過できる形にタンパク質を修正する</strong>ことが治療の核になります。[^10][^11][^13][^14]
 
-第二に、<strong>分泌負荷の高い hematologic malignancy</strong> です。形質細胞系腫瘍である <strong>multiple myeloma</strong> は大量の免疫グロブリン産生に依存しており、ER proteostasis と UPR に強く依存します。このため <strong>proteasome inhibitors</strong> は、ERAD の出口側を塞ぐことで proteotoxic stress を増幅し、治療効果を示します。[^4][^5][^8][^9][^12]
+第二に、<strong>分泌負荷の高い血液系悪性腫瘍</strong>です。形質細胞系腫瘍である<strong>多発性骨髄腫（multiple myeloma）</strong>は大量の免疫グロブリン産生に依存しており、小胞体のタンパク質恒常性とUPRに強く依存します。このため<strong>プロテアソーム阻害薬</strong>は、ERADの出口側を塞ぐことでタンパク質毒性ストレスを増幅し、治療効果を示します。[^4][^5][^8][^9][^12]
 
-第三に、<strong>ER/SR calcium release の破綻が急性病態に直結する疾患</strong>で、代表例が <strong>malignant hyperthermia</strong> です。ここでは <strong>dantrolene</strong> が skeletal muscle の <strong>RyR1-mediated Ca<sup>2+</sup> release</strong> を抑えることで救命的に働きます。[^6][^7]
+第三に、<strong>ER/SR カルシウム放出の破綻が急性病態に直結する疾患</strong>で、代表例が<strong>悪性高熱症</strong>です。ここでは<strong>dantrolene</strong>が骨格筋のRyR1を介するCa<sup>2+</sup>放出を抑えることで救命的に働きます。[^6][^7]
 
 ---
 
 ## 小胞体関連治療薬は大きく分類すると4つ
 
-### 1. ERでの折り畳み・成熟・輸送の補正
+### 1. 小胞体での折り畳み・成熟・輸送の補正
 
-この群は、ER内で <strong>misfolding</strong> や <strong>trafficking defect</strong> を起こしたタンパク質を、<strong>folding 補正・成熟促進・ER exit 改善</strong>によって救う薬です。最も完成度の高い例は <strong>CFTR modulators</strong> で、<strong>lumacaftor</strong>、<strong>tezacaftor</strong>、<strong>elexacaftor</strong> はいずれも <strong>CFTR corrector</strong> として働き、特に <strong>F508del-CFTR</strong> の ER 滞留を減らして細胞表面への到達量を増やします。一方で <strong>ivacaftor</strong> は主として細胞表面 CFTR の開口確率を改善する <strong>potentiator</strong> です。したがって ORKAMBI、SYMDEKO/SYMKEVI、TRIKAFTA/KAFTRIO は、<strong>「ER rescue を含む複合モジュレーター」</strong>として位置づけるのが正確です。[^10][^11][^15][^16][^17][^18][^19]
+この群は、小胞体内で<strong>折り畳み異常</strong>や<strong>輸送障害</strong>を起こしたタンパク質を、<strong>折り畳み補正・成熟促進・小胞体からの放出促進</strong>によって救う薬です。最も完成度の高い例は<strong>CFTR調節薬（CFTR modulators）</strong>で、<strong>lumacaftor</strong>、<strong>tezacaftor</strong>、<strong>elexacaftor</strong>はいずれも<strong>CFTR補正薬（corrector）</strong>として働き、特に<strong>F508del-CFTR</strong>の小胞体滞留を減らして細胞表面への到達量を増やします。一方で<strong>ivacaftor</strong>は主として細胞表面CFTRのチャネル開口確率を改善する<strong>増強薬（potentiator）</strong>です。したがってORKAMBI、SYMDEKO/SYMKEVI、TRIKAFTA/KAFTRIOは、<strong>「小胞体での折り畳み補正を含む複合調節薬」</strong>として位置づけるのが正確です。[^10][^11][^15][^16][^17][^18][^19]
 
 <!-- 用語解説：CFTR corrector -->
 <details style="margin:1.2rem 0;">
   <summary style="cursor:pointer; list-style:none;">
     <span style="display:inline-block; border-left:5px solid #6aa7b2; border-radius:10px; padding:0.75rem 1rem; background:#f7fbfc; border:1px solid #d8dee4;">
-      <strong>専門用語解説：CFTR corrector</strong>
+      <strong>専門用語解説：CFTR補正薬（CFTR corrector）</strong>
       <span style="margin-left:0.6rem; font-weight:600;">詳しく見る ▼</span>
     </span>
   </summary>
 
   <div style="border-left:5px solid #6aa7b2; border-radius:10px; padding:1rem 1.2rem; margin-top:0.6rem; background:#f7fbfc;" markdown="1">
-<strong>CFTR corrector</strong> は、Cystic fibrosis の原因となる <strong>CFTR タンパク質の folding defect / trafficking defect</strong> を補正し、ER から細胞膜への輸送を改善する薬剤群です。特に <strong>F508del-CFTR</strong> は小胞体で正しく成熟できず、品質管理によって分解されやすいため、corrector はこの ER 滞留を減らす役割を担います。
+<strong>CFTR補正薬（CFTR corrector）</strong>は、嚢胞性線維症の原因となる<strong>CFTRタンパク質の折り畳み異常・輸送障害</strong>を補正し、小胞体から細胞膜への輸送を改善する薬剤群です。特に<strong>F508del-CFTR</strong>は小胞体で正しく成熟できず、品質管理によって分解されやすいため、補正薬はこの小胞体滞留を減らす役割を担います。
 
-代表的な corrector には <strong>lumacaftor</strong>、<strong>tezacaftor</strong>、<strong>elexacaftor</strong> があり、しばしば <strong>ivacaftor</strong> のような <strong>potentiator</strong> と併用されます。corrector が「細胞膜まで届ける」薬であるのに対し、potentiator は「膜上に到達した CFTR の機能を高める」薬です。この区別は、ERターゲット医薬としての位置づけを理解するうえで重要です。
+代表的な補正薬には<strong>lumacaftor</strong>、<strong>tezacaftor</strong>、<strong>elexacaftor</strong>があり、しばしば<strong>ivacaftor</strong>のような<strong>増強薬（potentiator）</strong>と併用されます。補正薬が「細胞膜まで届ける」薬であるのに対し、増強薬は「膜上に到達したCFTRの機能を高める」薬です。この区別は、ER標的医薬としての位置づけを理解するうえで重要です。
   </div>
 </details>
 
-### 2. Pharmacological chaperone
+### 2. 薬理学的シャペロン
 
-この群は、変異タンパク質、特に酵素を <strong>ER 内で安定化</strong>し、品質管理を通過させて正しい細胞内輸送につなげる薬です。承認薬の代表は <strong>migalastat</strong> で、Fabry disease における <strong>amenable mutation</strong> を持つ <strong>α-galactosidase A</strong> に結合して酵素を安定化し、<strong>ER から lysosome への trafficking</strong> を促進します。したがって migalastat は、一般的な「chemical chaperone」ではなく、<strong>特定クライアントを選択的に安定化する pharmacological chaperone</strong> とみなすべきです。[^13][^14][^21]
+この群は、変異タンパク質、特に酵素を<strong>小胞体内で安定化</strong>し、品質管理を通過させて正しい細胞内輸送につなげる薬です。承認薬の代表は<strong>migalastat</strong>で、ファブリー病における<strong>対応変異（amenable mutation）</strong>を持つ<strong>α-ガラクトシダーゼA</strong>に結合して酵素を安定化し、<strong>小胞体からリソソームへの輸送</strong>を促進します。したがってmigalastatは、一般的な「化学シャペロン（chemical chaperone）」ではなく、<strong>特定の標的タンパク質を選択的に安定化する薬理学的シャペロン（pharmacological chaperone）</strong>とみなすべきです。[^13][^14][^21]
 
 <!-- 用語解説：Pharmacological chaperone -->
 <details style="margin:1.2rem 0;">
   <summary style="cursor:pointer; list-style:none;">
     <span style="display:inline-block; border-left:5px solid #6aa7b2; border-radius:10px; padding:0.75rem 1rem; background:#f7fbfc; border:1px solid #d8dee4;">
-      <strong>専門用語解説：Pharmacological chaperone</strong>
+      <strong>専門用語解説：薬理学的シャペロン（Pharmacological chaperone）</strong>
       <span style="margin-left:0.6rem; font-weight:600;">詳しく見る ▼</span>
     </span>
   </summary>
 
   <div style="border-left:5px solid #6aa7b2; border-radius:10px; padding:1rem 1.2rem; margin-top:0.6rem; background:#f7fbfc;" markdown="1">
-<strong>Pharmacological chaperone</strong> は、特定の変異タンパク質に結合して<strong>構造を安定化</strong>し、ER の品質管理を通過できるようにする低分子化合物です。一般的な分子シャペロン（HSP など）が細胞にもともと存在するタンパク質群であるのに対し、pharmacological chaperone は<strong>薬として投与される外因性分子</strong>です。
+<strong>薬理学的シャペロン（pharmacological chaperone）</strong>は、特定の変異タンパク質に結合して<strong>構造を安定化</strong>し、小胞体の品質管理を通過できるようにする低分子化合物です。一般的な分子シャペロン（HSPなど）が細胞にもともと存在するタンパク質群であるのに対し、薬理学的シャペロンは<strong>薬として投与される外因性分子</strong>です。
 
-ERターゲット医薬の代表例は <strong>migalastat</strong> で、Fabry disease における amenable 変異型 <strong>α-Gal A</strong> を ER 内で安定化し、分解されずに lysosome へ運ばれる確率を高めます。したがってこの戦略は、タンパク質を「補充する」のではなく、<strong>患者自身の変異タンパク質を rescue する</strong>治療といえます。
+ER標的医薬の代表例は<strong>migalastat</strong>で、ファブリー病における対応変異型<strong>α-ガラクトシダーゼA</strong>を小胞体内で安定化し、分解されずにリソソームへ運ばれる確率を高めます。この戦略は、タンパク質を「補充する」のではなく、<strong>患者自身の変異タンパク質を修正して救う</strong>治療といえます。
   </div>
 </details>
 
-### 3. ER proteostasis network / ERAD downstream を利用する薬
+### 3. 小胞体タンパク質恒常性ネットワーク・ERAD下流を利用する薬
 
-この分類は少し注意が必要です。承認薬の中心は、<strong>IRE1/PERK/ATF6 を直接調節する薬</strong>ではなく、<strong>ERAD の下流にある proteasome</strong> を阻害する薬です。代表例は <strong>bortezomib</strong>、<strong>carfilzomib</strong>、<strong>ixazomib</strong> で、直接標的は proteasome ですが、ER で生じた misfolded protein の分解出口を塞ぐことで <strong>proteotoxic stress</strong> を増幅し、特に <strong>plasma cell malignancy</strong> において有効性を示します。厳密には “ER-targeted” というより、<strong>ER-proteostasis vulnerability exploiting drugs</strong> と呼ぶ方が正確です。[^1][^4][^5][^8][^9][^12]
+この分類は少し注意が必要です。承認薬の中心は、<strong>IRE1/PERK/ATF6 を直接調節する薬</strong>ではなく、<strong>ERADの下流にあるプロテアソーム</strong>を阻害する薬です。代表例は<strong>bortezomib</strong>、<strong>carfilzomib</strong>、<strong>ixazomib</strong>で、直接標的はプロテアソームですが、小胞体で生じた異常折り畳みタンパク質の分解出口を塞ぐことで<strong>タンパク質毒性ストレス</strong>を増幅し、特に<strong>形質細胞系腫瘍</strong>において有効性を示します。厳密には「ER標的薬」というより、<strong>「小胞体タンパク質恒常性の脆弱性を利用する薬」</strong>と呼ぶ方が正確です。[^1][^4][^5][^8][^9][^12]
 
 <!-- 用語解説：ERAD -->
 <details style="margin:1.2rem 0;">
@@ -137,22 +136,21 @@ ERターゲット医薬の代表例は <strong>migalastat</strong> で、Fabry d
   </summary>
 
   <div style="border-left:5px solid #6aa7b2; border-radius:10px; padding:1rem 1.2rem; margin-top:0.6rem; background:#f7fbfc;" markdown="1">
-<strong>ERAD（ER-associated degradation）</strong> は、小胞体で正しく折り畳めなかったタンパク質を認識し、<strong>細胞質側へ逆輸送（retrotranslocation）</strong>したうえで、ユビキチン化し、最終的に <strong>proteasome</strong> で分解する品質管理機構です。小胞体の「不良品処理ライン」と考えると理解しやすいです。
+<strong>ERAD（ER-associated degradation、小胞体関連分解）</strong>は、小胞体で正しく折り畳めなかったタンパク質を認識し、<strong>細胞質側への逆輸送（retrotranslocation）</strong>を経てユビキチン化し、最終的に<strong>プロテアソーム</strong>で分解する品質管理機構です。小胞体の「不良品処理ライン」と考えると理解しやすいです。
 
-この経路では <strong>p97 / VCP</strong> が、基質を膜から引き抜く AAA+ ATPase として重要な役割を担います。ERターゲット医薬の観点では、ERAD 自体を直接操作する薬はまだ限られますが、<strong>proteasome inhibitor</strong> や <strong>p97 inhibitor</strong> はこの経路の下流・中核に介入することで、misfolded protein burden を増やし、特に proteostasis に強く依存する腫瘍細胞にダメージを与えます。
+この経路では<strong>p97/VCP</strong>が、基質を膜から引き抜くAAAファミリーATPaseとして重要な役割を担います。ER標的医薬の観点では、ERADを直接操作する薬はまだ限られますが、<strong>プロテアソーム阻害薬</strong>や<strong>p97阻害薬</strong>はこの経路の下流・中核に介入することで、異常折り畳みタンパク質の蓄積を増やし、特にタンパク質恒常性に強く依存する腫瘍細胞にダメージを与えます。
   </div>
 </details>
 
-### 4. ER / SR calcium homeostasis modulators
+### 4. ER/SR カルシウム恒常性調節薬
 
-この群は <strong>ER/SR の Ca<sup>2+</sup> 恒常性</strong>を介して作用します。承認薬の代表は <strong>dantrolene</strong> で、悪性高熱症の背景にある <strong>RyR1</strong> を介する過剰な SR からの Ca<sup>2+</sup> 放出を抑制します。これに対し、<strong>SERCA</strong> を標的とする薬は創薬研究上は魅力的ですが、2026年3月時点で <strong>SERCA 直接阻害薬の承認例は主要には存在せず</strong>、<strong>mipsagargin</strong> は臨床試験まで進んだものの未承認です。[^6][^7][^22][^23]
+この群は<strong>ER/SRのCa<sup>2+</sup>恒常性</strong>を介して作用します。承認薬の代表は<strong>dantrolene</strong>で、悪性高熱症の背景にある<strong>RyR1</strong>を介する過剰なSRからのCa<sup>2+</sup>放出を抑制します。これに対し、<strong>SERCA</strong>を標的とする薬は創薬研究上は魅力的ですが、2026年3月時点でSERCA直接阻害薬の承認例は主要には存在せず、<strong>mipsagargin</strong>は臨床試験まで進んだものの未承認です。[^6][^7][^22][^23]
 
 ---
 
 ## ER経路マップと薬剤の作用点
 
-ER stress 創薬の全体像をざっくり俯瞰すると、<strong>UPR（IRE1 / PERK / ATF6）</strong>、<strong>ISR（eIF2α–eIF2B–PPP1R15A）</strong>、<strong>ERAD–p97/VCP–proteasome</strong>、<strong>ER/SR Ca<sup>2+</sup> 恒常性（SERCA / RyR）</strong>、および <strong>folding / quality control</strong> が主要な介入点になります。承認薬が存在するのは主として <strong>CFTR rescue</strong>、<strong>migalastat</strong>、<strong>proteasome inhibitors</strong>、<strong>dantrolene</strong> の領域であり、<strong>IRE1 / eIF2B / PPP1R15A / p97 / SERCA</strong> は依然として開発品中心です。[^1][^2][^3][^4][^22][^24][^25][^26][^27]
-
+ER stress 創薬の全体像をざっくり俯瞰すると、<strong>UPR（IRE1/PERK/ATF6）</strong>、<strong>統合ストレス応答（ISR）（eIF2α–eIF2B–PPP1R15A）</strong>、<strong>ERAD–p97/VCP–プロテアソーム系</strong>、<strong>ER/SR Ca<sup>2+</sup> 恒常性（SERCA/RyR）</strong>、および<strong>折り畳み・品質管理</strong>が主要な介入点になります。承認薬が存在するのは主として<strong>CFTR機能回復薬</strong>、<strong>migalastat</strong>、<strong>プロテアソーム阻害薬</strong>、<strong>dantrolene</strong>の領域であり、<strong>IRE1/eIF2B/PPP1R15A/p97/SERCA</strong>は依然として開発品中心です。[^1][^2][^3][^4][^22][^24][^25][^26][^27]
 ```mermaid
 flowchart TD
   %% ===== ノード =====
@@ -203,74 +201,73 @@ flowchart TD
   class ORIN,DNL,FOSI,IFB,CB5339,CB5083,BOR,MIP,DAN,ORK,GAL,AMX drug;
 ```
 ※ 図中の点線矢印は、各薬剤が作用する標的分子または経路を示しています。
-
 <!-- 用語解説：ISR -->
 <details style="margin:1.2rem 0;">
   <summary style="cursor:pointer; list-style:none;">
     <span style="display:inline-block; border-left:5px solid #6aa7b2; border-radius:10px; padding:0.75rem 1rem; background:#f7fbfc; border:1px solid #d8dee4;">
-      <strong>専門用語解説：ISR</strong>
+      <strong>専門用語解説：ISR（統合ストレス応答）</strong>
       <span style="margin-left:0.6rem; font-weight:600;">詳しく見る ▼</span>
     </span>
   </summary>
 
   <div style="border-left:5px solid #6aa7b2; border-radius:10px; padding:1rem 1.2rem; margin-top:0.6rem; background:#f7fbfc;" markdown="1">
-<strong>ISR（Integrated Stress Response）</strong> は、ER stress だけでなく、アミノ酸飢餓、ウイルス感染、酸化ストレスなど複数のストレス入力を統合して、<strong>eIF2α のリン酸化</strong>を介して翻訳を制御する応答です。ER 由来の stress では主に <strong>PERK</strong> がこの系に入ります。
+<strong>ISR（Integrated Stress Response、統合ストレス応答）</strong>は、ER stress だけでなく、アミノ酸飢餓、ウイルス感染、酸化ストレスなど複数のストレス入力を統合して、<strong>eIF2αのリン酸化</strong>を介して翻訳を制御する応答です。ER由来のストレスでは主に<strong>PERK</strong>がこの系に入ります。
 
-eIF2α がリン酸化されると全般的な翻訳は抑制されますが、一部の stress response 遺伝子はむしろ翻訳されやすくなります。ここで重要になるのが <strong>eIF2B</strong> と <strong>PPP1R15A / GADD34</strong> で、前者は翻訳再開側、後者は eIF2α 脱リン酸化側に関わります。ERターゲット医薬では、ISR を完全に遮断するのではなく、<strong>eIF2B activator</strong> などで翻訳を適度に回復させる「部分調節」が有力な戦略になっています。
+eIF2αがリン酸化されると全般的な翻訳は抑制されますが、一部のストレス応答遺伝子はむしろ翻訳されやすくなります。ここで重要になるのが<strong>eIF2B</strong>と<strong>PPP1R15A/GADD34</strong>で、前者は翻訳再開側、後者はeIF2α脱リン酸化側に関わります。ER標的医薬では、ISRを完全に遮断するのではなく、<strong>eIF2B活性化薬（activator）</strong>などで翻訳を適度に回復させる「部分調節」が有力な戦略になっています。
   </div>
 </details>
 
 
 ## 開発中の治療薬
 
-直接的な <strong>UPR / ISR / ERAD / ER Ca<sup>2+</sup></strong> を狙う創薬は、いまも主として <strong>臨床試験段階</strong> にあります。2026年3月時点で公表情報を追いやすいものを下表に示します。なお、試験が <strong>completed</strong> で結果待ち・次段階未公表のものも含めています。[^24][^25][^26][^27][^28][^29]
+直接的な<strong>UPR/ISR/ERAD/ER Ca<sup>2+</sup></strong>を狙う創薬は、いまも主として<strong>臨床試験段階</strong>にあります。2026年3月時点で公表情報を追いやすいものを下表に示します。なお、試験が完了（completed）で結果待ち・次段階未公表のものも含めています。[^24][^25][^26][^27][^28][^29]
 
 | 薬剤 | 主な標的/経路 | 主な対象 | 最新の公表段階 | メモ |
 |---|---|---|---|---|
-| ORIN1001 | <strong>IRE1α RNase inhibitor</strong> | 進行固形がん | Phase 1/2 完了[^24] | IRE1–XBP1 axis を直接狙う代表的臨床例。[^24] |
-| DNL343 | <strong>eIF2B activator</strong> | ALS | HEALEY Regimen G 完了[^25] | ISR を完全遮断ではなく <strong>translation recovery</strong> の方向に調節する設計。[^1][^25] |
-| fosigotifator（ABBV-CLS-7262） | <strong>eIF2B activator</strong> | ALS, VWM など | ALS 試験完了、VWM で臨床継続/expanded access[^26][^27] | ISR modulation の臨床開発で存在感が大きい。[^26][^27] |
-| IFB-088 / icerguastat | <strong>PPP1R15A / eIF2α dephosphorylation 系の調節</strong> | bulbar-onset ALS など | Phase 2 完了[^28] | ISR を延長・調整するタイプの候補。[^1][^28] |
-| CB-5339 | <strong>p97/VCP inhibitor</strong> | AML/MDS, 固形腫瘍 | 一部試験で臨床開発中止/不透明[^29][^30] | p97 は ERAD の中核 AAA-ATPase。[^4][^29] |
-| mipsagargin（G-202） | <strong>SERCA inhibitor prodrug</strong> | 固形がん、HCC、GBM | Phase 2 まで[^22][^23][^31] | PSMA 発現腫瘍血管で活性化する設計。[^22][^23] |
-| AMX0035（PB + taurursodiol） | <strong>ER/mitochondria 起点の細胞死経路抑制</strong> | ALS, PSP, Wolfram syndrome など | ALS 承認後に市場撤退、他適応は一部開発継続/中止混在[^32][^33] | 4-PBA を含むため、広義の ER stress 緩和薬としてしばしば議論される。[^1][^32][^33] |
+| ORIN1001 | <strong>IRE1α RNase阻害薬</strong> | 進行固形がん | Phase 1/2 完了[^24] | IRE1–XBP1経路を直接狙う代表的臨床例。[^24] |
+| DNL343 | <strong>eIF2B活性化薬</strong> | ALS | HEALEY Regimen G 完了[^25] | ISRを完全遮断せず<strong>翻訳回復</strong>の方向に調節する設計。[^1][^25] |
+| fosigotifator（ABBV-CLS-7262） | <strong>eIF2B活性化薬</strong> | ALS、VWMなど | ALS試験完了、VWMで臨床継続/拡大アクセス[^26][^27] | ISR調節の臨床開発で存在感が大きい。[^26][^27] |
+| IFB-088 / icerguastat | <strong>PPP1R15A/eIF2α脱リン酸化系の調節薬</strong> | 球麻痺型ALSなど | Phase 2 完了[^28] | ISRを延長・調整するタイプの候補。[^1][^28] |
+| CB-5339 | <strong>p97/VCP阻害薬</strong> | AML/MDS、固形腫瘍 | 一部試験で臨床開発中止/不透明[^29][^30] | p97はERADの中核AAAファミリーATPase。[^4][^29] |
+| mipsagargin（G-202） | <strong>SERCA阻害薬プロドラッグ</strong> | 固形がん、肝細胞がん、膠芽腫 | Phase 2 まで[^22][^23][^31] | PSMA発現腫瘍血管で活性化される設計。[^22][^23] |
+| AMX0035（PB + taurursodiol） | <strong>ER・ミトコンドリア起点の細胞死経路抑制</strong> | ALS、PSP、Wolfram症候群など | ALS承認後に市場撤退、他適応は一部開発継続/中止混在[^32][^33] | 4-PBAを含むため、広義のERストレス緩和薬としてしばしば議論される。[^1][^32][^33] |
 
 ## 開発中止例
 
-<strong>「小胞体をターゲットにする」</strong>といっても、臨床まで進んで中止になった事例は、実際には <strong>UPR/ISR 直撃薬</strong>よりも、<strong>p97/VCP</strong> や <strong>SERCA</strong>、あるいは <strong>ER stress 緩和レジメン</strong> で目立ちます。なお、<strong>PERK inhibitors</strong> の代表的化合物である <strong>GSK2606414 / GSK2656157</strong> は創薬上重要ですが、臨床試験での中止例というより <strong>前臨床段階での毒性・選択性の問題</strong>として理解するのが正確です。[^1][^34][^35][^36]
+<strong>「小胞体をターゲットにする」</strong>といっても、臨床まで進んで中止になった事例は、実際にはUPR/ISR直接標的薬よりも、<strong>p97/VCP</strong>や<strong>SERCA</strong>、あるいは<strong>ERストレス緩和レジメン</strong>で目立ちます。なお、<strong>PERK阻害薬</strong>の代表的化合物である<strong>GSK2606414/GSK2656157</strong>は創薬上重要ですが、臨床試験での中止例というより<strong>前臨床段階での毒性・選択性の問題</strong>として理解するのが正確です。[^1][^34][^35][^36]
 
 | 薬剤 | 主な標的/位置づけ | 臨床段階 | 主な対象 | 中止/撤退の理由 | 補足 |
 |---|---|---|---|---|---|
-| CB-5083 | <strong>p97/VCP inhibitor</strong> | Phase 1[^31] | 進行固形がん | 視覚関連有害事象で中止。のちに <strong>PDE6 off-target</strong> が示唆。[^31][^34] | ERAD を狙う発想自体は鋭いが、標的特異性が課題。 |
-| CB-5339 | <strong>p97/VCP inhibitor</strong> | Phase 1 準備/実施段階[^29] | 固形がん・リンパ腫ほか | ClinicalTrials.gov では “clinical development of the agent has been discontinued” と記載された withdrawn trial あり。[^29] | 権利移管などはあるが、少なくとも一部グローバル開発は停止。[^30] |
-| mipsagargin（G-202） | <strong>SERCA inhibitor prodrug</strong> | Phase 2[^22][^23][^31] | HCC, GBM など | 腎毒性・infusion-related toxicity が課題で、明確な承認経路に至らず公的開発は停滞。[^22][^23][^37] | 「選択的 SERCA 創薬の難しさ」を示す代表例。 |
-| AMX0035（RELYVRIO / ALBRIOZA） | <strong>ER stress 関連細胞死抑制レジメン</strong> | 承認後・Phase 3[^32][^33] | ALS | PHOENIX 試験結果を受けて 2024年に市場撤退。[^33] | 「承認後に confirmatory failure で撤退」の例。 |
-| AMX0035（ORION program） | 同上 | Phase 2b/3 計画[^38] | PSP | 主要・副次評価項目で placebo 差がみられず、2025年に program discontinued。[^38] | ER stress 緩和仮説の適応依存性を示す。 |
+| CB-5083 | <strong>p97/VCP阻害薬</strong> | Phase 1[^31] | 進行固形がん | 視覚関連有害事象で中止。後に<strong>PDE6への非標的作用（off-target効果）</strong>が示唆。[^31][^34] | ERADを狙う発想自体は鋭いが、標的選択性が課題。 |
+| CB-5339 | <strong>p97/VCP阻害薬</strong> | Phase 1 準備/実施段階[^29] | 固形がん・リンパ腫ほか | ClinicalTrials.gov では "clinical development of the agent has been discontinued" と記載された withdrawn trial あり。[^29] | 権利移管などはあるが、少なくとも一部グローバル開発は停止。[^30] |
+| mipsagargin（G-202） | <strong>SERCA阻害薬プロドラッグ</strong> | Phase 2[^22][^23][^31] | 肝細胞がん、膠芽腫など | 腎毒性・点滴関連毒性が課題で、明確な承認経路に至らず公的開発は停滞。[^22][^23][^37] | 「選択的SERCA創薬の難しさ」を示す代表例。 |
+| AMX0035（RELYVRIO / ALBRIOZA） | <strong>ERストレス関連細胞死抑制レジメン</strong> | 承認後・Phase 3[^32][^33] | ALS | PHOENIX試験結果を受けて2024年に市場撤退。[^33] | 「承認後の確認試験で有効性が示せず撤退」の例。 |
+| AMX0035（ORIONプログラム） | 同上 | Phase 2b/3 計画[^38] | PSP | 主要・副次評価項目でプラセボとの差がみられず、2025年にプログラム中止。[^38] | ERストレス緩和仮説の適応依存性を示す。 |
 
-> 注：<strong>PERK inhibitors</strong> は本記事の「開発中止表」には入れていません。理由は、代表薬がヒトで大規模臨床中止に至ったというより、<strong>膵毒性</strong>や<strong>RIPK1 off-target</strong>などの問題が前臨床・トランスレーショナル段階で強く認識され、臨床展開が進まなかったケースだからです。[^1][^35][^36]
+> 注：<strong>PERK阻害薬</strong>は本記事の「開発中止表」には入れていません。理由は、代表薬がヒトで大規模臨床中止に至ったというより、<strong>膵毒性</strong>や<strong>RIPK1への非標的作用</strong>などの問題が前臨床・トランスレーショナル段階で強く認識され、臨床展開が進まなかったケースだからです。[^1][^35][^36]
 
 ## 小胞体標的薬の開発が難しい理由
 
-### 1. ER 経路は病因であると同時に生理的防御機構でもある
+### 1. ER経路は病因であると同時に生理的防御機構でもある
 
-ER stress と UPR は、単純な「悪い経路」ではありません。<strong>IRE1 / PERK / ATF6</strong> はまず <strong>適応応答</strong>として働き、翻訳抑制、chaperone 誘導、ERAD 促進などを通じて proteostasis を回復させます。そのため、病態によっては抑制が有利でも、別の状況では <strong>正常組織の適応能</strong>まで奪ってしまいます。これは ER 創薬が一般的な oncogene inhibition よりも難しい理由の一つです。[^1][^2][^3]
+ERストレスとUPRは、単純な「有害な経路」ではありません。<strong>IRE1/PERK/ATF6</strong>はまず<strong>適応応答</strong>として働き、翻訳抑制、分子シャペロン誘導、ERAD促進などを通じてタンパク質恒常性を回復させます。そのため、病態によっては抑制が有利でも、別の状況では<strong>正常組織の適応能</strong>まで奪ってしまいます。これはER創薬が一般的ながん遺伝子阻害よりも難しい理由の一つです。[^1][^2][^3]
 
-### 2. 正常組織依存性が高く、on-target toxicity が出やすい
+### 2. 正常組織への依存性が高く、標的起因毒性（on-target toxicity）が出やすい
 
-ER 機能はとくに <strong>分泌細胞</strong>や高代謝細胞で重要です。PERK 阻害では、前臨床段階で <strong>膵毒性</strong>が大きな障害として認識されました。PERK は secretory cell の生存に必須であり、経路を強く抑えすぎると治療標的以外の正常組織が先に破綻しやすい、というのが典型例です。[^1][^35]
+ER機能はとくに<strong>分泌細胞</strong>や高代謝細胞で重要です。PERK阻害では、前臨床段階で<strong>膵毒性</strong>が大きな障害として認識されました。PERKは分泌細胞の生存に必須であり、経路を強く抑えすぎると治療標的以外の正常組織が先に破綻しやすい、というのが典型例です。[^1][^35]
 
 ### 3. 完全阻害ではなく部分調節が必要で、治療域設計が難しい
 
-ER stress / ISR は、しばしば <strong>完全阻害</strong>よりも <strong>部分調節</strong>が望まれます。実際、ISR を “off” にするのではなく、<strong>eIF2B activation</strong> により翻訳を適度に回復させる戦略が臨床で追われています。つまり ER 創薬では、標的に効くかどうかだけでなく、<strong>どの程度効かせるか</strong> が薬効と毒性を分けます。[^1][^25][^26]
+ERストレス/ISRは、しばしば<strong>完全阻害</strong>よりも<strong>部分調節</strong>が望まれます。実際、ISRを「遮断」するのではなく、<strong>eIF2B活性化</strong>により翻訳を適度に回復させる戦略が臨床で追われています。つまりER創薬では、標的に効くかどうかだけでなく、<strong>どの程度効かせるか</strong>が薬効と毒性を分けます。[^1][^25][^26]
 
-### 4. バイオマーカー・患者選別・真の標的特異性が不足しやすい
+### 4. バイオマーカー・患者選別・真の標的選択性が不足しやすい
 
-ER stress は多くの疾患で観察されますが、患者ごとに <strong>どの UPR arm にどの程度依存しているか</strong> を定量的に見るのは容易ではありません。また、化合物の標的特異性も問題です。たとえば <strong>CB-5083</strong> では視覚毒性の背景に <strong>PDE6 off-target</strong> が示され、<strong>GSK2606414 / GSK2656157</strong> では <strong>RIPK1 inhibition</strong> が報告されました。ER 創薬では、標的妥当性だけでなく、<strong>chemical probe / clinical candidate の selectivity</strong> がとりわけ重要です。[^34][^36]
+ERストレスは多くの疾患で観察されますが、患者ごとに<strong>どのUPR経路にどの程度依存しているか</strong>を定量的に見るのは容易ではありません。また、化合物の標的選択性も問題です。たとえば<strong>CB-5083</strong>では視覚毒性の背景に<strong>PDE6への非標的作用</strong>が示され、<strong>GSK2606414/GSK2656157</strong>では<strong>RIPK1阻害作用</strong>が報告されました。ER創薬では、標的妥当性だけでなく、<strong>化合物プローブ・開発候補化合物の標的選択性</strong>がとりわけ重要です。[^34][^36]
 
 ## まとめ
 
-小胞体関連の承認薬はすでに存在しますが、その中心は UPR sensor を直接たたく薬ではなく、(1) CFTR の folding / trafficking rescue、(2) migalastat のような pharmacological chaperone、(3) proteasome inhibitors による ER proteostasis vulnerability exploitation、(4) dantrolene による ER/SR calcium modulation です。[^1][^6][^8][^10][^13][^17]
-一方、IRE1 / PERK–eIF2α / eIF2B / PPP1R15A / p97 / SERCA を狙う創薬は現在も活発ですが、生理的防御反応と病的応答の二面性、on-target toxicity、部分調節の必要性、バイオマーカー不足のため、開発難易度は高いままです。したがって ER 標的薬の将来像は、単なる “stress blocker” よりも、疾患コンテキストに応じた精密な proteostasis tuning に向かう可能性が高いと考えられます。[^1][^2][^3][^4]
+小胞体関連の承認薬はすでに存在しますが、その中心はUPRセンサーを直接標的とする薬ではなく、(1) CFTRの折り畳み・輸送の補正薬、(2) migalastatのような薬理学的シャペロン、(3) プロテアソーム阻害薬による小胞体タンパク質恒常性の脆弱性利用、(4) dantroleneによるER/SRカルシウム調節です。[^1][^6][^8][^10][^13][^17]
+一方、IRE1/PERK–eIF2α/eIF2B/PPP1R15A/p97/SERCAを狙う創薬は現在も活発ですが、生理的防御反応と病的応答の二面性、標的起因毒性、部分調節の必要性、バイオマーカー不足のため、開発難易度は高いままです。したがってER標的薬の将来像は、単なる「ストレス遮断薬」よりも、疾患コンテキストに応じた精密なタンパク質恒常性の調節へ向かう可能性が高いと考えられます。[^1][^2][^3][^4]
 
 
 ## 出典

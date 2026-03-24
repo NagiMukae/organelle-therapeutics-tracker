@@ -2,8 +2,8 @@
 layout: single
 title: "小胞体をターゲットとした承認済み治療薬まとめ"
 description: "ER folding/trafficking correction、pharmacological chaperone、ER proteostasis/ERAD exploitation、ER/SR calcium homeostasis modulationの観点から、承認済み小胞体関連治療薬と開発中薬を整理します。"
-date: 2026-03-23 09:00:00 +0900
-last_modified_at: 2026-03-23 09:00:00 +0900
+date: 2026-03-24 09:00:00 +0900
+last_modified_at: 2026-03-24 09:00:00 +0900
 categories: ["Endoplasmic reticulum"]
 tags: ["ER","UPR","ERAD","CFTR","Migalastat","Proteasome inhibitor","Dantrolene","Proteostasis"]
 toc: true

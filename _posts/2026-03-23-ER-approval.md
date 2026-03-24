@@ -14,6 +14,7 @@ classes: wide
 ---
 
 ![eyecatch_MRT]({{ "/assets/images/ER-taget-eyecatch.png" | relative_url }})
+
 ---
 
 ## 概要

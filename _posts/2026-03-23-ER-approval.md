@@ -8,9 +8,14 @@ categories: ["Endoplasmic reticulum"]
 tags: ["ER","UPR","ERAD","CFTR","Migalastat","Proteasome inhibitor","Dantrolene","Proteostasis"]
 toc: true
 toc_sticky: true
+header:
+  teaser: /assets/images/ER-taget-eyecatch.png
 classes: wide
 ---
-assets/images/ER-taget-eyecatch.png
+
+![eyecatch_MRT]({{ "/assets/images/ER-taget-eyecatch.png" | relative_url }})
+---
+
 ## 概要
 
 <strong>小胞体（ER）標的薬</strong>で現時点で臨床実装が進んでいるのは、主に (1) <strong>小胞体での折り畳み・成熟・輸送を補正する薬</strong>、(2) <strong>小胞体内で変異タンパク質を安定化する薬理学的シャペロン（pharmacological chaperone）</strong>、(3) <strong>ERADの下流にあるユビキチン–プロテアソーム系を利用して、分泌負荷の高い腫瘍のタンパク質恒常性（proteostasis）の脆弱性を突く薬</strong>、(4) <strong>ER/SR の Ca<sup>2+</sup> 恒常性を調節する薬</strong>の4群です。UPR・統合ストレス応答（ISR）を直接調節する薬は、2026年3月時点ではなお臨床開発段階のものが中心です。[^1][^2][^3]

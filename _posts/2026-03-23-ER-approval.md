@@ -13,9 +13,9 @@ classes: wide
 
 ## 概要
 
-<strong>小胞体（ER）標的薬</strong>といっても、すでに承認されている薬の多くは、<strong>IRE1/PERK/ATF6 そのものを直接たたく薬</strong>ではありません。現時点で臨床実装が進んでいるのは、主に (1) <strong>ERでの折り畳み・成熟・輸送を補正する薬</strong>、(2) <strong>ER内で変異タンパク質を安定化する pharmacological chaperone</strong>、(3) <strong>ERAD の下流にある ubiquitin–proteasome system を利用して、分泌負荷の高い腫瘍の proteostasis 脆弱性を突く薬</strong>、(4) <strong>ER/SR の Ca<sup>2+</sup> 恒常性を調節する薬</strong>の4群です。直接的な <strong>UPR / ISR modulator</strong> は、2026年3月時点ではなお臨床開発段階のものが中心です。[^1][^2][^3]
+<strong>小胞体（ER）標的薬</strong>で現時点で臨床実装が進んでいるのは、主に (1) <strong>小胞体での折り畳み・成熟・輸送を補正する薬</strong>、(2) <strong>小胞体内で変異タンパク質を安定化する薬理学的シャペロン（pharmacological chaperone）</strong>、(3) <strong>ERADの下流にあるユビキチン–プロテアソーム系を利用して、分泌負荷の高い腫瘍のタンパク質恒常性（proteostasis）の脆弱性を突く薬</strong>、(4) <strong>ER/SR の Ca<sup>2+</sup> 恒常性を調節する薬</strong>の4群です。UPR・統合ストレス応答（ISR）を直接調節する薬は、2026年3月時点ではなお臨床開発段階のものが中心です。[^1][^2][^3]
 
-本記事では、<strong>「ER そのものを一次標的とする薬」</strong>に加えて、<strong>ER proteostasis network の脆弱性を治療に利用する承認薬</strong>も含めて整理しています。そのため、たとえば <strong>proteasome inhibitors</strong> は厳密には「ER膜タンパク質を直接阻害する薬」ではありませんが、<strong>ERAD の出口側を塞ぐことで misfolded protein burden と UPR 負荷を増大させる</strong>という意味で、ER関連薬として扱っています。[^1][^4][^5]
+本記事では、<strong>「ERそのものを一次標的とする薬」</strong>に加えて、<strong>ERタンパク質恒常性ネットワークの脆弱性を治療に利用する承認薬</strong>も含めて整理しています。そのため、たとえば<strong>プロテアソーム阻害薬</strong>は厳密には「ER膜タンパク質を直接阻害する薬」ではありませんが、<strong>ERADの出口側を塞ぐことで異常折り畳みタンパク質の蓄積とUPR負荷を増大させる</strong>という意味で、ER関連薬として扱っています。[^1][^4][^5]
 
 <!-- 用語解説：UPR -->
 <details style="margin:1.2rem 0;">
@@ -27,9 +27,9 @@ classes: wide
   </summary>
 
   <div style="border-left:5px solid #6aa7b2; border-radius:10px; padding:1rem 1.2rem; margin-top:0.6rem; background:#f7fbfc;" markdown="1">
-<strong>UPR（Unfolded Protein Response）</strong> は、小胞体内に<strong>誤って折り畳まれたタンパク質（misfolded protein）</strong>が蓄積したときに起動するストレス応答です。主なセンサーは <strong>IRE1</strong>、<strong>PERK</strong>、<strong>ATF6</strong> の3つで、翻訳抑制、シャペロン誘導、ERAD 活性化などを通じて、小胞体の処理能力を回復させようとします。
+<strong>UPR（Unfolded Protein Response、小胞体ストレス応答）</strong>は、小胞体内に<strong>異常折り畳みタンパク質</strong>が蓄積したときに起動するストレス応答です。主なセンサーは <strong>IRE1</strong>、<strong>PERK</strong>、<strong>ATF6</strong> の3つで、翻訳抑制、分子シャペロンの誘導、ERAD の活性化などを通じて、小胞体の処理能力を回復させようとします。
 
-重要なのは、UPR が単なる「悪い経路」ではなく、まずは<strong>適応応答（adaptive response）</strong>として働く点です。一方で、ストレスが強すぎたり長引いたりすると、UPR は<strong>細胞死誘導</strong>の方向へ傾きます。この二面性のため、ERターゲット医薬では「UPR を完全に止める」よりも、<strong>どの枝をどの程度調節するか</strong>が重要な課題になります。
+重要なのは、UPR が単なる「有害な経路」ではなく、まずは<strong>適応応答</strong>として働く点です。一方で、ストレスが強すぎたり長引いたりすると、UPR は<strong>細胞死誘導</strong>の方向へ傾きます。この二面性のため、ER標的医薬では「UPR を完全に遮断する」よりも、<strong>どの分岐経路をどの程度調節するか</strong>が重要な設計課題になります。
   </div>
 </details>
 
@@ -37,15 +37,15 @@ classes: wide
 <details style="margin:1.2rem 0;">
   <summary style="cursor:pointer; list-style:none;">
     <span style="display:inline-block; border-left:5px solid #6aa7b2; border-radius:10px; padding:0.75rem 1rem; background:#f7fbfc; border:1px solid #d8dee4;">
-      <strong>専門用語解説：Proteostasis</strong>
+      <strong>専門用語解説：タンパク質恒常性（Proteostasis）</strong>
       <span style="margin-left:0.6rem; font-weight:600;">詳しく見る ▼</span>
     </span>
   </summary>
 
   <div style="border-left:5px solid #6aa7b2; border-radius:10px; padding:1rem 1.2rem; margin-top:0.6rem; background:#f7fbfc;" markdown="1">
-<strong>Proteostasis（protein homeostasis, タンパク質恒常性）</strong> とは、細胞内でタンパク質の<strong>合成・折り畳み・輸送・分解</strong>を全体として制御する仕組みを指します。小胞体は、分泌タンパク質や膜タンパク質の折り畳み・品質管理の中心であるため、proteostasis network の中核的なオルガネラの一つです。
+<strong>タンパク質恒常性（proteostasis）</strong>とは、細胞内でタンパク質の<strong>合成・折り畳み・輸送・分解</strong>を全体として制御する仕組みを指します。小胞体は分泌タンパク質や膜タンパク質の折り畳み・品質管理の中心であるため、このネットワークの中核的なオルガネラの一つです。
 
-ERターゲット医薬の文脈では、「タンパク質をうまく折り畳ませて救う」戦略もあれば、「逆に proteostasis の脆弱性を突いて細胞を破綻させる」戦略もあります。たとえば <strong>CFTR corrector</strong> や <strong>pharmacological chaperone</strong> は前者、<strong>proteasome inhibitor</strong> は後者に近い考え方です。つまり proteostasis は、ER創薬を理解するうえでの最も大きな土台概念の一つです。
+ER標的医薬の文脈では、「タンパク質を正しく折り畳ませて救う」戦略もあれば、「逆にタンパク質恒常性の脆弱性を突いて細胞を破綻させる」戦略もあります。たとえば <strong>CFTR補正薬（CFTR corrector）</strong>や<strong>薬理学的シャペロン</strong>は前者、<strong>プロテアソーム阻害薬</strong>は後者に近い考え方です。つまりタンパク質恒常性は、ER創薬を理解するうえでの最も基盤となる概念の一つです。
   </div>
 </details>
 

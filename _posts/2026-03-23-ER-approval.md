@@ -17,7 +17,9 @@ classes: wide
 
 ---
 
-## 概要
+## はじめに
+
+<strong>小胞体（ER）</strong>は、分泌タンパク質や膜タンパク質の<strong>折り畳み、品質管理、成熟、細胞内輸送の起点</strong>を担うオルガネラであり、あわせて<strong>脂質合成</strong>や<strong>細胞内 Ca<sup>2+</sup> 貯蔵・放出</strong>の場としても機能します。これらの機能が破綻すると、小胞体内に誤って折り畳まれたタンパク質が蓄積し、<strong>小胞体ストレス（ER stress）</strong>が生じます。細胞はこれに対して <strong>UPR（unfolded protein response）</strong> を起動し、翻訳抑制、シャペロン誘導、ER関連分解（ERAD）などを通じて恒常性回復を試みますが、ストレスが強すぎたり遷延したりすると、細胞機能障害や細胞死につながります。[^1][^2][^3]
 
 <strong>小胞体（ER）標的薬</strong>で現時点で臨床実装が進んでいるのは、主に (1) <strong>小胞体での折り畳み・成熟・輸送を補正する薬</strong>、(2) <strong>小胞体内で変異タンパク質を安定化する薬理学的シャペロン（pharmacological chaperone）</strong>、(3) <strong>ERADの下流にあるユビキチン–プロテアソーム系を利用して、分泌負荷の高い腫瘍のタンパク質恒常性（proteostasis）の脆弱性を突く薬</strong>、(4) <strong>ER/SR の Ca<sup>2+</sup> 恒常性を調節する薬</strong>の4群です。UPR・統合ストレス応答（ISR）を直接調節する薬は、2026年3月時点ではなお臨床開発段階のものが中心です。[^1][^2][^3]
 

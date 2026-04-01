@@ -392,7 +392,7 @@ classes: wide
   <div class="related-panel">
     <div class="related-panel-icon">
       <a href="https://orgnews-nm.pages.dev" target="_blank" rel="noopener noreferrer">
-        <img src="{{ '/assets/images/logo-orgnews.png' | relative_url }}" alt="Organelles News icon">
+        <img src="{{ '/assets/images/organelle_app_news.png' | relative_url }}" alt="Organelles News icon">
       </a>
     </div>
     <div class="related-panel-body">
@@ -418,7 +418,6 @@ classes: wide
       <p class="related-panel-url">https://orgnews-nm.pages.dev</p>
       <div class="related-panel-buttons">
         <a class="related-panel-button" href="https://orgnews-nm.pages.dev" target="_blank" rel="noopener noreferrer">Organelles Newsを見る</a>
-        <a class="related-panel-button sub" href="https://orgnews-nm.pages.dev" target="_blank" rel="noopener noreferrer">アイコンをクリックして開く</a>
       </div>
     </div>
   </div>

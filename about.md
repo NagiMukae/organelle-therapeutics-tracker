@@ -103,6 +103,57 @@ classes: wide
     grid-template-columns: 1fr 1fr;
   }
 }
+.about-admin-box {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  background: linear-gradient(135deg, #fcfcfc 0%, #f7faf8 100%);
+  border: 1px solid #dfe6e2;
+  border-radius: 16px;
+  padding: 1.2rem 1.25rem;
+  margin-top: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+
+.about-admin-icon {
+  flex: 0 0 88px;
+}
+
+.about-admin-icon img {
+  width: 88px;
+  height: 88px;
+  object-fit: cover;
+  border-radius: 18px;
+  display: block;
+}
+
+.about-admin-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.about-admin-label {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #1d7f6b;
+  margin: 0 0 0.45rem 0;
+  letter-spacing: 0.02em;
+}
+
+.about-admin-body p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 640px) {
+  .about-admin-box {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .about-admin-icon {
+    flex-basis: auto;
+  }
+} 
 </style>
 
 <div class="about-lead">
@@ -195,11 +246,17 @@ classes: wide
 
 <h2 class="about-section-title">運営者</h2>
 
-<div class="about-profile">
-  <p><strong>向江 凪</strong><br>
-  名古屋市立大学大学院 薬学研究科 分子生物薬学分野 博士課程</p>
+<div class="about-admin-box">
+  <div class="about-admin-icon">
+    <img src="{{ '/assets/images/illust-icon.png' | relative_url }}" alt="運営者アイコン">
+  </div>
+  <div class="about-admin-body">
+    <p class="about-admin-label">Site author</p>
+    <p><strong>向江 凪</strong><br>
+    名古屋市立大学大学院 薬学研究科 分子生物薬学分野 博士課程</p>
 
-  <p>研究背景として細胞生物学・オルガネラ間相互作用に関心を持ち、将来的には<strong>オルガネラをコンセプトにした創薬</strong>に関わることを目指しています。</p>
+    <p>研究背景として細胞生物学・オルガネラ間相互作用に関心を持ち、将来的には<strong>オルガネラをコンセプトにした創薬</strong>に関わることを目指しています。</p>
+  </div>
 </div>
 
 <p class="about-small">ご意見・誤記のご指摘などがありましたら、個人HP等からご連絡いただけると大変ありがたいです。</p>

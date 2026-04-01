@@ -22,14 +22,12 @@ classes: wide
   margin-bottom: 0;
 }
 
-.about-section {
-  margin-top: 2.2rem;
-}
-
-.about-section h2 {
+.about-section-title {
   border-left: 6px solid #1d7f6b;
   padding-left: 0.8rem;
-  margin-bottom: 1rem;
+  margin: 2.2rem 0 1rem 0;
+  font-size: 1.6rem;
+  line-height: 1.4;
 }
 
 .about-box {
@@ -82,6 +80,24 @@ classes: wide
   color: #56635d;
 }
 
+.about-list {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.about-list li {
+  margin-bottom: 0.5rem;
+}
+
+.about-plainlist {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.about-plainlist li {
+  margin-bottom: 0.45rem;
+}
+
 @media (min-width: 768px) {
   .about-grid {
     grid-template-columns: 1fr 1fr;
@@ -93,47 +109,46 @@ classes: wide
   <p><strong>Organelle Therapeutics Tracker</strong> は、ミトコンドリア、リソソーム、小胞体（ER）、ゴルジ体、核、ペルオキシソーム、脂肪滴などの<strong>細胞内オルガネラ</strong>に着目し、そこを直接あるいは間接的に標的とする医薬品・治療開発の動向を、<strong>作用機序／モダリティ／開発段階／規制・承認</strong>の観点から横断的に整理する個人サイトです。</p>
 </div>
 
-細胞内オルガネラは、エネルギー産生、分解、タンパク質品質管理、脂質代謝、カルシウム恒常性、細胞内輸送など、生命活動の基盤となる機能を担っています。こうしたオルガネラ機能の破綻は、希少疾患に限らず、神経変性疾患、代謝疾患、がん、炎症性疾患など、さまざまな病態と深く関わっています。
+<p>細胞内オルガネラは、エネルギー産生、分解、タンパク質品質管理、脂質代謝、カルシウム恒常性、細胞内輸送など、生命活動の基盤となる機能を担っています。こうしたオルガネラ機能の破綻は、希少疾患に限らず、神経変性疾患、代謝疾患、がん、炎症性疾患など、さまざまな病態と深く関わっています。</p>
 
-一方で、オルガネラ研究の知見は個別の疾患領域や治療モダリティの中で語られることが多く、**「どのオルガネラに対して、どのようなアプローチが、どの疾患に対する治療戦略として展開されているのか」**を俯瞰しやすい形で整理した情報はまだ多くありません。  
-このサイトでは、そうした断片的な情報を、**オルガネラという共通の視点**から見直し、研究と創薬の接点が見えやすい形で記録していくことを目指しています。
+<p>一方で、オルガネラ研究の知見は個別の疾患領域や治療モダリティの中で語られることが多く、<strong>「どのオルガネラに対して、どのようなアプローチが、どの疾患に対する治療戦略として展開されているのか」</strong>を俯瞰しやすい形で整理した情報はまだ多くありません。<br>
+このサイトでは、そうした断片的な情報を、<strong>オルガネラという共通の視点</strong>から見直し、研究と創薬の接点が見えやすい形で記録していくことを目指しています。</p>
 
-<div class="about-section">
-## このサイトで整理していること
-</div>
+<h2 class="about-section-title">このサイトで整理していること</h2>
 
-本サイトでは、主に以下のような情報を扱っています。
+<p>本サイトでは、主に以下のような情報を扱っています。</p>
 
 <div class="about-box">
-
-- **カテゴリ**：オルガネラ  
-  （Mitochondria, Lysosome, ER, Golgi, Nucleus, Peroxisome, Lipid Droplet など）
-
-- **タグ**：  
-  - モダリティ（small molecule, ERT, SRT, gene therapy, ASO, peptide, PROTAC / LYTAC / AUTAC / ATTEC など）  
-  - 開発段階（Discovery, Preclinical, Phase 1, Phase 2, Phase 3, Approved など）  
-  - 企業名  
-  - 規制当局（FDA, EMA, PMDA など）  
-  - 疾患領域・作用機序・関連キーワード
-
+  <ul class="about-list">
+    <li><strong>カテゴリ</strong>：オルガネラ<br>
+      （Mitochondria, Lysosome, ER, Golgi, Nucleus, Peroxisome, Lipid Droplet など）
+    </li>
+    <li><strong>タグ</strong>：
+      <ul class="about-plainlist">
+        <li>モダリティ（small molecule, ERT, SRT, gene therapy, ASO, peptide, PROTAC / LYTAC / AUTAC / ATTEC など）</li>
+        <li>開発段階（Discovery, Preclinical, Phase 1, Phase 2, Phase 3, Approved など）</li>
+        <li>企業名</li>
+        <li>規制当局（FDA, EMA, PMDA など）</li>
+        <li>疾患領域・作用機序・関連キーワード</li>
+      </ul>
+    </li>
+  </ul>
 </div>
 
-また、単に薬剤名を並べるのではなく、必要に応じて以下の点も整理します。
+<p>また、単に薬剤名を並べるのではなく、必要に応じて以下の点も整理します。</p>
 
 <div class="about-box">
-
-- シーズの発見や病態仮説
-- 標的オルガネラと作用機序
-- モダリティの特徴
-- 前臨床から臨床開発、承認に至るまでの流れ
-- 規制当局・企業発表・論文など一次情報にもとづく開発状況
-- 開発のマイルストーンやタイムライン
-
+  <ul class="about-list">
+    <li>シーズの発見や病態仮説</li>
+    <li>標的オルガネラと作用機序</li>
+    <li>モダリティの特徴</li>
+    <li>前臨床から臨床開発、承認に至るまでの流れ</li>
+    <li>規制当局・企業発表・論文など一次情報にもとづく開発状況</li>
+    <li>開発のマイルストーンやタイムライン</li>
+  </ul>
 </div>
 
-<div class="about-section">
-## このサイトの方針
-</div>
+<h2 class="about-section-title">このサイトの方針</h2>
 
 <div class="about-note">
   <p>本サイトでは、<strong>論文、規制当局、公的データベース、企業IR・プレスリリース</strong>など、できるだけ一次情報に近い情報源を参照し、誇張を避けて記述することを心がけています。</p>
@@ -147,9 +162,7 @@ classes: wide
   <p>未承認薬や開発中プログラムについては、将来的な可能性を示すものであって、効果効能を保証するものではありません。本サイトは医療助言を目的としたものではなく、研究・開発動向の整理と理解を目的としています。</p>
 </div>
 
-<div class="about-section">
-## このサイトに込めていること
-</div>
+<h2 class="about-section-title">このサイトに込めていること</h2>
 
 <div class="about-box">
   <p>オルガネラは、教科書の中では個別の構造体として紹介されることが多い一方で、実際の細胞の中では互いに連携しながら機能しています。そして病気もまた、単一分子の異常だけでなく、膜輸送、代謝、分解、シグナル伝達、品質管理といった複数の階層の破綻として現れます。</p>
@@ -159,9 +172,7 @@ classes: wide
   <p>このサイトは、完成されたデータベースというより、<strong>オルガネラ創薬という領域への解像度を高めていくための場</strong>であり、同時に、基礎研究と医薬品開発のあいだをつなぐ視点を育てていくための記録でもあります。</p>
 </div>
 
-<div class="about-section">
-## こんな方に向けたサイトです
-</div>
+<h2 class="about-section-title">こんな方に向けたサイトです</h2>
 
 <div class="about-grid">
   <div class="about-card">
@@ -182,9 +193,7 @@ classes: wide
   </div>
 </div>
 
-<div class="about-section">
-## 運営者
-</div>
+<h2 class="about-section-title">運営者</h2>
 
 <div class="about-profile">
   <p><strong>向江 凪</strong><br>

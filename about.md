@@ -154,6 +154,112 @@ classes: wide
     flex-basis: auto;
   }
 } 
+.related-links-wrap {
+  margin-top: 1.5rem;
+}
+
+.related-panel {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  background: linear-gradient(135deg, #fcfcfc 0%, #f7faf8 100%);
+  border: 1px solid #dfe6e2;
+  border-radius: 16px;
+  padding: 1.2rem 1.25rem;
+  margin-top: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+
+.related-panel-icon {
+  flex: 0 0 76px;
+}
+
+.related-panel-icon img {
+  width: 76px;
+  height: 76px;
+  object-fit: cover;
+  border-radius: 18px;
+  display: block;
+}
+
+.related-panel-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.related-panel-label {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: #1d7f6b;
+  margin: 0 0 0.4rem 0;
+  letter-spacing: 0.02em;
+}
+
+.related-panel-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin: 0 0 0.45rem 0;
+  line-height: 1.4;
+}
+
+.related-panel-text {
+  margin: 0 0 0.75rem 0;
+}
+
+.related-panel-url {
+  font-size: 0.92rem;
+  color: #2c7da0;
+  word-break: break-all;
+  margin: 0 0 0.8rem 0;
+}
+
+.related-panel-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.related-panel-button {
+  display: inline-block;
+  padding: 0.5rem 0.9rem;
+  border-radius: 999px;
+  background: #1d7f6b;
+  color: #fff !important;
+  text-decoration: none !important;
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
+.related-panel-button.sub {
+  background: #eef7f3;
+  color: #1d7f6b !important;
+  border: 1px solid #cfe3da;
+}
+
+.related-panel-list {
+  margin: 0.6rem 0 0.8rem 1.1rem;
+}
+
+.related-panel-list li {
+  margin-bottom: 0.4rem;
+}
+
+.related-panel-note {
+  font-size: 0.92rem;
+  color: #56635d;
+  margin-top: 0.6rem;
+}
+
+@media (max-width: 640px) {
+  .related-panel {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .related-panel-icon {
+    flex-basis: auto;
+  }
+} 
 </style>
 
 <div class="about-lead">
@@ -260,3 +366,61 @@ classes: wide
 </div>
 
 <p class="about-small">ご意見・誤記のご指摘などがありましたら、個人HP等からご連絡いただけると大変ありがたいです。</p>
+
+<div class="related-links-wrap">
+
+  <div class="related-panel">
+    <div class="related-panel-icon">
+      <a href="https://nagimukae.com" target="_blank" rel="noopener noreferrer">
+        <img src="{{ '/assets/images/illust-icon.png' | relative_url }}" alt="個人HPアイコン">
+      </a>
+    </div>
+    <div class="related-panel-body">
+      <p class="related-panel-label">Personal website</p>
+      <p class="related-panel-title">向江 凪の個人HP</p>
+      <p class="related-panel-text">
+        研究活動、個人プロジェクト、記事、運営サイトの紹介などをまとめている個人HPです。
+        本サイトに関する補足情報や連絡先も、こちらからご覧いただけます。
+      </p>
+      <p class="related-panel-url">https://nagimukae.com</p>
+      <div class="related-panel-buttons">
+        <a class="related-panel-button" href="https://nagimukae.com" target="_blank" rel="noopener noreferrer">個人HPを見る</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="related-panel">
+    <div class="related-panel-icon">
+      <a href="https://orgnews-nm.pages.dev" target="_blank" rel="noopener noreferrer">
+        <img src="{{ '/assets/images/logo-orgnews.png' | relative_url }}" alt="Organelles News icon">
+      </a>
+    </div>
+    <div class="related-panel-body">
+      <p class="related-panel-label">姉妹サイト</p>
+      <p class="related-panel-title">Organelles News</p>
+      <p class="related-panel-text">
+        Organelles News は、オルガネラ研究の最新論文を1ページで横断チェックできるニュース形式のWebアプリです。
+        主要ジャーナルのRSSを集約し、直近30日に公開された論文をカード形式で表示します。
+        広告やアカウント登録は不要で、CC BY のオープンアクセス論文については英語要約と日本語訳も掲載しています。
+      </p>
+
+      <ul class="related-panel-list">
+        <li>主要ジャーナルの新着論文を毎日更新で収集</li>
+        <li>オルガネラごとのタグで絞り込み可能</li>
+        <li>Publisher / PubMed へのリンクを掲載</li>
+        <li>CC BY 論文は英語要約 + 日本語訳を表示</li>
+      </ul>
+
+      <p class="related-panel-note">
+        ※ 要約・翻訳はAIによる自動生成です。誤りが含まれる可能性があります。最終的な内容は原著をご確認ください。
+      </p>
+
+      <p class="related-panel-url">https://orgnews-nm.pages.dev</p>
+      <div class="related-panel-buttons">
+        <a class="related-panel-button" href="https://orgnews-nm.pages.dev" target="_blank" rel="noopener noreferrer">Organelles Newsを見る</a>
+        <a class="related-panel-button sub" href="https://orgnews-nm.pages.dev" target="_blank" rel="noopener noreferrer">アイコンをクリックして開く</a>
+      </div>
+    </div>
+  </div>
+
+</div>

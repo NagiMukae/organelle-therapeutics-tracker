@@ -372,7 +372,7 @@ classes: wide
   <div class="related-panel">
     <div class="related-panel-icon">
       <a href="https://nagimukae.com" target="_blank" rel="noopener noreferrer">
-        <img src="{{ '/assets/images/illust-icon.png' | relative_url }}" alt="個人HPアイコン">
+        <img src="{{ '/assets/images/personal_HP_icon.png' | relative_url }}" alt="個人HPアイコン">
       </a>
     </div>
     <div class="related-panel-body">
@@ -388,6 +388,8 @@ classes: wide
       </div>
     </div>
   </div>
+
+<h2 class="about-section-title">姉妹サイトのご紹介</h2>
 
   <div class="related-panel">
     <div class="related-panel-icon">

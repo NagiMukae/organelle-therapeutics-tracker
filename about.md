@@ -260,6 +260,38 @@ classes: wide
     flex-basis: auto;
   }
 } 
+.contact-panel {
+  background: #f7faf8;
+  border: 1px solid #dfe6e2;
+  border-radius: 16px;
+  padding: 1rem 1.15rem;
+  margin-top: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+
+.contact-panel-label {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #1d7f6b;
+  margin: 0 0 0.45rem 0;
+  letter-spacing: 0.02em;
+}
+
+.contact-panel p:last-child {
+  margin-bottom: 0;
+}
+
+.contact-email {
+  display: inline-block;
+  margin-top: 0.35rem;
+  padding: 0.35rem 0.65rem;
+  border-radius: 999px;
+  background: #eef7f3;
+  border: 1px solid #cfe3da;
+  font-size: 0.95rem;
+  color: #2f4a42;
+  word-break: break-all;
+} 
 </style>
 
 <div class="about-lead">
@@ -365,7 +397,11 @@ classes: wide
   </div>
 </div>
 
-<p class="about-small">ご意見・誤記のご指摘などがありましたら、個人HP等からご連絡いただけると大変ありがたいです。</p>
+<div class="contact-panel">
+  <p class="contact-panel-label">Contact</p>
+  <p>ご意見・誤記のご指摘などがありましたら、まずは個人HPからご連絡いただけると大変ありがたいです。必要に応じて、以下のメールアドレスでもご連絡いただけます。</p>
+  <p><span class="contact-email">n.mukae-098 [at] outlook.jp</span></p>
+</div>
 
 <div class="related-links-wrap">
 

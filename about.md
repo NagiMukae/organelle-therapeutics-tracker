@@ -2,18 +2,109 @@
 title: "このサイトについて"
 layout: single
 permalink: /about/
+classes: wide
 ---
 
-**Organelle Therapeutics Tracker** は、ミトコンドリア、リソソーム、小胞体（ER）、ゴルジ体、核、ペルオキシソーム、脂肪滴などの**細胞内オルガネラ**に着目し、そこを直接あるいは間接的に標的とする医薬品・治療開発の動向を、**作用機序／モダリティ／開発段階／規制・承認**の観点から横断的に整理する個人サイトです。
+<style>
+.about-lead {
+  background: linear-gradient(135deg, #f6fbf9 0%, #eef7f3 100%);
+  border: 1px solid #d8e8e1;
+  border-radius: 18px;
+  padding: 1.4rem 1.5rem;
+  margin: 0 0 1.8rem 0;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.04);
+}
+
+.about-lead p:last-child,
+.about-box p:last-child,
+.about-note p:last-child,
+.about-profile p:last-child {
+  margin-bottom: 0;
+}
+
+.about-section {
+  margin-top: 2.2rem;
+}
+
+.about-section h2 {
+  border-left: 6px solid #1d7f6b;
+  padding-left: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.about-box {
+  background: #fafcfb;
+  border: 1px solid #dfe9e4;
+  border-radius: 16px;
+  padding: 1.2rem 1.25rem;
+  margin: 1rem 0 1.4rem 0;
+}
+
+.about-note {
+  background: #f7faf8;
+  border-left: 5px solid #1d7f6b;
+  border-radius: 10px;
+  padding: 1rem 1.1rem;
+  margin: 1rem 0 1.4rem 0;
+  color: #394742;
+  font-size: 0.96rem;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.9rem;
+  margin-top: 1rem;
+}
+
+.about-card {
+  background: #ffffff;
+  border: 1px solid #e2e8e5;
+  border-radius: 14px;
+  padding: 1rem 1.1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+
+.about-card strong {
+  color: #1d7f6b;
+}
+
+.about-profile {
+  background: linear-gradient(135deg, #fcfcfc 0%, #f7faf8 100%);
+  border: 1px solid #dfe6e2;
+  border-radius: 16px;
+  padding: 1.2rem 1.25rem;
+  margin-top: 1rem;
+}
+
+.about-small {
+  font-size: 0.95rem;
+  color: #56635d;
+}
+
+@media (min-width: 768px) {
+  .about-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+</style>
+
+<div class="about-lead">
+  <p><strong>Organelle Therapeutics Tracker</strong> は、ミトコンドリア、リソソーム、小胞体（ER）、ゴルジ体、核、ペルオキシソーム、脂肪滴などの<strong>細胞内オルガネラ</strong>に着目し、そこを直接あるいは間接的に標的とする医薬品・治療開発の動向を、<strong>作用機序／モダリティ／開発段階／規制・承認</strong>の観点から横断的に整理する個人サイトです。</p>
+</div>
 
 細胞内オルガネラは、エネルギー産生、分解、タンパク質品質管理、脂質代謝、カルシウム恒常性、細胞内輸送など、生命活動の基盤となる機能を担っています。こうしたオルガネラ機能の破綻は、希少疾患に限らず、神経変性疾患、代謝疾患、がん、炎症性疾患など、さまざまな病態と深く関わっています。
 
 一方で、オルガネラ研究の知見は個別の疾患領域や治療モダリティの中で語られることが多く、**「どのオルガネラに対して、どのようなアプローチが、どの疾患に対する治療戦略として展開されているのか」**を俯瞰しやすい形で整理した情報はまだ多くありません。  
 このサイトでは、そうした断片的な情報を、**オルガネラという共通の視点**から見直し、研究と創薬の接点が見えやすい形で記録していくことを目指しています。
 
+<div class="about-section">
 ## このサイトで整理していること
+</div>
 
 本サイトでは、主に以下のような情報を扱っています。
+
+<div class="about-box">
 
 - **カテゴリ**：オルガネラ  
   （Mitochondria, Lysosome, ER, Golgi, Nucleus, Peroxisome, Lipid Droplet など）
@@ -25,7 +116,11 @@ permalink: /about/
   - 規制当局（FDA, EMA, PMDA など）  
   - 疾患領域・作用機序・関連キーワード
 
+</div>
+
 また、単に薬剤名を並べるのではなく、必要に応じて以下の点も整理します。
+
+<div class="about-box">
 
 - シーズの発見や病態仮説
 - 標的オルガネラと作用機序
@@ -34,36 +129,68 @@ permalink: /about/
 - 規制当局・企業発表・論文など一次情報にもとづく開発状況
 - 開発のマイルストーンやタイムライン
 
+</div>
+
+<div class="about-section">
 ## このサイトの方針
+</div>
 
-本サイトでは、**論文、規制当局、公的データベース、企業IR・プレスリリース**など、できるだけ一次情報に近い情報源を参照し、誇張を避けて記述することを心がけています。
+<div class="about-note">
+  <p>本サイトでは、<strong>論文、規制当局、公的データベース、企業IR・プレスリリース</strong>など、できるだけ一次情報に近い情報源を参照し、誇張を避けて記述することを心がけています。</p>
+</div>
 
-また、情報収集や文章作成にはAIを補助的に用いることがありますが、掲載内容については**一次情報を必ず確認**し、記述の正確性に配慮しています。
+<div class="about-note">
+  <p>また、情報収集や文章作成にはAIを補助的に用いることがありますが、掲載内容については<strong>一次情報を必ず確認</strong>し、記述の正確性に配慮しています。</p>
+</div>
 
-未承認薬や開発中プログラムについては、将来的な可能性を示すものであって、効果効能を保証するものではありません。本サイトは医療助言を目的としたものではなく、研究・開発動向の整理と理解を目的としています。
+<div class="about-note">
+  <p>未承認薬や開発中プログラムについては、将来的な可能性を示すものであって、効果効能を保証するものではありません。本サイトは医療助言を目的としたものではなく、研究・開発動向の整理と理解を目的としています。</p>
+</div>
 
+<div class="about-section">
 ## このサイトに込めていること
+</div>
 
-オルガネラは、教科書の中では個別の構造体として紹介されることが多い一方で、実際の細胞の中では互いに連携しながら機能しています。そして病気もまた、単一分子の異常だけでなく、膜輸送、代謝、分解、シグナル伝達、品質管理といった複数の階層の破綻として現れます。
+<div class="about-box">
+  <p>オルガネラは、教科書の中では個別の構造体として紹介されることが多い一方で、実際の細胞の中では互いに連携しながら機能しています。そして病気もまた、単一分子の異常だけでなく、膜輸送、代謝、分解、シグナル伝達、品質管理といった複数の階層の破綻として現れます。</p>
 
-だからこそ、オルガネラを理解することは、病態をより構造的に理解することにつながり、その先には新しい創薬の鍵があるのではないかと考えています。
+  <p>だからこそ、オルガネラを理解することは、病態をより構造的に理解することにつながり、その先には新しい創薬の鍵があるのではないかと考えています。</p>
 
-このサイトは、完成されたデータベースというより、**オルガネラ創薬という領域への解像度を高めていくための場**であり、同時に、基礎研究と医薬品開発のあいだをつなぐ視点を育てていくための記録でもあります。
+  <p>このサイトは、完成されたデータベースというより、<strong>オルガネラ創薬という領域への解像度を高めていくための場</strong>であり、同時に、基礎研究と医薬品開発のあいだをつなぐ視点を育てていくための記録でもあります。</p>
+</div>
 
+<div class="about-section">
 ## こんな方に向けたサイトです
+</div>
 
-- オルガネラ生物学に関心のある研究者・学生の方
-- オルガネラ関連の遺伝性疾患、神経変性疾患、代謝疾患などの治療開発に関心のある方
-- 細胞生物学と創薬の接点を探している方
-- 既存の疾患別・企業別の情報整理とは別に、**オルガネラという軸で創薬を見てみたい方**
+<div class="about-grid">
+  <div class="about-card">
+    <strong>研究者・学生の方へ</strong><br>
+    オルガネラ生物学に関心のある研究者・学生の方
+  </div>
+  <div class="about-card">
+    <strong>治療開発に関心のある方へ</strong><br>
+    オルガネラ関連の遺伝性疾患、神経変性疾患、代謝疾患などの治療開発に関心のある方
+  </div>
+  <div class="about-card">
+    <strong>研究と創薬の接点を探している方へ</strong><br>
+    細胞生物学と創薬の接点を探している方
+  </div>
+  <div class="about-card">
+    <strong>横断的に見たい方へ</strong><br>
+    既存の疾患別・企業別の情報整理とは別に、<strong>オルガネラという軸で創薬を見てみたい方</strong>
+  </div>
+</div>
 
+<div class="about-section">
 ## 運営者
+</div>
 
-**向江 凪**  
-名古屋市立大学大学院 薬学研究科 分子生物薬学分野 博士課程
+<div class="about-profile">
+  <p><strong>向江 凪</strong><br>
+  名古屋市立大学大学院 薬学研究科 分子生物薬学分野 博士課程</p>
 
-研究背景として細胞生物学・オルガネラ間相互作用に関心を持ち、将来的には**オルガネラをコンセプトにした創薬**に関わることを目指しています。
+  <p>研究背景として細胞生物学・オルガネラ間相互作用に関心を持ち、将来的には<strong>オルガネラをコンセプトにした創薬</strong>に関わることを目指しています。</p>
+</div>
 
----
-
-ご意見・誤記のご指摘などがありましたら、個人HP等からご連絡いただけると大変ありがたいです。
+<p class="about-small">ご意見・誤記のご指摘などがありましたら、個人HP等からご連絡いただけると大変ありがたいです。</p>

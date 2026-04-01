@@ -399,7 +399,7 @@ classes: wide
 
 <div class="contact-panel">
   <p class="contact-panel-label">Contact</p>
-  <p>ご意見・誤記のご指摘などがありましたら、まずは個人HPからご連絡いただけると大変ありがたいです。必要に応じて、以下のメールアドレスでもご連絡いただけます。</p>
+  <p>ご意見・誤記のご指摘などがありましたら、個人HPのコメント欄または以下のメールアドレスへご連絡いただけますと幸いです。</p>
   <p><span class="contact-email">n.mukae-098 [at] outlook.jp</span></p>
 </div>
 

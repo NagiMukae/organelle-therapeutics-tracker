@@ -103,6 +103,7 @@ classes: wide
     grid-template-columns: 1fr 1fr;
   }
 }
+
 .about-admin-box {
   display: flex;
   gap: 1rem;
@@ -153,7 +154,8 @@ classes: wide
   .about-admin-icon {
     flex-basis: auto;
   }
-} 
+}
+
 .related-links-wrap {
   margin-top: 1.5rem;
 }
@@ -259,7 +261,8 @@ classes: wide
   .related-panel-icon {
     flex-basis: auto;
   }
-} 
+}
+
 .contact-panel {
   background: #f7faf8;
   border: 1px solid #dfe6e2;
@@ -291,7 +294,7 @@ classes: wide
   font-size: 0.95rem;
   color: #2f4a42;
   word-break: break-all;
-} 
+}
 </style>
 
 <div class="about-lead">
@@ -394,8 +397,8 @@ classes: wide
   </div>
   <div class="about-admin-body">
     <p class="about-admin-label">Site author</p>
-    <p><strong>向江 凪</strong><br>
-    名古屋市立大学大学院 薬学研究科 分子生物薬学分野 博士課程</p>
+    <p><strong>N.M.</strong><br>
+    薬学専攻の博士課程学生</p>
 
     <p>研究背景として細胞生物学・オルガネラ間相互作用に関心を持ち、将来的には<strong>オルガネラをコンセプトにした創薬</strong>に関わることを目指しています。</p>
   </div>
@@ -403,33 +406,12 @@ classes: wide
 
 <div class="contact-panel">
   <p class="contact-panel-label">Contact</p>
-  <p>ご意見・誤記のご指摘などがありましたら、個人HPのコメント欄または以下のメールアドレスへご連絡いただけますと幸いです。</p>
+  <p>ご意見・誤記のご指摘などがありましたら、以下のメールアドレスへご連絡いただけますと幸いです。</p>
   <p><span class="contact-email">n.mukae-098 [at] outlook.jp</span></p>
 </div>
 
 <div class="related-links-wrap">
-
-  <div class="related-panel">
-    <div class="related-panel-icon">
-      <a href="https://nagimukae.com" target="_blank" rel="noopener noreferrer">
-        <img src="{{ '/assets/images/personal_HP_icon.png' | relative_url }}" alt="個人HPアイコン">
-      </a>
-    </div>
-    <div class="related-panel-body">
-      <p class="related-panel-label">Personal website</p>
-      <p class="related-panel-title">向江 凪の個人HP</p>
-      <p class="related-panel-text">
-        研究活動、個人プロジェクト、記事、運営サイトの紹介などをまとめている個人HPです。
-        本サイトに関する補足情報や連絡先も、こちらからご覧いただけます。
-      </p>
-      <p class="related-panel-url">https://nagimukae.com</p>
-      <div class="related-panel-buttons">
-        <a class="related-panel-button" href="https://nagimukae.com" target="_blank" rel="noopener noreferrer">個人HPを見る</a>
-      </div>
-    </div>
-  </div>
-
-<h2 class="about-section-title">姉妹サイトのご紹介</h2>
+  <h2 class="about-section-title">姉妹サイトのご紹介</h2>
 
   <div class="related-panel">
     <div class="related-panel-icon">
@@ -463,5 +445,4 @@ classes: wide
       </div>
     </div>
   </div>
-
 </div>

@@ -124,15 +124,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
   if (!tocList || !content) return;
 
-  const headings = Array.from(content.querySelectorAll("h2, h3"))
-    .filter(function (heading) {
-      const text = heading.textContent.trim();
+  const headings = Array.from(content.querySelectorAll("h2"))
+  .filter(function (heading) {
+    const text = heading.textContent.trim();
 
-      /* 目次に入れたくない見出しがあればここで除外 */
-      return text &&
-             text !== "出典" &&
-             !heading.closest(".footnotes");
-    });
+    return text &&
+           !heading.closest(".footnotes");
+  });
 
   if (headings.length === 0) {
     const toc = document.querySelector(".ott-left-toc");

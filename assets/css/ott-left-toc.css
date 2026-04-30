@@ -1,0 +1,85 @@
+/* 見出しクリック時にヘッダー下へ余白を持たせる */
+.page__content h2,
+.page__content h3 {
+  scroll-margin-top: 90px;
+}
+
+/* 左固定TOCパネル */
+.ott-left-toc {
+  position: fixed;
+  top: 110px;
+  left: max(1rem, calc((100vw - 1320px) / 2 + 1rem));
+  width: 270px;
+
+  height: calc(100vh - 160px);
+  min-height: 420px;
+  max-height: calc(100vh - 160px);
+  overflow-y: auto;
+
+  z-index: 20;
+
+  padding: 1rem 0.95rem;
+  border: 1px solid #d8e6e2;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+
+  font-size: 0.82rem;
+  line-height: 1.45;
+}
+
+/* タイトル */
+.ott-left-toc__title {
+  margin-bottom: 0.7rem;
+  padding-bottom: 0.55rem;
+  border-bottom: 1px solid #d8e6e2;
+
+  color: #0f766e;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+/* リスト全体 */
+.ott-left-toc__list {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+/* 各項目 */
+.ott-left-toc__item {
+  margin: 0.12rem 0;
+}
+
+/* リンク */
+.ott-left-toc__link {
+  display: block;
+  padding: 0.35rem 0.45rem;
+  border-left: 3px solid transparent;
+  border-radius: 8px;
+
+  color: #4b5a57;
+  text-decoration: none;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.ott-left-toc__link:hover {
+  background: #f0faf7;
+  color: #0f766e;
+  text-decoration: none;
+}
+
+/* 現在読んでいる場所のハイライト */
+.ott-left-toc__link.is-active {
+  background: #e5f6f1;
+  border-left-color: #0f766e;
+  color: #0f766e;
+  font-weight: 700;
+}
+
+/* 狭い画面では非表示 */
+@media (max-width: 1280px) {
+  .ott-left-toc {
+    display: none;
+  }
+}

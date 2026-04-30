@@ -26,3 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
   mermaid.run({ querySelector: '.mermaid' });
 });
 </script>
+
+{% if page.layout == "single" and page.categories %}
+  <link rel="stylesheet" href="{{ '/assets/css/ott-left-toc.css' | relative_url }}">
+{% endif %}

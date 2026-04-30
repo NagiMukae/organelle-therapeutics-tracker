@@ -35,12 +35,16 @@ classes: wide
   position: fixed;
   top: 110px;
   left: max(1rem, calc((100vw - 1320px) / 2 + 1rem));
-  width: 245px;
-  max-height: calc(100vh - 140px);
+  width: 270px;
+
+  height: calc(100vh - 160px);
+  min-height: 420px;
+  max-height: calc(100vh - 160px);
   overflow-y: auto;
+
   z-index: 20;
 
-  padding: 0.95rem 0.9rem;
+  padding: 1rem 0.95rem;
   border: 1px solid #d8e6e2;
   border-radius: 16px;
   background: rgba(255, 255, 255, 0.96);

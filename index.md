@@ -1,6 +1,6 @@
 ---
 layout: home
-entries_layout: list
+entries_layout: grid
 title:
 excerpt:
 ---
@@ -61,10 +61,67 @@ excerpt:
   color: #2f4a42;
 }
 
-/* 狭い画面では非表示 */
+/* トップページの記事カードを大きめのパネル状にする */
+.layout--home .grid__wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.layout--home .grid__item {
+  width: auto !important;
+  margin: 0 !important;
+  padding: 0.85rem;
+  border: 1px solid #dfe6e2;
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.04);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.layout--home .grid__item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(0,0,0,0.07);
+}
+
+.layout--home .archive__item-teaser {
+  margin-bottom: 0.75rem;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid #d8e6e2;
+}
+
+.layout--home .archive__item-teaser img {
+  width: 100%;
+  display: block;
+}
+
+.layout--home .archive__item-title {
+  margin-top: 0.4rem;
+  font-size: 1.05rem;
+  line-height: 1.45;
+}
+
+.layout--home .archive__item-title a {
+  color: #0f9ca6;
+  text-decoration-thickness: 1.5px;
+}
+
+.layout--home .archive__item-excerpt {
+  font-size: 0.86rem;
+  line-height: 1.65;
+}
+
+/* 狭い画面では左パネル非表示、記事カードは1列 */
 @media (max-width: 1280px) {
   .ott-home-sidebar-panel {
     display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .layout--home .grid__wrapper {
+    grid-template-columns: 1fr;
   }
 }
 </style>

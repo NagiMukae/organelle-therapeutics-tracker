@@ -187,3 +187,21 @@ body .ott-home-sidebar-panel strong {
 .sidebar-site-panel strong {
   color: #2f4a42;
 }
+
+/* ==============================
+   管理人コメントのアイコンサイズ固定
+   ============================== */
+
+.manager-comment img,
+.admin-comment img,
+.owner-comment img,
+.comment-panel img,
+.profile-comment img {
+  width: 64px !important;
+  max-width: 64px !important;
+  height: 64px !important;
+  max-height: 64px !important;
+  object-fit: cover !important;
+  border-radius: 50% !important;
+  flex-shrink: 0 !important;
+}

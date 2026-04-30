@@ -84,16 +84,66 @@ excerpt:
   box-shadow: 0 8px 22px rgba(0,0,0,0.07);
 }
 
+/* トップページの記事カードを大きめのパネル状にする */
+.layout--home .grid__wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.layout--home .grid__item {
+  width: auto !important;
+  margin: 0 !important;
+  padding: 1rem;
+  border: 1px solid #dfe6e2;
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.04);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.layout--home .grid__item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(0,0,0,0.07);
+}
+
+.layout--home .archive__item,
 .layout--home .archive__item-teaser {
-  margin-bottom: 0.75rem;
+  height: auto !important;
+  max-height: none !important;
+}
+
+.layout--home .archive__item-teaser {
+  margin-bottom: 0.85rem;
   border-radius: 14px;
-  overflow: hidden;
+  overflow: visible;
   border: 1px solid #d8e6e2;
+  background: #ffffff;
 }
 
 .layout--home .archive__item-teaser img {
   width: 100%;
+  height: auto !important;
+  max-height: none !important;
+  object-fit: contain !important;
   display: block;
+  border-radius: 14px;
+}
+
+.layout--home .archive__item-title {
+  margin-top: 0.4rem;
+  font-size: 1.05rem;
+  line-height: 1.45;
+}
+
+.layout--home .archive__item-title a {
+  color: #0f9ca6;
+  text-decoration-thickness: 1.5px;
+}
+
+.layout--home .archive__item-excerpt {
+  font-size: 0.86rem;
+  line-height: 1.65;
 }
 
 .layout--home .archive__item-title {

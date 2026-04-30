@@ -230,7 +230,7 @@ A["<div class='tl-card'><div class='tl-date'>2004-06-02</div><div class='tl-sep'
 - **PDUFA date** (Prescription Drug User Fee Act)：FDAの審査目標日  
 - **CRDAC** (Cardiovascular and Renal Drugs Advisory Committee)：FDA循環器・腎領域 薬剤諮問委員会
 
-## 参考文献、参考サイト
+## 出典
 管理人が全ての引用元の情報をチェックしてから記事にまとめています。
 
 [^1]: [Stealth BioTherapeutics Announces FDA Accelerated Approval of FORZINITY™ (elamipretide) injection, the First Therapy for Progressive and Life-limiting Ultra-rare Genetic Disease Barth Syndrome](https://stealthbt.com/stealth-biotherapeutics-announces-fda-accelerated-approval-of-forzinity-elamipretide-hcl-the-first-therapy-for-progressive-and-life-limiting-ultra-rare-genetic-disease-barth-syndrome/)

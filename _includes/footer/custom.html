@@ -5,21 +5,43 @@
     <ol class="ott-left-toc__list" id="ott-left-toc-list"></ol>
   </nav>
 
-  <script src="{{ '/assets/js/ott-left-toc.js?v=20260430-2' | relative_url }}"></script>
+  <script src="{{ '/assets/js/ott-left-toc.js?v=20260430-3' | relative_url }}"></script>
 {% endif %}
 
 {% if page.layout == "single" %}
   <!-- Mermaid -->
   <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+
   <script>
     document.addEventListener("DOMContentLoaded", function () {
-      if (window.mermaid) {
-        mermaid.initialize({
-          startOnLoad: true,
-          theme: "default",
-          securityLevel: "loose"
-        });
-      }
+      if (!window.mermaid) return;
+
+      mermaid.initialize({
+        startOnLoad: false,
+        theme: "default",
+        securityLevel: "loose",
+        htmlLabels: true
+      });
+
+      /*
+        GitHub Pages / kramdown では ```mermaid が
+        <pre><code class="language-mermaid">...</code></pre>
+        として出力されることがあるため、明示的に .mermaid div に変換する。
+      */
+      document.querySelectorAll("pre code.language-mermaid, code.language-mermaid").forEach(function (codeBlock, index) {
+        const pre = codeBlock.closest("pre");
+        const wrapper = pre || codeBlock;
+
+        const mermaidDiv = document.createElement("div");
+        mermaidDiv.className = "mermaid";
+        mermaidDiv.textContent = codeBlock.textContent.trim();
+
+        wrapper.replaceWith(mermaidDiv);
+      });
+
+      mermaid.run({
+        querySelector: ".mermaid"
+      });
     });
   </script>
 {% endif %}

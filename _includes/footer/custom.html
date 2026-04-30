@@ -7,3 +7,29 @@
 
   <script src="{{ '/assets/js/ott-left-toc.js' | relative_url }}"></script>
 {% endif %}
+
+{% if page.layout == "home" or page.url == "/" %}
+  <!-- トップページ左側：はじめにパネル -->
+  <aside class="ott-home-sidebar-panel" aria-label="このサイトの紹介">
+    <div class="ott-home-sidebar-panel__label">はじめに</div>
+
+    <p>
+      <strong>Organelle Therapeutics Tracker</strong> は、細胞内オルガネラを標的とした医薬品・治療開発の動向を、
+      作用機序やモダリティ、開発段階、承認などの観点からまとめる個人運営サイトです。
+    </p>
+
+    <p>
+      承認済み薬や臨床試験中プログラムを優先し、一次情報ベースで創薬開発動向を整理してまとめています。
+    </p>
+  </aside>
+{% endif %}
+
+{% if page.layout == "single" and page.categories %}
+  <!-- 左固定TOCパネル -->
+  <nav class="ott-left-toc" aria-label="記事内目次">
+    <div class="ott-left-toc__title">On this page</div>
+    <ol class="ott-left-toc__list" id="ott-left-toc-list"></ol>
+  </nav>
+
+  <script src="{{ '/assets/js/ott-left-toc.js?v=20260430-1' | relative_url }}"></script>
+{% endif %}

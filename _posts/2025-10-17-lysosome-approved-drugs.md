@@ -8,8 +8,8 @@ stage: "承認"
 
 categories: ["Lysosome"]
 tags: ["LSD","ERT","SRT","Chaperone","Gene therapy","Approvals"]
-toc: true
-toc_sticky: true
+toc: false
+toc_sticky: false
 header:
   teaser: /assets/images/eyecatch_lysosome.png
 classes: wide

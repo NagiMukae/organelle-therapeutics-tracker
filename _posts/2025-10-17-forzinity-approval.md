@@ -6,8 +6,8 @@ date: 2025-10-17 09:00:00 +0900
 last_modified_at: 2026-01-08 09:00:00 +0900
 categories: ["Mitochondria"]
 tags: ["Peptide", "Approved", "Stealth BioTherapeutics", "US"]
-toc: true
-toc_sticky: true
+toc: false
+toc_sticky: false
 header:
   teaser: /assets/images/Frozinity_eyecatch.png
 classes: wide

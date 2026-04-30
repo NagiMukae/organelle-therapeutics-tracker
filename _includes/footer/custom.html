@@ -1,0 +1,9 @@
+{% if page.layout == "single" and page.categories %}
+  <!-- 左固定TOCパネル -->
+  <nav class="ott-left-toc" aria-label="記事内目次">
+    <div class="ott-left-toc__title">On this page</div>
+    <ol class="ott-left-toc__list" id="ott-left-toc-list"></ol>
+  </nav>
+
+  <script src="{{ '/assets/js/ott-left-toc.js' | relative_url }}"></script>
+{% endif %}

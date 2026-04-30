@@ -4,92 +4,156 @@
   scroll-margin-top: 90px;
 }
 
-/* 左固定TOCパネル */
-.ott-left-toc {
-  position: fixed;
-  top: 100px;
-  left: max(1rem, calc((100vw - 1320px) / 2 + 1rem));
-  width: 270px;
+/* ==============================
+   記事ページ左固定TOCパネル
+   ============================== */
 
-  height: calc(100vh - 115px);
-  min-height: 520px;
-  max-height: calc(100vh - 115px);
-  overflow-y: auto;
+body .ott-left-toc {
+  position: fixed !important;
+  top: 100px !important;
+  left: max(1rem, calc((100vw - 1320px) / 2 + 1rem)) !important;
+  width: 270px !important;
 
-  z-index: 20;
+  height: calc(100vh - 115px) !important;
+  min-height: 520px !important;
+  max-height: calc(100vh - 115px) !important;
+  overflow-y: auto !important;
 
-  padding: 1rem 0.95rem;
-  border: 1px solid #d8e6e2;
-  border-radius: 16px;
-  background: rgba(255, 255, 255, 0.96);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  z-index: 20 !important;
 
-  font-size: 0.82rem;
-  line-height: 1.45;
+  padding: 1rem 0.95rem !important;
+  border: 1px solid #d8e6e2 !important;
+  border-radius: 16px !important;
+  background: rgba(255, 255, 255, 0.96) !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08) !important;
+
+  font-size: 0.82rem !important;
+  line-height: 1.45 !important;
 }
 
 /* タイトル */
-.ott-left-toc__title {
-  margin-bottom: 0.7rem;
-  padding-bottom: 0.55rem;
-  border-bottom: 1px solid #d8e6e2;
+body .ott-left-toc .ott-left-toc__title {
+  margin-bottom: 0.7rem !important;
+  padding-bottom: 0.55rem !important;
+  border-bottom: 1px solid #d8e6e2 !important;
 
-  color: #0f766e;
-  font-weight: 700;
-  letter-spacing: 0.02em;
+  color: #0f766e !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.02em !important;
 }
 
 /* リスト全体 */
-.ott-left-toc__list {
-  margin: 0;
-  padding-left: 0;
-  list-style: none;
+body .ott-left-toc .ott-left-toc__list {
+  display: block !important;
+  margin: 0 !important;
+  padding-left: 0 !important;
+  list-style: none !important;
 }
 
 /* 各項目 */
-.ott-left-toc__item {
-  margin: 0.12rem 0;
+body .ott-left-toc .ott-left-toc__item {
+  display: block !important;
+  margin: 0.12rem 0 !important;
+  padding: 0 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
 }
 
 /* リンク */
-.ott-left-toc .ott-left-toc__link,
-.ott-left-toc .ott-left-toc__link:visited {
-  display: block;
-  padding: 0.35rem 0.45rem;
-  border-left: 3px solid transparent;
-  border-radius: 8px;
+body .ott-left-toc .ott-left-toc__link,
+body .ott-left-toc .ott-left-toc__link:link,
+body .ott-left-toc .ott-left-toc__link:visited {
+  display: block !important;
+  padding: 0.35rem 0.45rem !important;
+  border-left: 3px solid transparent !important;
+  border-radius: 8px !important;
 
   color: #3f5551 !important;
-  background: transparent;
+  background-color: transparent !important;
   text-decoration: none !important;
-  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+  opacity: 1 !important;
+  visibility: visible !important;
 }
 
-.ott-left-toc .ott-left-toc__link:hover {
-  background: #f0faf7;
+/* hover */
+body .ott-left-toc .ott-left-toc__link:hover {
+  background-color: #f0faf7 !important;
   color: #0f766e !important;
   text-decoration: none !important;
 }
 
 /* 現在読んでいる場所のハイライト */
-.ott-left-toc .ott-left-toc__link.is-active,
-.ott-left-toc .ott-left-toc__link.is-active:visited {
-  background: #e5f6f1;
-  border-left-color: #0f766e;
+body .ott-left-toc .ott-left-toc__link.is-active,
+body .ott-left-toc .ott-left-toc__link.is-active:link,
+body .ott-left-toc .ott-left-toc__link.is-active:visited {
+  background-color: #e5f6f1 !important;
+  border-left-color: #0f766e !important;
   color: #0f766e !important;
-  font-weight: 700;
+  font-weight: 700 !important;
 }
 
 /* 狭い画面では非表示 */
 @media (max-width: 1280px) {
-  .ott-left-toc {
-    display: none;
+  body .ott-left-toc {
+    display: none !important;
   }
 }
 
+/* ==============================
+   トップページ左側：はじめにパネル
+   index.md 内の .ott-home-sidebar-panel 用
+   ============================== */
+
+body .ott-home-sidebar-panel {
+  position: fixed !important;
+  top: 245px !important;
+  left: max(1rem, calc((100vw - 1320px) / 2 + 1rem)) !important;
+  width: 270px !important;
+  z-index: 20 !important;
+
+  background: linear-gradient(135deg, #fcfcfc 0%, #f7faf8 100%) !important;
+  border: 1px solid #dfe6e2 !important;
+  border-radius: 16px !important;
+  padding: 1rem 1rem 0.95rem 1rem !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03) !important;
+
+  font-size: 0.92rem !important;
+  line-height: 1.75 !important;
+  color: #4a5a54 !important;
+}
+
+body .ott-home-sidebar-panel__label {
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+  color: #1d7f6b !important;
+  margin: 0 0 0.6rem 0 !important;
+  padding-bottom: 0.55rem !important;
+  border-bottom: 1px solid #d8e6e2 !important;
+  letter-spacing: 0.02em !important;
+}
+
+body .ott-home-sidebar-panel p {
+  margin: 0 0 0.8rem 0 !important;
+}
+
+body .ott-home-sidebar-panel p:last-child {
+  margin-bottom: 0 !important;
+}
+
+body .ott-home-sidebar-panel strong {
+  color: #2f4a42 !important;
+}
+
+/* 狭い画面では非表示 */
+@media (max-width: 1280px) {
+  body .ott-home-sidebar-panel {
+    display: none !important;
+  }
+}
 
 /* ==============================
-   トップページ左サイドバー：はじめにパネル
+   旧sidebar用パネル
+   もし使っていなければ残っていても問題なし
    ============================== */
 
 .sidebar-site-panel {
@@ -123,29 +187,3 @@
 .sidebar-site-panel strong {
   color: #2f4a42;
 }
-
-{% if page.layout == "home" or page.url == "/" %}
-  <!-- トップページ左側：はじめにパネル -->
-  <aside class="ott-home-sidebar-panel" aria-label="このサイトの紹介">
-    <div class="ott-home-sidebar-panel__label">はじめに</div>
-
-    <p>
-      <strong>Organelle Therapeutics Tracker</strong> は、細胞内オルガネラを標的とした医薬品・治療開発の動向を、
-      作用機序やモダリティ、開発段階、承認などの観点からまとめる個人運営サイトです。
-    </p>
-
-    <p>
-      承認済み薬や臨床試験中プログラムを優先し、一次情報ベースで創薬開発動向を整理してまとめています。
-    </p>
-  </aside>
-{% endif %}
-
-{% if page.layout == "single" and page.categories %}
-  <!-- 左固定TOCパネル -->
-  <nav class="ott-left-toc" aria-label="記事内目次">
-    <div class="ott-left-toc__title">On this page</div>
-    <ol class="ott-left-toc__list" id="ott-left-toc-list"></ol>
-  </nav>
-
-  <script src="{{ '/assets/js/ott-left-toc.js?v=20260430-1' | relative_url }}"></script>
-{% endif %}

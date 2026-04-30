@@ -5,16 +5,21 @@
     <ol class="ott-left-toc__list" id="ott-left-toc-list"></ol>
   </nav>
 
-  <script src="{{ '/assets/js/ott-left-toc.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/ott-left-toc.js?v=20260430-2' | relative_url }}"></script>
 {% endif %}
 
-
-{% if page.layout == "single" and page.categories %}
-  <!-- 左固定TOCパネル -->
-  <nav class="ott-left-toc" aria-label="記事内目次">
-    <div class="ott-left-toc__title">On this page</div>
-    <ol class="ott-left-toc__list" id="ott-left-toc-list"></ol>
-  </nav>
-
-  <script src="{{ '/assets/js/ott-left-toc.js?v=20260430-1' | relative_url }}"></script>
+{% if page.layout == "single" %}
+  <!-- Mermaid -->
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      if (window.mermaid) {
+        mermaid.initialize({
+          startOnLoad: true,
+          theme: "default",
+          securityLevel: "loose"
+        });
+      }
+    });
+  </script>
 {% endif %}

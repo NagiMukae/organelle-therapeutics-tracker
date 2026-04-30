@@ -77,12 +77,6 @@ classes: wide
   margin: 0.12rem 0;
 }
 
-/* h3は少しインデント */
-.ott-left-toc__item--h3 {
-  padding-left: 0.85rem;
-  font-size: 0.78rem;
-}
-
 /* リンク */
 .ott-left-toc__link {
   display: block;

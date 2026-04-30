@@ -6,8 +6,8 @@ date: 2026-03-05 09:00:00 +0900
 last_modified_at: 2026-03-05 09:00:00 +0900
 categories: ["Mitochondria"]
 tags: ["Mitochondrial disease", "Idebenone", "Gene therapy", "LHON", "PMD"]
-toc: true
-toc_sticky: true
+toc: false
+toc_sticky: false
 header:
   teaser: /assets/images/Mito_disease_eyecatch.png
 classes: wide

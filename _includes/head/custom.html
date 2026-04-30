@@ -27,6 +27,6 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 </script>
 
-{% if page.layout == "single" and page.categories %}
-  <link rel="stylesheet" href="{{ '/assets/css/ott-left-toc.css' | relative_url }}">
+{% if page.layout == "single" or page.layout == "home" %}
+  <link rel="stylesheet" href="{{ '/assets/css/ott-left-toc.css?v=20260430-3' | relative_url }}">
 {% endif %}

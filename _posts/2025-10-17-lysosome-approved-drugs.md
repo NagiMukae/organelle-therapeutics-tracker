@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "リソソーム標的薬：日米欧の主な承認薬とBBB輸送型ERT"
-description: "LSD（リソソーム病）の主な日米欧承認薬を整理。JCRの国内承認薬、J-Brain CargoのBBB輸送機構と臨床データの限界、未承認の後続候補を解説。"
+title: "リソソーム標的薬：日米欧の主な承認薬・作用機序・臨床成績"
+description: "ERT、SRT、薬理シャペロン、遺伝子治療の代表薬を、作用機序と臨床試験・長期追跡の結果から整理。承認薬と開発中の候補、各治療の特徴と限界を解説。"
 
 content_type: "医薬品"
 stage: "承認"
@@ -36,7 +36,7 @@ ERT（Enzyme Replacement Therapy；酵素補充療法）は、欠損・機能低
 
 ## 承認済みリソソーム標的薬（主要）
 
-各行に記した地域での承認年順に並べています。**「承認年」は世界初承認年に統一したものではなく、同じ一般名でも適応・剤形・地域で承認時期が異なります。** 適応の記載は要約であり、詳細は各地域の承認文書によります。会社名は開発・販売に関わる企業を示し、承認当時の社名を含みます。
+日米欧の主な承認薬を選択して掲載しています。各行に記した地域での承認年順に並べており、全承認薬・全適応を網羅する一覧ではありません。**「承認年」は世界初承認年に統一したものではなく、同じ一般名でも適応・剤形・地域で承認時期が異なります。** 適応の記載は要約であり、詳細は各地域の承認文書によります。会社名は開発・販売に関わる企業を示し、承認当時の社名を含みます。
 
 | 疾患/適応 | 一般名［販売名］ | 作用形式 | 会社 | 承認年（記載地域） | 投与 | メモ |
 |---|---|---|---|---|---|---|
@@ -66,6 +66,7 @@ ERT（Enzyme Replacement Therapy；酵素補充療法）は、欠損・機能低
 | ASMD（Niemann–Pick A/B） | olipudase alfa［Xenpozyme］ | ERT | Sanofi | 2022（JP→EU/米）[^24] | 点滴 | 非中枢症状に適応 |
 | Fabry病 | pegunigalsidase alfa［Elfabrio］ | ERT | Protalix/Chiesi | 2023（米/EU）[^25] | 点滴 | PEG修飾ERT |
 | Pompe病（成人） | cipaglucosidase alfa＋miglustat［Pombiliti+Opfolda］ | ERT＋酵素安定化剤 | Amicus | 2023（米/EU）[^26] | 点滴＋経口 | miglustatは補充酵素を安定化 |
+| MPS IIの神経症状（米国） | tividenofusp alfa-eknm［Avlayah］ | BBB輸送型ERT | Denali Therapeutics | 2026-03-24（米）[^avlayah-approval] | 点滴 | 体重5kg以上の小児で、高度な神経障害に至る前に開始。CSF中HS低下を根拠とする迅速承認[^avlayah-label] |
 
 表中の略語：MPS＝mucopolysaccharidosis、LAL＝lysosomal acid lipase、ASMD＝acid sphingomyelinase deficiency、MLD＝metachromatic leukodystrophy、HSC＝hematopoietic stem cell、LOPD＝late-onset Pompe disease、PEG＝polyethylene glycol。IR／DRは、それぞれimmediate release／delayed releaseを示します。
 
@@ -125,7 +126,7 @@ ERT（Enzyme Replacement Therapy；酵素補充療法）は、欠損・機能低
 
 ### ERT（Enzyme Replacement Therapy；酵素補充療法）
 
-定義：欠損または機能低下したリソソーム加水分解酵素を、<strong>組換えタンパク質（recombinant enzyme）として外因性に補充</strong>する治療です。多くは <strong>静脈内投与（IV infusion）を反復</strong>して行います。[^27]
+定義：欠損または機能低下したリソソーム加水分解酵素を、<strong>組換えタンパク質（recombinant enzyme）として外因性に補充</strong>する治療です。多くは<strong>定期的な点滴投与（IV infusion）</strong>を行います。[^27]
 
 <strong>細胞内取り込みとリソソーム送達</strong>：ERT製剤は、末梢組織で <strong>受容体介在性エンドサイトーシス（receptor-mediated endocytosis）</strong>により細胞内へ取り込まれ、エンドソーム—リソソーム経路で標的区画へ送達されます。一般に <strong>mannose-6-phosphate receptor（M6PR）経路</strong>が基盤概念として重要であり、糖鎖を介した受容体結合が細胞内取り込みに関わります。[^28] 一方、<strong>Gaucher病のβ-glucocerebrosidase（imiglucerase など）では、標的細胞であるマクロファージのendocytic carbohydrate receptor（mannose receptor）に認識される “mannose-terminated” 糖鎖が実装上の設計勘所</strong>として明示されています。[^29]
 
@@ -135,7 +136,7 @@ ERT（Enzyme Replacement Therapy；酵素補充療法）は、欠損・機能低
   通常の酵素製剤による全身投与ERTはBBBを通過しにくく、<strong>中枢症状（CNS manifestations）には効果が限定的</strong>になりやすい。[^27]  
 
 - <strong>免疫原性と投与負担</strong>：
-  定期的な点滴投与に伴う <strong>注入反応(infusion-associated reactions)</strong>、過敏反応、抗薬物抗体（anti-drug antibodies）などが課題です。[^30][^jcr-iz-label]
+  定期的な点滴投与に伴う <strong>infusion-associated reactions（点滴に伴う反応）</strong>、過敏反応、抗薬物抗体（anti-drug antibodies）などが課題です。[^30][^jcr-iz-label]
 
 <strong>例外</strong>：<strong>Brineura（cerliponase alfa）</strong>は、CLN2（TPP1欠損）に対して <strong>脳室内投与（intraventricular infusion）</strong>を採用し、CNSへ直接投与する設計がラベルに示されています。[^30]
 
@@ -149,7 +150,7 @@ ERT（Enzyme Replacement Therapy；酵素補充療法）は、欠損・機能低
 
 1. 抗体部分が脳毛細血管内皮のTfRに結合し、<strong>receptor-mediated transcytosis（受容体介在性トランスサイトーシス）</strong>を介してBBBを通過する。
 2. 末梢組織および脳実質の細胞では、<strong>cation-independent mannose-6-phosphate receptor（CI-M6PR）およびTfR</strong>を介して取り込まれ、リソソームへ運ばれる。
-3. 薬剤の酵素部分（IDS）が酵素として作用し、蓄積したGAGの分解に関わる。
+3. 薬剤の酵素部分（IDS）が、リソソーム内に蓄積したGAGを分解する。
 
 この設計では、BBB内皮を越える輸送と、標的細胞内でのリソソーム送達の両方を考える必要があります。[^jcr-iz-label][^jcr-sonoda2018]
 
@@ -165,58 +166,121 @@ ERT（Enzyme Replacement Therapy；酵素補充療法）は、欠損・機能低
 
 <strong>海外開発・承認との区別</strong>：2026年10月2日の企業発表では、idursulfaseを実薬対照とする国際第III相<strong>STARLIGHT（JR-141-GS31、NCT04573023）</strong>が継続中で、欧米等での承認取得を目指すとされています。試験は無作為化・評価者盲検であり、非対照の国内承認時試験とは設計が異なります。日本での承認に加え、企業は2026年7月のUAE承認、同年10月のKuwaitでの条件付き承認を公表しています。[^jcr-starlight][^jcr-license2026][^jcr-kuwait2026]
 
+<strong>2026年の展開：tividenofusp alfa / Avlayah</strong>：BBB輸送型ERTの別の例として、IDSと、TfR結合能を持つ改変型の抗体Fc領域（定常領域の一部）を融合したtividenofusp alfaがあります。2026年3月24日に米国でMPS IIの神経症状に対して承認されました。対象は体重5kg以上の小児で、高度な神経障害に至る前に治療を開始する患者です。CSF中HSの低下を根拠とする迅速承認であり、臨床的利益を確認する試験が求められています。[^avlayah-label][^avlayah-approval][^avlayah-trial]
+
 ---
 
 ### SRT（Substrate Reduction Therapy；基質生成抑制療法）
 
-定義：分解できずに蓄積する基質（substrate）の <strong>産生側</strong>を抑えることで、リソソームへの負荷を低下させる治療です。<strong>経口投与（oral）</strong>の選択肢になり得ます。[^31]
+定義：蓄積する基質の<strong>産生を抑え、リソソームに流入する量を減らす</strong>治療です。代表的な標的は<strong>glucosylceramide synthase（GCS；glucosylceramide合成酵素）</strong>で、glucosylceramideを起点とするglycosphingolipids（GSL；スフィンゴ糖脂質）の合成を抑制します。欠損酵素を補充するERTと異なり、基質の供給側に介入する経口小分子薬として開発されました。[^srt-zavesca-label][^srt-cerdelga-eu]
 
-<strong>Gaucher病での代表例（本記事の表に掲載）</strong>  
+#### 経口SRTの臨床導入：miglustat / Zavesca
 
-- <strong>miglustat（Zavesca）</strong>：
-  成人の Gaucher病 type 1 において、<strong>ERTが治療選択肢にならない</strong>患者を対象に <strong>単剤（monotherapy）</strong>として適応が規定されています。[^31]  
+<strong>作用機序と位置付け</strong>：miglustatはiminosugar（イミノ糖）に分類されるGCS阻害薬です。米国では2003年に、ERTが治療選択肢にならない成人の軽症～中等症Gaucher病1型に承認されました。承認につながった28例の非盲検・非対照試験では、12か月後に肝容積が平均12%、脾容積が19%減少し、酵素を補充せずに基質合成を抑える治療の臨床的な可能性を示しました。[^srt-zavesca-label][^srt-miglustat-gd]
 
-- <strong>eliglustat（Cerdelga）</strong>：
-  <strong>glucosylceramide synthase（GCS）阻害</strong>によるSRTです。適格性・投与設計に<strong>CYP2D6表現型</strong>が組み込まれています。米国ラベルではextensive、intermediate、poor metabolizersが適応に含まれる一方、ultra-rapid metabolizersでは十分な薬物濃度が得られない可能性があり、代謝型を判定できないindeterminate metabolizersでは特定の用量を推奨できないとされています。[^32][^33]
+<strong>NPCの神経症状への展開</strong>：miglustatはBBBを通過し、EUではNiemann–Pick disease type C（NPC）の進行性神経症状にも適応があります。NPCはNPC1／NPC2の異常による細胞内脂質輸送障害であり、酵素欠損型のLSD以外にもSRTが展開された例です。12歳以上29例を対象とした12か月の無作為化試験では、miglustat群20例と標準治療単独群9例を比較しました。眼球運動や嚥下などの指標で改善・維持が報告されましたが、主要評価項目の水平サッカード眼球運動速度で統計的な差が認められたのはbenzodiazepine系薬剤の使用例を除いた解析でした。[^srt-zavesca-eu][^srt-miglustat-npc]
+
+<strong>安全性</strong>：下痢、体重減少、振戦が主な課題で、末梢神経障害にも注意が必要とされています。[^srt-zavesca-label][^41]
+
+#### 治療導入とERTからの切替えを検証：eliglustat / Cerdelga
+
+<strong>作用機序と進展</strong>：eliglustatはGCSを選択的に阻害する経口薬です。2014年に米国で承認され、治療導入時の効果と、ERTで安定している患者からの切替えを、それぞれ無作為化試験で検証しました。EUでは、ERTで病状が安定した6歳以上・体重15 kg以上の小児にも適応があります。[^32][^srt-cerdelga-eu]
+
+<strong>ENGAGE試験：治療導入時の効果</strong>：未治療、または一定期間治療を受けていなかった成人40例を対象とした9か月の二重盲検・プラセボ対照第III相試験では、脾容積がeliglustat群で<strong>27.8%減少</strong>し、プラセボ群では<strong>2.3%増加</strong>しました。hemoglobin、血小板数、肝容積もプラセボ群より改善し、経口SRTによる血液学的・内臓病変の改善が示されました。[^srt-engage]
+
+<strong>ENCORE試験：ERT後の安定性維持</strong>：ERTで安定していた成人をeliglustatへの切替えとimiglucerase継続に無作為化した52週間の非盲検試験です。主要評価項目はhemoglobin、血小板数、肝脾容積を組み合わせた病状安定性で、主要解析ではeliglustat群の<strong>85%（84/99例）</strong>、imiglucerase群の<strong>94%（44/47例）</strong>が基準を満たし、事前に設定した範囲で非劣性が確認されました。経口薬への切替え後も安定性を維持できる患者がいることを示した試験です。[^srt-encore]
+
+<strong>近年の長期データ</strong>：International Collaborative Gaucher Group（ICGG）Gaucher Registryは、各国の医療機関がGaucher病患者の症状、検査値、治療内容などを継続的に記録する、国際的な患者登録データベースです。2024年には、この登録データを用いて、eliglustatで治療した成人Gaucher病1型469例の経過を解析した研究が公表されました。ERTからeliglustatへ切り替えた患者では、ヘモグロビン濃度、血小板数、肝脾容積などの指標が長期にわたって安定しており、一部の指標は最長10年間追跡されました。[^srt-registry2024]
+<strong>適用範囲と安全性</strong>：eliglustatは主として末梢病変を対象とし、中枢神経症状への効果を検証した薬ではありません。また、CYP2D6代謝型によって薬物曝露が変わり、CYP2D6／CYP3A阻害薬との相互作用による濃度上昇や心電図変化が課題です。「経口薬」であっても、代謝型と併用薬に基づく適用条件があります。[^srt-cerdelga-eu][^33]
+
+#### 近年の開発例：BBB通過型SRTのvenglustat（未承認）
+
+venglustatは、BBB通過性を持つよう開発されたGCS阻害薬です。2026年にSanofiは、ERTで末梢病変が安定した12歳以上のGaucher病3型43例を対象とする無作為化・二重盲検・実薬対照第III相<strong>LEAP2MONO（NCT05222906）</strong>で、52週の運動失調・認知機能の統合評価がERT群より改善したと公表しました（global test、p＝0.0179）。評価にはScale for Assessment and Rating of Ataxia（SARA；運動失調評価尺度）の修正版と、Repeatable Battery for the Assessment of Neuropsychological Status（RBANS；神経心理学的検査）が用いられました。[^srt-veng-results]
+
+<strong>2026年11月8日時点では申請審査中の候補</strong>であり、ここでの第III相結果は企業発表に基づきます。一方、同じ薬剤をFabry病で検討したPERIDOTとCARATは主要評価項目を達成しませんでした。BBB移行性やGCS阻害という分子特性だけから、別の疾患での臨床効果まで一般化できないことも示しています。[^srt-veng-review][^srt-veng-q2][^srt-veng-q3]
 
 ---
 
 ### 薬理シャペロン（Pharmacological chaperone）
 
-定義：特定の変異で不安定化/ミスフォールディングしたリソソーム酵素に結合し、<strong>立体構造の安定化（stabilization）とリソソームへのトラフィッキング回復</strong>を介して残存活性を引き出すアプローチです。
+定義：特定の変異によって不安定になったリソソーム酵素に結合し、<strong>立体構造の安定化とリソソームへの輸送を助ける</strong>ことで、患者自身が産生する酵素の働きを引き出す治療です。代表的な承認薬は、Fabry病に対する<strong>migalastat（Galafold）</strong>です。[^chap-pmda]
 
-<strong>例：Fabry病</strong>：<strong>migalastat（Galafold）</strong>は、<strong>in vitro試験で感受性が確認されたGLA遺伝子変異（amenable variant）を有する患者に限定して、適応が認められています。</strong>[^34][^35]
+#### 内因性の変異酵素を安定化する：migalastat / Galafold
+
+<strong>発見と治療上の進展</strong>：1999年、Fanらはα-galactosidase A（α-Gal A）の阻害剤である1-deoxygalactonojirimycin（DGJ）が、低濃度ではFabry病患者由来細胞の変異酵素の輸送・成熟を助け、酵素活性を高めることを報告しました。酵素を阻害する分子を、酵素の構造を安定化するために利用する発想が、migalastatの開発につながりました。2016年のEU承認により、反応性のある変異を持つ患者には、点滴ERTに加えて経口の治療選択肢が加わりました。[^chap-fan1999][^chap-ema]
+
+<strong>作用機序と対象</strong>：migalastatは、小胞体（endoplasmic reticulum；ER）で特定の変異型α-Gal Aの活性部位に選択的・可逆的に結合し、不安定な構造を安定化します。これにより酵素のリソソームへの輸送を促し、酸性環境と基質の存在下で酵素から解離した後、α-Gal Aによるglobotriaosylceramide（GL-3）の分解を可能にします。適応は、<strong>in vitro試験で薬剤への反応性が確認されたGLA遺伝子変異（amenable variant）</strong>を持つFabry病に限られます。酵素の産生が失われた場合など、すべての遺伝子変異に適用できる方法ではありません。[^chap-pmda][^chap-fda-review]
+
+<strong>第III相試験で示されたこと</strong>：プラセボ対照・二重盲検の<strong>FACETS（67例）</strong>では、6か月で腎間質毛細血管のGL-3蓄積が50%以上減少した患者の割合はmigalastat群41%、プラセボ群28%で、<strong>主要評価項目の群間差は有意ではありませんでした</strong>。一方、検証済みの検査でamenableと判定された患者の追加解析では、migalastatによる腎組織中GL-3蓄積の減少が認められました。この結果は、患者選定に変異酵素の反応性評価を組み込む重要性を示しています。[^chap-facets]
+
+ERT既治療の成人57例を対象とした無作為化・非盲検の<strong>ATTRACT</strong>では、migalastatへの切替とERT継続を18か月間比較しました。反応性変異を持つ解析対象例の推定糸球体ろ過量（eGFR）の年間変化は、それぞれ<strong>−0.40と−1.03 mL/min/1.73 m²</strong>で、腎機能に対する効果は同程度と評価されました。migalastat群では左室重量係数（LVMI）も投与開始前から平均6.6 g/m²減少しました。[^chap-attract][^chap-pmda]
+
+<strong>近年の長期・小児データ</strong>：2025年公表の<strong>ASPIREとその継続試験</strong>では、12歳以上18歳未満、体重45 kg以上の21例を最長48か月追跡しました。腎機能と心臓の評価指標は正常範囲内で維持され、Fabry病の生化学的指標である血漿中globotriaosylsphingosine（lyso-Gb3）も安定していました。新たな予期しない安全性所見は認められませんでしたが、この研究は単群・非盲検であり、治療しなかった場合との差を直接比較したものではありません。[^chap-aspire2025]
+
+<strong>適用上の制約と安全性</strong>：反応性変異の確認に加え、腎機能や病期の評価が必要です。日本の電子添文では成人および12歳以上の小児が対象で、重度の腎機能障害患者への投与は推奨されていません。頭痛、下痢、悪心などの副作用が記載され、2025年改訂では血管性浮腫も追記されました。[^chap-pmda]
+
+#### 補充酵素を安定化する併用療法：cipaglucosidase alfa ＋ miglustat
+
+<strong>安定化する対象の違い</strong>：Pompe病の<strong>cipaglucosidase alfa（Pombiliti）＋miglustat（Opfolda）</strong>は、2023年にEU・米国で承認された併用療法です。ここでmiglustatは、患者自身の変異酵素ではなく、<strong>点滴で投与するacid α-glucosidase（GAA）を血中で安定化するenzyme stabilizer（酵素安定化剤）</strong>として働きます。補充酵素が筋細胞に取り込まれる前の失活を抑え、細胞内に届いた酵素が蓄積glycogenを分解する設計です。miglustatをGaucher病やNPCで用いる際のSRTとは、役割が異なります。[^chap-opfolda][^chap-pombiliti]
+
+<strong>PROPELと継続試験</strong>：成人のlate-onset Pompe disease（LOPD）を対象とした無作為化・二重盲検の<strong>PROPEL</strong>では125例が割り付けられ、123例が治療を受けました。52週の6分間歩行距離の平均変化は、併用群<strong>＋20.8 m</strong>、alglucosidase alfa＋プラセボ群<strong>＋7.2 m</strong>でした。群間差は13.6 m（95%信頼区間−2.8〜29.9 m）で、<strong>主要評価項目について対照療法への優越性は示されませんでした</strong>。[^chap-propel]
+
+2024年に公表された118例の非盲検継続試験では、併用療法を継続した患者で、PROPELで得られた運動機能の改善が104週まで維持されたと報告されました。[^chap-propel-ole2024]
+
+2026年10月のWorld Muscle Societyでは、PROPEL開始時から併用療法を継続した82例の最長5年間の成績が発表されました。企業による発表内容の報告では、運動機能の維持などが示され、新たな安全性上の懸念は認められなかったとされています。[^chap-propel-wms2026]
+
+<strong>安全性</strong>：この併用療法では、補充酵素の安定化を図りながら定期的な点滴投与を続けます。点滴関連反応やanaphylaxis（アナフィラキシー）への注意も必要です。[^chap-pombiliti]
 
 ---
 
 ### 遺伝子治療（Gene therapy）
 
-定義：標的タンパク質（多くは欠損酵素）の遺伝子を導入し、<strong>酵素の持続的な産生</strong>を狙った治療です。
+定義：治療に必要な遺伝子を細胞へ導入し、<strong>欠損タンパク質の持続的な産生</strong>を目指す治療です。リソソーム病では、患者から採取した造血幹・前駆細胞を体外で改変して戻す<strong>ex vivo gene therapy</strong>が承認されています。[^gene-ema]
 
-<strong>例：異染性白質ジストロフィー(MLD)</strong>：<strong>atidarsagene autotemcel（Libmeldy）</strong>は、自家造血幹細胞（autologous CD34+ HSC）に対し ex vivo で遺伝子導入を行う細胞遺伝子治療薬として、EUでLibmeldy、米国でLenmeldyとして承認されています（対象となる発症型・病期は承認文書に規定）。本治療においては、発症・進行前の適切な投与タイミングの設定と、長期的な経過観察が必要です。[^36][^37][^lenmeldy]
+#### 自家造血幹細胞を酵素の供給源にする：atidarsagene autotemcel / Libmeldy・Lenmeldy
+
+<strong>承認上の位置付け</strong>：atidarsagene autotemcel（arsa-cel）は、arylsulfatase A（ARSA）欠損によるmetachromatic leukodystrophy（MLD；異染性白質ジストロフィー）に対する細胞遺伝子治療薬です。EUでは2020年にLibmeldy、米国では2024年にLenmeldyとして承認されました。対象は発症前のlate-infantile型（後期乳児型）・early-juvenile型（早期若年型）、または発症早期のearly-juvenile型の小児であり、病期が進行したMLD全般への承認ではありません。EUでは発症早期例について、自立歩行が可能で認知機能低下が始まる前という条件が示されています。[^gene-ema][^gene-fda-approval]
+
+<strong>遺伝子導入からリソソームまで</strong>：患者自身のCD34+ hematopoietic stem and progenitor cells（HSPCs；造血幹・前駆細胞）を採取し、lentiviral vectorを用いて機能的なARSA遺伝子を体外で導入します。Busulfanによる<strong>myeloablative conditioning（骨髄破壊的前処置）</strong>の後に細胞を投与すると、改変細胞が骨髄に生着し、その子孫がARSAを産生します。一部の細胞は中枢・末梢神経系のmacrophage系細胞として定着し、分泌したARSAが周囲の細胞に取り込まれて、リソソーム内のsulfatidesの分解に働きます。この<strong>cross-correction（細胞間での酵素補完）</strong>により、遺伝子を直接導入していない細胞にも酵素を供給する設計です。[^gene-eu-mechanism]
+
+酵素タンパク質の定期投与に対し、arsa-celでは生着した細胞を長期的な酵素供給源とすることが技術上の特徴です。投与製剤に含まれるのは遺伝子改変した自家細胞であり、lentiviral vectorそのものを患者へ直接投与する方法とは異なります。[^gene-eu-mechanism]
+
+<strong>承認につながった臨床成績</strong>：2022年のFumagalliらの報告では、非無作為化・非盲検の第I/II相試験と拡大アクセスで治療した早期発症MLDの29例を、未治療の自然歴31例と比較しました。ARSA活性の持続的な回復に加え、治療2年後のgross motor function measure（GMFM；粗大運動機能尺度）は自然歴群より良好で、多くの患者で運動技能の獲得または維持が報告されました。効果は、とくに発症前に投与した患者で明瞭でした。[^gene-fumagalli2022]
+
+<strong>2025年に報告された長期追跡</strong>：その後の報告は治療39例と自然歴49例を比較し、追跡期間中央値は<strong>6.76年、最長12.19年</strong>でした。主要評価項目は、出生から重度の運動障害（移動能力と支えなしで座る能力の喪失）または死亡までの期間を指す<strong>severe motor impairment-free survival（重度運動障害のない生存）</strong>です。6歳時点の推定割合は、発症前late-infantile型の治療群で<strong>100%</strong>、未治療late-infantile型で<strong>0%</strong>でした。Early-juvenile型では、10歳時点で発症前治療群<strong>87.5%</strong>、発症早期治療群<strong>80.0%</strong>、未治療群<strong>11.2%</strong>と報告されました。[^gene-fumagalli2025]
+
+<strong>安全性と治療時期</strong>：自家細胞を用いても、細胞採取、前処置、血球回復までの管理を伴う治療です。米国ラベルではfebrile neutropenia（発熱性好中球減少症）、感染症、肝veno-occlusive disease（肝静脈閉塞性疾患）などへの注意が示されています。Lentiviral vectorのゲノム挿入に伴う発がんリスクについても長期監視が必要とされます。[^gene-us-label][^gene-ema]
+
+#### 未承認の展開例：Cystinosisに対するCTNS-RD-04
+
+2026年には、リソソーム膜のcystine transporterである<strong>cystinosin</strong>の遺伝子CTNSを自家HSPCsへ導入する、第I/II相・非盲検試験の結果が報告されました。20〜46歳の6例を29〜63か月追跡し、投与24か月後の白血球中cystine濃度は全例で投与前より<strong>25〜86%低下</strong>しました。欠損酵素に加えて、リソソーム膜輸送体を標的とする細胞遺伝子治療への展開例です。一方、少数例の初期試験であり、腎機能低下や長期的な全身合併症をどの程度抑制できるかは、今後の評価が必要です。[^gene-cystinosis2026]
 
 ---
 
-
-
 ## モダリティ開発のマイルストーン
 
-1. <strong>1991：Ceredase（alglucerase）</strong> — Gaucher病 type 1 で <strong>placenta由来</strong>の初期ERTがFDAで承認（のちにrecombinantへ置換）。[^38]  
-2. <strong>1994：Cerezyme（imiglucerase）</strong> — Gaucher病 type 1 で <strong>recombinant ERT</strong>がFDAで初回承認（以後の標準ERTの基盤）。[^39][^29]  
-3. <strong>2003：Zavesca（miglustat）</strong> — Gaucher病 type 1 に <strong>経口SRT</strong>が臨床導入（ERT不適例を想定）。[^31]  
-4. <strong>2014：Cerdelga（eliglustat）</strong> — <strong>CYP2D6表現型に基づく適格性/投与設計</strong>を伴うSRTがFDAで承認。[^32]  
-5. <strong>2017：Brineura（cerliponase alfa）</strong> — <strong>脳室内ERT</strong>としてCNSへ直接投与する設計がFDAで承認。[^30]  
-6. <strong>2021-03-23：IZCARGO（pabinafusp alfa）</strong> — TfRを介したBBB輸送機能を組み込んだERTとして、日本でMPS IIに承認。[^jcr-iz-label][^jcr-iz-if]
-7. <strong>2023：Pombiliti（cipaglucosidase alfa-atga）＋ Opfolda（miglustat）</strong> — Pompe病（LOPD）で<strong>ERT＋補充酵素の安定化剤</strong>の併用がFDAで承認。[^40][^41]
+1. <strong>1991-04-05：Ceredase（alglucerase）</strong> — 胎盤由来酵素による初期ERTが、Gaucher病1型に対してFDAで承認。[^38]
+2. <strong>1994-05-23：Cerezyme（imiglucerase）</strong> — 組換え酵素によるERTがFDAで承認。[^39][^29]
+3. <strong>2003-07-31：Zavesca（miglustat）</strong> — ERTが選択肢にならないGaucher病1型に対し、経口SRTがFDAで承認。[^7][^31]
+4. <strong>2014-08-19：Cerdelga（eliglustat）</strong> — 治療導入時とERTからの切替えを検証した経口SRTがFDAで承認。[^32][^srt-engage][^srt-encore]
+5. <strong>2016-05-25：Galafold（migalastat）</strong> — 反応性のあるGLA変異を対象とする薬理シャペロンがEUで承認。[^chap-ema]
+6. <strong>2017-04-27：Brineura（cerliponase alfa）</strong> — CLN2に対する脳室内ERTがFDAで承認。[^19][^30]
+7. <strong>2020-12-17：Libmeldy（atidarsagene autotemcel）</strong> — 自家HSPCsを改変するex vivo遺伝子治療が早期発症MLDに対してEUで承認。米国では2024-03-18にLenmeldyとして承認。[^gene-ema][^gene-fda-approval]
+8. <strong>2021-03-23：IZCARGO（pabinafusp alfa）</strong> — TfRを介したBBB輸送機能を組み込んだERTとして、日本でMPS IIに承認。[^jcr-iz-label][^jcr-iz-if]
+9. <strong>2023：Pombiliti（cipaglucosidase alfa）＋Opfolda（miglustat）</strong> — 補充酵素と酵素安定化剤の併用が、Pompe病に対してEU・米国で承認。[^26][^40][^41]
+10. <strong>2026-03-24：Avlayah（tividenofusp alfa-eknm）</strong> — MPS IIの神経症状に対するBBB輸送型ERTがFDAで迅速承認。[^avlayah-approval][^avlayah-label]
 
 ```mermaid
 flowchart TB
-  A["1991 FDA: Ceredase (alglucerase) Gaucher type 1"] --> B["1994 FDA: Cerezyme (imiglucerase) Gaucher type 1"]
-  B --> C["2003 FDA: Zavesca (miglustat) Gaucher type 1 (ERT不適)"]
-  C --> D["2014 FDA: Cerdelga (eliglustat) Gaucher type 1 (CYP2D6制約)"]
-  D --> E["2017 FDA: Brineura (cerliponase alfa) CLN2 脳室内ERT"]
-  E --> F["2021-03-23 日本: IZCARGO (pabinafusp alfa) MPS II BBB輸送型ERT"]
-  F --> G["2023 FDA: Pombiliti (cipaglucosidase alfa-atga) + Opfolda (miglustat) Pompe (LOPD)"]
+  A["1991-04-05 FDA: Ceredase 胎盤由来ERT"] --> B["1994-05-23 FDA: Cerezyme 組換えERT"]
+  B --> C["2003-07-31 FDA: Zavesca 経口SRT"]
+  C --> D["2014-08-19 FDA: Cerdelga 経口SRT"]
+  D --> E["2016-05-25 EU: Galafold 薬理シャペロン"]
+  E --> F["2017-04-27 FDA: Brineura 脳室内ERT"]
+  F --> G["2020-12-17 EU: Libmeldy 自家HSPC遺伝子治療"]
+  G --> H["2021-03-23 日本: IZCARGO BBB輸送型ERT"]
+  H --> I["2023 EU・米国: Pombiliti + Opfolda ERT + 酵素安定化剤"]
+  I --> J["2026-03-24 FDA: Avlayah BBB輸送型ERT・迅速承認"]
 ```
 
 [^27]: PMDA. 「イズカーゴ点滴静注用10mg」審査報告書、2021年。既存の静脈内ERTのBBB移行上の課題とJR-141の評価。[審査報告書](https://www.pmda.go.jp/drugs/2021/P20210402002/530210000_30300AMX00260_A100_1.pdf)。
@@ -226,10 +290,6 @@ flowchart TB
 [^31]: FDA. Zavesca (miglustat) label（GD1でERT不適例のmonotherapy等）. [FDA Access Data](https://www.accessdata.fda.gov/drugsatfda_docs/label/2020/021348s016lbl.pdf)
 [^32]: FDA. Drug Approval Package: Cerdelga (eliglustat) – Approval Date 8/19/2014. [FDA Access Data](https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/205494Orig1s000TOC.cfm)
 [^33]: FDA. Cerdelga（eliglustat）label、2014年。中間代謝型（intermediate）と判定不能（indeterminate）は異なり、中間代謝型も適応に含まれる。 [FDA Access Data](https://www.accessdata.fda.gov/drugsatfda_docs/label/2014/205494orig1s000lbl.pdf)
-[^34]: FDA. Galafold (migalastat) label（amenable GLA variant を適応条件として明示）. [FDA Access Data](https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/208623s008lbl.pdf)
-[^35]: EMA. Galafold EPAR（EUでの承認とamenable mutationについての概説）. [European Medicines Agency](https://www.ema.europa.eu/en/medicines/human/EPAR/galafold)
-[^36]: EMA. Libmeldy EPAR（EUでのマーケティングオーソリゼーション日：17 Dec 2020）. [European Medicines Agency](https://www.ema.europa.eu/en/medicines/human/EPAR/libmeldy)
-[^37]: EMA. Libmeldy EPAR product information（治療内容：autologous CD34+ HSC, ex vivo gene transfer 等）. [European Medicines Agency](https://www.ema.europa.eu/en/documents/product-information/libmeldy-epar-product-information_en.pdf)
 [^38]: FDA Orphan Drug Designations and Approvals: Ceredase (alglucerase) — Marketing Approval Date 04/05/1991. [FDA Access Data](https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=5585)
 [^39]: FDA Purple Book: CEREZYME (imiglucerase) BLA 020367 — Original Approval Date May 23, 1994. [FDA Purple Book](https://purplebooksearch.fda.gov/productdetails?query=020367)
 [^40]: FDA. Pombiliti (cipaglucosidase alfa-atga) label（Initial U.S. Approval: 2023）. [FDA Access Data](https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/761204s000lbl.pdf)
@@ -251,13 +311,44 @@ flowchart TB
 [^jcr-starlight]: ClinicalTrials.gov. STARLIGHT、JR-141-GS31、[NCT04573023](https://clinicaltrials.gov/study/NCT04573023)。試験設計は[EU公式試験登録・EudraCT 2020-003200-14](https://www.clinicaltrialsregister.eu/ctr-search/trial/2020-003200-14/FR)および[UCSF参加施設情報](https://clinicaltrials.ucsf.edu/trial/NCT04573023)も参照。旧EU登録は改訂前の予定症例数を含む。
 [^jcr-license2026]: JCR Pharmaceuticals. 「ハンター症候群の新規治療剤JR-141 欧米等における商業化に関するライセンス契約締結のお知らせ」、2026年10月2日。[企業発表](https://www.jcrpharm.co.jp/news/002508.html)。
 [^jcr-kuwait2026]: JCR Pharmaceuticals. 「血液脳関門通過型ハンター症候群治療酵素製剤『イズカーゴ』クウェート国での製造販売承認取得のお知らせ」、2026年10月14日。UAEでの2026年7月承認にも言及。[企業発表](https://www.jcrpharm.co.jp/news/002512.html)。
-[^jcr-ir20261029]: JCR Pharmaceuticals. 「2027年3月期 第2四半期（中間期）決算短信」、2026年10月29日。添付資料3頁「ライソゾーム病治療薬」にJR-171の第I/II相・継続試験完了を記載。添付資料12頁に各候補のパイプラインを掲載。[決算短信](https://www.jcrpharm.co.jp/assets/uploads/docs/FY2026-Q2_Financial_Report_JP.pdf)。
-[^jcr-briefing20261029]: JCR Pharmaceuticals. 「2027年3月期 第2四半期 決算説明会資料」、2026年10月29日。JR-441／JR-446の国内開発方針およびJR-471関連自然歴研究。[説明会資料](https://www.jcrpharm.co.jp/assets/uploads/docs/FY2026-Q2_Results_Briefing_Session_JP.pdf)。自然歴研究：[NCT07615400](https://clinicaltrials.gov/study/NCT07615400)。
-[^jcr-jr441]: EMA. posnafusp alfaの[orphan designation（EU/3/21/2560）](https://www.ema.europa.eu/en/medicines/human/orphan-designations/eu-3-21-2560)。試験登録：[NCT06095388](https://clinicaltrials.gov/study/NCT06095388)、[EU公式旧登録・EudraCT 2022-002314-17](https://www.clinicaltrialsregister.eu/ctr-search/trial/2022-002314-17/DE)、国内[jRCT2071240053](https://jrct.mhlw.go.jp/latest-detail/jRCT2071240053)（国内第I相）。Orphan designationは製造販売承認ではない。
-[^jcr-jr446]: JCR Pharmaceuticals. JR-446グローバル第I/II相試験の初回投与に関する発表、2026年9月11日。[企業発表](https://www.jcrpharm.co.jp/news/002496.html)。国内登録：[jRCT2071240043](https://jrct.mhlw.go.jp/latest-detail/jRCT2071240043)（国内第I/II相）／[NCT06488924](https://clinicaltrials.gov/study/NCT06488924)。グローバル登録：[NCT07640984](https://clinicaltrials.gov/study/NCT07640984)。
-[^jcr-jr479]: JCR Pharmaceuticals. JR-479に関するMEDIPAL HOLDINGSとの海外実施許諾および国内共同開発・商業化契約、2025年8月29日。[企業発表](https://www.jcrpharm.co.jp/assets/uploads/docs/ffe154486444d1cb880ffaadff12c12903826a18.pdf)。前臨床段階は2026年10月29日決算短信のパイプラインを参照。
-[^jcr-next-platform]: JCR Pharmaceuticals. 中期経営計画「Reach Beyond, Together」、基盤技術研究の方針。[中期経営計画](https://www.jcrpharm.co.jp/ir/management/plan/)（2026年11月8日確認）。
-[^jcr-just-aav]: JCR Pharmaceuticals. [JUST-AAV技術説明](https://www.jcrpharm.co.jp/innovation/just-aav/)、[Alexionとの技術ライセンスに関する発表](https://www.jcrpharm.co.jp/news/001078.html)（2025年7月8日）。
 [^lenmeldy]: FDA. Lenmeldy（atidarsagene autotemcel）製品・承認情報。米国初回承認日2024年3月18日。[FDA製品ページ](https://www.fda.gov/vaccines-blood-biologics/cellular-gene-therapy-products/lenmeldy)。
 [^nexviadyme-eu]: EMA. Nexviadyme（avalglucosidase alfa）EPAR。EU承認は2022年。[EPAR](https://www.ema.europa.eu/en/medicines/human/EPAR/nexviadyme)。
 [^cerezyme2026]: FDA. Cerezyme（imiglucerase）label、2026年1月改訂。米国での適応はGaucher病1型または3型の非中枢神経症状。[ラベル](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/020367s123lbl.pdf)。
+[^avlayah-approval]: FDA. Avlayah（tividenofusp alfa-eknm）、BLA 761485。2026年3月24日迅速承認。[承認書](https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/761485Orig1s000ltr.pdf)、[FDA Purple Book](https://www.accessdata.fda.gov/scripts/purplebooksearch/index.cfm?blaNo=761485&event=productdetails)。
+[^avlayah-label]: FDA. Avlayah（tividenofusp alfa-eknm）prescribing information、2026年3月。適応、作用機序、承認根拠と確認試験。[ラベル](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761485s000lbl.pdf)。
+[^avlayah-trial]: Muenzer J, et al. An Intravenous Brain-Penetrant Enzyme Therapy for Mucopolysaccharidosis II. *New England Journal of Medicine*. 2026;394:39–50. オンライン公表2025年12月29日。[doi:10.1056/NEJMoa2508681](https://doi.org/10.1056/NEJMoa2508681)。
+
+[^srt-zavesca-label]: FDA. Zavesca（miglustat）prescribing information、2020年12月改訂。適応、作用機序、承認時試験、安全性。[ラベル](https://www.accessdata.fda.gov/drugsatfda_docs/label/2020/021348s016lbl.pdf)。
+[^srt-zavesca-eu]: EMA. Zavesca EPAR。Gaucher病1型およびNPCの適応と作用機序。[EPAR](https://www.ema.europa.eu/en/medicines/human/EPAR/zavesca)（2026年11月8日確認）。
+[^srt-miglustat-gd]: Cox T, et al. Novel oral treatment of Gaucher's disease with N-butyldeoxynojirimycin (OGT 918) to decrease substrate biosynthesis. *Lancet*. 2000;355:1481–1485. [doi:10.1016/S0140-6736(00)02161-9](https://doi.org/10.1016/S0140-6736(00)02161-9)。
+[^srt-miglustat-npc]: Patterson MC, et al. Miglustat for treatment of Niemann-Pick C disease: a randomised controlled study. *Lancet Neurology*. 2007;6:765–772. [doi:10.1016/S1474-4422(07)70194-1](https://doi.org/10.1016/S1474-4422(07)70194-1)、[PubMed](https://pubmed.ncbi.nlm.nih.gov/17689147/)。
+[^srt-cerdelga-eu]: EMA. Cerdelga EPARおよびproduct information、2026年7月更新。GCS阻害、成人・小児適応、薬物相互作用。[EPAR](https://www.ema.europa.eu/en/medicines/human/EPAR/cerdelga)、[product information](https://www.ema.europa.eu/en/documents/product-information/cerdelga-epar-product-information_en.pdf)。
+[^srt-engage]: Mistry PK, et al. Effect of oral eliglustat on splenomegaly in patients with Gaucher disease type 1: the ENGAGE randomized clinical trial. *JAMA*. 2015;313:695–706. [doi:10.1001/jama.2015.459](https://doi.org/10.1001/jama.2015.459)、[原著](https://jamanetwork.com/journals/jama/fullarticle/2110969)。
+[^srt-encore]: Cox TM, et al. Eliglustat compared with imiglucerase in patients with Gaucher's disease type 1 stabilised on enzyme replacement therapy: a phase 3, randomised, open-label, non-inferiority trial. *Lancet*. 2015;385:2355–2362. [doi:10.1016/S0140-6736(14)61841-9](https://doi.org/10.1016/S0140-6736(14)61841-9)、[PubMed](https://pubmed.ncbi.nlm.nih.gov/25819691/)。
+[^srt-registry2024]: Mistry PK, et al. Long-term effectiveness of eliglustat treatment: A real-world analysis from the International Collaborative Gaucher Group Gaucher Registry. *American Journal of Hematology*. 2024;99:1500–1510. [doi:10.1002/ajh.27347](https://doi.org/10.1002/ajh.27347)、[PubMed](https://pubmed.ncbi.nlm.nih.gov/38686876/)。
+[^srt-veng-results]: Sanofi. Venglustat LEAP2MONO第III相結果に関する発表、2026年2月2日。[企業発表](https://www.sanofi.com/en/media-room/press-releases/2026/2026-02-02-06-00-00-3229947)。試験登録：[NCT05222906](https://clinicaltrials.gov/study/NCT05222906)。
+[^srt-veng-review]: Sanofi. VenglustatのGaucher病3型に対する米国priority review受理、2026年5月28日。FDA判断目標日は2026年11月25日。[企業発表](https://www.sanofi.com/en/media-room/press-releases/2026/2026-05-28-05-00-00-3302498)。
+[^srt-veng-q2]: Sanofi. Q2 2026 results、2026年7月30日。PERIDOTに加えてCARATも主要評価項目未達と公表。[SEC提出資料](https://www.sec.gov/Archives/edgar/data/1121404/000112140426000008/pressreleaseq22026english.htm)。
+[^srt-veng-q3]: Sanofi. Q3 2026 results、2026年10月30日。venglustatの米国規制判断を2026年第4四半期、EU・日本を2027年の見通しとして掲載。[SEC提出資料](https://www.sec.gov/Archives/edgar/data/1121404/000112140426000009/pressreleaseq32026english.htm)。
+
+[^chap-fan1999]: Fan JQ, et al. Accelerated transport and maturation of lysosomal α-galactosidase A in Fabry lymphoblasts by an enzyme inhibitor. *Nature Medicine*. 1999;5:112–115. [doi:10.1038/4801](https://doi.org/10.1038/4801)。
+[^chap-ema]: EMA. Galafold（migalastat）EPAR。EU承認日2016年5月25日。[EPAR](https://www.ema.europa.eu/en/medicines/human/EPAR/galafold)。
+[^chap-pmda]: PMDA. 「ガラフォルドカプセル123mg」電子添文、2025年3月改訂（第4版）。反応性変異、対象年齢、腎機能障害、臨床成績、作用機序、副作用。[電子添文](https://www.pmda.go.jp/PmdaSearch/iyakuDetail/112604_3999045M1028_1_06)（2026年11月8日確認）。
+[^chap-fda-review]: FDA. Galafold（migalastat）NDA 208623 Multi-Disciplinary Review and Evaluation、2018年。ERでの安定化とリソソーム内での解離。[審査資料](https://www.accessdata.fda.gov/drugsatfda_docs/nda/2018/208623Orig1s000MultidisciplineR.pdf)。
+[^chap-facets]: Germain DP, et al. Treatment of Fabry’s Disease with the Pharmacologic Chaperone Migalastat. *New England Journal of Medicine*. 2016;375:545–555. [doi:10.1056/NEJMoa1510198](https://doi.org/10.1056/NEJMoa1510198)。FACETS：[NCT00925301](https://clinicaltrials.gov/study/NCT00925301)。
+[^chap-attract]: Hughes DA, et al. ATTRACT試験の18か月成績。*Journal of Medical Genetics*. 2017;54:288–296. [doi:10.1136/jmedgenet-2016-104178](https://doi.org/10.1136/jmedgenet-2016-104178)、[PubMed](https://pubmed.ncbi.nlm.nih.gov/27834756/)。試験登録：[NCT01218659](https://clinicaltrials.gov/study/NCT01218659)。
+[^chap-aspire2025]: Ramaswami U, et al. ASPIREと非盲検継続試験の安全性・有効性成績。*Molecular Genetics and Metabolism*. 2025;145:109102. [doi:10.1016/j.ymgme.2025.109102](https://doi.org/10.1016/j.ymgme.2025.109102)、[PubMed](https://pubmed.ncbi.nlm.nih.gov/40215726/)。試験登録：[NCT03500094](https://clinicaltrials.gov/study/NCT03500094)、[NCT04049760](https://clinicaltrials.gov/study/NCT04049760)。
+[^chap-opfolda]: FDA. Opfolda（miglustat）label、2023年。Pompe病で補充酵素を安定化する作用。[ラベル](https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/215211s000lbl.pdf)。
+[^chap-pombiliti]: EMA. Pombiliti（cipaglucosidase alfa）EPAR。[EPAR](https://www.ema.europa.eu/en/medicines/human/EPAR/pombiliti)。FDA. Pombiliti label、2023年。[ラベル](https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/761204s000lbl.pdf)。
+[^chap-propel]: Schoser B, et al. PROPEL試験。*Lancet Neurology*. 2021;20:1027–1037. [doi:10.1016/S1474-4422(21)00331-8](https://doi.org/10.1016/S1474-4422(21)00331-8)、[PubMed](https://pubmed.ncbi.nlm.nih.gov/34800400/)。試験登録：[NCT03729362](https://clinicaltrials.gov/study/NCT03729362)。
+[^chap-propel-ole2024]: Schoser B, et al. ATB200-07非盲検継続試験の104週成績。*Journal of Neurology*. 2024;271:2810–2823. [doi:10.1007/s00415-024-12236-0](https://doi.org/10.1007/s00415-024-12236-0)、[原著全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC11055775/)。試験登録：[NCT04138277](https://clinicaltrials.gov/study/NCT04138277)。
+
+[^gene-ema]: EMA. Libmeldy（atidarsagene autotemcel）EPAR。承認日2020年12月17日、対象となる病型・病期。[EPAR](https://www.ema.europa.eu/en/medicines/human/EPAR/libmeldy)。
+[^gene-fda-approval]: FDA. Lenmeldy（atidarsagene autotemcel）製品・承認情報。米国初回承認日2024年3月18日。[FDA製品ページ](https://www.fda.gov/vaccines-blood-biologics/cellular-gene-therapy-products/lenmeldy)。
+[^gene-eu-mechanism]: European Commission. Libmeldy, Summary of Product Characteristics, sections 2、4.2、5.1。自家HSPCsへのex vivo遺伝子導入、busulfan前処置、生着およびcross-correction。[EU承認文書](https://ec.europa.eu/health/documents/community-register/2022/20220127154659/anx_154659_en.pdf)。
+[^gene-fumagalli2022]: Fumagalli F, et al. Lentiviral haematopoietic stem-cell gene therapy for early-onset metachromatic leukodystrophy: long-term results from a non-randomised, open-label, phase 1/2 trial and expanded access. *Lancet*. 2022;399:372–383. [doi:10.1016/S0140-6736(21)02017-1](https://doi.org/10.1016/S0140-6736(21)02017-1)、[PubMed](https://pubmed.ncbi.nlm.nih.gov/35065785/)。試験登録：[NCT01560182](https://clinicaltrials.gov/study/NCT01560182)。
+[^gene-fumagalli2025]: Fumagalli F, et al. Long-Term Effects of Atidarsagene Autotemcel for Metachromatic Leukodystrophy. *N Engl J Med*. 2025;392:1609–1620. オンライン公表2025年4月23日。[doi:10.1056/NEJMoa2405727](https://doi.org/10.1056/NEJMoa2405727)、[PubMed](https://pubmed.ncbi.nlm.nih.gov/40267426/)。試験登録：[NCT01560182](https://clinicaltrials.gov/study/NCT01560182)、[NCT03392987](https://clinicaltrials.gov/study/NCT03392987)。
+[^gene-us-label]: Orchard Therapeutics. Lenmeldy US Prescribing Information、2026年9月改訂。前処置を含む安全性、insertional oncogenesisと長期監視。[DailyMed掲載ラベル](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b3e307a7-561b-43b6-a784-9cb1dcfc5196)。
+[^gene-cystinosis2026]: Barshop BA, et al. Hematopoietic Stem-Cell Gene Therapy for Cystinosis. *N Engl J Med*. 2026;394:753–762. オンライン公表2026年2月18日。[doi:10.1056/NEJMoa2506431](https://doi.org/10.1056/NEJMoa2506431)、[PubMed](https://pubmed.ncbi.nlm.nih.gov/41707137/)。試験登録：[NCT03897361](https://clinicaltrials.gov/study/NCT03897361)。
+
+[^chap-propel-wms2026]: BioMarin. World Muscle Societyで発表したPombiliti＋OpfoldaのPROPEL継続試験・最長5年成績の報告、2026年10月2日。学会発表を紹介した企業資料。[発表内容の報告](https://www.biomarin.com/news/press-releases/biomarin-announces-five-year-phase-3-data-for-pombiliti-cipaglucosidase-alfa-atga-opfolda-miglustat-at-world-muscle-society-annual-congress/)。

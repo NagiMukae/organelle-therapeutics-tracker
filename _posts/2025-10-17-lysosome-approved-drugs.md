@@ -19,8 +19,6 @@ last_modified_at: 2026-11-08 00:00:00 +0900
 ![eyecatch_lysosome]({{ "/assets/images/eyecatch_lysosome.png" | relative_url }})
 
 
-> **対象地域・更新基準**：日本・米国・EUのいずれかで承認された主なリソソーム病治療薬を選択的に掲載しています。全承認薬・全適応を網羅する一覧ではありません。今回はJCR Pharmaceuticalsの国内承認薬とBBB輸送型ERTを追記し、関連する開発状況を**2026年11月8日**までの一次情報で確認しました。承認地域と未承認の開発候補を区別し、企業の開発計画は有効性の確立や承認を意味するものとして扱いません。
-
 <div class="page-badges">
   {% if page.content_type %}<span class="badge badge--type">{{ page.content_type }}</span>{% endif %}
   {% if page.stage %}<span class="badge badge--stage">{{ page.stage }}</span>{% endif %}
@@ -116,9 +114,9 @@ ERT（Enzyme Replacement Therapy；酵素補充療法）は、欠損・機能低
 
 ### （表内の例外）加水分解酵素欠損ではない lysosome-related disorders
 
-- NPC（Niemann–Pick C）：主にNPC1/NPC2（脂質輸送・トラフィッキング異常）で、加水分解酵素欠損ではない
+- NPC（Niemann–Pick C）：主にNPC1/NPC2（脂質輸送・トラフィッキング異常）
 
-- Cystinosis：CTNS（cystinosin：リソソーム膜輸送体）欠損で、加水分解酵素欠損ではない
+- Cystinosis：CTNS（cystinosin：リソソーム膜輸送体）欠損
 
 
 ## モダリティ（治療アプローチ）
@@ -129,7 +127,7 @@ ERT（Enzyme Replacement Therapy；酵素補充療法）は、欠損・機能低
 
 定義：欠損または機能低下したリソソーム加水分解酵素を、<strong>組換えタンパク質（recombinant enzyme）として外因性に補充</strong>する治療です。多くは <strong>静脈内投与（IV infusion）を反復</strong>して行います。[^27]
 
-<strong>細胞内取り込みとリソソーム送達の要点</strong>：ERT製剤は、末梢組織で <strong>受容体介在性エンドサイトーシス（receptor-mediated endocytosis）</strong>により細胞内へ取り込まれ、エンドソーム—リソソーム経路で標的区画へ送達されます。一般に <strong>mannose-6-phosphate receptor（M6PR）経路</strong>が基盤概念として重要であり、糖鎖を介した受容体結合が細胞内取り込みに関わります。[^28] 一方、<strong>Gaucher病のβ-glucocerebrosidase（imiglucerase など）では、標的細胞であるマクロファージのendocytic carbohydrate receptor（mannose receptor）に認識される “mannose-terminated” 糖鎖が実装上の設計勘所</strong>として明示されています。[^29]
+<strong>細胞内取り込みとリソソーム送達</strong>：ERT製剤は、末梢組織で <strong>受容体介在性エンドサイトーシス（receptor-mediated endocytosis）</strong>により細胞内へ取り込まれ、エンドソーム—リソソーム経路で標的区画へ送達されます。一般に <strong>mannose-6-phosphate receptor（M6PR）経路</strong>が基盤概念として重要であり、糖鎖を介した受容体結合が細胞内取り込みに関わります。[^28] 一方、<strong>Gaucher病のβ-glucocerebrosidase（imiglucerase など）では、標的細胞であるマクロファージのendocytic carbohydrate receptor（mannose receptor）に認識される “mannose-terminated” 糖鎖が実装上の設計勘所</strong>として明示されています。[^29]
 
 <strong>限界</strong>  
 
@@ -137,7 +135,7 @@ ERT（Enzyme Replacement Therapy；酵素補充療法）は、欠損・機能低
   通常の酵素製剤による全身投与ERTはBBBを通過しにくく、<strong>中枢症状（CNS manifestations）には効果が限定的</strong>になりやすい。[^27]  
 
 - <strong>免疫原性と投与負担</strong>：
-  反復IV投与に伴う <strong>注入反応(infusion-associated reactions)</strong>、過敏反応、抗薬物抗体（anti-drug antibodies）などが課題です（詳細は各製品ラベル参照）。[^30][^jcr-iz-label]
+  定期的な点滴投与に伴う <strong>注入反応(infusion-associated reactions)</strong>、過敏反応、抗薬物抗体（anti-drug antibodies）などが課題です。[^30][^jcr-iz-label]
 
 <strong>例外</strong>：<strong>Brineura（cerliponase alfa）</strong>は、CLN2（TPP1欠損）に対して <strong>脳室内投与（intraventricular infusion）</strong>を採用し、CNSへ直接投与する設計がラベルに示されています。[^30]
 
@@ -145,31 +143,27 @@ ERT（Enzyme Replacement Therapy；酵素補充療法）は、欠損・機能低
 
 <strong>承認上の位置付け</strong>：pabinafusp alfaは、ヒト化抗ヒトtransferrin receptor 1（TfR）抗体とhuman iduronate-2-sulfatase（IDS）を融合した組換えタンパク質です。日本では2021年3月23日にMPS IIを効能・効果として承認され、同年5月19日に発売されました。電子添文には、中枢神経症状の改善または進行抑制が必要と考えられる患者で投与を検討する旨が記されています。[^jcr-iz-label][^jcr-iz-if]
 
-<strong>分子設計と非臨床での検証</strong>：J-Brain Cargoは、TfRを利用するBBB輸送技術です。2018年の原著では、human TfR knock-in mice、MPS II model mice、monkeysで融合タンパク質の脳内分布を調べ、疾患モデルマウスでは脳内glycosaminoglycans（GAG）の減少を報告しました。これは非臨床のproof of conceptに当たり、ヒトでの神経認知機能への効果は臨床データから別途評価する必要があります。[^jcr-sonoda2018]
+<strong>分子設計と非臨床での検証</strong>：J-Brain Cargoは、TfRを利用するBBB輸送技術です。2018年の原著では、human TfR knock-in mice、MPS II model mice、monkeysで融合タンパク質の脳内分布を調べ、疾患モデルマウスでは脳内glycosaminoglycans（GAG）の減少を報告しました。これは非臨床のproof of conceptにあたり、ヒトでの神経認知機能への効果は臨床データから別途評価する必要があります。[^jcr-sonoda2018]
 
-<strong>BBB通過からリソソームまで</strong>：電子添文の作用機序は、以下の過程で整理できます。[^jcr-iz-label]
+<strong>BBB通過からリソソームまで</strong>：電子添文の作用機序には、以下の過程が示されています。[^jcr-iz-label]
 
 1. 抗体部分が脳毛細血管内皮のTfRに結合し、<strong>receptor-mediated transcytosis（受容体介在性トランスサイトーシス）</strong>を介してBBBを通過する。
 2. 末梢組織および脳実質の細胞では、<strong>cation-independent mannose-6-phosphate receptor（CI-M6PR）およびTfR</strong>を介して取り込まれ、リソソームへ運ばれる。
-3. IDS部分が酵素として作用し、蓄積したGAGの分解に関わる。
+3. 薬剤の酵素部分（IDS）が酵素として作用し、蓄積したGAGの分解に関わる。
 
-この設計では、BBB内皮を越える輸送と、標的細胞内でのリソソーム送達の両方を考える必要があります。TfR依存的な輸送は「BBBを開く」という機序ではありません。[^jcr-iz-label][^jcr-sonoda2018]
+この設計では、BBB内皮を越える輸送と、標的細胞内でのリソソーム送達の両方を考える必要があります。[^jcr-iz-label][^jcr-sonoda2018]
 
-<strong>国内第II/III相試験で示されたこと</strong>：Okuyamaらの試験は、MPS IIの28例を対象とした<strong>単群・非盲検の52週間試験</strong>でした。25例はidursulfaseの既治療例です。主要評価項目はcerebrospinal fluid（CSF；脳脊髄液）中heparan sulfate（HS）濃度で、主要評価項目の解析対象27例では平均値（±標準偏差）がbaselineの<strong>5,856 ± 2,614 ng/mLから52週の2,124 ± 882.6 ng/mL</strong>へ低下しました。この解析には52週欠測値の直近観測値による補完が含まれます。電子添文に示された各時点の実測値集計とは、解析方法と分母が異なります。[^jcr-okuyama2021][^jcr-iz-review]
+<strong>国内第II/III相試験で示されたこと</strong>：Okuyamaらの試験は、MPS IIの28例を対象とした<strong>単群・非盲検の52週間試験</strong>でした。25例はidursulfaseの既治療例です。主要評価項目はcerebrospinal fluid（CSF；脳脊髄液）中heparan sulfate（HS）濃度で、解析対象27例の平均値（±標準偏差）は、投与開始前の<strong>5,856 ± 2,614 ng/mLから52週時点の2,124 ± 882.6 ng/mL</strong>へ低下しました。[^jcr-okuyama2021]
 
-<strong>神経発達への効果を読む際の限界</strong>：
+<strong>神経発達への効果の限界</strong>：
 
-- CSF中HSの低下は薬力学的変化を支持しますが、PMDAは、HSの変化と発達年齢の変化との間に明確な関係が示されていないと評価しました。承認時点のデータから、中枢神経症状の明確な改善を確認するには限界がありました。[^jcr-iz-review]
+- 脳脊髄液（CSF）中heparan sulfate（HS）の低下は薬力学的変化を支持しますが、PMDAは、HSの変化と発達年齢の変化との間に明確な関係が示されていないと評価しました。承認時点のデータから、中枢神経症状の明確な改善を確認するには限界がありました。[^jcr-iz-review]
 - 論文ではKyoto Scale of Psychological Development（KSPD；新版K式発達検査）による維持・改善が報告されました。ただし、同時対照群がなく、年齢、病型、開始時の発達段階、自然経過のplateauが解釈に影響します。著者らも、52週間では神経発達への確定的な結論を得るには短いとしています。[^jcr-okuyama2021]
-- PMDAは希少性や長期評価の必要性も踏まえて一定の有効性を期待できると判断し、全投与症例を対象とした製造販売後臨床試験または使用成績調査、定期的な成績提出などを承認条件としました。<strong>日本の承認にこうした条件が付くことと、制度上の「条件付き承認」は区別されます。</strong>[^jcr-iz-review][^jcr-mhlw2026]
+- PMDAは希少性や長期評価の必要性も踏まえて一定の有効性を期待できると判断し、全投与症例を対象とした製造販売後臨床試験または使用成績調査、定期的な成績提出などを承認条件としました。[^jcr-iz-review][^jcr-mhlw2026]
 
-<strong>安全性と長期データ</strong>：国内試験ではinfusion-associated reactionsと抗薬物抗体が報告され、電子添文は重度のinfusion reaction、anaphylaxisに注意を求めています。2026年公表の27例・260週の事後解析では、点滴時間の短縮と有害事象増加との関連は認められず、HS等の生化学的指標や肝脾容積にも点滴速度変更の影響は認められませんでした。ただし、非無作為化の事後解析であり、神経認知機能への効果の因果推定には限界があります。[^jcr-okuyama2021][^jcr-iz-label][^jcr-nakamura2026]
+<strong>安全性と長期データ</strong>：国内試験ではinfusion-associated reactions（点滴に伴う反応）と抗薬物抗体の産生が報告され、電子添文では重度の点滴関連反応やanaphylaxis（アナフィラキシー）への注意が示されています。2026年公表の27例・260週間のデータを用いた事後解析では、点滴時間の短縮と有害事象増加との関連は認められず、HS等の生化学的指標や肝脾容積にも点滴速度変更の影響は認められませんでした。[^jcr-okuyama2021][^jcr-iz-label][^jcr-nakamura2026]
 
 <strong>海外開発・承認との区別</strong>：2026年10月2日の企業発表では、idursulfaseを実薬対照とする国際第III相<strong>STARLIGHT（JR-141-GS31、NCT04573023）</strong>が継続中で、欧米等での承認取得を目指すとされています。試験は無作為化・評価者盲検であり、非対照の国内承認時試験とは設計が異なります。日本での承認に加え、企業は2026年7月のUAE承認、同年10月のKuwaitでの条件付き承認を公表しています。[^jcr-starlight][^jcr-license2026][^jcr-kuwait2026]
-
-#### agalsidase beta biosimilar 1 / アガルシダーゼ ベータBS「JCR」（JR-051）
-
-JCRのもう一つの国内承認リソソーム病薬は、Fabry病に対するagalsidase betaのbiosimilarです。α-galactosidase Aを補充し、M6P receptorなどを介した細胞内取り込みの後、リソソームに蓄積したglobotriaosylceramide（GL-3）を分解するERTとして、2018年9月21日に承認されました。J-Brain Cargoを適用した製剤ではありません。電子添文では、組織中GL-3の除去効果と、臨床症状の改善効果が未確立であることを区別しています。[^jcr-ag-label][^jcr-ag-if]
 
 ---
 
@@ -203,23 +197,7 @@ JCRのもう一つの国内承認リソソーム病薬は、Fabry病に対する
 
 ---
 
-## J-Brain Cargoの後続候補（未承認）
 
-以下は承認済み製剤とは別に開発されている候補です。開発段階は2026年10月29日付の決算資料を基準とし、登録試験と対応付けました。試験の登録、症例登録完了、試験完了、承認取得は、それぞれ異なる節目です。[^jcr-ir20261029]
-
-| 開発コード／一般名 | 補充する酵素・対象疾患 | 2026年11月8日時点で確認した開発段階 | 登録試験・補足 |
-|---|---|---|---|
-| **JR-171 / lepunafusp alfa** | α-L-iduronidase（IDUA）／MPS I | 企業はグローバル第I/II相と継続試験を完了し、導出交渉中と説明 | [NCT04227600](https://clinicaltrials.gov/study/NCT04227600)、継続試験[NCT04453085](https://clinicaltrials.gov/study/NCT04453085)。第I/II相後の開発方針はライセンスアウト[^jcr-ir20261029] |
-| **JR-441 / posnafusp alfa** | heparan N-sulfatase（SGSH）／MPS IIIA | ドイツ第I/II相、日本第I相。企業によれば両試験とも予定症例の登録を完了し、試験継続中 | [NCT06095388](https://clinicaltrials.gov/study/NCT06095388)、国内[jRCT2071240053](https://jrct.mhlw.go.jp/latest-detail/jRCT2071240053)[^jcr-jr441][^jcr-ir20261029] |
-| **JR-446** | α-N-acetylglucosaminidase（NAGLU）／MPS IIIB | 国内・グローバル第I/II相。グローバル試験の初回投与は2026年9月 | 国内[jRCT2071240043](https://jrct.mhlw.go.jp/latest-detail/jRCT2071240043)／[NCT06488924](https://clinicaltrials.gov/study/NCT06488924)、海外[NCT07640984](https://clinicaltrials.gov/study/NCT07640984)[^jcr-jr446] |
-| **JR-471** | α-L-fucosidase／fucosidosis | 前臨床。関連する自然歴研究が進行中 | [NCT07615400](https://clinicaltrials.gov/study/NCT07615400)は観察研究であり、JR-471を投与する臨床試験ではない[^jcr-briefing20261029] |
-| **JR-479** | β-hexosaminidase A／GM2 gangliosidosis | 前臨床 | MEDIPALと開発・商業化契約を締結（2025-08-29）[^jcr-jr479][^jcr-ir20261029] |
-
-JR-441とJR-446について企業は日本での早期承認を目指す方針を示していますが、これは開発計画であり、承認済みの適応や有効性を示すものではありません。症例登録が終了していても、投与・追跡評価を含む試験全体が完了したとは限りません。[^jcr-briefing20261029]
-
-### 後続医薬品と、基盤技術の展開
-
-上表は、J-Brain Cargoを異なる補充酵素に適用する後続医薬品の開発です。これに加え、JCRは眼、骨格筋、軟骨などへの送達を目指す次世代J-Brain Cargoの研究方針を公表しています。また、<strong>JUST-AAV</strong>は改変adeno-associated virus（AAV）を用いる遺伝子治療の送達プラットフォームであり、酵素融合タンパク質によるERTとはモダリティが異なります。これらの研究構想・技術提携を、ヒトでの有効性や安全性が確立した後継製品として扱うことはできません。[^jcr-next-platform][^jcr-just-aav]
 
 ## モダリティ開発のマイルストーン
 
@@ -239,31 +217,6 @@ flowchart TB
   D --> E["2017 FDA: Brineura (cerliponase alfa) CLN2 脳室内ERT"]
   E --> F["2021-03-23 日本: IZCARGO (pabinafusp alfa) MPS II BBB輸送型ERT"]
   F --> G["2023 FDA: Pombiliti (cipaglucosidase alfa-atga) + Opfolda (miglustat) Pompe (LOPD)"]
-```
-
-### JCR関連開発のタイムライン
-
-このタイムラインには承認済み製剤の節目と研究開発上の節目を併記しています。後続候補の試験開始は、その候補の承認を意味しません。
-
-- **2018-03-06**：Sonodaらが、抗TfR抗体–IDS融合タンパク質によるBBB輸送と脳内基質低下の非臨床原著をオンライン公表。[^jcr-sonoda2018]
-- **2018-09-21**：agalsidase beta BS「JCR」（JR-051）が日本で承認。[^jcr-ag-if]
-- **2020-09-29**：pabinafusp alfaの国内製造販売承認を申請。[^jcr-iz-review]
-- **2021-03-23**：pabinafusp alfa / IZCARGOが日本で承認。**2021-05-19**に発売。[^jcr-iz-if]
-- **2026-09**：JR-446のグローバル第I/II相で初回投与。9月11日に企業が公表。[^jcr-jr446]
-- **2026-10-02**：JR-141の欧米等での商業化についてItalfarmacoとのライセンス契約を公表。国際第III相は継続。[^jcr-license2026]
-- **2026-10-14**：KuwaitでのIZCARGOの条件付き承認を企業が公表。[^jcr-kuwait2026]
-- **2026-10-29**：最新決算資料で、JR-171の第I/II相・継続試験完了、JR-441／JR-446の臨床開発、JR-471／JR-479の前臨床段階を確認。[^jcr-ir20261029][^jcr-briefing20261029]
-
-```mermaid
-flowchart TB
-  J1["2018-03-06 抗TfR抗体-IDS融合タンパク質の非臨床原著を公表"] --> J2["2018-09-21 agalsidase beta BS JCR 日本承認"]
-  J2 --> J3["2020-09-29 pabinafusp alfa 国内承認申請"]
-  J3 --> J4["2021-03-23 IZCARGO 日本承認"]
-  J4 --> J5["2021-05-19 IZCARGO 日本発売"]
-  J5 --> J6["2026-09 JR-446 グローバル第I/II相 初回投与"]
-  J6 --> J7["2026-10-02 JR-141 欧米等のライセンス契約公表・第III相継続"]
-  J7 --> J8["2026-10-14 IZCARGO Kuwait条件付き承認を公表"]
-  J8 --> J9["2026-10-29 IR: JR-171試験完了・JR-441/446臨床開発・JR-471/479前臨床"]
 ```
 
 [^27]: PMDA. 「イズカーゴ点滴静注用10mg」審査報告書、2021年。既存の静脈内ERTのBBB移行上の課題とJR-141の評価。[審査報告書](https://www.pmda.go.jp/drugs/2021/P20210402002/530210000_30300AMX00260_A100_1.pdf)。

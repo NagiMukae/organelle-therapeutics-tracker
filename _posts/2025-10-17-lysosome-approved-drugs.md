@@ -18,12 +18,7 @@ last_modified_at: 2026-11-08 00:00:00 +0900
 
 ![eyecatch_lysosome]({{ "/assets/images/eyecatch_lysosome.png" | relative_url }})
 
-
-<div class="page-badges">
-  {% if page.content_type %}<span class="badge badge--type">{{ page.content_type }}</span>{% endif %}
-  {% if page.stage %}<span class="badge badge--stage">{{ page.stage }}</span>{% endif %}
-  {% for c in page.categories %}<span class="badge badge--org">{{ c }}</span>{% endfor %}
-</div>
+> **対象オルガネラ**：Lysosome / **主なモダリティ**：ERT、SRT、薬理シャペロン、遺伝子治療 / **主な適応**：リソソーム病（LSD）
 
 ## 概要
 

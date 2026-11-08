@@ -13,7 +13,6 @@ toc_sticky: false
 header:
   teaser: /assets/images/eyecatch_lysosome.png
 classes: wide
-date: 2025-10-17 00:00:00 +0900
 last_modified_at: 2026-11-08 00:00:00 +0900
 ---
 

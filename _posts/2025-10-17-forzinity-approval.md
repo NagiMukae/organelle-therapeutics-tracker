@@ -11,7 +11,13 @@ toc_sticky: false
 header:
   teaser: /assets/images/Frozinity_eyecatch.png
 classes: wide
+last_modified_at: 2025-10-17 00:00:00 +0900
 ---
+
+<p class="page__meta" style="font-size: 0.8em;">
+  作成日：<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y年%-m月%-d日" }}</time>
+  ／ 最終更新日：<time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{{ page.last_modified_at | date: "%Y年%-m月%-d日" }}</time>
+</p>
 
 ![Forzinity eyecatch]({{ "/assets/images/Frozinity_eyecatch.png" | relative_url }})
 

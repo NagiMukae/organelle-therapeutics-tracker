@@ -133,7 +133,7 @@ ERT（Enzyme Replacement Therapy；酵素補充療法）は、欠損・機能低
 - <strong>免疫原性と投与負担</strong>：
   定期的な点滴投与に伴う <strong>infusion-associated reactions（点滴に伴う反応）</strong>、過敏反応、抗薬物抗体（anti-drug antibodies）などが課題です。[^30][^jcr-iz-label]
 
-<strong>例外</strong>：<strong>Brineura（cerliponase alfa）</strong>は、CLN2（TPP1欠損）に対して <strong>脳室内投与（intraventricular infusion）</strong>を採用し、CNSへ直接投与する設計がラベルに示されています。[^30]
+<strong>例外</strong>：<strong>Brineura（cerliponase alfa）</strong>は、CLN2（TPP1欠損）に対して <strong>脳室内投与（intraventricular infusion）</strong>を採用し、CNSへ直接投与する設計です。[^30]
 
 #### BBB輸送型ERT：pabinafusp alfa / IZCARGO（JR-141）
 

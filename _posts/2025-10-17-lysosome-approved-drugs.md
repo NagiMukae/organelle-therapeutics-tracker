@@ -200,7 +200,7 @@ BBB輸送型ERTの別の例として、IDSと、TfR結合能を持つ改変型�
 
 <strong>作用機序と位置付け</strong>：miglustatはiminosugar（イミノ糖）に分類されるGCS阻害薬です。米国では2003年に、ERTが治療選択肢にならない成人の軽症～中等症Gaucher病1型に承認されました。承認につながった28例の非盲検・非対照試験では、12か月後に肝容積が平均12%、脾容積が19%減少し、酵素を補充せずに基質合成を抑える治療の臨床的な可能性を示しました。[^srt-zavesca-label][^srt-miglustat-gd]
 
-<strong>NPCの神経症状への展開</strong>：miglustatはBBBを通過し、EUではNiemann–Pick disease type C（NPC）の進行性神経症状にも適応があります。NPCはNPC1／NPC2の異常による細胞内脂質輸送障害であり、酵素欠損型のLSD以外にもSRTが展開された例です。12歳以上29例を対象とした12か月の無作為化試験では、miglustat群20例と標準治療単独群9例を比較しました。眼球運動や嚥下などの指標で改善・維持が報告されましたが、主要評価項目の水平サッカード眼球運動速度で統計的な差が認められたのはbenzodiazepine系薬剤の使用例を除いた解析でした。[^srt-zavesca-eu][^srt-miglustat-npc]
+<strong>NPCの神経症状への展開</strong>：miglustatはBBBを通過し、EUではNiemann–Pick disease type C（NPC）の進行性神経症状にも適応があります。NPCはNPC1／NPC2の異常による細胞内脂質輸送障害であり、酵素欠損型のLSD以外にもSRTが展開された例です。12歳以上29例を対象とした12か月の無作為化試験では、miglustat群20例と標準治療単独群9例を比較しました。眼球運動や嚥下機能などの指標で改善・維持が報告されました。ただし、主要評価項目の眼球運動で統計的な差が認められたのは、併用薬であるbenzodiazepine系薬剤を使用していない患者を対象とした解析でした。[^srt-zavesca-eu][^srt-miglustat-npc]
 
 <strong>安全性</strong>：下痢、体重減少、振戦が主な課題で、末梢神経障害にも注意が必要とされています。[^srt-zavesca-label][^41]
 
@@ -214,15 +214,13 @@ BBB輸送型ERTの別の例として、IDSと、TfR結合能を持つ改変型�
 
 <strong>近年の長期データ</strong>：International Collaborative Gaucher Group（ICGG）Gaucher Registryは、各国の医療機関がGaucher病患者の症状、検査値、治療内容などを継続的に記録する、国際的な患者登録データベースです。2024年には、この登録データを用いて、eliglustatで治療した成人Gaucher病1型469例の経過を解析した研究が公表されました。ERTからeliglustatへ切り替えた患者では、ヘモグロビン濃度、血小板数、肝脾容積などの指標が長期にわたって安定しており、一部の指標は最長10年間追跡されました。[^srt-registry2024]
 
-<strong>適用範囲と安全性</strong>：eliglustatは主として末梢病変を対象とし、中枢神経症状への効果を検証した薬ではありません。また、CYP2D6代謝型によって薬物曝露が変わり、CYP2D6／CYP3A阻害薬との相互作用による濃度上昇や心電図変化が課題です。「経口薬」であっても、代謝型と併用薬に基づく適用条件があります。[^srt-cerdelga-eu][^33]
+<strong>適用範囲と安全性</strong>：eliglustatは主として末梢病変を対象とし、中枢神経症状への効果を検証した薬ではありません。また、CYP2D6代謝型によって薬物曝露が変わり、CYP2D6／CYP3A阻害薬との相互作用による濃度上昇や心電図変化が課題です。[^srt-cerdelga-eu][^33]
 
 ### 開発中の候補（未承認）
 
 #### venglustat
 
 venglustatは、BBB通過性を持つよう開発されたGCS阻害薬です。2026年にSanofiは、ERTで末梢病変が安定した12歳以上のGaucher病3型43例を対象とする無作為化・二重盲検・実薬対照第III相<strong>LEAP2MONO（NCT05222906）</strong>で、52週の運動失調・認知機能の統合評価がERT群より改善したと公表しました（global test、p＝0.0179）。評価にはScale for Assessment and Rating of Ataxia（SARA；運動失調評価尺度）の修正版と、Repeatable Battery for the Assessment of Neuropsychological Status（RBANS；神経心理学的検査）が用いられました。[^srt-veng-results]
-
-<strong>2026年11月8日時点では申請審査中の候補</strong>であり、ここでの第III相結果は企業発表に基づきます。一方、同じ薬剤をFabry病で検討したPERIDOTとCARATは主要評価項目を達成しませんでした。BBB移行性やGCS阻害という分子特性だけから、別の疾患での臨床効果まで一般化できないことも示しています。[^srt-veng-review][^srt-veng-q2][^srt-veng-q3]
 
 ---
 

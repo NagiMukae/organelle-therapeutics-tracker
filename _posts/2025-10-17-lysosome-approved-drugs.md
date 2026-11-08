@@ -115,13 +115,24 @@ ERT（Enzyme Replacement Therapy；酵素補充療法）は、欠損・機能低
 - Cystinosis：CTNS（cystinosin：リソソーム膜輸送体）欠損
 
 
-## モダリティ（治療アプローチ）
+## 治療アプローチの全体像
 
-本記事で扱う「リソソーム標的薬」は、主に <strong>(i) 欠損酵素を補う</strong>、<strong>(ii) 蓄積基質の産生を抑える</strong>、<strong>(iii) 変異酵素のフォールディング/輸送を助ける</strong>、<strong>(iv) 遺伝子を導入して持続的に酵素活性を回復する</strong>、の4系統に整理できます。
+リソソーム標的薬は、治療が介入する段階によって、主に以下の4系統に整理できます。各節では、共通する仕組みと課題をまとめた後、薬剤ごとの作用機序と臨床成績を紹介します。
 
-### ERT（Enzyme Replacement Therapy；酵素補充療法）
+| 治療アプローチ | 介入する対象 | 代表的な承認薬 |
+|---|---|---|
+| ERT（酵素補充療法） | 欠損・機能低下した酵素を補充 | imiglucerase、pabinafusp alfaなど[^27][^29] |
+| SRT（基質生成抑制療法） | 蓄積する基質の合成を抑制 | miglustat、eliglustat[^srt-zavesca-label][^srt-cerdelga-eu] |
+| 薬理シャペロン | 変異酵素の構造を安定化し、輸送を補助 | migalastat[^chap-pmda] |
+| 遺伝子治療 | 遺伝子を導入し、欠損タンパク質の持続的な産生を目指す | atidarsagene autotemcel[^gene-ema] |
 
-定義：欠損または機能低下したリソソーム加水分解酵素を、<strong>組換えタンパク質（recombinant enzyme）として外因性に補充</strong>する治療です。多くは<strong>定期的な点滴投与（IV infusion）</strong>を行います。[^27]
+## 1. ERT（酵素補充療法）
+
+### 概論：仕組みと課題
+
+<div class="notice--info" markdown="1" style="font-size: 1em !important;">
+
+<strong>Enzyme Replacement Therapy（ERT）</strong>：欠損または機能低下したリソソーム加水分解酵素を、<strong>組換えタンパク質（recombinant enzyme）として外因性に補充</strong>する治療です。多くは<strong>定期的な点滴投与（IV infusion）</strong>を行います。[^27]
 
 <strong>細胞内取り込みとリソソーム送達</strong>：ERT製剤は、末梢組織で <strong>受容体介在性エンドサイトーシス（receptor-mediated endocytosis）</strong>により細胞内へ取り込まれ、エンドソーム—リソソーム経路で標的区画へ送達されます。一般に <strong>mannose-6-phosphate receptor（M6PR）経路</strong>が基盤概念として重要であり、糖鎖を介した受容体結合が細胞内取り込みに関わります。[^28] 一方、<strong>Gaucher病のβ-glucocerebrosidase（imiglucerase など）では、標的細胞であるマクロファージのendocytic carbohydrate receptor（mannose receptor）に認識される “mannose-terminated” 糖鎖が実装上の設計勘所</strong>として明示されています。[^29]
 
@@ -133,9 +144,15 @@ ERT（Enzyme Replacement Therapy；酵素補充療法）は、欠損・機能低
 - <strong>免疫原性と投与負担</strong>：
   定期的な点滴投与に伴う <strong>infusion-associated reactions（点滴に伴う反応）</strong>、過敏反応、抗薬物抗体（anti-drug antibodies）などが課題です。[^30][^jcr-iz-label]
 
-<strong>例外</strong>：<strong>Brineura（cerliponase alfa）</strong>は、CLN2（TPP1欠損）に対して <strong>脳室内投与（intraventricular infusion）</strong>を採用し、CNSへ直接投与する設計です。[^30]
+</div>
 
-#### BBB輸送型ERT：pabinafusp alfa / IZCARGO（JR-141）
+### 承認薬の各論
+
+#### cerliponase alfa / Brineura
+
+<strong>脳室内投与による送達</strong>：<strong>Brineura（cerliponase alfa）</strong>は、CLN2（TPP1欠損）に対して <strong>脳室内投与（intraventricular infusion）</strong>を採用し、CNSへ直接投与する設計がラベルに示されています。[^30]
+
+#### pabinafusp alfa / IZCARGO（JR-141）
 
 <strong>承認上の位置付け</strong>：pabinafusp alfaは、ヒト化抗ヒトtransferrin receptor 1（TfR）抗体とhuman iduronate-2-sulfatase（IDS）を融合した組換えタンパク質です。日本では2021年3月23日にMPS IIを効能・効果として承認され、同年5月19日に発売されました。電子添文には、中枢神経症状の改善または進行抑制が必要と考えられる患者で投与を検討する旨が記されています。[^jcr-iz-label][^jcr-iz-if]
 
@@ -161,15 +178,25 @@ ERT（Enzyme Replacement Therapy；酵素補充療法）は、欠損・機能低
 
 <strong>海外開発・承認との区別</strong>：2026年10月2日の企業発表では、idursulfaseを実薬対照とする国際第III相<strong>STARLIGHT（JR-141-GS31、NCT04573023）</strong>が継続中で、欧米等での承認取得を目指すとされています。試験は無作為化・評価者盲検であり、非対照の国内承認時試験とは設計が異なります。日本での承認に加え、企業は2026年7月のUAE承認、同年10月のKuwaitでの条件付き承認を公表しています。[^jcr-starlight][^jcr-license2026][^jcr-kuwait2026]
 
-<strong>2026年の展開：tividenofusp alfa / Avlayah</strong>：BBB輸送型ERTの別の例として、IDSと、TfR結合能を持つ改変型の抗体Fc領域（定常領域の一部）を融合したtividenofusp alfaがあります。2026年3月24日に米国でMPS IIの神経症状に対して承認されました。対象は体重5kg以上の小児で、高度な神経障害に至る前に治療を開始する患者です。CSF中HSの低下を根拠とする迅速承認であり、臨床的利益を確認する試験が求められています。[^avlayah-label][^avlayah-approval][^avlayah-trial]
+#### tividenofusp alfa / Avlayah
+
+BBB輸送型ERTの別の例として、IDSと、TfR結合能を持つ改変型の抗体Fc領域（定常領域の一部）を融合したtividenofusp alfaがあります。2026年3月24日に米国でMPS IIの神経症状に対して承認されました。対象は体重5kg以上の小児で、高度な神経障害に至る前に治療を開始する患者です。CSF中HSの低下を根拠とする迅速承認であり、臨床的利益を確認する試験が求められています。[^avlayah-label][^avlayah-approval][^avlayah-trial]
 
 ---
 
-### SRT（Substrate Reduction Therapy；基質生成抑制療法）
+## 2. SRT（基質生成抑制療法）
 
-定義：蓄積する基質の<strong>産生を抑え、リソソームに流入する量を減らす</strong>治療です。代表的な標的は<strong>glucosylceramide synthase（GCS；glucosylceramide合成酵素）</strong>で、glucosylceramideを起点とするglycosphingolipids（GSL；スフィンゴ糖脂質）の合成を抑制します。欠損酵素を補充するERTと異なり、基質の供給側に介入する経口小分子薬として開発されました。[^srt-zavesca-label][^srt-cerdelga-eu]
+### 概論：仕組みと課題
 
-#### 経口SRTの臨床導入：miglustat / Zavesca
+<div class="notice--info" markdown="1" style="font-size: 1em !important;">
+
+<strong>Substrate Reduction Therapy（SRT）</strong>：蓄積する基質の<strong>産生を抑え、リソソームに流入する量を減らす</strong>治療です。代表的な標的は<strong>glucosylceramide synthase（GCS；glucosylceramide合成酵素）</strong>で、glucosylceramideを起点とするglycosphingolipids（GSL；スフィンゴ糖脂質）の合成を抑制します。欠損酵素を補充するERTと異なり、基質の供給側に介入する経口小分子薬として開発されました。[^srt-zavesca-label][^srt-cerdelga-eu]
+
+</div>
+
+### 承認薬の各論
+
+#### miglustat / Zavesca
 
 <strong>作用機序と位置付け</strong>：miglustatはiminosugar（イミノ糖）に分類されるGCS阻害薬です。米国では2003年に、ERTが治療選択肢にならない成人の軽症～中等症Gaucher病1型に承認されました。承認につながった28例の非盲検・非対照試験では、12か月後に肝容積が平均12%、脾容積が19%減少し、酵素を補充せずに基質合成を抑える治療の臨床的な可能性を示しました。[^srt-zavesca-label][^srt-miglustat-gd]
 
@@ -177,7 +204,7 @@ ERT（Enzyme Replacement Therapy；酵素補充療法）は、欠損・機能低
 
 <strong>安全性</strong>：下痢、体重減少、振戦が主な課題で、末梢神経障害にも注意が必要とされています。[^srt-zavesca-label][^41]
 
-#### 治療導入とERTからの切替えを検証：eliglustat / Cerdelga
+#### eliglustat / Cerdelga
 
 <strong>作用機序と進展</strong>：eliglustatはGCSを選択的に阻害する経口薬です。2014年に米国で承認され、治療導入時の効果と、ERTで安定している患者からの切替えを、それぞれ無作為化試験で検証しました。EUでは、ERTで病状が安定した6歳以上・体重15 kg以上の小児にも適応があります。[^32][^srt-cerdelga-eu]
 
@@ -186,9 +213,12 @@ ERT（Enzyme Replacement Therapy；酵素補充療法）は、欠損・機能低
 <strong>ENCORE試験：ERT後の安定性維持</strong>：ERTで安定していた成人をeliglustatへの切替えとimiglucerase継続に無作為化した52週間の非盲検試験です。主要評価項目はhemoglobin、血小板数、肝脾容積を組み合わせた病状安定性で、主要解析ではeliglustat群の<strong>85%（84/99例）</strong>、imiglucerase群の<strong>94%（44/47例）</strong>が基準を満たし、事前に設定した範囲で非劣性が確認されました。経口薬への切替え後も安定性を維持できる患者がいることを示した試験です。[^srt-encore]
 
 <strong>近年の長期データ</strong>：International Collaborative Gaucher Group（ICGG）Gaucher Registryは、各国の医療機関がGaucher病患者の症状、検査値、治療内容などを継続的に記録する、国際的な患者登録データベースです。2024年には、この登録データを用いて、eliglustatで治療した成人Gaucher病1型469例の経過を解析した研究が公表されました。ERTからeliglustatへ切り替えた患者では、ヘモグロビン濃度、血小板数、肝脾容積などの指標が長期にわたって安定しており、一部の指標は最長10年間追跡されました。[^srt-registry2024]
+
 <strong>適用範囲と安全性</strong>：eliglustatは主として末梢病変を対象とし、中枢神経症状への効果を検証した薬ではありません。また、CYP2D6代謝型によって薬物曝露が変わり、CYP2D6／CYP3A阻害薬との相互作用による濃度上昇や心電図変化が課題です。「経口薬」であっても、代謝型と併用薬に基づく適用条件があります。[^srt-cerdelga-eu][^33]
 
-#### 近年の開発例：BBB通過型SRTのvenglustat（未承認）
+### 開発中の候補（未承認）
+
+#### venglustat
 
 venglustatは、BBB通過性を持つよう開発されたGCS阻害薬です。2026年にSanofiは、ERTで末梢病変が安定した12歳以上のGaucher病3型43例を対象とする無作為化・二重盲検・実薬対照第III相<strong>LEAP2MONO（NCT05222906）</strong>で、52週の運動失調・認知機能の統合評価がERT群より改善したと公表しました（global test、p＝0.0179）。評価にはScale for Assessment and Rating of Ataxia（SARA；運動失調評価尺度）の修正版と、Repeatable Battery for the Assessment of Neuropsychological Status（RBANS；神経心理学的検査）が用いられました。[^srt-veng-results]
 
@@ -196,11 +226,19 @@ venglustatは、BBB通過性を持つよう開発されたGCS阻害薬です。2
 
 ---
 
-### 薬理シャペロン（Pharmacological chaperone）
+## 3. 薬理シャペロン
 
-定義：特定の変異によって不安定になったリソソーム酵素に結合し、<strong>立体構造の安定化とリソソームへの輸送を助ける</strong>ことで、患者自身が産生する酵素の働きを引き出す治療です。代表的な承認薬は、Fabry病に対する<strong>migalastat（Galafold）</strong>です。[^chap-pmda]
+### 概論：仕組みと課題
 
-#### 内因性の変異酵素を安定化する：migalastat / Galafold
+<div class="notice--info" markdown="1" style="font-size: 1em !important;">
+
+<strong>Pharmacological chaperone</strong>：特定の変異によって不安定になったリソソーム酵素に結合し、<strong>立体構造の安定化とリソソームへの輸送を助ける</strong>ことで、患者自身が産生する酵素の働きを引き出す治療です。代表的な承認薬は、Fabry病に対する<strong>migalastat（Galafold）</strong>です。[^chap-pmda]
+
+</div>
+
+### 承認薬の各論
+
+#### migalastat / Galafold
 
 <strong>発見と治療上の進展</strong>：1999年、Fanらはα-galactosidase A（α-Gal A）の阻害剤である1-deoxygalactonojirimycin（DGJ）が、低濃度ではFabry病患者由来細胞の変異酵素の輸送・成熟を助け、酵素活性を高めることを報告しました。酵素を阻害する分子を、酵素の構造を安定化するために利用する発想が、migalastatの開発につながりました。2016年のEU承認により、反応性のある変異を持つ患者には、点滴ERTに加えて経口の治療選択肢が加わりました。[^chap-fan1999][^chap-ema]
 
@@ -214,7 +252,9 @@ ERT既治療の成人57例を対象とした無作為化・非盲検の<strong>A
 
 <strong>適用上の制約と安全性</strong>：反応性変異の確認に加え、腎機能や病期の評価が必要です。日本の電子添文では成人および12歳以上の小児が対象で、重度の腎機能障害患者への投与は推奨されていません。頭痛、下痢、悪心などの副作用が記載され、2025年改訂では血管性浮腫も追記されました。[^chap-pmda]
 
-#### 補充酵素を安定化する併用療法：cipaglucosidase alfa ＋ miglustat
+### 関連する併用療法：ERT＋酵素安定化剤
+
+#### cipaglucosidase alfa＋miglustat / Pombiliti＋Opfolda
 
 <strong>安定化する対象の違い</strong>：Pompe病の<strong>cipaglucosidase alfa（Pombiliti）＋miglustat（Opfolda）</strong>は、2023年にEU・米国で承認された併用療法です。ここでmiglustatは、患者自身の変異酵素ではなく、<strong>点滴で投与するacid α-glucosidase（GAA）を血中で安定化するenzyme stabilizer（酵素安定化剤）</strong>として働きます。補充酵素が筋細胞に取り込まれる前の失活を抑え、細胞内に届いた酵素が蓄積glycogenを分解する設計です。miglustatをGaucher病やNPCで用いる際のSRTとは、役割が異なります。[^chap-opfolda][^chap-pombiliti]
 
@@ -228,11 +268,19 @@ ERT既治療の成人57例を対象とした無作為化・非盲検の<strong>A
 
 ---
 
-### 遺伝子治療（Gene therapy）
+## 4. 遺伝子治療
 
-定義：治療に必要な遺伝子を細胞へ導入し、<strong>欠損タンパク質の持続的な産生</strong>を目指す治療です。リソソーム病では、患者から採取した造血幹・前駆細胞を体外で改変して戻す<strong>ex vivo gene therapy</strong>が承認されています。[^gene-ema]
+### 概論：仕組みと課題
 
-#### 自家造血幹細胞を酵素の供給源にする：atidarsagene autotemcel / Libmeldy・Lenmeldy
+<div class="notice--info" markdown="1" style="font-size: 1em !important;">
+
+<strong>Gene therapy</strong>：治療に必要な遺伝子を細胞へ導入し、<strong>欠損タンパク質の持続的な産生</strong>を目指す治療です。リソソーム病では、患者から採取した造血幹・前駆細胞を体外で改変して戻す<strong>ex vivo gene therapy</strong>が承認されています。[^gene-ema]
+
+</div>
+
+### 承認薬の各論
+
+#### atidarsagene autotemcel / Libmeldy・Lenmeldy
 
 <strong>承認上の位置付け</strong>：atidarsagene autotemcel（arsa-cel）は、arylsulfatase A（ARSA）欠損によるmetachromatic leukodystrophy（MLD；異染性白質ジストロフィー）に対する細胞遺伝子治療薬です。EUでは2020年にLibmeldy、米国では2024年にLenmeldyとして承認されました。対象は発症前のlate-infantile型（後期乳児型）・early-juvenile型（早期若年型）、または発症早期のearly-juvenile型の小児であり、病期が進行したMLD全般への承認ではありません。EUでは発症早期例について、自立歩行が可能で認知機能低下が始まる前という条件が示されています。[^gene-ema][^gene-fda-approval]
 
@@ -246,7 +294,9 @@ ERT既治療の成人57例を対象とした無作為化・非盲検の<strong>A
 
 <strong>安全性と治療時期</strong>：自家細胞を用いても、細胞採取、前処置、血球回復までの管理を伴う治療です。米国ラベルではfebrile neutropenia（発熱性好中球減少症）、感染症、肝veno-occlusive disease（肝静脈閉塞性疾患）などへの注意が示されています。Lentiviral vectorのゲノム挿入に伴う発がんリスクについても長期監視が必要とされます。[^gene-us-label][^gene-ema]
 
-#### 未承認の展開例：Cystinosisに対するCTNS-RD-04
+### 開発中の候補（未承認）
+
+#### CTNS-RD-04（Cystinosis）
 
 2026年には、リソソーム膜のcystine transporterである<strong>cystinosin</strong>の遺伝子CTNSを自家HSPCsへ導入する、第I/II相・非盲検試験の結果が報告されました。20〜46歳の6例を29〜63か月追跡し、投与24か月後の白血球中cystine濃度は全例で投与前より<strong>25〜86%低下</strong>しました。欠損酵素に加えて、リソソーム膜輸送体を標的とする細胞遺伝子治療への展開例です。一方、少数例の初期試験であり、腎機能低下や長期的な全身合併症をどの程度抑制できるかは、今後の評価が必要です。[^gene-cystinosis2026]
 
